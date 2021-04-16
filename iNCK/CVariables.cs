@@ -9,7 +9,7 @@ namespace iNCK
 {
     class CVariables
     {
-        static string AppName = "iNCK Ver 1.1.2021";
+        static string AppName = "iNCK Ver 1.0.2021";
         static string g_DSS_ID;
         static string g_iPOP_ID;
         static Form frm;
