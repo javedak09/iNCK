@@ -439,11 +439,12 @@ namespace iNCK
         {
             try
             {
-                if (e.Node.Name == "Form2")
+                if (e.Node.Name == "Baseline Form")
                 {
-                    //Form2 frm = new Form2();
-                    //OpenForm(frm);
-                    //frm = null;
+                    Form1BL frm = new Form1BL();
+                    OpenForm(frm);
+                    frm = null;
+                    naviBar1.Collapsed = true;
                 }
                 //else if (e.Node.Name == "IFU3")
                 //{

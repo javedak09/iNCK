@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Household Survey");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Baseline Form");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Forms", new System.Windows.Forms.TreeNode[] {
             treeNode1});
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -270,8 +270,8 @@
             this.treeView1.LineColor = System.Drawing.Color.Blue;
             this.treeView1.Location = new System.Drawing.Point(4, 2);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Form2";
-            treeNode1.Text = "Household Survey";
+            treeNode1.Name = "Baseline Form";
+            treeNode1.Text = "Baseline Form";
             treeNode2.Name = "Forms";
             treeNode2.Text = "Forms";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {

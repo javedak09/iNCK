@@ -5,16 +5,19 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace iNCK
 {
     class CDBOperations
     {
-        public DataSet ExecuteNonQuery(string[] fieldName, string[] fieldValues, string spName)
+
+
+        public DataSet ExecuteNonQuery_Casi(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -25,10 +28,122 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandType = CommandType.Text;
+
+                for (int a = 0; a <= fieldName.Length - 1; a++)
+                {
+                    if (fieldValues[a] == " -" || fieldValues[a] == "  /  /" || fieldValues[a] == "  :" || fieldValues[a] == "" || fieldValues[a] == "  ." || fieldValues[a] == "  ." || fieldValues[a] == "    " || fieldValues[a] == "   ." || fieldValues[a] == "." || fieldValues[a] == "  .")
+                    {
+                        cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
+                    }
+                    else
+                    {
+                        if (fieldName[a] == "IB04" || fieldName[a] == "EntryDate" || fieldName[a] == "CreationDate"
+                            || fieldName[a] == "QCFUP05"
+                            )
+                        {
+                            if (fieldValues[a].ToString() == "01/01/0001" || fieldValues[a].ToString() == "  /  /")
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
+                            }
+                            else
+                            {
+                                dt = fieldValues[a].Split('/');
+                                cmd.Parameters.AddWithValue(fieldName[a], dt[1] + "/" + dt[0] + "/" + dt[2]);
+                            }
+                        }
+                        else if (fieldName[a] == "mh012")
+                        {
+                            if (fieldValues[a].ToString() == "   .")
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
+                            }
+                            else
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
+                            }
+                        }
+                        else if (fieldName[a] == "mh013")
+                        {
+                            if (fieldValues[a].ToString() == "   .")
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
+                            }
+                            else
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
+                            }
+                        }
+                        else if (fieldName[a] == "mh014")
+                        {
+                            if (fieldValues[a].ToString() == "  .")
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
+                            }
+                            else
+                            {
+                                cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
+                            }
+                        }
+                        else
+                        {
+                            cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
+                        }
+                    }
+                }
+
+                da = new SQLiteDataAdapter(cmd);
+                ds = new DataSet();
+                da.Fill(ds);
+
+                CVariables.IsSuccess = true;
+            }
+
+            catch (Exception ex)
+            {
+                if (ex.Message == "String was not recognized as a valid DateTime.")
+                {
+                    MessageBox.Show("Invalid Date format. Date must be entered in dd/mm/yyyy format ", "Date Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+
+            finally
+            {
+                cmd = null;
+                cn = null;
+            }
+
+            return ds;
+        }
+
+
+        public DataSet ExecuteNonQuery(string[] fieldName, string[] fieldValues, string spName)
+        {
+            SQLiteCommand cmd = null;
+            CConnection cn = null;
+            SQLiteDataAdapter da = null;
+            DataSet ds = null;
+
+
+            CVariables.IsSuccess = false;
+
+            string[] dt;
+
+            try
+            {
+                cn = new CConnection();
+
+                cmd = new SQLiteCommand();
+                cmd.Connection = cn.cn;
+                cmd.CommandText = spName;
+                cmd.CommandType = CommandType.Text;
 
                 for (int a = 0; a <= fieldName.Length - 1; a++)
                 {
@@ -58,7 +173,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -91,9 +206,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_Vaccination(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -104,7 +219,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -136,7 +251,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -171,9 +286,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_Minutes(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -184,7 +299,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -216,7 +331,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -243,9 +358,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_Ultrasound(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -256,7 +371,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -288,7 +403,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -314,9 +429,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF6(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -327,7 +442,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -359,7 +474,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -385,9 +500,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_Ultrasound_Scan1(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -398,7 +513,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -430,7 +545,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -457,9 +572,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_VA_Maternal(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsError = false;
@@ -470,7 +585,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -502,7 +617,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -528,9 +643,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_VA_StillBirth(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -541,7 +656,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -573,7 +688,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -599,9 +714,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_VA_NEONATAL(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -612,7 +727,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -644,7 +759,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -669,9 +784,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF2b(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -682,7 +797,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -707,7 +822,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -733,9 +848,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF2b_Final(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -746,7 +861,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -771,7 +886,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -797,9 +912,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF2a_Final(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -810,7 +925,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -835,7 +950,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -861,9 +976,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF2a(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -874,7 +989,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -899,7 +1014,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -923,9 +1038,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF11(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -936,7 +1051,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -961,7 +1076,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -987,9 +1102,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF10(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -1000,7 +1115,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1025,7 +1140,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -1052,9 +1167,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF10_Final(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -1065,7 +1180,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1090,7 +1205,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -1116,9 +1231,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF1A(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -1129,7 +1244,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1154,7 +1269,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -1180,9 +1295,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_CRF1A_Final(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -1193,7 +1308,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1218,7 +1333,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -1246,9 +1361,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_Mismatch(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -1259,7 +1374,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1284,7 +1399,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -1309,9 +1424,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_New2(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             string[] dt;
@@ -1322,7 +1437,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1347,7 +1462,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -1371,9 +1486,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_New(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             string[] dt;
@@ -1384,7 +1499,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -1409,7 +1524,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -2486,7 +2601,7 @@ namespace iNCK
                 string[] fldname = { "Criteria" };
                 string[] fldvalue = { criteria };
 
-                ds = ExecuteNonQuery(fldname, fldvalue, spName);
+                ds = ExecuteNonQuery(fldname, fldvalue, spName + criteria);
 
                 if (formno == "")
                 {
@@ -5005,9 +5120,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_New9(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             string[] dt;
@@ -5018,7 +5133,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -5048,7 +5163,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -5072,9 +5187,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_New1(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             string[] dt;
@@ -5085,7 +5200,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -5114,7 +5229,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
@@ -5137,148 +5252,11 @@ namespace iNCK
 
 
 
-        public DataSet ExecuteNonQuery2(string[] fieldName, string[] fieldValues, string spName)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            string[] dt;
-
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                for (int a = 0; a <= fieldName.Length - 1; a++)
-                {
-                    if (fieldValues[a] == " -" || fieldValues[a] == "  /  /" || fieldValues[a] == "  :" || fieldValues[a] == "" || fieldValues[a] == "  -   -  -      -  - -" || fieldValues[a] == "3-     -" || fieldValues[a] == "  ." || fieldValues[a] == "  -   -  -    -  - -")
-                    {
-                        cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
-                    }
-                    else
-                    {
-                        if (fieldName[a] == "IPOPFRM1_Q1_1")
-                        {
-                            dt = fieldValues[a].Split('/');
-                            cmd.Parameters.AddWithValue(fieldName[a], dt[1] + "/" + dt[0] + "/" + dt[2]);
-                        }
-                        else
-                        {
-                            cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
-                        }
-                    }
-                }
-
-                cmd.ExecuteNonQuery();
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-
-
-
-        public DataSet ExecuteNonQuery_Dual(string[] fieldName, string[] fieldValues, string spName)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            string[] dt;
-
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                for (int a = 0; a <= fieldName.Length - 1; a++)
-                {
-                    if (fieldValues[a] == " -" || fieldValues[a] == "  /  /" || fieldValues[a] == "  :" || fieldValues[a] == "" || fieldValues[a] == "  -   -  -      -  - -" || fieldValues[a] == "3-     -" || fieldValues[a] == "  ." || fieldValues[a] == "  -   -  -    -  - -")
-                    {
-                        cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
-                    }
-                    else
-                    {
-                        if (fieldName[a] == "upd_date")
-                        {
-                            dt = fieldValues[a].Split('/');
-                            cmd.Parameters.AddWithValue(fieldName[a], dt[1] + "/" + dt[0] + "/" + dt[2]);
-                        }
-                        else
-                        {
-                            cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
-                        }
-                    }
-                }
-
-                cmd.ExecuteNonQuery();
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-
-
-
-
         public DataSet ExecuteNonQuery1(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             string[] dt;
@@ -5288,7 +5266,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -5314,7 +5292,7 @@ namespace iNCK
                 }
 
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
             }
@@ -5326,308 +5304,6 @@ namespace iNCK
 
             finally
             {
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-
-        public DataSet ExecuteNonQuery(Array fldname, Array fldvalue, string spName)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            string[] dt;
-
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                for (int a = 0; a <= fldname.Length - 1; a++)
-                {
-                    if (fldname.GetValue(a).ToString() == " -" || fldname.GetValue(a).ToString() == "  /  /" || fldname.GetValue(a).ToString() == "  :" || fldname.GetValue(a).ToString() == "" || fldname.GetValue(a).ToString() == "  -   -  -      -  - -" || fldname.GetValue(a).ToString() == "3-     -" || fldname.GetValue(a).ToString() == "  ." || fldname.GetValue(a).ToString() == "UU-UUU-  -    -UU- -")
-                    {
-                        cmd.Parameters.AddWithValue(fldname.GetValue(0).ToString(), fldvalue.GetValue(a).ToString());
-                    }
-                    else
-                    {
-                        if (fldname.GetValue(a).ToString() == "IPOPFRM1_Q1_1")
-                        {
-                            dt = fldvalue.GetValue(a).ToString().Split('/');
-                            cmd.Parameters.AddWithValue(fldname.GetValue(a).ToString(), dt[1] + "/" + dt[0] + "/" + dt[2]);
-                        }
-                        else
-                        {
-                            cmd.Parameters.AddWithValue(fldname.GetValue(0).ToString(), fldvalue.GetValue(a).ToString());
-                        }
-                    }
-                }
-
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds);
-
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-
-        public DataSet AddUpdateForm1(string IPOPFRM1_EAID, string IPOPFRM1_IPOPID, string IPOPFRM1_Q1_1, string IPOPFRM1_Q1_2, string IPOPFRM1_Q1_3, string IPOPFRM1_Q1_4, string IPOPFRM1_Q2_1, string IPOPFRM1_Q2_2, string IPOPFRM1_Q2_3, string IPOPFRM1_Q2_4, string IPOPFRM1_Q3_1, string IPOPFRM1_Q3_2, string IPOPFRM1_Q3_3, string IPOPFRM1_Q3_4, string IPOPFRM1_Q3_5, string IPOPFRM1_Q3_6, string IPOPFRM1_Q3_7, string spName)
-        {
-            string[] arr;
-
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                if (IPOPFRM1_EAID == " -")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_EAID", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_EAID", IPOPFRM1_EAID);
-                }
-
-
-                if (IPOPFRM1_IPOPID == " -")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_IPOPID", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_IPOPID", IPOPFRM1_IPOPID);
-                }
-
-                DateTime dt = new DateTime();
-
-                arr = IPOPFRM1_Q1_1.ToString().Split('/');
-
-
-                if (IPOPFRM1_Q1_1 == "  /  /")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_1", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_1", arr[1] + "/" + arr[0] + "/" + arr[2]);
-                }
-
-
-
-                if (IPOPFRM1_Q1_2 == "  :")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_2", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_2", IPOPFRM1_Q1_2);
-                }
-
-
-                if (IPOPFRM1_Q1_3 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_3", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_3", IPOPFRM1_Q1_3);
-                }
-
-
-
-                if (IPOPFRM1_Q1_4 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_4", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q1_4", IPOPFRM1_Q1_4);
-                }
-
-
-
-                if (IPOPFRM1_Q2_1 == " -")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_1", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_1", IPOPFRM1_Q2_1);
-                }
-
-
-                if (IPOPFRM1_Q2_2 == "  -   -  -      -  - -")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_2", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_2", IPOPFRM1_Q2_2);
-                }
-
-
-
-                if (IPOPFRM1_Q2_3 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_3", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_3", IPOPFRM1_Q2_3);
-                }
-
-
-                if (IPOPFRM1_Q2_4 == "3-     -")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_4", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q2_4", IPOPFRM1_Q2_4);
-                }
-
-
-                if (IPOPFRM1_Q3_1 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_1", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("IPOPFRM1_Q3_1", IPOPFRM1_Q3_1);
-                }
-
-
-
-                if (IPOPFRM1_Q3_2 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_2", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_2", IPOPFRM1_Q3_2);
-                }
-
-
-
-                if (IPOPFRM1_Q3_3 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_3", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_3", IPOPFRM1_Q3_3);
-                }
-
-
-
-                if (IPOPFRM1_Q3_4 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_4", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_4", IPOPFRM1_Q3_4);
-                }
-
-
-
-                if (IPOPFRM1_Q3_5 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_5", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_5", IPOPFRM1_Q3_5);
-                }
-
-
-
-                if (IPOPFRM1_Q3_6 == "")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_6", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_6", IPOPFRM1_Q3_6);
-                }
-
-
-
-                if (IPOPFRM1_Q3_7 == " -")
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_7", DBNull.Value);
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("@IPOPFRM1_Q3_7", IPOPFRM1_Q3_7);
-                }
-
-
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds);
-
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
                 cmd = null;
                 cn = null;
             }
@@ -5638,23 +5314,19 @@ namespace iNCK
 
         public DataSet DeleteForm1(string FormID, string spName, string fldvalue, string visitid)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
-            SqlTransaction trans = null;
 
             try
             {
                 cn = new CConnection();
                 cn.MConnOpen();
 
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
-                cmd.Transaction = trans;
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 if (FormID == "")
@@ -5671,17 +5343,14 @@ namespace iNCK
                 cmd.Parameters.AddWithValue("visitid", visitid);
 
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 
-
-                trans.Commit();
             }
 
             catch (Exception ex)
             {
-                trans.Rollback();
                 MessageBox.Show(ex.Message);
             }
 
@@ -5695,248 +5364,6 @@ namespace iNCK
             return ds;
         }
 
-
-
-        public DataSet DeleteForm_Ultrasound(string FormID, string spName, string fldvalue, string visitid, string formno)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                if (FormID == "")
-                {
-                    cmd.Parameters.AddWithValue("FormID", "NULL");
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("FormID", FormID);
-                }
-
-
-                cmd.Parameters.AddWithValue("fldvalue", fldvalue);
-                cmd.Parameters.AddWithValue("visitid", visitid);
-                cmd.Parameters.AddWithValue("formno", formno);
-
-
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds);
-
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-
-
-
-
-        public DataSet DeleteForm_VisitID_FormID(string FormID, string spName, string fldvalue, string visitid, string formno)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                if (FormID == "")
-                {
-                    cmd.Parameters.AddWithValue("FormID", "NULL");
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("FormID", FormID);
-                }
-
-
-                cmd.Parameters.AddWithValue("fldvalue", fldvalue);
-                cmd.Parameters.AddWithValue("visitid", visitid);
-                cmd.Parameters.AddWithValue("formno", formno);
-
-
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds);
-
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-
-        public DataSet DeleteForm(string IPOPFRM1_IPOPID, string spName, string fldvalue)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                if (IPOPFRM1_IPOPID == " -")
-                {
-                    cmd.Parameters.AddWithValue("FormID", "NULL");
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("FormID", IPOPFRM1_IPOPID);
-                }
-
-                cmd.Parameters.AddWithValue("fldvalue", fldvalue);
-
-
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds);
-
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
-
-        public DataSet DeleteForm_VisitID(string IPOPFRM1_IPOPID, string spName, string fldvalue, string visitid)
-        {
-            SqlCommand cmd = null;
-            CConnection cn = null;
-            SqlDataAdapter da = null;
-            DataSet ds = null;
-            SqlTransaction trans = null;
-
-            try
-            {
-                cn = new CConnection();
-                cn.MConnOpen();
-
-                trans = cn.cn.BeginTransaction();
-
-                cmd = new SqlCommand();
-                cmd.Connection = cn.cn;
-                cmd.CommandText = spName;
-                cmd.Transaction = trans;
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                if (IPOPFRM1_IPOPID == "")
-                {
-                    cmd.Parameters.AddWithValue("FormID", "NULL");
-                }
-                else
-                {
-                    cmd.Parameters.AddWithValue("FormID", IPOPFRM1_IPOPID);
-                }
-
-
-                cmd.Parameters.AddWithValue("fldvalue", fldvalue);
-                cmd.Parameters.AddWithValue("VisitID", visitid);
-
-
-                da = new SqlDataAdapter(cmd);
-                ds = new DataSet();
-                da.Fill(ds);
-
-
-                trans.Commit();
-            }
-
-            catch (Exception ex)
-            {
-                trans.Rollback();
-                MessageBox.Show(ex.Message);
-            }
-
-            finally
-            {
-                cn.MConnClose();
-                cmd = null;
-                cn = null;
-            }
-
-            return ds;
-        }
 
 
         public void DataErrorCheck(string frmName, string spName, string ipopid, string fld_value)
@@ -5997,8 +5424,11 @@ namespace iNCK
 
             try
             {
-                string[] fldname = { "FormID", "fldvalue" };
-                string[] fldvalue = { formno, fldval };
+                string[] fldname = { };
+                string[] fldvalue = { };
+
+                //string[] fldname = { "FormID", "fldvalue" };
+                //string[] fldvalue = { formno, fldval };
 
                 ds = ExecuteNonQuery(fldname, fldvalue, spName);
             }
@@ -7153,6 +6583,50 @@ namespace iNCK
                 string[] fldvalue = { tabname, "", fieldname, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "6" };
 
 
+                ds = obj_op.ExecuteNonQuery(fldname, fldvalue, "select * from tblDict WHERE var_id = '" + fieldname + "' and tabname = '" + tabname + "'");
+
+
+                if (ds != null)
+                {
+                    if (ds.Tables.Count > 0)
+                    {
+                        if (ds.Tables[0].Rows.Count > 0)
+                        {
+                            value = ds.Tables[0].Rows[0]["" + TabPageNo + ""].ToString();
+                        }
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                obj_op = null;
+                ds = null;
+            }
+
+            return value;
+        }
+
+
+
+        public string Get_Dictionary_FieldValue_SQLServer(string tabname, string fieldname, string TabPageNo)
+        {
+            CDBOperations obj_op = new CDBOperations();
+            string value = "";
+            DataSet ds = null;
+
+            try
+            {
+
+                string[] fldname = { "tabname", "var_name", "var_id", "var_nmae", "var_seq", "field_desc", "remarks", "data_type", "field_len", "field_decimal", "MinValue", "MaxValue", "value1", "value2", "value3", "value4", "value5", "taborder", "msg", "IsOthers", "Others_Value", "No_Options", "Isblank", "fldvalue" };
+                string[] fldvalue = { tabname, "", fieldname, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "6" };
+
+
                 ds = obj_op.ExecuteNonQuery(fldname, fldvalue, "sp_CreateDictionary");
 
 
@@ -7468,7 +6942,7 @@ namespace iNCK
             try
             {
                 txtbox.Enabled = true;
-                txtbox.BackColor = System.Drawing.Color.White;
+                txtbox.BackColor = System.Drawing.Color.Bisque;
             }
             catch (Exception ex)
             {
@@ -7780,9 +7254,9 @@ namespace iNCK
 
         public DataSet ExecuteNonQuery_Ultrasound_Scan(string[] fieldName, string[] fieldValues, string spName)
         {
-            SqlCommand cmd = null;
+            SQLiteCommand cmd = null;
             CConnection cn = null;
-            SqlDataAdapter da = null;
+            SQLiteDataAdapter da = null;
             DataSet ds = null;
 
             CVariables.IsSuccess = false;
@@ -7793,7 +7267,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
-                cmd = new SqlCommand();
+                cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -7825,7 +7299,7 @@ namespace iNCK
                     }
                 }
 
-                da = new SqlDataAdapter(cmd);
+                da = new SQLiteDataAdapter(cmd);
                 ds = new DataSet();
                 da.Fill(ds);
 

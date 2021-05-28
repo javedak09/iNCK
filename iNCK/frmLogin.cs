@@ -6,8 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using System.Collections;
+using System.Data.SQLite;
 
 namespace iNCK
 {
@@ -37,7 +37,6 @@ namespace iNCK
 
         private bool Login()
         {
-            CDBOperations obj_op = null;
             bool IsLogin = false;
 
             try
@@ -50,52 +49,52 @@ namespace iNCK
                 else
                 {
 
-                    string[] fldname = { "UserID", "Passwd" };
-                    string[] fldvalue = { txtUserID.Text, txtPassword.Text };
+                    CConnection cn = new CConnection();
 
-                    obj_op = new CDBOperations();
-                    DataSet ds = obj_op.ExecuteNonQuery(fldname, fldvalue, "sp_Login");
+                    SQLiteDataAdapter da = new SQLiteDataAdapter("select * from users where username='" + txtUserID.Text + "' and passwd='" + txtPassword.Text + "'", cn.cn);
+                    DataSet ds = new DataSet();
+                    da.Fill(ds);
 
-                    if (ds.Tables.Count > 0)
+                    if (ds != null)
                     {
-                        if (ds.Tables[0].Rows.Count > 0)
+                        if (ds.Tables.Count > 0)
                         {
-                            CVariables.UserID = ds.Tables[0].Rows[0][0].ToString();
-                            CVariables.UserName = ds.Tables[0].Rows[0][1].ToString();
-                            CVariables.GetPassword = ds.Tables[0].Rows[0]["Passwd"].ToString();
-                            CVariables.GetDBName = "kap";
-                            CVariables.PilotPhaseEntry = true;
-
-                            if (ds.Tables[0].Rows[0]["IsUserOrAdmin"].ToString() == "True")
+                            if (ds.Tables[0].Rows.Count > 0)
                             {
-                                CVariables.IsAdmin = true;
+
+                                CVariables.UserID = ds.Tables[0].Rows[0]["id"].ToString();
+                                CVariables.UserName = ds.Tables[0].Rows[0]["username"].ToString();
+                                CVariables.GetPassword = ds.Tables[0].Rows[0]["passwd"].ToString();
+                                //CVariables.GetDBName = "gbdata";
+
+                                CVariables.IsUserFirstOrSecond = "User1";
+
+
+                                CVariables.frmlogin1 = this;
+                                this.Hide();
+
+                                frmMain obj_main = new frmMain();
+                                obj_main.Show();
                             }
                             else
                             {
-                                CVariables.IsAdmin = false;
+                                MessageBox.Show("User does not exist ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                txtUserID.Focus();
                             }
-
-
-
-                            if (rdoUser1.Checked == true)
-                            {
-                                CVariables.IsUserFirstOrSecond = "User1";
-                            }
-                            else if (rdoUser2.Checked == true)
-                            {
-                                CVariables.IsUserFirstOrSecond = "User2";
-                            }
-
-                            IsLogin = true;
                         }
                         else
                         {
-                            MessageBox.Show("Invalid userid or password", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                            CVariables.UserID = "";
-                            CVariables.UserName = "";
+                            MessageBox.Show("User does not exist ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             txtUserID.Focus();
                         }
                     }
+                    else
+                    {
+                        MessageBox.Show("User does not exist ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        txtUserID.Focus();
+                    }
+
+
                 }
             }
 
@@ -107,7 +106,7 @@ namespace iNCK
 
             finally
             {
-                obj_op = null;
+
             }
 
             return IsLogin;

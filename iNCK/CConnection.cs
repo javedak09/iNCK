@@ -5,18 +5,21 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace iNCK
 {
     class CConnection
     {
-        public SqlConnection cn = null;
+        //public SqlConnection cn = null;
+        public SQLiteConnection cn = null;
 
         public CConnection()
         {
             try
-            {                
-                cn = new SqlConnection(ConfigurationSettings.AppSettings["cnStr"]);
+            {
+                //cn = new SqlConnection(ConfigurationSettings.AppSettings["cnStr"]);
+                cn = new SQLiteConnection(ConfigurationSettings.AppSettings["cnStr"]);
             }
 
             catch (Exception ex)
@@ -26,7 +29,7 @@ namespace iNCK
 
             finally
             {
-                
+
             }
         }
 
@@ -42,8 +45,8 @@ namespace iNCK
                 MessageBox.Show(ex.Message);
             }
 
-            finally 
-            { 
+            finally
+            {
             }
         }
 
