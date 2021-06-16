@@ -34,6 +34,8 @@
             this.cmdSave = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage0 = new System.Windows.Forms.TabPage();
+            this.IB011 = new System.Windows.Forms.MaskedTextBox();
+            this.IB010 = new System.Windows.Forms.MaskedTextBox();
             this.FORM_ID = new System.Windows.Forms.MaskedTextBox();
             this.lbl_fld_FORM_ID = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
@@ -60,12 +62,19 @@
             this.IB0903 = new System.Windows.Forms.MaskedTextBox();
             this.IB0996 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.IC01 = new System.Windows.Forms.MaskedTextBox();
             this.IC02 = new System.Windows.Forms.MaskedTextBox();
             this.IC03 = new System.Windows.Forms.MaskedTextBox();
             this.IC04 = new System.Windows.Forms.MaskedTextBox();
             this.IC05 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.chkBaby1 = new System.Windows.Forms.MaskedTextBox();
             this.IC0601 = new System.Windows.Forms.MaskedTextBox();
             this.IC0701 = new System.Windows.Forms.MaskedTextBox();
@@ -95,6 +104,9 @@
             this.IC01004 = new System.Windows.Forms.MaskedTextBox();
             this.IC01104 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.ID01 = new System.Windows.Forms.MaskedTextBox();
             this.ID02 = new System.Windows.Forms.MaskedTextBox();
             this.ID03 = new System.Windows.Forms.MaskedTextBox();
@@ -112,6 +124,12 @@
             this.chkHHMem4 = new System.Windows.Forms.MaskedTextBox();
             this.IE0704 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.IE0801 = new System.Windows.Forms.MaskedTextBox();
             this.IE0901 = new System.Windows.Forms.MaskedTextBox();
             this.IE0802 = new System.Windows.Forms.MaskedTextBox();
@@ -133,6 +151,12 @@
             this.chkPW4 = new System.Windows.Forms.MaskedTextBox();
             this.IF0604 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.IG01 = new System.Windows.Forms.MaskedTextBox();
             this.IG02 = new System.Windows.Forms.MaskedTextBox();
             this.IG0301 = new System.Windows.Forms.MaskedTextBox();
@@ -206,6 +230,21 @@
             this.IG070305 = new System.Windows.Forms.MaskedTextBox();
             this.IG070405 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.IG070501 = new System.Windows.Forms.MaskedTextBox();
             this.IG070601 = new System.Windows.Forms.MaskedTextBox();
             this.IG070701 = new System.Windows.Forms.MaskedTextBox();
@@ -361,6 +400,13 @@
             this.QCFUP06 = new System.Windows.Forms.MaskedTextBox();
             this.QCFUP07 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
             this.chkBaby5 = new System.Windows.Forms.MaskedTextBox();
             this.IC0605 = new System.Windows.Forms.MaskedTextBox();
             this.IC0705 = new System.Windows.Forms.MaskedTextBox();
@@ -411,6 +457,23 @@
             this.IC01011 = new System.Windows.Forms.MaskedTextBox();
             this.IC01111 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
             this.chkMember6 = new System.Windows.Forms.MaskedTextBox();
             this.IG0406 = new System.Windows.Forms.MaskedTextBox();
             this.IG0506 = new System.Windows.Forms.MaskedTextBox();
@@ -532,6 +595,11 @@
             this.IG0910 = new System.Windows.Forms.MaskedTextBox();
             this.IG01010 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
             this.IG01106 = new System.Windows.Forms.MaskedTextBox();
             this.IG01206 = new System.Windows.Forms.MaskedTextBox();
             this.IG01306 = new System.Windows.Forms.MaskedTextBox();
@@ -558,6 +626,11 @@
             this.IG01410 = new System.Windows.Forms.MaskedTextBox();
             this.IG01510 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
             this.IG160106 = new System.Windows.Forms.MaskedTextBox();
             this.IG160206 = new System.Windows.Forms.MaskedTextBox();
             this.IG160306 = new System.Windows.Forms.MaskedTextBox();
@@ -659,6 +732,21 @@
             this.IG060415 = new System.Windows.Forms.MaskedTextBox();
             this.IG060515 = new System.Windows.Forms.MaskedTextBox();
             this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
             this.IG070111 = new System.Windows.Forms.MaskedTextBox();
             this.IG070211 = new System.Windows.Forms.MaskedTextBox();
             this.IG070311 = new System.Windows.Forms.MaskedTextBox();
@@ -846,7 +934,7 @@
             // cmdDelete
             // 
             this.cmdDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cmdDelete.Location = new System.Drawing.Point(1086, 108);
+            this.cmdDelete.Location = new System.Drawing.Point(1031, 105);
             this.cmdDelete.Name = "cmdDelete";
             this.cmdDelete.Size = new System.Drawing.Size(70, 31);
             this.cmdDelete.TabIndex = 27;
@@ -858,7 +946,7 @@
             // 
             this.cmdCancel.CausesValidation = false;
             this.cmdCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cmdCancel.Location = new System.Drawing.Point(1086, 71);
+            this.cmdCancel.Location = new System.Drawing.Point(1031, 68);
             this.cmdCancel.Name = "cmdCancel";
             this.cmdCancel.Size = new System.Drawing.Size(70, 31);
             this.cmdCancel.TabIndex = 28;
@@ -870,7 +958,7 @@
             // 
             this.cmdSave.CausesValidation = false;
             this.cmdSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cmdSave.Location = new System.Drawing.Point(1086, 34);
+            this.cmdSave.Location = new System.Drawing.Point(1031, 31);
             this.cmdSave.Name = "cmdSave";
             this.cmdSave.Size = new System.Drawing.Size(70, 31);
             this.cmdSave.TabIndex = 28;
@@ -906,6 +994,8 @@
             // 
             this.tabPage0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage0.BackgroundImage")));
             this.tabPage0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage0.Controls.Add(this.IB011);
+            this.tabPage0.Controls.Add(this.IB010);
             this.tabPage0.Controls.Add(this.FORM_ID);
             this.tabPage0.Controls.Add(this.lbl_fld_FORM_ID);
             this.tabPage0.Controls.Add(this.label51);
@@ -938,6 +1028,29 @@
             this.tabPage0.TabIndex = 0;
             this.tabPage0.Text = " Page - 0";
             this.tabPage0.UseVisualStyleBackColor = true;
+            this.tabPage0.Click += new System.EventHandler(this.tabPage0_Click);
+            // 
+            // IB011
+            // 
+            this.IB011.BackColor = System.Drawing.Color.Bisque;
+            this.IB011.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IB011.Location = new System.Drawing.Point(155, 1288);
+            this.IB011.Mask = "99999999999";
+            this.IB011.Name = "IB011";
+            this.IB011.Size = new System.Drawing.Size(238, 20);
+            this.IB011.TabIndex = 19;
+            this.IB011.Leave += new System.EventHandler(this.IB011_Leave);
+            // 
+            // IB010
+            // 
+            this.IB010.BackColor = System.Drawing.Color.Bisque;
+            this.IB010.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IB010.Location = new System.Drawing.Point(74, 926);
+            this.IB010.Mask = ">??????????????????????????????????????????????????";
+            this.IB010.Name = "IB010";
+            this.IB010.Size = new System.Drawing.Size(391, 20);
+            this.IB010.TabIndex = 12;
+            this.IB010.Leave += new System.EventHandler(this.IB010_Leave);
             // 
             // FORM_ID
             // 
@@ -1149,7 +1262,7 @@
             // 
             this.IB06.BackColor = System.Drawing.Color.Bisque;
             this.IB06.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IB06.Location = new System.Drawing.Point(281, 898);
+            this.IB06.Location = new System.Drawing.Point(337, 893);
             this.IB06.Mask = "99:99";
             this.IB06.Name = "IB06";
             this.IB06.Size = new System.Drawing.Size(39, 20);
@@ -1161,11 +1274,11 @@
             // 
             this.IB07.BackColor = System.Drawing.Color.Bisque;
             this.IB07.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IB07.Location = new System.Drawing.Point(304, 984);
+            this.IB07.Location = new System.Drawing.Point(252, 974);
             this.IB07.Mask = "9999";
             this.IB07.Name = "IB07";
-            this.IB07.Size = new System.Drawing.Size(42, 20);
-            this.IB07.TabIndex = 12;
+            this.IB07.Size = new System.Drawing.Size(57, 20);
+            this.IB07.TabIndex = 13;
             this.IB07.Enter += new System.EventHandler(this.IB07_Enter);
             this.IB07.Leave += new System.EventHandler(this.IB07_Leave);
             // 
@@ -1177,7 +1290,7 @@
             this.IB08.Mask = "9999";
             this.IB08.Name = "IB08";
             this.IB08.Size = new System.Drawing.Size(35, 20);
-            this.IB08.TabIndex = 13;
+            this.IB08.TabIndex = 14;
             this.IB08.Enter += new System.EventHandler(this.IB08_Enter);
             this.IB08.Leave += new System.EventHandler(this.IB08_Leave);
             // 
@@ -1185,11 +1298,11 @@
             // 
             this.IB0901.BackColor = System.Drawing.Color.Bisque;
             this.IB0901.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IB0901.Location = new System.Drawing.Point(390, 1159);
+            this.IB0901.Location = new System.Drawing.Point(359, 1158);
             this.IB0901.Mask = "9999";
             this.IB0901.Name = "IB0901";
             this.IB0901.Size = new System.Drawing.Size(35, 20);
-            this.IB0901.TabIndex = 14;
+            this.IB0901.TabIndex = 15;
             this.IB0901.Enter += new System.EventHandler(this.IB0901_Enter);
             this.IB0901.Leave += new System.EventHandler(this.IB0901_Leave);
             // 
@@ -1197,11 +1310,11 @@
             // 
             this.IB0902.BackColor = System.Drawing.Color.Bisque;
             this.IB0902.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IB0902.Location = new System.Drawing.Point(390, 1189);
+            this.IB0902.Location = new System.Drawing.Point(360, 1192);
             this.IB0902.Mask = "9999";
             this.IB0902.Name = "IB0902";
             this.IB0902.Size = new System.Drawing.Size(35, 20);
-            this.IB0902.TabIndex = 15;
+            this.IB0902.TabIndex = 16;
             this.IB0902.Enter += new System.EventHandler(this.IB0902_Enter);
             this.IB0902.Leave += new System.EventHandler(this.IB0902_Leave);
             // 
@@ -1209,11 +1322,11 @@
             // 
             this.IB0903.BackColor = System.Drawing.Color.Bisque;
             this.IB0903.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IB0903.Location = new System.Drawing.Point(390, 1220);
+            this.IB0903.Location = new System.Drawing.Point(360, 1225);
             this.IB0903.Mask = "9999";
             this.IB0903.Name = "IB0903";
             this.IB0903.Size = new System.Drawing.Size(35, 20);
-            this.IB0903.TabIndex = 16;
+            this.IB0903.TabIndex = 17;
             this.IB0903.Enter += new System.EventHandler(this.IB0903_Enter);
             this.IB0903.Leave += new System.EventHandler(this.IB0903_Leave);
             // 
@@ -1221,11 +1334,11 @@
             // 
             this.IB0996.BackColor = System.Drawing.Color.Bisque;
             this.IB0996.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IB0996.Location = new System.Drawing.Point(118, 1248);
+            this.IB0996.Location = new System.Drawing.Point(49, 1254);
             this.IB0996.Mask = "9999";
             this.IB0996.Name = "IB0996";
             this.IB0996.Size = new System.Drawing.Size(35, 20);
-            this.IB0996.TabIndex = 17;
+            this.IB0996.TabIndex = 18;
             this.IB0996.Enter += new System.EventHandler(this.IB0996_Enter);
             this.IB0996.Leave += new System.EventHandler(this.IB0996_Leave);
             // 
@@ -1233,6 +1346,9 @@
             // 
             this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage1.Controls.Add(this.label4);
+            this.tabPage1.Controls.Add(this.label3);
+            this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.IC01);
             this.tabPage1.Controls.Add(this.IC02);
             this.tabPage1.Controls.Add(this.IC03);
@@ -1245,6 +1361,39 @@
             this.tabPage1.TabIndex = 1;
             this.tabPage1.Text = " Page - 1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(183, 700);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 17);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Goto Q28";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(180, 282);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Goto Q28";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(181, 261);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(78, 17);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Goto Q29";
             // 
             // IC01
             // 
@@ -1274,10 +1423,10 @@
             // 
             this.IC03.BackColor = System.Drawing.Color.Bisque;
             this.IC03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC03.Location = new System.Drawing.Point(75, 334);
+            this.IC03.Location = new System.Drawing.Point(245, 368);
             this.IC03.Mask = "9999";
             this.IC03.Name = "IC03";
-            this.IC03.Size = new System.Drawing.Size(35, 20);
+            this.IC03.Size = new System.Drawing.Size(39, 20);
             this.IC03.TabIndex = 2;
             this.IC03.Enter += new System.EventHandler(this.IC03_Enter);
             this.IC03.Leave += new System.EventHandler(this.IC03_Leave);
@@ -1286,10 +1435,10 @@
             // 
             this.IC04.BackColor = System.Drawing.Color.Bisque;
             this.IC04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC04.Location = new System.Drawing.Point(75, 642);
+            this.IC04.Location = new System.Drawing.Point(245, 558);
             this.IC04.Mask = "9999";
             this.IC04.Name = "IC04";
-            this.IC04.Size = new System.Drawing.Size(35, 20);
+            this.IC04.Size = new System.Drawing.Size(38, 20);
             this.IC04.TabIndex = 3;
             this.IC04.Enter += new System.EventHandler(this.IC04_Enter);
             this.IC04.Leave += new System.EventHandler(this.IC04_Leave);
@@ -1298,10 +1447,10 @@
             // 
             this.IC05.BackColor = System.Drawing.Color.Bisque;
             this.IC05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC05.Location = new System.Drawing.Point(75, 747);
+            this.IC05.Location = new System.Drawing.Point(245, 654);
             this.IC05.Mask = "9999";
             this.IC05.Name = "IC05";
-            this.IC05.Size = new System.Drawing.Size(35, 20);
+            this.IC05.Size = new System.Drawing.Size(40, 20);
             this.IC05.TabIndex = 4;
             this.IC05.Enter += new System.EventHandler(this.IC05_Enter);
             this.IC05.Leave += new System.EventHandler(this.IC05_Leave);
@@ -1310,6 +1459,10 @@
             // 
             this.tabPage2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage2.BackgroundImage")));
             this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.chkBaby1);
             this.tabPage2.Controls.Add(this.IC0601);
             this.tabPage2.Controls.Add(this.IC0701);
@@ -1346,12 +1499,52 @@
             this.tabPage2.Text = " Page - 2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(94, 597);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(21, 14);
+            this.label8.TabIndex = 31;
+            this.label8.Text = "27";
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(230, 597);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(21, 14);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "27";
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(496, 596);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(21, 14);
+            this.label6.TabIndex = 29;
+            this.label6.Text = "27";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(365, 596);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(21, 14);
+            this.label5.TabIndex = 28;
+            this.label5.Text = "27";
+            // 
             // chkBaby1
             // 
             this.chkBaby1.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby1.Location = new System.Drawing.Point(489, 162);
-            this.chkBaby1.Mask = "9999";
+            this.chkBaby1.Mask = "9";
             this.chkBaby1.Name = "chkBaby1";
             this.chkBaby1.Size = new System.Drawing.Size(35, 20);
             this.chkBaby1.TabIndex = 0;
@@ -1362,7 +1555,7 @@
             // 
             this.IC0601.BackColor = System.Drawing.Color.Bisque;
             this.IC0601.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0601.Location = new System.Drawing.Point(489, 366);
+            this.IC0601.Location = new System.Drawing.Point(489, 343);
             this.IC0601.Mask = "9999";
             this.IC0601.Name = "IC0601";
             this.IC0601.Size = new System.Drawing.Size(35, 20);
@@ -1374,7 +1567,7 @@
             // 
             this.IC0701.BackColor = System.Drawing.Color.Bisque;
             this.IC0701.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0701.Location = new System.Drawing.Point(444, 542);
+            this.IC0701.Location = new System.Drawing.Point(444, 474);
             this.IC0701.Mask = "9999";
             this.IC0701.Name = "IC0701";
             this.IC0701.Size = new System.Drawing.Size(35, 20);
@@ -1386,7 +1579,7 @@
             // 
             this.IC0801.BackColor = System.Drawing.Color.Bisque;
             this.IC0801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0801.Location = new System.Drawing.Point(444, 592);
+            this.IC0801.Location = new System.Drawing.Point(444, 531);
             this.IC0801.Mask = "9999";
             this.IC0801.Name = "IC0801";
             this.IC0801.Size = new System.Drawing.Size(35, 20);
@@ -1398,7 +1591,7 @@
             // 
             this.IC0901.BackColor = System.Drawing.Color.Bisque;
             this.IC0901.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0901.Location = new System.Drawing.Point(444, 703);
+            this.IC0901.Location = new System.Drawing.Point(444, 618);
             this.IC0901.Mask = "9999";
             this.IC0901.Name = "IC0901";
             this.IC0901.Size = new System.Drawing.Size(35, 20);
@@ -1410,7 +1603,7 @@
             // 
             this.IC01001.BackColor = System.Drawing.Color.Bisque;
             this.IC01001.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01001.Location = new System.Drawing.Point(444, 766);
+            this.IC01001.Location = new System.Drawing.Point(444, 675);
             this.IC01001.Mask = "9999";
             this.IC01001.Name = "IC01001";
             this.IC01001.Size = new System.Drawing.Size(35, 20);
@@ -1422,7 +1615,7 @@
             // 
             this.IC01101.BackColor = System.Drawing.Color.Bisque;
             this.IC01101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01101.Location = new System.Drawing.Point(489, 983);
+            this.IC01101.Location = new System.Drawing.Point(444, 851);
             this.IC01101.Mask = "9999";
             this.IC01101.Name = "IC01101";
             this.IC01101.Size = new System.Drawing.Size(35, 20);
@@ -1434,8 +1627,8 @@
             // 
             this.chkBaby2.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkBaby2.Location = new System.Drawing.Point(361, 162);
-            this.chkBaby2.Mask = "9999";
+            this.chkBaby2.Location = new System.Drawing.Point(351, 162);
+            this.chkBaby2.Mask = "9";
             this.chkBaby2.Name = "chkBaby2";
             this.chkBaby2.Size = new System.Drawing.Size(35, 20);
             this.chkBaby2.TabIndex = 7;
@@ -1446,7 +1639,7 @@
             // 
             this.IC0602.BackColor = System.Drawing.Color.Bisque;
             this.IC0602.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0602.Location = new System.Drawing.Point(361, 366);
+            this.IC0602.Location = new System.Drawing.Point(351, 343);
             this.IC0602.Mask = "9999";
             this.IC0602.Name = "IC0602";
             this.IC0602.Size = new System.Drawing.Size(35, 20);
@@ -1458,7 +1651,7 @@
             // 
             this.IC0702.BackColor = System.Drawing.Color.Bisque;
             this.IC0702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0702.Location = new System.Drawing.Point(317, 542);
+            this.IC0702.Location = new System.Drawing.Point(312, 474);
             this.IC0702.Mask = "9999";
             this.IC0702.Name = "IC0702";
             this.IC0702.Size = new System.Drawing.Size(35, 20);
@@ -1470,7 +1663,7 @@
             // 
             this.IC0802.BackColor = System.Drawing.Color.Bisque;
             this.IC0802.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0802.Location = new System.Drawing.Point(321, 592);
+            this.IC0802.Location = new System.Drawing.Point(312, 531);
             this.IC0802.Mask = "9999";
             this.IC0802.Name = "IC0802";
             this.IC0802.Size = new System.Drawing.Size(35, 20);
@@ -1482,7 +1675,7 @@
             // 
             this.IC0902.BackColor = System.Drawing.Color.Bisque;
             this.IC0902.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0902.Location = new System.Drawing.Point(319, 703);
+            this.IC0902.Location = new System.Drawing.Point(312, 618);
             this.IC0902.Mask = "9999";
             this.IC0902.Name = "IC0902";
             this.IC0902.Size = new System.Drawing.Size(35, 20);
@@ -1494,7 +1687,7 @@
             // 
             this.IC01002.BackColor = System.Drawing.Color.Bisque;
             this.IC01002.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01002.Location = new System.Drawing.Point(321, 766);
+            this.IC01002.Location = new System.Drawing.Point(312, 675);
             this.IC01002.Mask = "9999";
             this.IC01002.Name = "IC01002";
             this.IC01002.Size = new System.Drawing.Size(35, 20);
@@ -1506,7 +1699,7 @@
             // 
             this.IC01102.BackColor = System.Drawing.Color.Bisque;
             this.IC01102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01102.Location = new System.Drawing.Point(361, 983);
+            this.IC01102.Location = new System.Drawing.Point(312, 851);
             this.IC01102.Mask = "9999";
             this.IC01102.Name = "IC01102";
             this.IC01102.Size = new System.Drawing.Size(35, 20);
@@ -1518,8 +1711,8 @@
             // 
             this.chkBaby3.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkBaby3.Location = new System.Drawing.Point(234, 162);
-            this.chkBaby3.Mask = "9999";
+            this.chkBaby3.Location = new System.Drawing.Point(228, 162);
+            this.chkBaby3.Mask = "9";
             this.chkBaby3.Name = "chkBaby3";
             this.chkBaby3.Size = new System.Drawing.Size(35, 20);
             this.chkBaby3.TabIndex = 14;
@@ -1530,7 +1723,7 @@
             // 
             this.IC0603.BackColor = System.Drawing.Color.Bisque;
             this.IC0603.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0603.Location = new System.Drawing.Point(234, 366);
+            this.IC0603.Location = new System.Drawing.Point(228, 343);
             this.IC0603.Mask = "9999";
             this.IC0603.Name = "IC0603";
             this.IC0603.Size = new System.Drawing.Size(35, 20);
@@ -1542,7 +1735,7 @@
             // 
             this.IC0703.BackColor = System.Drawing.Color.Bisque;
             this.IC0703.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0703.Location = new System.Drawing.Point(188, 542);
+            this.IC0703.Location = new System.Drawing.Point(178, 474);
             this.IC0703.Mask = "9999";
             this.IC0703.Name = "IC0703";
             this.IC0703.Size = new System.Drawing.Size(35, 20);
@@ -1554,7 +1747,7 @@
             // 
             this.IC0803.BackColor = System.Drawing.Color.Bisque;
             this.IC0803.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0803.Location = new System.Drawing.Point(191, 592);
+            this.IC0803.Location = new System.Drawing.Point(178, 531);
             this.IC0803.Mask = "9999";
             this.IC0803.Name = "IC0803";
             this.IC0803.Size = new System.Drawing.Size(35, 20);
@@ -1566,7 +1759,7 @@
             // 
             this.IC0903.BackColor = System.Drawing.Color.Bisque;
             this.IC0903.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0903.Location = new System.Drawing.Point(191, 703);
+            this.IC0903.Location = new System.Drawing.Point(178, 618);
             this.IC0903.Mask = "9999";
             this.IC0903.Name = "IC0903";
             this.IC0903.Size = new System.Drawing.Size(35, 20);
@@ -1578,7 +1771,7 @@
             // 
             this.IC01003.BackColor = System.Drawing.Color.Bisque;
             this.IC01003.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01003.Location = new System.Drawing.Point(191, 766);
+            this.IC01003.Location = new System.Drawing.Point(178, 675);
             this.IC01003.Mask = "9999";
             this.IC01003.Name = "IC01003";
             this.IC01003.Size = new System.Drawing.Size(35, 20);
@@ -1590,7 +1783,7 @@
             // 
             this.IC01103.BackColor = System.Drawing.Color.Bisque;
             this.IC01103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01103.Location = new System.Drawing.Point(246, 983);
+            this.IC01103.Location = new System.Drawing.Point(178, 851);
             this.IC01103.Mask = "9999";
             this.IC01103.Name = "IC01103";
             this.IC01103.Size = new System.Drawing.Size(35, 20);
@@ -1602,8 +1795,8 @@
             // 
             this.chkBaby4.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkBaby4.Location = new System.Drawing.Point(105, 162);
-            this.chkBaby4.Mask = "9999";
+            this.chkBaby4.Location = new System.Drawing.Point(85, 162);
+            this.chkBaby4.Mask = "9";
             this.chkBaby4.Name = "chkBaby4";
             this.chkBaby4.Size = new System.Drawing.Size(35, 20);
             this.chkBaby4.TabIndex = 21;
@@ -1614,7 +1807,7 @@
             // 
             this.IC0604.BackColor = System.Drawing.Color.Bisque;
             this.IC0604.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0604.Location = new System.Drawing.Point(105, 366);
+            this.IC0604.Location = new System.Drawing.Point(85, 343);
             this.IC0604.Mask = "9999";
             this.IC0604.Name = "IC0604";
             this.IC0604.Size = new System.Drawing.Size(35, 20);
@@ -1626,7 +1819,7 @@
             // 
             this.IC0704.BackColor = System.Drawing.Color.Bisque;
             this.IC0704.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0704.Location = new System.Drawing.Point(57, 542);
+            this.IC0704.Location = new System.Drawing.Point(43, 474);
             this.IC0704.Mask = "9999";
             this.IC0704.Name = "IC0704";
             this.IC0704.Size = new System.Drawing.Size(35, 20);
@@ -1638,7 +1831,7 @@
             // 
             this.IC0804.BackColor = System.Drawing.Color.Bisque;
             this.IC0804.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0804.Location = new System.Drawing.Point(61, 592);
+            this.IC0804.Location = new System.Drawing.Point(43, 531);
             this.IC0804.Mask = "9999";
             this.IC0804.Name = "IC0804";
             this.IC0804.Size = new System.Drawing.Size(35, 20);
@@ -1650,7 +1843,7 @@
             // 
             this.IC0904.BackColor = System.Drawing.Color.Bisque;
             this.IC0904.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC0904.Location = new System.Drawing.Point(61, 703);
+            this.IC0904.Location = new System.Drawing.Point(43, 618);
             this.IC0904.Mask = "9999";
             this.IC0904.Name = "IC0904";
             this.IC0904.Size = new System.Drawing.Size(35, 20);
@@ -1662,7 +1855,7 @@
             // 
             this.IC01004.BackColor = System.Drawing.Color.Bisque;
             this.IC01004.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01004.Location = new System.Drawing.Point(61, 766);
+            this.IC01004.Location = new System.Drawing.Point(43, 675);
             this.IC01004.Mask = "9999";
             this.IC01004.Name = "IC01004";
             this.IC01004.Size = new System.Drawing.Size(35, 20);
@@ -1674,7 +1867,7 @@
             // 
             this.IC01104.BackColor = System.Drawing.Color.Bisque;
             this.IC01104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IC01104.Location = new System.Drawing.Point(105, 983);
+            this.IC01104.Location = new System.Drawing.Point(43, 851);
             this.IC01104.Mask = "9999";
             this.IC01104.Name = "IC01104";
             this.IC01104.Size = new System.Drawing.Size(35, 20);
@@ -1686,6 +1879,9 @@
             // 
             this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
             this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage3.Controls.Add(this.label11);
+            this.tabPage3.Controls.Add(this.label10);
+            this.tabPage3.Controls.Add(this.label9);
             this.tabPage3.Controls.Add(this.ID01);
             this.tabPage3.Controls.Add(this.ID02);
             this.tabPage3.Controls.Add(this.ID03);
@@ -1709,12 +1905,43 @@
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = " Page - 3";
             this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(173, 830);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(83, 20);
+            this.label11.TabIndex = 18;
+            this.label11.Text = "Goto Q36";
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(170, 623);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(83, 20);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Goto Q39";
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(164, 221);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(96, 20);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Goto Q32";
             // 
             // ID01
             // 
             this.ID01.BackColor = System.Drawing.Color.Bisque;
             this.ID01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ID01.Location = new System.Drawing.Point(259, 97);
+            this.ID01.Location = new System.Drawing.Point(255, 91);
             this.ID01.Mask = "9999";
             this.ID01.Name = "ID01";
             this.ID01.Size = new System.Drawing.Size(53, 20);
@@ -1726,7 +1953,7 @@
             // 
             this.ID02.BackColor = System.Drawing.Color.Bisque;
             this.ID02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ID02.Location = new System.Drawing.Point(259, 184);
+            this.ID02.Location = new System.Drawing.Point(259, 170);
             this.ID02.Mask = "9999";
             this.ID02.Name = "ID02";
             this.ID02.Size = new System.Drawing.Size(53, 20);
@@ -1738,7 +1965,7 @@
             // 
             this.ID03.BackColor = System.Drawing.Color.Bisque;
             this.ID03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ID03.Location = new System.Drawing.Point(260, 313);
+            this.ID03.Location = new System.Drawing.Point(260, 289);
             this.ID03.Mask = "9999";
             this.ID03.Name = "ID03";
             this.ID03.Size = new System.Drawing.Size(52, 20);
@@ -1750,7 +1977,7 @@
             // 
             this.ID04.BackColor = System.Drawing.Color.Bisque;
             this.ID04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ID04.Location = new System.Drawing.Point(259, 440);
+            this.ID04.Location = new System.Drawing.Point(260, 402);
             this.ID04.Mask = "9999";
             this.ID04.Name = "ID04";
             this.ID04.Size = new System.Drawing.Size(52, 20);
@@ -1762,7 +1989,7 @@
             // 
             this.IE01.BackColor = System.Drawing.Color.Bisque;
             this.IE01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE01.Location = new System.Drawing.Point(260, 633);
+            this.IE01.Location = new System.Drawing.Point(258, 573);
             this.IE01.Mask = "9999";
             this.IE01.Name = "IE01";
             this.IE01.Size = new System.Drawing.Size(47, 20);
@@ -1774,7 +2001,7 @@
             // 
             this.IE02.BackColor = System.Drawing.Color.Bisque;
             this.IE02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE02.Location = new System.Drawing.Point(259, 731);
+            this.IE02.Location = new System.Drawing.Point(257, 663);
             this.IE02.Mask = "9999";
             this.IE02.Name = "IE02";
             this.IE02.Size = new System.Drawing.Size(49, 20);
@@ -1786,7 +2013,7 @@
             // 
             this.IE03.BackColor = System.Drawing.Color.Bisque;
             this.IE03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE03.Location = new System.Drawing.Point(260, 860);
+            this.IE03.Location = new System.Drawing.Point(258, 778);
             this.IE03.Mask = "9999";
             this.IE03.Name = "IE03";
             this.IE03.Size = new System.Drawing.Size(44, 20);
@@ -1798,7 +2025,7 @@
             // 
             this.IE04.BackColor = System.Drawing.Color.Bisque;
             this.IE04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE04.Location = new System.Drawing.Point(259, 992);
+            this.IE04.Location = new System.Drawing.Point(255, 895);
             this.IE04.Mask = "9999";
             this.IE04.Name = "IE04";
             this.IE04.Size = new System.Drawing.Size(43, 20);
@@ -1810,8 +2037,8 @@
             // 
             this.chkHHMem1.BackColor = System.Drawing.Color.Bisque;
             this.chkHHMem1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkHHMem1.Location = new System.Drawing.Point(539, 1168);
-            this.chkHHMem1.Mask = "9999";
+            this.chkHHMem1.Location = new System.Drawing.Point(537, 1056);
+            this.chkHHMem1.Mask = "9";
             this.chkHHMem1.Name = "chkHHMem1";
             this.chkHHMem1.Size = new System.Drawing.Size(35, 20);
             this.chkHHMem1.TabIndex = 8;
@@ -1822,7 +2049,7 @@
             // 
             this.IE0701.BackColor = System.Drawing.Color.Bisque;
             this.IE0701.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0701.Location = new System.Drawing.Point(534, 1349);
+            this.IE0701.Location = new System.Drawing.Point(537, 1212);
             this.IE0701.Mask = "9999";
             this.IE0701.Name = "IE0701";
             this.IE0701.Size = new System.Drawing.Size(35, 20);
@@ -1834,8 +2061,8 @@
             // 
             this.chkHHMem2.BackColor = System.Drawing.Color.Bisque;
             this.chkHHMem2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkHHMem2.Location = new System.Drawing.Point(384, 1170);
-            this.chkHHMem2.Mask = "9999";
+            this.chkHHMem2.Location = new System.Drawing.Point(382, 1056);
+            this.chkHHMem2.Mask = "9";
             this.chkHHMem2.Name = "chkHHMem2";
             this.chkHHMem2.Size = new System.Drawing.Size(35, 20);
             this.chkHHMem2.TabIndex = 10;
@@ -1846,7 +2073,7 @@
             // 
             this.IE0702.BackColor = System.Drawing.Color.Bisque;
             this.IE0702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0702.Location = new System.Drawing.Point(386, 1349);
+            this.IE0702.Location = new System.Drawing.Point(382, 1208);
             this.IE0702.Mask = "9999";
             this.IE0702.Name = "IE0702";
             this.IE0702.Size = new System.Drawing.Size(35, 20);
@@ -1858,8 +2085,8 @@
             // 
             this.chkHHMem3.BackColor = System.Drawing.Color.Bisque;
             this.chkHHMem3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkHHMem3.Location = new System.Drawing.Point(235, 1168);
-            this.chkHHMem3.Mask = "9999";
+            this.chkHHMem3.Location = new System.Drawing.Point(225, 1056);
+            this.chkHHMem3.Mask = "9";
             this.chkHHMem3.Name = "chkHHMem3";
             this.chkHHMem3.Size = new System.Drawing.Size(35, 20);
             this.chkHHMem3.TabIndex = 12;
@@ -1870,7 +2097,7 @@
             // 
             this.IE0703.BackColor = System.Drawing.Color.Bisque;
             this.IE0703.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0703.Location = new System.Drawing.Point(235, 1347);
+            this.IE0703.Location = new System.Drawing.Point(221, 1207);
             this.IE0703.Mask = "9999";
             this.IE0703.Name = "IE0703";
             this.IE0703.Size = new System.Drawing.Size(35, 20);
@@ -1882,8 +2109,8 @@
             // 
             this.chkHHMem4.BackColor = System.Drawing.Color.Bisque;
             this.chkHHMem4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkHHMem4.Location = new System.Drawing.Point(82, 1169);
-            this.chkHHMem4.Mask = "9999";
+            this.chkHHMem4.Location = new System.Drawing.Point(69, 1056);
+            this.chkHHMem4.Mask = "9";
             this.chkHHMem4.Name = "chkHHMem4";
             this.chkHHMem4.Size = new System.Drawing.Size(35, 20);
             this.chkHHMem4.TabIndex = 14;
@@ -1894,7 +2121,7 @@
             // 
             this.IE0704.BackColor = System.Drawing.Color.Bisque;
             this.IE0704.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0704.Location = new System.Drawing.Point(82, 1349);
+            this.IE0704.Location = new System.Drawing.Point(69, 1210);
             this.IE0704.Mask = "9999";
             this.IE0704.Name = "IE0704";
             this.IE0704.Size = new System.Drawing.Size(35, 20);
@@ -1906,6 +2133,12 @@
             // 
             this.tabPage4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage4.BackgroundImage")));
             this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage4.Controls.Add(this.label17);
+            this.tabPage4.Controls.Add(this.label16);
+            this.tabPage4.Controls.Add(this.label15);
+            this.tabPage4.Controls.Add(this.label14);
+            this.tabPage4.Controls.Add(this.label13);
+            this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.IE0801);
             this.tabPage4.Controls.Add(this.IE0901);
             this.tabPage4.Controls.Add(this.IE0802);
@@ -1934,11 +2167,71 @@
             this.tabPage4.Text = " Page - 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(255, 641);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(79, 19);
+            this.label17.TabIndex = 35;
+            this.label17.Text = "Goto Q44";
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(247, 432);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(88, 19);
+            this.label16.TabIndex = 34;
+            this.label16.Text = "Goto Q44";
+            // 
+            // label15
+            // 
+            this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(25, 120);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(22, 14);
+            this.label15.TabIndex = 33;
+            this.label15.Text = "39";
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(183, 120);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(22, 14);
+            this.label14.TabIndex = 32;
+            this.label14.Text = "39";
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(338, 120);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(22, 14);
+            this.label13.TabIndex = 31;
+            this.label13.Text = "39";
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(493, 120);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(22, 14);
+            this.label12.TabIndex = 30;
+            this.label12.Text = "39";
+            // 
             // IE0801
             // 
             this.IE0801.BackColor = System.Drawing.Color.Bisque;
             this.IE0801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0801.Location = new System.Drawing.Point(518, 71);
+            this.IE0801.Location = new System.Drawing.Point(485, 142);
             this.IE0801.Mask = "9999";
             this.IE0801.Name = "IE0801";
             this.IE0801.Size = new System.Drawing.Size(35, 20);
@@ -1950,7 +2243,7 @@
             // 
             this.IE0901.BackColor = System.Drawing.Color.Bisque;
             this.IE0901.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0901.Location = new System.Drawing.Point(518, 313);
+            this.IE0901.Location = new System.Drawing.Point(485, 293);
             this.IE0901.Mask = "9999";
             this.IE0901.Name = "IE0901";
             this.IE0901.Size = new System.Drawing.Size(35, 20);
@@ -1962,7 +2255,7 @@
             // 
             this.IE0802.BackColor = System.Drawing.Color.Bisque;
             this.IE0802.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0802.Location = new System.Drawing.Point(371, 71);
+            this.IE0802.Location = new System.Drawing.Point(330, 142);
             this.IE0802.Mask = "9999";
             this.IE0802.Name = "IE0802";
             this.IE0802.Size = new System.Drawing.Size(35, 20);
@@ -1974,7 +2267,7 @@
             // 
             this.IE0902.BackColor = System.Drawing.Color.Bisque;
             this.IE0902.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0902.Location = new System.Drawing.Point(371, 313);
+            this.IE0902.Location = new System.Drawing.Point(330, 293);
             this.IE0902.Mask = "9999";
             this.IE0902.Name = "IE0902";
             this.IE0902.Size = new System.Drawing.Size(35, 20);
@@ -1986,7 +2279,7 @@
             // 
             this.IE0803.BackColor = System.Drawing.Color.Bisque;
             this.IE0803.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0803.Location = new System.Drawing.Point(219, 71);
+            this.IE0803.Location = new System.Drawing.Point(175, 142);
             this.IE0803.Mask = "9999";
             this.IE0803.Name = "IE0803";
             this.IE0803.Size = new System.Drawing.Size(35, 20);
@@ -1998,7 +2291,7 @@
             // 
             this.IE0903.BackColor = System.Drawing.Color.Bisque;
             this.IE0903.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0903.Location = new System.Drawing.Point(219, 313);
+            this.IE0903.Location = new System.Drawing.Point(175, 293);
             this.IE0903.Mask = "9999";
             this.IE0903.Name = "IE0903";
             this.IE0903.Size = new System.Drawing.Size(35, 20);
@@ -2010,7 +2303,7 @@
             // 
             this.IE0804.BackColor = System.Drawing.Color.Bisque;
             this.IE0804.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0804.Location = new System.Drawing.Point(74, 71);
+            this.IE0804.Location = new System.Drawing.Point(18, 142);
             this.IE0804.Mask = "9999";
             this.IE0804.Name = "IE0804";
             this.IE0804.Size = new System.Drawing.Size(35, 20);
@@ -2022,7 +2315,7 @@
             // 
             this.IE0904.BackColor = System.Drawing.Color.Bisque;
             this.IE0904.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IE0904.Location = new System.Drawing.Point(74, 313);
+            this.IE0904.Location = new System.Drawing.Point(18, 293);
             this.IE0904.Mask = "9999";
             this.IE0904.Name = "IE0904";
             this.IE0904.Size = new System.Drawing.Size(35, 20);
@@ -2034,7 +2327,7 @@
             // 
             this.IF01.BackColor = System.Drawing.Color.Bisque;
             this.IF01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF01.Location = new System.Drawing.Point(285, 430);
+            this.IF01.Location = new System.Drawing.Point(300, 369);
             this.IF01.Mask = "9999";
             this.IF01.Name = "IF01";
             this.IF01.Size = new System.Drawing.Size(48, 20);
@@ -2046,7 +2339,7 @@
             // 
             this.IF02.BackColor = System.Drawing.Color.Bisque;
             this.IF02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF02.Location = new System.Drawing.Point(285, 545);
+            this.IF02.Location = new System.Drawing.Point(298, 470);
             this.IF02.Mask = "9999";
             this.IF02.Name = "IF02";
             this.IF02.Size = new System.Drawing.Size(49, 20);
@@ -2058,7 +2351,7 @@
             // 
             this.IF03.BackColor = System.Drawing.Color.Bisque;
             this.IF03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF03.Location = new System.Drawing.Point(285, 673);
+            this.IF03.Location = new System.Drawing.Point(299, 590);
             this.IF03.Mask = "9999";
             this.IF03.Name = "IF03";
             this.IF03.Size = new System.Drawing.Size(48, 20);
@@ -2070,7 +2363,7 @@
             // 
             this.IF04.BackColor = System.Drawing.Color.Bisque;
             this.IF04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF04.Location = new System.Drawing.Point(285, 799);
+            this.IF04.Location = new System.Drawing.Point(300, 703);
             this.IF04.Mask = "9999";
             this.IF04.Name = "IF04";
             this.IF04.Size = new System.Drawing.Size(49, 20);
@@ -2082,8 +2375,8 @@
             // 
             this.chkPW1.BackColor = System.Drawing.Color.Bisque;
             this.chkPW1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkPW1.Location = new System.Drawing.Point(528, 996);
-            this.chkPW1.Mask = "9999";
+            this.chkPW1.Location = new System.Drawing.Point(548, 882);
+            this.chkPW1.Mask = "9";
             this.chkPW1.Name = "chkPW1";
             this.chkPW1.Size = new System.Drawing.Size(35, 20);
             this.chkPW1.TabIndex = 12;
@@ -2094,7 +2387,7 @@
             // 
             this.IF0601.BackColor = System.Drawing.Color.Bisque;
             this.IF0601.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF0601.Location = new System.Drawing.Point(527, 1176);
+            this.IF0601.Location = new System.Drawing.Point(548, 1038);
             this.IF0601.Mask = "9999";
             this.IF0601.Name = "IF0601";
             this.IF0601.Size = new System.Drawing.Size(35, 20);
@@ -2106,8 +2399,8 @@
             // 
             this.chkPW2.BackColor = System.Drawing.Color.Bisque;
             this.chkPW2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkPW2.Location = new System.Drawing.Point(382, 996);
-            this.chkPW2.Mask = "9999";
+            this.chkPW2.Location = new System.Drawing.Point(395, 882);
+            this.chkPW2.Mask = "9";
             this.chkPW2.Name = "chkPW2";
             this.chkPW2.Size = new System.Drawing.Size(35, 20);
             this.chkPW2.TabIndex = 14;
@@ -2118,7 +2411,7 @@
             // 
             this.IF0602.BackColor = System.Drawing.Color.Bisque;
             this.IF0602.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF0602.Location = new System.Drawing.Point(382, 1175);
+            this.IF0602.Location = new System.Drawing.Point(395, 1038);
             this.IF0602.Mask = "9999";
             this.IF0602.Name = "IF0602";
             this.IF0602.Size = new System.Drawing.Size(35, 20);
@@ -2130,8 +2423,8 @@
             // 
             this.chkPW3.BackColor = System.Drawing.Color.Bisque;
             this.chkPW3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkPW3.Location = new System.Drawing.Point(238, 996);
-            this.chkPW3.Mask = "9999";
+            this.chkPW3.Location = new System.Drawing.Point(241, 882);
+            this.chkPW3.Mask = "9";
             this.chkPW3.Name = "chkPW3";
             this.chkPW3.Size = new System.Drawing.Size(35, 20);
             this.chkPW3.TabIndex = 16;
@@ -2142,7 +2435,7 @@
             // 
             this.IF0603.BackColor = System.Drawing.Color.Bisque;
             this.IF0603.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF0603.Location = new System.Drawing.Point(238, 1178);
+            this.IF0603.Location = new System.Drawing.Point(241, 1038);
             this.IF0603.Mask = "9999";
             this.IF0603.Name = "IF0603";
             this.IF0603.Size = new System.Drawing.Size(35, 20);
@@ -2154,8 +2447,8 @@
             // 
             this.chkPW4.BackColor = System.Drawing.Color.Bisque;
             this.chkPW4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.chkPW4.Location = new System.Drawing.Point(84, 996);
-            this.chkPW4.Mask = "9999";
+            this.chkPW4.Location = new System.Drawing.Point(83, 881);
+            this.chkPW4.Mask = "9";
             this.chkPW4.Name = "chkPW4";
             this.chkPW4.Size = new System.Drawing.Size(35, 20);
             this.chkPW4.TabIndex = 18;
@@ -2166,7 +2459,7 @@
             // 
             this.IF0604.BackColor = System.Drawing.Color.Bisque;
             this.IF0604.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IF0604.Location = new System.Drawing.Point(84, 1175);
+            this.IF0604.Location = new System.Drawing.Point(83, 1038);
             this.IF0604.Mask = "9999";
             this.IF0604.Name = "IF0604";
             this.IF0604.Size = new System.Drawing.Size(35, 20);
@@ -2178,6 +2471,12 @@
             // 
             this.tabPage5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage5.BackgroundImage")));
             this.tabPage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage5.Controls.Add(this.label23);
+            this.tabPage5.Controls.Add(this.label22);
+            this.tabPage5.Controls.Add(this.label21);
+            this.tabPage5.Controls.Add(this.label20);
+            this.tabPage5.Controls.Add(this.label19);
+            this.tabPage5.Controls.Add(this.label18);
             this.tabPage5.Controls.Add(this.IG01);
             this.tabPage5.Controls.Add(this.IG02);
             this.tabPage5.Controls.Add(this.IG0301);
@@ -2257,6 +2556,66 @@
             this.tabPage5.TabIndex = 5;
             this.tabPage5.Text = " Page - 5";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.Color.White;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(45, 469);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(53, 14);
+            this.label23.TabIndex = 77;
+            this.label23.Text = "Goto Q60";
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.White;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(166, 469);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(53, 14);
+            this.label22.TabIndex = 76;
+            this.label22.Text = "Goto Q60";
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.White;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(285, 469);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(53, 14);
+            this.label21.TabIndex = 75;
+            this.label21.Text = "Goto Q60";
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(406, 469);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(53, 14);
+            this.label20.TabIndex = 74;
+            this.label20.Text = "Goto Q60";
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.White;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(526, 468);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(53, 14);
+            this.label19.TabIndex = 73;
+            this.label19.Text = "Goto Q60";
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.White;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(312, 79);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(53, 15);
+            this.label18.TabIndex = 72;
+            this.label18.Text = "Goto Q60";
             // 
             // IG01
             // 
@@ -2407,7 +2766,7 @@
             this.chkMember1.BackColor = System.Drawing.Color.Bisque;
             this.chkMember1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember1.Location = new System.Drawing.Point(496, 292);
-            this.chkMember1.Mask = "9999";
+            this.chkMember1.Mask = "9";
             this.chkMember1.Name = "chkMember1";
             this.chkMember1.Size = new System.Drawing.Size(35, 20);
             this.chkMember1.TabIndex = 12;
@@ -2551,7 +2910,7 @@
             this.chkMember2.BackColor = System.Drawing.Color.Bisque;
             this.chkMember2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember2.Location = new System.Drawing.Point(377, 292);
-            this.chkMember2.Mask = "9999";
+            this.chkMember2.Mask = "9";
             this.chkMember2.Name = "chkMember2";
             this.chkMember2.Size = new System.Drawing.Size(35, 20);
             this.chkMember2.TabIndex = 24;
@@ -2695,7 +3054,7 @@
             this.chkMember3.BackColor = System.Drawing.Color.Bisque;
             this.chkMember3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember3.Location = new System.Drawing.Point(256, 292);
-            this.chkMember3.Mask = "9999";
+            this.chkMember3.Mask = "9";
             this.chkMember3.Name = "chkMember3";
             this.chkMember3.Size = new System.Drawing.Size(35, 20);
             this.chkMember3.TabIndex = 36;
@@ -2839,7 +3198,7 @@
             this.chkMember4.BackColor = System.Drawing.Color.Bisque;
             this.chkMember4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember4.Location = new System.Drawing.Point(138, 290);
-            this.chkMember4.Mask = "9999";
+            this.chkMember4.Mask = "9";
             this.chkMember4.Name = "chkMember4";
             this.chkMember4.Size = new System.Drawing.Size(35, 20);
             this.chkMember4.TabIndex = 48;
@@ -2983,7 +3342,7 @@
             this.chkMember5.BackColor = System.Drawing.Color.Bisque;
             this.chkMember5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember5.Location = new System.Drawing.Point(17, 292);
-            this.chkMember5.Mask = "9999";
+            this.chkMember5.Mask = "9";
             this.chkMember5.Name = "chkMember5";
             this.chkMember5.Size = new System.Drawing.Size(35, 20);
             this.chkMember5.TabIndex = 60;
@@ -3126,6 +3485,21 @@
             // 
             this.tabPage6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage6.BackgroundImage")));
             this.tabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage6.Controls.Add(this.label38);
+            this.tabPage6.Controls.Add(this.label37);
+            this.tabPage6.Controls.Add(this.label36);
+            this.tabPage6.Controls.Add(this.label35);
+            this.tabPage6.Controls.Add(this.label34);
+            this.tabPage6.Controls.Add(this.label33);
+            this.tabPage6.Controls.Add(this.label32);
+            this.tabPage6.Controls.Add(this.label25);
+            this.tabPage6.Controls.Add(this.label31);
+            this.tabPage6.Controls.Add(this.label30);
+            this.tabPage6.Controls.Add(this.label29);
+            this.tabPage6.Controls.Add(this.label28);
+            this.tabPage6.Controls.Add(this.label27);
+            this.tabPage6.Controls.Add(this.label26);
+            this.tabPage6.Controls.Add(this.label24);
             this.tabPage6.Controls.Add(this.IG070501);
             this.tabPage6.Controls.Add(this.IG070601);
             this.tabPage6.Controls.Add(this.IG070701);
@@ -3243,6 +3617,156 @@
             this.tabPage6.TabIndex = 6;
             this.tabPage6.Text = " Page - 6";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label38
+            // 
+            this.label38.BackColor = System.Drawing.Color.White;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(38, 354);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(56, 14);
+            this.label38.TabIndex = 125;
+            this.label38.Text = "Goto Q56";
+            // 
+            // label37
+            // 
+            this.label37.BackColor = System.Drawing.Color.White;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(159, 355);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(56, 14);
+            this.label37.TabIndex = 124;
+            this.label37.Text = "Goto Q56";
+            // 
+            // label36
+            // 
+            this.label36.BackColor = System.Drawing.Color.White;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(279, 354);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(56, 14);
+            this.label36.TabIndex = 123;
+            this.label36.Text = "Goto Q56";
+            // 
+            // label35
+            // 
+            this.label35.BackColor = System.Drawing.Color.White;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(399, 355);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(56, 14);
+            this.label35.TabIndex = 122;
+            this.label35.Text = "Goto Q56";
+            // 
+            // label34
+            // 
+            this.label34.BackColor = System.Drawing.Color.White;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(520, 355);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(56, 14);
+            this.label34.TabIndex = 121;
+            this.label34.Text = "Goto Q56";
+            // 
+            // label33
+            // 
+            this.label33.BackColor = System.Drawing.Color.White;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(26, 287);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(56, 14);
+            this.label33.TabIndex = 120;
+            this.label33.Text = "Goto Q56";
+            // 
+            // label32
+            // 
+            this.label32.BackColor = System.Drawing.Color.White;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(147, 287);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(56, 14);
+            this.label32.TabIndex = 119;
+            this.label32.Text = "Goto Q56";
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.White;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(268, 287);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(56, 14);
+            this.label25.TabIndex = 118;
+            this.label25.Text = "Goto Q56";
+            // 
+            // label31
+            // 
+            this.label31.BackColor = System.Drawing.Color.White;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(386, 287);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(56, 14);
+            this.label31.TabIndex = 117;
+            this.label31.Text = "Goto Q56";
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.Color.White;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(506, 287);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(56, 14);
+            this.label30.TabIndex = 116;
+            this.label30.Text = "Goto Q56";
+            // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.Color.White;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(38, 260);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(56, 14);
+            this.label29.TabIndex = 115;
+            this.label29.Text = "Goto Q54";
+            // 
+            // label28
+            // 
+            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(159, 260);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(56, 14);
+            this.label28.TabIndex = 114;
+            this.label28.Text = "Goto Q54";
+            // 
+            // label27
+            // 
+            this.label27.BackColor = System.Drawing.Color.White;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(279, 260);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(56, 14);
+            this.label27.TabIndex = 113;
+            this.label27.Text = "Goto Q54";
+            // 
+            // label26
+            // 
+            this.label26.BackColor = System.Drawing.Color.White;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(399, 259);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(56, 14);
+            this.label26.TabIndex = 112;
+            this.label26.Text = "Goto Q54";
+            // 
+            // label24
+            // 
+            this.label24.BackColor = System.Drawing.Color.White;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(520, 259);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(56, 14);
+            this.label24.TabIndex = 110;
+            this.label24.Text = "Goto Q54";
             // 
             // IG070501
             // 
@@ -5052,9 +5576,10 @@
             // 
             // QCFUP01
             // 
-            this.QCFUP01.BackColor = System.Drawing.Color.Bisque;
+            this.QCFUP01.BackColor = System.Drawing.Color.Silver;
             this.QCFUP01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.QCFUP01.Location = new System.Drawing.Point(192, 189);
+            this.QCFUP01.Enabled = false;
+            this.QCFUP01.Location = new System.Drawing.Point(960, 1422);
             this.QCFUP01.Mask = "9999";
             this.QCFUP01.Name = "QCFUP01";
             this.QCFUP01.Size = new System.Drawing.Size(35, 20);
@@ -5066,11 +5591,11 @@
             // 
             this.QCFUP02.BackColor = System.Drawing.Color.Bisque;
             this.QCFUP02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.QCFUP02.Location = new System.Drawing.Point(192, 259);
+            this.QCFUP02.Location = new System.Drawing.Point(304, 88);
             this.QCFUP02.Mask = "99:99";
             this.QCFUP02.Name = "QCFUP02";
             this.QCFUP02.Size = new System.Drawing.Size(35, 20);
-            this.QCFUP02.TabIndex = 1;
+            this.QCFUP02.TabIndex = 0;
             this.QCFUP02.Enter += new System.EventHandler(this.QCFUP02_Enter);
             this.QCFUP02.Leave += new System.EventHandler(this.QCFUP02_Leave);
             // 
@@ -5078,11 +5603,11 @@
             // 
             this.QCFUP03.BackColor = System.Drawing.Color.Bisque;
             this.QCFUP03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.QCFUP03.Location = new System.Drawing.Point(154, 417);
+            this.QCFUP03.Location = new System.Drawing.Point(192, 436);
             this.QCFUP03.Mask = "9999";
             this.QCFUP03.Name = "QCFUP03";
             this.QCFUP03.Size = new System.Drawing.Size(35, 20);
-            this.QCFUP03.TabIndex = 2;
+            this.QCFUP03.TabIndex = 1;
             this.QCFUP03.Enter += new System.EventHandler(this.QCFUP03_Enter);
             this.QCFUP03.Leave += new System.EventHandler(this.QCFUP03_Leave);
             // 
@@ -5091,11 +5616,11 @@
             this.QCFUP04.BackColor = System.Drawing.Color.Silver;
             this.QCFUP04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.QCFUP04.Enabled = false;
-            this.QCFUP04.Location = new System.Drawing.Point(88, 499);
+            this.QCFUP04.Location = new System.Drawing.Point(36, 516);
             this.QCFUP04.Mask = ">??????????????????????????????????????????????????";
             this.QCFUP04.Name = "QCFUP04";
-            this.QCFUP04.Size = new System.Drawing.Size(429, 20);
-            this.QCFUP04.TabIndex = 3;
+            this.QCFUP04.Size = new System.Drawing.Size(477, 20);
+            this.QCFUP04.TabIndex = 2;
             this.QCFUP04.Enter += new System.EventHandler(this.QCFUP04_Enter);
             this.QCFUP04.Leave += new System.EventHandler(this.QCFUP04_Leave);
             // 
@@ -5103,11 +5628,11 @@
             // 
             this.QCFUP05.BackColor = System.Drawing.Color.Bisque;
             this.QCFUP05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.QCFUP05.Location = new System.Drawing.Point(387, 672);
+            this.QCFUP05.Location = new System.Drawing.Point(332, 704);
             this.QCFUP05.Mask = "99/99/9999";
             this.QCFUP05.Name = "QCFUP05";
             this.QCFUP05.Size = new System.Drawing.Size(81, 20);
-            this.QCFUP05.TabIndex = 4;
+            this.QCFUP05.TabIndex = 3;
             this.QCFUP05.Enter += new System.EventHandler(this.QCFUP05_Enter);
             this.QCFUP05.Leave += new System.EventHandler(this.QCFUP05_Leave);
             // 
@@ -5115,11 +5640,11 @@
             // 
             this.QCFUP06.BackColor = System.Drawing.Color.Bisque;
             this.QCFUP06.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.QCFUP06.Location = new System.Drawing.Point(154, 730);
+            this.QCFUP06.Location = new System.Drawing.Point(382, 775);
             this.QCFUP06.Mask = "99:99";
             this.QCFUP06.Name = "QCFUP06";
             this.QCFUP06.Size = new System.Drawing.Size(35, 20);
-            this.QCFUP06.TabIndex = 5;
+            this.QCFUP06.TabIndex = 4;
             this.QCFUP06.Enter += new System.EventHandler(this.QCFUP06_Enter);
             this.QCFUP06.Leave += new System.EventHandler(this.QCFUP06_Leave);
             // 
@@ -5127,11 +5652,11 @@
             // 
             this.QCFUP07.BackColor = System.Drawing.Color.Bisque;
             this.QCFUP07.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.QCFUP07.Location = new System.Drawing.Point(192, 772);
+            this.QCFUP07.Location = new System.Drawing.Point(93, 819);
             this.QCFUP07.Mask = "9999";
             this.QCFUP07.Name = "QCFUP07";
-            this.QCFUP07.Size = new System.Drawing.Size(56, 20);
-            this.QCFUP07.TabIndex = 6;
+            this.QCFUP07.Size = new System.Drawing.Size(61, 20);
+            this.QCFUP07.TabIndex = 5;
             this.QCFUP07.Enter += new System.EventHandler(this.QCFUP07_Enter);
             this.QCFUP07.Leave += new System.EventHandler(this.QCFUP07_Leave);
             // 
@@ -5139,6 +5664,13 @@
             // 
             this.tabPage9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage9.BackgroundImage")));
             this.tabPage9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage9.Controls.Add(this.label45);
+            this.tabPage9.Controls.Add(this.label44);
+            this.tabPage9.Controls.Add(this.label43);
+            this.tabPage9.Controls.Add(this.label42);
+            this.tabPage9.Controls.Add(this.label41);
+            this.tabPage9.Controls.Add(this.label40);
+            this.tabPage9.Controls.Add(this.label39);
             this.tabPage9.Controls.Add(this.chkBaby5);
             this.tabPage9.Controls.Add(this.IC0605);
             this.tabPage9.Controls.Add(this.IC0705);
@@ -5196,12 +5728,82 @@
             this.tabPage9.Text = " Page - 9";
             this.tabPage9.UseVisualStyleBackColor = true;
             // 
+            // label45
+            // 
+            this.label45.BackColor = System.Drawing.Color.White;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(92, 412);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(27, 14);
+            this.label45.TabIndex = 55;
+            this.label45.Text = "Q27";
+            // 
+            // label44
+            // 
+            this.label44.BackColor = System.Drawing.Color.White;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(188, 423);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(27, 14);
+            this.label44.TabIndex = 54;
+            this.label44.Text = "Q27";
+            // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.Color.White;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(283, 412);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(27, 14);
+            this.label43.TabIndex = 53;
+            this.label43.Text = "Q27";
+            // 
+            // label42
+            // 
+            this.label42.BackColor = System.Drawing.Color.White;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(379, 423);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(27, 14);
+            this.label42.TabIndex = 52;
+            this.label42.Text = "Q27";
+            // 
+            // label41
+            // 
+            this.label41.BackColor = System.Drawing.Color.White;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(474, 412);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(27, 14);
+            this.label41.TabIndex = 51;
+            this.label41.Text = "Q27";
+            // 
+            // label40
+            // 
+            this.label40.BackColor = System.Drawing.Color.White;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(570, 412);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(27, 14);
+            this.label40.TabIndex = 50;
+            this.label40.Text = "Q27";
+            // 
+            // label39
+            // 
+            this.label39.BackColor = System.Drawing.Color.White;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(669, 412);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(27, 14);
+            this.label39.TabIndex = 49;
+            this.label39.Text = "Q27";
+            // 
             // chkBaby5
             // 
             this.chkBaby5.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby5.Location = new System.Drawing.Point(635, 100);
-            this.chkBaby5.Mask = "9999";
+            this.chkBaby5.Mask = "9";
             this.chkBaby5.Name = "chkBaby5";
             this.chkBaby5.Size = new System.Drawing.Size(25, 20);
             this.chkBaby5.TabIndex = 0;
@@ -5285,7 +5887,7 @@
             this.chkBaby6.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby6.Location = new System.Drawing.Point(538, 100);
-            this.chkBaby6.Mask = "9999";
+            this.chkBaby6.Mask = "9";
             this.chkBaby6.Name = "chkBaby6";
             this.chkBaby6.Size = new System.Drawing.Size(25, 20);
             this.chkBaby6.TabIndex = 7;
@@ -5369,7 +5971,7 @@
             this.chkBaby7.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby7.Location = new System.Drawing.Point(441, 100);
-            this.chkBaby7.Mask = "9999";
+            this.chkBaby7.Mask = "9";
             this.chkBaby7.Name = "chkBaby7";
             this.chkBaby7.Size = new System.Drawing.Size(25, 20);
             this.chkBaby7.TabIndex = 14;
@@ -5453,7 +6055,7 @@
             this.chkBaby8.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby8.Location = new System.Drawing.Point(345, 100);
-            this.chkBaby8.Mask = "9999";
+            this.chkBaby8.Mask = "9";
             this.chkBaby8.Name = "chkBaby8";
             this.chkBaby8.Size = new System.Drawing.Size(25, 20);
             this.chkBaby8.TabIndex = 21;
@@ -5537,7 +6139,7 @@
             this.chkBaby9.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby9.Location = new System.Drawing.Point(250, 100);
-            this.chkBaby9.Mask = "9999";
+            this.chkBaby9.Mask = "9";
             this.chkBaby9.Name = "chkBaby9";
             this.chkBaby9.Size = new System.Drawing.Size(25, 20);
             this.chkBaby9.TabIndex = 28;
@@ -5621,7 +6223,7 @@
             this.chkBaby10.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby10.Location = new System.Drawing.Point(154, 100);
-            this.chkBaby10.Mask = "9999";
+            this.chkBaby10.Mask = "9";
             this.chkBaby10.Name = "chkBaby10";
             this.chkBaby10.Size = new System.Drawing.Size(25, 20);
             this.chkBaby10.TabIndex = 35;
@@ -5705,7 +6307,7 @@
             this.chkBaby11.BackColor = System.Drawing.Color.Bisque;
             this.chkBaby11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkBaby11.Location = new System.Drawing.Point(55, 100);
-            this.chkBaby11.Mask = "9999";
+            this.chkBaby11.Mask = "9";
             this.chkBaby11.Name = "chkBaby11";
             this.chkBaby11.Size = new System.Drawing.Size(25, 20);
             this.chkBaby11.TabIndex = 42;
@@ -5788,6 +6390,23 @@
             // 
             this.tabPage10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage10.BackgroundImage")));
             this.tabPage10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage10.Controls.Add(this.label64);
+            this.tabPage10.Controls.Add(this.label63);
+            this.tabPage10.Controls.Add(this.label62);
+            this.tabPage10.Controls.Add(this.label61);
+            this.tabPage10.Controls.Add(this.label60);
+            this.tabPage10.Controls.Add(this.label59);
+            this.tabPage10.Controls.Add(this.label58);
+            this.tabPage10.Controls.Add(this.label57);
+            this.tabPage10.Controls.Add(this.label56);
+            this.tabPage10.Controls.Add(this.label55);
+            this.tabPage10.Controls.Add(this.label54);
+            this.tabPage10.Controls.Add(this.label53);
+            this.tabPage10.Controls.Add(this.label52);
+            this.tabPage10.Controls.Add(this.label49);
+            this.tabPage10.Controls.Add(this.label48);
+            this.tabPage10.Controls.Add(this.label47);
+            this.tabPage10.Controls.Add(this.label46);
             this.tabPage10.Controls.Add(this.chkMember6);
             this.tabPage10.Controls.Add(this.IG0406);
             this.tabPage10.Controls.Add(this.IG0506);
@@ -5916,12 +6535,182 @@
             this.tabPage10.Text = " Page - 10";
             this.tabPage10.UseVisualStyleBackColor = true;
             // 
+            // label64
+            // 
+            this.label64.BackColor = System.Drawing.Color.White;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(65, 643);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(53, 15);
+            this.label64.TabIndex = 136;
+            this.label64.Text = "Goto Q56";
+            // 
+            // label63
+            // 
+            this.label63.BackColor = System.Drawing.Color.White;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(185, 642);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(53, 15);
+            this.label63.TabIndex = 135;
+            this.label63.Text = "Goto Q56";
+            // 
+            // label62
+            // 
+            this.label62.BackColor = System.Drawing.Color.White;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(308, 642);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(54, 15);
+            this.label62.TabIndex = 134;
+            this.label62.Text = "Goto Q56";
+            // 
+            // label61
+            // 
+            this.label61.BackColor = System.Drawing.Color.White;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(435, 642);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(54, 15);
+            this.label61.TabIndex = 133;
+            this.label61.Text = "Goto Q56";
+            // 
+            // label60
+            // 
+            this.label60.BackColor = System.Drawing.Color.White;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(562, 641);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(54, 15);
+            this.label60.TabIndex = 132;
+            this.label60.Text = "Goto Q56";
+            // 
+            // label59
+            // 
+            this.label59.BackColor = System.Drawing.Color.White;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(65, 611);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(54, 15);
+            this.label59.TabIndex = 131;
+            this.label59.Text = "Goto Q54";
+            // 
+            // label58
+            // 
+            this.label58.BackColor = System.Drawing.Color.White;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(185, 611);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(53, 15);
+            this.label58.TabIndex = 130;
+            this.label58.Text = "Goto Q54";
+            // 
+            // label57
+            // 
+            this.label57.BackColor = System.Drawing.Color.White;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(310, 612);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(54, 15);
+            this.label57.TabIndex = 129;
+            this.label57.Text = "Goto Q54";
+            // 
+            // label56
+            // 
+            this.label56.BackColor = System.Drawing.Color.White;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(436, 611);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(54, 15);
+            this.label56.TabIndex = 128;
+            this.label56.Text = "Goto Q54";
+            // 
+            // label55
+            // 
+            this.label55.BackColor = System.Drawing.Color.White;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(563, 612);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(54, 15);
+            this.label55.TabIndex = 127;
+            this.label55.Text = "Goto Q54";
+            // 
+            // label54
+            // 
+            this.label54.BackColor = System.Drawing.Color.White;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(65, 221);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(53, 15);
+            this.label54.TabIndex = 126;
+            this.label54.Text = "Goto Q60";
+            // 
+            // label53
+            // 
+            this.label53.BackColor = System.Drawing.Color.White;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(190, 219);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(54, 15);
+            this.label53.TabIndex = 125;
+            this.label53.Text = "Goto Q60";
+            // 
+            // label52
+            // 
+            this.label52.BackColor = System.Drawing.Color.White;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(314, 220);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(53, 15);
+            this.label52.TabIndex = 124;
+            this.label52.Text = "Goto Q60";
+            // 
+            // label49
+            // 
+            this.label49.BackColor = System.Drawing.Color.White;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(436, 219);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(54, 15);
+            this.label49.TabIndex = 123;
+            this.label49.Text = "Goto Q60";
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.White;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(562, 219);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(54, 15);
+            this.label48.TabIndex = 122;
+            this.label48.Text = "Goto Q60";
+            // 
+            // label47
+            // 
+            this.label47.BackColor = System.Drawing.Color.White;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(857, 521);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(71, 15);
+            this.label47.TabIndex = 121;
+            this.label47.Text = "Goto Q50";
+            // 
+            // label46
+            // 
+            this.label46.BackColor = System.Drawing.Color.White;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(872, 502);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(71, 15);
+            this.label46.TabIndex = 120;
+            this.label46.Text = "Goto Q50";
+            // 
             // chkMember6
             // 
             this.chkMember6.BackColor = System.Drawing.Color.Bisque;
             this.chkMember6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember6.Location = new System.Drawing.Point(531, 34);
-            this.chkMember6.Mask = "9999";
+            this.chkMember6.Mask = "9";
             this.chkMember6.Name = "chkMember6";
             this.chkMember6.Size = new System.Drawing.Size(35, 20);
             this.chkMember6.TabIndex = 0;
@@ -6209,7 +6998,7 @@
             this.chkMember7.BackColor = System.Drawing.Color.Bisque;
             this.chkMember7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember7.Location = new System.Drawing.Point(408, 34);
-            this.chkMember7.Mask = "9999";
+            this.chkMember7.Mask = "9";
             this.chkMember7.Name = "chkMember7";
             this.chkMember7.Size = new System.Drawing.Size(35, 20);
             this.chkMember7.TabIndex = 24;
@@ -6497,7 +7286,7 @@
             this.chkMember8.BackColor = System.Drawing.Color.Bisque;
             this.chkMember8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember8.Location = new System.Drawing.Point(292, 34);
-            this.chkMember8.Mask = "9999";
+            this.chkMember8.Mask = "9";
             this.chkMember8.Name = "chkMember8";
             this.chkMember8.Size = new System.Drawing.Size(35, 20);
             this.chkMember8.TabIndex = 48;
@@ -6785,7 +7574,7 @@
             this.chkMember9.BackColor = System.Drawing.Color.Bisque;
             this.chkMember9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember9.Location = new System.Drawing.Point(162, 34);
-            this.chkMember9.Mask = "9999";
+            this.chkMember9.Mask = "9";
             this.chkMember9.Name = "chkMember9";
             this.chkMember9.Size = new System.Drawing.Size(35, 20);
             this.chkMember9.TabIndex = 72;
@@ -7073,7 +7862,7 @@
             this.chkMember10.BackColor = System.Drawing.Color.Bisque;
             this.chkMember10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember10.Location = new System.Drawing.Point(41, 34);
-            this.chkMember10.Mask = "9999";
+            this.chkMember10.Mask = "9";
             this.chkMember10.Name = "chkMember10";
             this.chkMember10.Size = new System.Drawing.Size(35, 20);
             this.chkMember10.TabIndex = 96;
@@ -7360,6 +8149,11 @@
             // 
             this.tabPage11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage11.BackgroundImage")));
             this.tabPage11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage11.Controls.Add(this.label69);
+            this.tabPage11.Controls.Add(this.label68);
+            this.tabPage11.Controls.Add(this.label67);
+            this.tabPage11.Controls.Add(this.label66);
+            this.tabPage11.Controls.Add(this.label65);
             this.tabPage11.Controls.Add(this.IG01106);
             this.tabPage11.Controls.Add(this.IG01206);
             this.tabPage11.Controls.Add(this.IG01306);
@@ -7392,6 +8186,56 @@
             this.tabPage11.TabIndex = 11;
             this.tabPage11.Text = " Page - 11";
             this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // label69
+            // 
+            this.label69.BackColor = System.Drawing.Color.White;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.Location = new System.Drawing.Point(77, 113);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(54, 15);
+            this.label69.TabIndex = 137;
+            this.label69.Text = "Goto Q56";
+            // 
+            // label68
+            // 
+            this.label68.BackColor = System.Drawing.Color.White;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.Location = new System.Drawing.Point(196, 113);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(54, 15);
+            this.label68.TabIndex = 136;
+            this.label68.Text = "Goto Q56";
+            // 
+            // label67
+            // 
+            this.label67.BackColor = System.Drawing.Color.White;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.Location = new System.Drawing.Point(318, 113);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(54, 15);
+            this.label67.TabIndex = 135;
+            this.label67.Text = "Goto Q56";
+            // 
+            // label66
+            // 
+            this.label66.BackColor = System.Drawing.Color.White;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.Location = new System.Drawing.Point(444, 113);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(54, 15);
+            this.label66.TabIndex = 134;
+            this.label66.Text = "Goto Q56";
+            // 
+            // label65
+            // 
+            this.label65.BackColor = System.Drawing.Color.White;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.Location = new System.Drawing.Point(565, 113);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(54, 15);
+            this.label65.TabIndex = 133;
+            this.label65.Text = "Goto Q56";
             // 
             // IG01106
             // 
@@ -7697,6 +8541,11 @@
             // 
             this.tabPage12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage12.BackgroundImage")));
             this.tabPage12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage12.Controls.Add(this.label74);
+            this.tabPage12.Controls.Add(this.label73);
+            this.tabPage12.Controls.Add(this.label72);
+            this.tabPage12.Controls.Add(this.label71);
+            this.tabPage12.Controls.Add(this.label70);
             this.tabPage12.Controls.Add(this.IG160106);
             this.tabPage12.Controls.Add(this.IG160206);
             this.tabPage12.Controls.Add(this.IG160306);
@@ -7804,6 +8653,56 @@
             this.tabPage12.TabIndex = 12;
             this.tabPage12.Text = " Page - 12";
             this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // label74
+            // 
+            this.label74.BackColor = System.Drawing.Color.White;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.Location = new System.Drawing.Point(52, 507);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(53, 15);
+            this.label74.TabIndex = 137;
+            this.label74.Text = "Goto Q60";
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.White;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.Location = new System.Drawing.Point(171, 507);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(53, 15);
+            this.label73.TabIndex = 136;
+            this.label73.Text = "Goto Q60";
+            // 
+            // label72
+            // 
+            this.label72.BackColor = System.Drawing.Color.White;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label72.Location = new System.Drawing.Point(287, 507);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(53, 15);
+            this.label72.TabIndex = 135;
+            this.label72.Text = "Goto Q60";
+            // 
+            // label71
+            // 
+            this.label71.BackColor = System.Drawing.Color.White;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.Location = new System.Drawing.Point(405, 507);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(53, 15);
+            this.label71.TabIndex = 134;
+            this.label71.Text = "Goto Q60";
+            // 
+            // label70
+            // 
+            this.label70.BackColor = System.Drawing.Color.White;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.Location = new System.Drawing.Point(523, 507);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(53, 15);
+            this.label70.TabIndex = 133;
+            this.label70.Text = "Goto Q60";
             // 
             // IG160106
             // 
@@ -8530,7 +9429,7 @@
             this.chkMember11.BackColor = System.Drawing.Color.Bisque;
             this.chkMember11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember11.Location = new System.Drawing.Point(496, 330);
-            this.chkMember11.Mask = "9999";
+            this.chkMember11.Mask = "9";
             this.chkMember11.Name = "chkMember11";
             this.chkMember11.Size = new System.Drawing.Size(26, 20);
             this.chkMember11.TabIndex = 60;
@@ -8626,7 +9525,7 @@
             this.chkMember12.BackColor = System.Drawing.Color.Bisque;
             this.chkMember12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember12.Location = new System.Drawing.Point(378, 330);
-            this.chkMember12.Mask = "9999";
+            this.chkMember12.Mask = "9";
             this.chkMember12.Name = "chkMember12";
             this.chkMember12.Size = new System.Drawing.Size(26, 20);
             this.chkMember12.TabIndex = 68;
@@ -8722,7 +9621,7 @@
             this.chkMember13.BackColor = System.Drawing.Color.Bisque;
             this.chkMember13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember13.Location = new System.Drawing.Point(260, 330);
-            this.chkMember13.Mask = "9999";
+            this.chkMember13.Mask = "9";
             this.chkMember13.Name = "chkMember13";
             this.chkMember13.Size = new System.Drawing.Size(26, 20);
             this.chkMember13.TabIndex = 76;
@@ -8818,7 +9717,7 @@
             this.chkMember14.BackColor = System.Drawing.Color.Bisque;
             this.chkMember14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember14.Location = new System.Drawing.Point(142, 330);
-            this.chkMember14.Mask = "9999";
+            this.chkMember14.Mask = "9";
             this.chkMember14.Name = "chkMember14";
             this.chkMember14.Size = new System.Drawing.Size(26, 20);
             this.chkMember14.TabIndex = 84;
@@ -8914,7 +9813,7 @@
             this.chkMember15.BackColor = System.Drawing.Color.Bisque;
             this.chkMember15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.chkMember15.Location = new System.Drawing.Point(23, 330);
-            this.chkMember15.Mask = "9999";
+            this.chkMember15.Mask = "9";
             this.chkMember15.Name = "chkMember15";
             this.chkMember15.Size = new System.Drawing.Size(26, 20);
             this.chkMember15.TabIndex = 92;
@@ -9009,6 +9908,21 @@
             // 
             this.tabPage13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage13.BackgroundImage")));
             this.tabPage13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage13.Controls.Add(this.label89);
+            this.tabPage13.Controls.Add(this.label88);
+            this.tabPage13.Controls.Add(this.label87);
+            this.tabPage13.Controls.Add(this.label86);
+            this.tabPage13.Controls.Add(this.label85);
+            this.tabPage13.Controls.Add(this.label84);
+            this.tabPage13.Controls.Add(this.label83);
+            this.tabPage13.Controls.Add(this.label82);
+            this.tabPage13.Controls.Add(this.label81);
+            this.tabPage13.Controls.Add(this.label80);
+            this.tabPage13.Controls.Add(this.label79);
+            this.tabPage13.Controls.Add(this.label78);
+            this.tabPage13.Controls.Add(this.label77);
+            this.tabPage13.Controls.Add(this.label76);
+            this.tabPage13.Controls.Add(this.label75);
             this.tabPage13.Controls.Add(this.IG070111);
             this.tabPage13.Controls.Add(this.IG070211);
             this.tabPage13.Controls.Add(this.IG070311);
@@ -9121,6 +10035,156 @@
             this.tabPage13.TabIndex = 13;
             this.tabPage13.Text = " Page - 13";
             this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // label89
+            // 
+            this.label89.BackColor = System.Drawing.Color.White;
+            this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.Location = new System.Drawing.Point(46, 464);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(53, 15);
+            this.label89.TabIndex = 148;
+            this.label89.Text = "Goto Q56";
+            // 
+            // label88
+            // 
+            this.label88.BackColor = System.Drawing.Color.White;
+            this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.Location = new System.Drawing.Point(168, 464);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(53, 15);
+            this.label88.TabIndex = 147;
+            this.label88.Text = "Goto Q56";
+            // 
+            // label87
+            // 
+            this.label87.BackColor = System.Drawing.Color.White;
+            this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.Location = new System.Drawing.Point(291, 464);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(53, 15);
+            this.label87.TabIndex = 146;
+            this.label87.Text = "Goto Q56";
+            // 
+            // label86
+            // 
+            this.label86.BackColor = System.Drawing.Color.White;
+            this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.Location = new System.Drawing.Point(407, 464);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(53, 15);
+            this.label86.TabIndex = 145;
+            this.label86.Text = "Goto Q56";
+            // 
+            // label85
+            // 
+            this.label85.BackColor = System.Drawing.Color.White;
+            this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.Location = new System.Drawing.Point(532, 464);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(53, 15);
+            this.label85.TabIndex = 144;
+            this.label85.Text = "Goto Q56";
+            // 
+            // label84
+            // 
+            this.label84.BackColor = System.Drawing.Color.White;
+            this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.Location = new System.Drawing.Point(32, 395);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(53, 15);
+            this.label84.TabIndex = 143;
+            this.label84.Text = "Goto Q56";
+            // 
+            // label83
+            // 
+            this.label83.BackColor = System.Drawing.Color.White;
+            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.Location = new System.Drawing.Point(153, 395);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(53, 15);
+            this.label83.TabIndex = 142;
+            this.label83.Text = "Goto Q56";
+            // 
+            // label82
+            // 
+            this.label82.BackColor = System.Drawing.Color.White;
+            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.Location = new System.Drawing.Point(273, 395);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(53, 15);
+            this.label82.TabIndex = 141;
+            this.label82.Text = "Goto Q56";
+            // 
+            // label81
+            // 
+            this.label81.BackColor = System.Drawing.Color.White;
+            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.Location = new System.Drawing.Point(394, 395);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(53, 15);
+            this.label81.TabIndex = 140;
+            this.label81.Text = "Goto Q56";
+            // 
+            // label80
+            // 
+            this.label80.BackColor = System.Drawing.Color.White;
+            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.Location = new System.Drawing.Point(513, 395);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(53, 15);
+            this.label80.TabIndex = 139;
+            this.label80.Text = "Goto Q56";
+            // 
+            // label79
+            // 
+            this.label79.BackColor = System.Drawing.Color.White;
+            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.Location = new System.Drawing.Point(33, 371);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(53, 15);
+            this.label79.TabIndex = 138;
+            this.label79.Text = "Goto Q54";
+            // 
+            // label78
+            // 
+            this.label78.BackColor = System.Drawing.Color.White;
+            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.Location = new System.Drawing.Point(153, 370);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(53, 15);
+            this.label78.TabIndex = 137;
+            this.label78.Text = "Goto Q54";
+            // 
+            // label77
+            // 
+            this.label77.BackColor = System.Drawing.Color.White;
+            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.Location = new System.Drawing.Point(274, 371);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(53, 15);
+            this.label77.TabIndex = 136;
+            this.label77.Text = "Goto Q54";
+            // 
+            // label76
+            // 
+            this.label76.BackColor = System.Drawing.Color.White;
+            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.Location = new System.Drawing.Point(395, 370);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(53, 15);
+            this.label76.TabIndex = 135;
+            this.label76.Text = "Goto Q54";
+            // 
+            // label75
+            // 
+            this.label75.BackColor = System.Drawing.Color.White;
+            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.Location = new System.Drawing.Point(515, 370);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(53, 15);
+            this.label75.TabIndex = 134;
+            this.label75.Text = "Goto Q54";
             // 
             // IG070111
             // 
@@ -10986,7 +12050,7 @@
             // 
             this.IG160914.BackColor = System.Drawing.Color.Bisque;
             this.IG160914.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IG160914.Location = new System.Drawing.Point(62, 215);
+            this.IG160914.Location = new System.Drawing.Point(181, 215);
             this.IG160914.Mask = "9999";
             this.IG160914.Name = "IG160914";
             this.IG160914.Size = new System.Drawing.Size(35, 20);
@@ -11130,7 +12194,7 @@
             // 
             this.IG160915.BackColor = System.Drawing.Color.Bisque;
             this.IG160915.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.IG160915.Location = new System.Drawing.Point(181, 215);
+            this.IG160915.Location = new System.Drawing.Point(62, 215);
             this.IG160915.Mask = "9999";
             this.IG160915.Name = "IG160915";
             this.IG160915.Size = new System.Drawing.Size(35, 20);
@@ -11179,7 +12243,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1182, 1061);
+            this.AutoScrollMargin = new System.Drawing.Size(0, 400);
+            this.ClientSize = new System.Drawing.Size(1209, 1061);
             this.ControlBox = false;
             this.Controls.Add(this.cmdDelete);
             this.Controls.Add(this.cmdCancel);
@@ -11188,7 +12253,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.Name = "Form1BL";
-            this.Text = "Form1BL";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Baseline Form (Form1BL)";
             this.Load += new System.EventHandler(this.Form1BL_Load);
             this.Shown += new System.EventHandler(this.Form1BL_Shown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1BL_KeyPress);
@@ -13564,5 +14630,93 @@
         private System.Windows.Forms.Label lbl_COMP_ID;
         private System.Windows.Forms.MaskedTextBox FORM_ID;
         private System.Windows.Forms.Label lbl_fld_FORM_ID;
+        private System.Windows.Forms.MaskedTextBox IB010;
+        private System.Windows.Forms.MaskedTextBox IB011;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.Label label75;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label label88;
     }
 }

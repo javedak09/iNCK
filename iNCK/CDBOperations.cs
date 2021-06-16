@@ -28,6 +28,7 @@ namespace iNCK
             {
                 cn = new CConnection();
 
+
                 cmd = new SQLiteCommand();
                 cmd.Connection = cn.cn;
                 cmd.CommandText = spName;

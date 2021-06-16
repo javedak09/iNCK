@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>coronavirus-5107715_1280.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
@@ -97,6 +100,12 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CVariables.cs" />
+    <Compile Include="Form1BL_v31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1BL_v31.Designer.cs">
+      <DependentUpon>Form1BL_v31.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1BL.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +171,9 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1BL_v31.resx">
+      <DependentUpon>Form1BL_v31.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1BL.resx">
       <DependentUpon>Form1BL.cs</DependentUpon>
     </EmbeddedResource>
@@ -213,6 +225,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="coronavirus-5107715_1280.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
