@@ -4604,148 +4604,7 @@ namespace iNCK
 
 
 
-        private void IE0701_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0701'", IE0701.Text) == true)
-                {
-                    IE0701.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IE0701.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IE0701);
-        }
-
-
-
-
-
-        private void IE0702_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0702'", IE0702.Text) == true)
-                {
-                    IE0702.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IE0702.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IE0702);
-        }
-
-
-
-
-
-        private void IE0703_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0703'", IE0703.Text) == true)
-                {
-                    IE0703.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IE0703.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IE0703);
-        }
-
-
-
-
-
-        private void IE0704_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0704'", IE0704.Text) == true)
-                {
-                    IE0704.Focus();
-                }
-                else
-                {
-
-
-                    if (IE0801.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
-                        IE0801.Focus();
-                    }
-                    else if (IE0802.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
-                        IE0802.Focus();
-                    }
-                    else if (IE0803.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
-                        IE0803.Focus();
-                    }
-                    else if (IE0804.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
-                        IE0804.Focus();
-                    }
-                }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IE0704.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IE0704);
-        }
 
 
         private void IE0801_Leave(object sender, EventArgs e)
@@ -5020,2772 +4879,48 @@ namespace iNCK
         }
 
 
+
+
+
+
+
+
         
 
-        private void chkPW1_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW1'", chkPW1.Text) == true)
-                {
-                    chkPW1.Focus();
-                }
-                else
-                {
-                    if (chkPW1.Text == "1")
-                    {
-                        obj_op.EnableControls(IF0601);
-                        IF0601.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IF0601);
-                        obj_op.DisableControls(IF0602);
-                        obj_op.DisableControls(IF0603);
-                        obj_op.DisableControls(IF0604);
+        
 
-                        chkPW2.Focus();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
 
-            chkPW1.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkPW1);
-        }
 
 
-        private void IF0601_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0601'", IF0601.Text) == true)
-                {
-                    IF0601.Focus();
-                }
+        
 
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
+        
 
-            IF0601.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IF0601);
-        }
 
+        
 
-        private void chkPW2_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW2'", chkPW2.Text) == true)
-                {
-                    chkPW2.Focus();
-                }
-                else
-                {
-                    if (chkPW2.Text == "1")
-                    {
-                        obj_op.EnableControls(IF0602);
-                        IF0602.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IF0602);
-                        obj_op.DisableControls(IF0603);
-                        obj_op.DisableControls(IF0604);
 
-                        chkPW3.Focus();
-                    }
-                }
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
 
-            chkPW2.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkPW2);
-        }
+        
 
 
-        private void IF0602_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
+        
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0602'", IF0602.Text) == true)
-                {
-                    IF0602.Focus();
-                }
 
+        
 
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
 
-            IF0602.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IF0602);
-        }
 
+        
 
-        private void chkPW3_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW3'", chkPW3.Text) == true)
-                {
-                    chkPW3.Focus();
-                }
-                else
-                {
-                    if (chkPW3.Text == "1")
-                    {
-                        obj_op.EnableControls(IF0603);
-                        IF0603.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IF0603);
-                        obj_op.DisableControls(IF0604);
-
-                        chkPW4.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkPW3.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkPW3);
-        }
-
-
-        private void IF0603_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0603'", IF0603.Text) == true)
-                {
-                    IF0603.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IF0603.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IF0603);
-        }
-
-
-        private void chkPW4_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW4'", chkPW4.Text) == true)
-                {
-                    chkPW4.Focus();
-                }
-                else
-                {
-                    if (chkPW4.Text == "1")
-                    {
-                        obj_op.EnableControls(IF0604);
-                        IF0604.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IF0604);
-
-                        tabControl1.SelectedIndex = 5;
-                        IG01.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkPW4.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkPW4);
-        }
-
-
-        private void IF0604_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0604'", IF0604.Text) == true)
-                {
-                    IF0604.Focus();
-                }
-                else
-                {
-                    tabControl1.SelectedIndex = 5;
-                    IG01.Focus();
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IF0604.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IF0604);
-        }
-
-
-        private void IG01_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG01'", IG01.Text) == true)
-                {
-                    IG01.Focus();
-                }
-                else
-                {
-                    if (IG01.Text == "0")
-                    {
-                        obj_op.DisableControls(IG02);
-                        obj_op.DisableControls(IG0301);
-                        obj_op.DisableControls(IG0302);
-                        obj_op.DisableControls(IG0303);
-                        obj_op.DisableControls(IG0304);
-                        obj_op.DisableControls(IG0305);
-                        obj_op.DisableControls(IG0306);
-                        obj_op.DisableControls(IG0307);
-                        obj_op.DisableControls(IG0308);
-                        obj_op.DisableControls(IG0309);
-                        obj_op.DisableControls(IG03010);
-
-                        obj_op.DisableControls(chkMember1);
-                        obj_op.DisableControls(chkMember2);
-                        obj_op.DisableControls(chkMember3);
-                        obj_op.DisableControls(chkMember4);
-                        obj_op.DisableControls(chkMember5);
-
-                        obj_op.DisableControls(IG0401);
-                        obj_op.DisableControls(IG0501);
-                        obj_op.DisableControls(IG060101);
-                        obj_op.DisableControls(IG060201);
-                        obj_op.DisableControls(IG060301);
-                        obj_op.DisableControls(IG060401);
-                        obj_op.DisableControls(IG060501);
-
-                        obj_op.DisableControls(IG070101);
-                        obj_op.DisableControls(IG070201);
-                        obj_op.DisableControls(IG070301);
-                        obj_op.DisableControls(IG070401);
-                        obj_op.DisableControls(IG070501);
-                        obj_op.DisableControls(IG070601);
-                        obj_op.DisableControls(IG070701);
-                        obj_op.DisableControls(IG070801);
-                        obj_op.DisableControls(IG070901);
-                        obj_op.DisableControls(IG0701001);
-                        obj_op.DisableControls(IG0701101);
-                        obj_op.DisableControls(IG0701201);
-                        obj_op.DisableControls(IG0701301);
-                        obj_op.DisableControls(IG0801);
-                        obj_op.DisableControls(IG0901);
-                        obj_op.DisableControls(IG01001);
-                        obj_op.DisableControls(IG01101);
-                        obj_op.DisableControls(IG01201);
-                        obj_op.DisableControls(IG01301);
-                        obj_op.DisableControls(IG01401);
-                        obj_op.DisableControls(IG01501);
-                        obj_op.DisableControls(IG160101);
-                        obj_op.DisableControls(IG160201);
-                        obj_op.DisableControls(IG160301);
-                        obj_op.DisableControls(IG160401);
-                        obj_op.DisableControls(IG160501);
-                        obj_op.DisableControls(IG160601);
-                        obj_op.DisableControls(IG160701);
-                        obj_op.DisableControls(IG160801);
-                        obj_op.DisableControls(IG160901);
-                        obj_op.DisableControls(IG1601001);
-                        obj_op.DisableControls(IG1601101);
-                        obj_op.DisableControls(IG1601201);
-
-
-
-                        obj_op.DisableControls(IG0402);
-                        obj_op.DisableControls(IG0502);
-                        obj_op.DisableControls(IG060102);
-                        obj_op.DisableControls(IG060202);
-                        obj_op.DisableControls(IG060302);
-                        obj_op.DisableControls(IG060402);
-                        obj_op.DisableControls(IG060502);
-
-                        obj_op.DisableControls(IG070102);
-                        obj_op.DisableControls(IG070202);
-                        obj_op.DisableControls(IG070302);
-                        obj_op.DisableControls(IG070402);
-                        obj_op.DisableControls(IG070502);
-                        obj_op.DisableControls(IG070602);
-                        obj_op.DisableControls(IG070702);
-                        obj_op.DisableControls(IG070802);
-                        obj_op.DisableControls(IG070902);
-                        obj_op.DisableControls(IG0701002);
-                        obj_op.DisableControls(IG0701102);
-                        obj_op.DisableControls(IG0701202);
-                        obj_op.DisableControls(IG0701302);
-                        obj_op.DisableControls(IG0802);
-                        obj_op.DisableControls(IG0902);
-                        obj_op.DisableControls(IG01002);
-                        obj_op.DisableControls(IG01102);
-                        obj_op.DisableControls(IG01202);
-                        obj_op.DisableControls(IG01302);
-                        obj_op.DisableControls(IG01402);
-                        obj_op.DisableControls(IG01502);
-                        obj_op.DisableControls(IG160102);
-                        obj_op.DisableControls(IG160202);
-                        obj_op.DisableControls(IG160302);
-                        obj_op.DisableControls(IG160402);
-                        obj_op.DisableControls(IG160502);
-                        obj_op.DisableControls(IG160602);
-                        obj_op.DisableControls(IG160702);
-                        obj_op.DisableControls(IG160802);
-                        obj_op.DisableControls(IG160902);
-                        obj_op.DisableControls(IG1601002);
-                        obj_op.DisableControls(IG1601102);
-                        obj_op.DisableControls(IG1601202);
-
-
-                        obj_op.DisableControls(IG0403);
-                        obj_op.DisableControls(IG0503);
-                        obj_op.DisableControls(IG060103);
-                        obj_op.DisableControls(IG060203);
-                        obj_op.DisableControls(IG060303);
-                        obj_op.DisableControls(IG060403);
-                        obj_op.DisableControls(IG060503);
-
-                        obj_op.DisableControls(IG070103);
-                        obj_op.DisableControls(IG070203);
-                        obj_op.DisableControls(IG070303);
-                        obj_op.DisableControls(IG070403);
-                        obj_op.DisableControls(IG070503);
-                        obj_op.DisableControls(IG070603);
-                        obj_op.DisableControls(IG070703);
-                        obj_op.DisableControls(IG070803);
-                        obj_op.DisableControls(IG070903);
-                        obj_op.DisableControls(IG0701003);
-                        obj_op.DisableControls(IG0701103);
-                        obj_op.DisableControls(IG0701203);
-                        obj_op.DisableControls(IG0701303);
-                        obj_op.DisableControls(IG0803);
-                        obj_op.DisableControls(IG0903);
-                        obj_op.DisableControls(IG01003);
-                        obj_op.DisableControls(IG01103);
-                        obj_op.DisableControls(IG01203);
-                        obj_op.DisableControls(IG01303);
-                        obj_op.DisableControls(IG01403);
-                        obj_op.DisableControls(IG01503);
-                        obj_op.DisableControls(IG160103);
-                        obj_op.DisableControls(IG160203);
-                        obj_op.DisableControls(IG160303);
-                        obj_op.DisableControls(IG160403);
-                        obj_op.DisableControls(IG160503);
-                        obj_op.DisableControls(IG160603);
-                        obj_op.DisableControls(IG160703);
-                        obj_op.DisableControls(IG160803);
-                        obj_op.DisableControls(IG160903);
-                        obj_op.DisableControls(IG1601003);
-                        obj_op.DisableControls(IG1601103);
-                        obj_op.DisableControls(IG1601203);
-
-
-
-                        obj_op.DisableControls(IG0404);
-                        obj_op.DisableControls(IG0504);
-                        obj_op.DisableControls(IG060104);
-                        obj_op.DisableControls(IG060204);
-                        obj_op.DisableControls(IG060304);
-                        obj_op.DisableControls(IG060404);
-                        obj_op.DisableControls(IG060504);
-
-                        obj_op.DisableControls(IG070104);
-                        obj_op.DisableControls(IG070204);
-                        obj_op.DisableControls(IG070304);
-                        obj_op.DisableControls(IG070404);
-                        obj_op.DisableControls(IG070504);
-                        obj_op.DisableControls(IG070604);
-                        obj_op.DisableControls(IG070704);
-                        obj_op.DisableControls(IG070804);
-                        obj_op.DisableControls(IG070904);
-                        obj_op.DisableControls(IG0701004);
-                        obj_op.DisableControls(IG0701104);
-                        obj_op.DisableControls(IG0701204);
-                        obj_op.DisableControls(IG0701304);
-                        obj_op.DisableControls(IG0804);
-                        obj_op.DisableControls(IG0904);
-                        obj_op.DisableControls(IG01004);
-                        obj_op.DisableControls(IG01104);
-                        obj_op.DisableControls(IG01204);
-                        obj_op.DisableControls(IG01304);
-                        obj_op.DisableControls(IG01404);
-                        obj_op.DisableControls(IG01504);
-                        obj_op.DisableControls(IG160104);
-                        obj_op.DisableControls(IG160204);
-                        obj_op.DisableControls(IG160304);
-                        obj_op.DisableControls(IG160404);
-                        obj_op.DisableControls(IG160504);
-                        obj_op.DisableControls(IG160604);
-                        obj_op.DisableControls(IG160704);
-                        obj_op.DisableControls(IG160804);
-                        obj_op.DisableControls(IG160904);
-                        obj_op.DisableControls(IG1601004);
-                        obj_op.DisableControls(IG1601104);
-                        obj_op.DisableControls(IG1601204);
-
-
-
-                        obj_op.DisableControls(IG0405);
-                        obj_op.DisableControls(IG0505);
-                        obj_op.DisableControls(IG060105);
-                        obj_op.DisableControls(IG060205);
-                        obj_op.DisableControls(IG060305);
-                        obj_op.DisableControls(IG060405);
-                        obj_op.DisableControls(IG060505);
-
-                        obj_op.DisableControls(IG070105);
-                        obj_op.DisableControls(IG070205);
-                        obj_op.DisableControls(IG070305);
-                        obj_op.DisableControls(IG070405);
-                        obj_op.DisableControls(IG070505);
-                        obj_op.DisableControls(IG070605);
-                        obj_op.DisableControls(IG070705);
-                        obj_op.DisableControls(IG070805);
-                        obj_op.DisableControls(IG070905);
-                        obj_op.DisableControls(IG0701005);
-                        obj_op.DisableControls(IG0701105);
-                        obj_op.DisableControls(IG0701205);
-                        obj_op.DisableControls(IG0701305);
-                        obj_op.DisableControls(IG0805);
-                        obj_op.DisableControls(IG0905);
-                        obj_op.DisableControls(IG01005);
-                        obj_op.DisableControls(IG01105);
-                        obj_op.DisableControls(IG01205);
-                        obj_op.DisableControls(IG01305);
-                        obj_op.DisableControls(IG01405);
-                        obj_op.DisableControls(IG01505);
-                        obj_op.DisableControls(IG160105);
-                        obj_op.DisableControls(IG160205);
-                        obj_op.DisableControls(IG160305);
-                        obj_op.DisableControls(IG160405);
-                        obj_op.DisableControls(IG160505);
-                        obj_op.DisableControls(IG160605);
-                        obj_op.DisableControls(IG160705);
-                        obj_op.DisableControls(IG160805);
-                        obj_op.DisableControls(IG160905);
-                        obj_op.DisableControls(IG1601005);
-                        obj_op.DisableControls(IG1601105);
-                        obj_op.DisableControls(IG1601205);
-
-                        tabControl1.SelectedIndex = 8;
-                        QCFUP02.Focus();
-
-                    }
-                    else
-                    {
-
-                        obj_op.EnableControls(IG02);
-                        obj_op.EnableControls(IG0301);
-                        obj_op.EnableControls(IG0302);
-                        obj_op.EnableControls(IG0303);
-                        obj_op.EnableControls(IG0304);
-                        obj_op.EnableControls(IG0305);
-                        obj_op.EnableControls(IG0306);
-                        obj_op.EnableControls(IG0307);
-                        obj_op.EnableControls(IG0308);
-                        obj_op.EnableControls(IG0309);
-                        obj_op.EnableControls(IG03010);
-
-                        obj_op.EnableControls(chkMember1);
-                        obj_op.EnableControls(chkMember2);
-                        obj_op.EnableControls(chkMember3);
-                        obj_op.EnableControls(chkMember4);
-                        obj_op.EnableControls(chkMember5);
-
-                        obj_op.EnableControls(IG0401);
-                        obj_op.EnableControls(IG0501);
-                        obj_op.EnableControls(IG060101);
-                        obj_op.EnableControls(IG060201);
-                        obj_op.EnableControls(IG060301);
-                        obj_op.EnableControls(IG060401);
-                        obj_op.EnableControls(IG060501);
-
-                        obj_op.EnableControls(IG070101);
-                        obj_op.EnableControls(IG070201);
-                        obj_op.EnableControls(IG070301);
-                        obj_op.EnableControls(IG070401);
-                        obj_op.EnableControls(IG070501);
-                        obj_op.EnableControls(IG070601);
-                        obj_op.EnableControls(IG070701);
-                        obj_op.EnableControls(IG070801);
-                        obj_op.EnableControls(IG070901);
-                        obj_op.EnableControls(IG0701001);
-                        obj_op.EnableControls(IG0701101);
-                        obj_op.EnableControls(IG0701201);
-                        obj_op.EnableControls(IG0701301);
-                        obj_op.EnableControls(IG0801);
-                        obj_op.EnableControls(IG0901);
-                        obj_op.EnableControls(IG01001);
-                        obj_op.EnableControls(IG01101);
-                        obj_op.EnableControls(IG01201);
-                        obj_op.EnableControls(IG01301);
-                        obj_op.EnableControls(IG01401);
-                        obj_op.EnableControls(IG01501);
-                        obj_op.EnableControls(IG160101);
-                        obj_op.EnableControls(IG160201);
-                        obj_op.EnableControls(IG160301);
-                        obj_op.EnableControls(IG160401);
-                        obj_op.EnableControls(IG160501);
-                        obj_op.EnableControls(IG160601);
-                        obj_op.EnableControls(IG160701);
-                        obj_op.EnableControls(IG160801);
-                        obj_op.EnableControls(IG160901);
-                        obj_op.EnableControls(IG1601001);
-                        obj_op.EnableControls(IG1601101);
-                        obj_op.EnableControls(IG1601201);
-
-
-
-                        obj_op.EnableControls(IG0402);
-                        obj_op.EnableControls(IG0502);
-                        obj_op.EnableControls(IG060102);
-                        obj_op.EnableControls(IG060202);
-                        obj_op.EnableControls(IG060302);
-                        obj_op.EnableControls(IG060402);
-                        obj_op.EnableControls(IG060502);
-
-                        obj_op.EnableControls(IG070102);
-                        obj_op.EnableControls(IG070202);
-                        obj_op.EnableControls(IG070302);
-                        obj_op.EnableControls(IG070402);
-                        obj_op.EnableControls(IG070502);
-                        obj_op.EnableControls(IG070602);
-                        obj_op.EnableControls(IG070702);
-                        obj_op.EnableControls(IG070802);
-                        obj_op.EnableControls(IG070902);
-                        obj_op.EnableControls(IG0701002);
-                        obj_op.EnableControls(IG0701102);
-                        obj_op.EnableControls(IG0701202);
-                        obj_op.EnableControls(IG0701302);
-                        obj_op.EnableControls(IG0802);
-                        obj_op.EnableControls(IG0902);
-                        obj_op.EnableControls(IG01002);
-                        obj_op.EnableControls(IG01102);
-                        obj_op.EnableControls(IG01202);
-                        obj_op.EnableControls(IG01302);
-                        obj_op.EnableControls(IG01402);
-                        obj_op.EnableControls(IG01502);
-                        obj_op.EnableControls(IG160102);
-                        obj_op.EnableControls(IG160202);
-                        obj_op.EnableControls(IG160302);
-                        obj_op.EnableControls(IG160402);
-                        obj_op.EnableControls(IG160502);
-                        obj_op.EnableControls(IG160602);
-                        obj_op.EnableControls(IG160702);
-                        obj_op.EnableControls(IG160802);
-                        obj_op.EnableControls(IG160902);
-                        obj_op.EnableControls(IG1601002);
-                        obj_op.EnableControls(IG1601102);
-                        obj_op.EnableControls(IG1601202);
-
-
-                        obj_op.EnableControls(IG0403);
-                        obj_op.EnableControls(IG0503);
-                        obj_op.EnableControls(IG060103);
-                        obj_op.EnableControls(IG060203);
-                        obj_op.EnableControls(IG060303);
-                        obj_op.EnableControls(IG060403);
-                        obj_op.EnableControls(IG060503);
-
-                        obj_op.EnableControls(IG070103);
-                        obj_op.EnableControls(IG070203);
-                        obj_op.EnableControls(IG070303);
-                        obj_op.EnableControls(IG070403);
-                        obj_op.EnableControls(IG070503);
-                        obj_op.EnableControls(IG070603);
-                        obj_op.EnableControls(IG070703);
-                        obj_op.EnableControls(IG070803);
-                        obj_op.EnableControls(IG070903);
-                        obj_op.EnableControls(IG0701003);
-                        obj_op.EnableControls(IG0701103);
-                        obj_op.EnableControls(IG0701203);
-                        obj_op.EnableControls(IG0701303);
-                        obj_op.EnableControls(IG0803);
-                        obj_op.EnableControls(IG0903);
-                        obj_op.EnableControls(IG01003);
-                        obj_op.EnableControls(IG01103);
-                        obj_op.EnableControls(IG01203);
-                        obj_op.EnableControls(IG01303);
-                        obj_op.EnableControls(IG01403);
-                        obj_op.EnableControls(IG01503);
-                        obj_op.EnableControls(IG160103);
-                        obj_op.EnableControls(IG160203);
-                        obj_op.EnableControls(IG160303);
-                        obj_op.EnableControls(IG160403);
-                        obj_op.EnableControls(IG160503);
-                        obj_op.EnableControls(IG160603);
-                        obj_op.EnableControls(IG160703);
-                        obj_op.EnableControls(IG160803);
-                        obj_op.EnableControls(IG160903);
-                        obj_op.EnableControls(IG1601003);
-                        obj_op.EnableControls(IG1601103);
-                        obj_op.EnableControls(IG1601203);
-
-
-
-                        obj_op.EnableControls(IG0404);
-                        obj_op.EnableControls(IG0504);
-                        obj_op.EnableControls(IG060104);
-                        obj_op.EnableControls(IG060204);
-                        obj_op.EnableControls(IG060304);
-                        obj_op.EnableControls(IG060404);
-                        obj_op.EnableControls(IG060504);
-
-                        obj_op.EnableControls(IG070104);
-                        obj_op.EnableControls(IG070204);
-                        obj_op.EnableControls(IG070304);
-                        obj_op.EnableControls(IG070404);
-                        obj_op.EnableControls(IG070504);
-                        obj_op.EnableControls(IG070604);
-                        obj_op.EnableControls(IG070704);
-                        obj_op.EnableControls(IG070804);
-                        obj_op.EnableControls(IG070904);
-                        obj_op.EnableControls(IG0701004);
-                        obj_op.EnableControls(IG0701104);
-                        obj_op.EnableControls(IG0701204);
-                        obj_op.EnableControls(IG0701304);
-                        obj_op.EnableControls(IG0804);
-                        obj_op.EnableControls(IG0904);
-                        obj_op.EnableControls(IG01004);
-                        obj_op.EnableControls(IG01104);
-                        obj_op.EnableControls(IG01204);
-                        obj_op.EnableControls(IG01304);
-                        obj_op.EnableControls(IG01404);
-                        obj_op.EnableControls(IG01504);
-                        obj_op.EnableControls(IG160104);
-                        obj_op.EnableControls(IG160204);
-                        obj_op.EnableControls(IG160304);
-                        obj_op.EnableControls(IG160404);
-                        obj_op.EnableControls(IG160504);
-                        obj_op.EnableControls(IG160604);
-                        obj_op.EnableControls(IG160704);
-                        obj_op.EnableControls(IG160804);
-                        obj_op.EnableControls(IG160904);
-                        obj_op.EnableControls(IG1601004);
-                        obj_op.EnableControls(IG1601104);
-                        obj_op.EnableControls(IG1601204);
-
-
-
-                        obj_op.EnableControls(IG0405);
-                        obj_op.EnableControls(IG0505);
-                        obj_op.EnableControls(IG060105);
-                        obj_op.EnableControls(IG060205);
-                        obj_op.EnableControls(IG060305);
-                        obj_op.EnableControls(IG060405);
-                        obj_op.EnableControls(IG060505);
-
-                        obj_op.EnableControls(IG070105);
-                        obj_op.EnableControls(IG070205);
-                        obj_op.EnableControls(IG070305);
-                        obj_op.EnableControls(IG070405);
-                        obj_op.EnableControls(IG070505);
-                        obj_op.EnableControls(IG070605);
-                        obj_op.EnableControls(IG070705);
-                        obj_op.EnableControls(IG070805);
-                        obj_op.EnableControls(IG070905);
-                        obj_op.EnableControls(IG0701005);
-                        obj_op.EnableControls(IG0701105);
-                        obj_op.EnableControls(IG0701205);
-                        obj_op.EnableControls(IG0701305);
-                        obj_op.EnableControls(IG0805);
-                        obj_op.EnableControls(IG0905);
-                        obj_op.EnableControls(IG01005);
-                        obj_op.EnableControls(IG01105);
-                        obj_op.EnableControls(IG01205);
-                        obj_op.EnableControls(IG01305);
-                        obj_op.EnableControls(IG01405);
-                        obj_op.EnableControls(IG01505);
-                        obj_op.EnableControls(IG160105);
-                        obj_op.EnableControls(IG160205);
-                        obj_op.EnableControls(IG160305);
-                        obj_op.EnableControls(IG160405);
-                        obj_op.EnableControls(IG160505);
-                        obj_op.EnableControls(IG160605);
-                        obj_op.EnableControls(IG160705);
-                        obj_op.EnableControls(IG160805);
-                        obj_op.EnableControls(IG160905);
-                        obj_op.EnableControls(IG1601005);
-                        obj_op.EnableControls(IG1601105);
-                        obj_op.EnableControls(IG1601205);
-
-                        IG02.Focus();
-
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG01.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG01);
-        }
-
-
-        private void IG02_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG02'", IG02.Text) == true)
-                {
-                    IG02.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG02.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG02);
-        }
-
-
-        private void IG0301_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0301'", IG0301.Text) == true)
-                {
-                    IG0301.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0301.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0301);
-        }
-
-
-        private void IG0302_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0302'", IG0302.Text) == true)
-                {
-                    IG0302.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0302.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0302);
-        }
-
-
-        private void IG0303_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0303'", IG0303.Text) == true)
-                {
-                    IG0303.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0303.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0303);
-        }
-
-
-        private void IG0304_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0304'", IG0304.Text) == true)
-                {
-                    IG0304.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0304.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0304);
-        }
-
-
-        private void IG0305_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0305'", IG0305.Text) == true)
-                {
-                    IG0305.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0305.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0305);
-        }
-
-
-        private void IG0306_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0306'", IG0306.Text) == true)
-                {
-                    IG0306.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0306.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0306);
-        }
-
-
-        private void IG0307_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0307'", IG0307.Text) == true)
-                {
-                    IG0307.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0307.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0307);
-        }
-
-
-        private void IG0308_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0308'", IG0308.Text) == true)
-                {
-                    IG0308.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0308.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0308);
-        }
-
-
-        private void IG0309_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0309'", IG0309.Text) == true)
-                {
-                    IG0309.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0309.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0309);
-        }
-
-
-        private void IG03010_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG03010'", IG03010.Text) == true)
-                {
-                    IG03010.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG03010.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG03010);
-        }
-
-
-        private void chkMember1_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember1'", chkMember1.Text) == true)
-                {
-                    chkMember1.Focus();
-                }
-                else
-                {
-                    if (chkMember1.Text == "1")
-                    {
-                        obj_op.EnableControls(IG0401);
-                        obj_op.EnableControls(IG0501);
-                        obj_op.EnableControls(IG060101);
-                        obj_op.EnableControls(IG060201);
-                        obj_op.EnableControls(IG060301);
-                        obj_op.EnableControls(IG060401);
-                        obj_op.EnableControls(IG060501);
-                        obj_op.EnableControls(IG070101);
-                        obj_op.EnableControls(IG070201);
-                        obj_op.EnableControls(IG070301);
-                        obj_op.EnableControls(IG070401);
-
-                        obj_op.EnableControls(IG070501);
-                        obj_op.EnableControls(IG070601);
-                        obj_op.EnableControls(IG070701);
-                        obj_op.EnableControls(IG070801);
-                        obj_op.EnableControls(IG070901);
-                        obj_op.EnableControls(IG0701001);
-                        obj_op.EnableControls(IG0701101);
-                        obj_op.EnableControls(IG0701201);
-                        obj_op.EnableControls(IG0701301);
-                        obj_op.EnableControls(IG0801);
-                        obj_op.EnableControls(IG0901);
-                        obj_op.EnableControls(IG01001);
-                        obj_op.EnableControls(IG01101);
-                        obj_op.EnableControls(IG01201);
-                        obj_op.EnableControls(IG01301);
-                        obj_op.EnableControls(IG01401);
-                        obj_op.EnableControls(IG01501);
-                        obj_op.EnableControls(IG160101);
-                        obj_op.EnableControls(IG160201);
-                        obj_op.EnableControls(IG160301);
-                        obj_op.EnableControls(IG160401);
-                        obj_op.EnableControls(IG160501);
-                        obj_op.EnableControls(IG160601);
-                        obj_op.EnableControls(IG160701);
-                        obj_op.EnableControls(IG160801);
-                        obj_op.EnableControls(IG160901);
-                        obj_op.EnableControls(IG1601001);
-                        obj_op.EnableControls(IG1601101);
-                        obj_op.EnableControls(IG1601201);
-
-                        IG0401.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IG0401);
-                        obj_op.DisableControls(IG0501);
-                        obj_op.DisableControls(IG060101);
-                        obj_op.DisableControls(IG060201);
-                        obj_op.DisableControls(IG060301);
-                        obj_op.DisableControls(IG060401);
-                        obj_op.DisableControls(IG060501);
-                        obj_op.DisableControls(IG070101);
-                        obj_op.DisableControls(IG070201);
-                        obj_op.DisableControls(IG070301);
-                        obj_op.DisableControls(IG070401);
-
-                        obj_op.DisableControls(IG070501);
-                        obj_op.DisableControls(IG070601);
-                        obj_op.DisableControls(IG070701);
-                        obj_op.DisableControls(IG070801);
-                        obj_op.DisableControls(IG070901);
-                        obj_op.DisableControls(IG0701001);
-                        obj_op.DisableControls(IG0701101);
-                        obj_op.DisableControls(IG0701201);
-                        obj_op.DisableControls(IG0701301);
-                        obj_op.DisableControls(IG0801);
-                        obj_op.DisableControls(IG0901);
-                        obj_op.DisableControls(IG01001);
-                        obj_op.DisableControls(IG01101);
-                        obj_op.DisableControls(IG01201);
-                        obj_op.DisableControls(IG01301);
-                        obj_op.DisableControls(IG01401);
-                        obj_op.DisableControls(IG01501);
-                        obj_op.DisableControls(IG160101);
-                        obj_op.DisableControls(IG160201);
-                        obj_op.DisableControls(IG160301);
-                        obj_op.DisableControls(IG160401);
-                        obj_op.DisableControls(IG160501);
-                        obj_op.DisableControls(IG160601);
-                        obj_op.DisableControls(IG160701);
-                        obj_op.DisableControls(IG160801);
-                        obj_op.DisableControls(IG160901);
-                        obj_op.DisableControls(IG1601001);
-                        obj_op.DisableControls(IG1601101);
-                        obj_op.DisableControls(IG1601201);
-
-
-                        chkMember2.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkMember1.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkMember1);
-        }
-
-
-        private void IG0401_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0401'", IG0401.Text) == true)
-                {
-                    IG0401.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0401.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0401);
-        }
-
-
-        private void IG0501_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0501'", IG0501.Text) == true)
-                {
-                    IG0501.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0501.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0501);
-        }
-
-
-        private void IG060101_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060101'", IG060101.Text) == true)
-                {
-                    IG060101.Focus();
-                }
-                else
-                {
-                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                    {
-                        Disabled_IG060101_Q47();
-                    }
-                    else
-                    {
-                        Enabled_IG060101_Q47();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060101.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060101);
-        }
-
-
-        private void IG060201_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060201'", IG060201.Text) == true)
-                {
-                    IG060201.Focus();
-                }
-                else
-                {
-                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                    {
-                        Disabled_IG060101_Q47();
-                    }
-                    else
-                    {
-                        Enabled_IG060101_Q47();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060201.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060201);
-        }
-
-
-        private void IG060301_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060301'", IG060301.Text) == true)
-                {
-                    IG060301.Focus();
-                }
-                else
-                {
-                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                    {
-                        Disabled_IG060101_Q47();
-                    }
-                    else
-                    {
-                        Enabled_IG060101_Q47();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060301.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060301);
-        }
-
-
-        private void IG060401_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060401'", IG060401.Text) == true)
-                {
-                    IG060401.Focus();
-                }
-                else
-                {
-                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                    {
-                        Disabled_IG060101_Q47();
-                    }
-                    else
-                    {
-                        Enabled_IG060101_Q47();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060401.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060401);
-        }
-
-
-        private void IG060501_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060501'", IG060501.Text) == true)
-                {
-                    IG060501.Focus();
-                }
-                else
-                {
-                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                    {
-                        Disabled_IG060101_Q47();
-                    }
-                    else
-                    {
-                        Enabled_IG060101_Q47();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060501.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060501);
-        }
-
-
-        private void IG070101_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070101'", IG070101.Text) == true)
-                {
-                    IG070101.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070101.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070101);
-        }
-
-
-        private void IG070201_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070201'", IG070201.Text) == true)
-                {
-                    IG070201.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070201.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070201);
-        }
-
-
-        private void IG070301_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070301'", IG070301.Text) == true)
-                {
-                    IG070301.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070301.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070301);
-        }
-
-
-        private void IG070401_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070401'", IG070401.Text) == true)
-                {
-                    IG070401.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070401.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070401);
-        }
-
-
-        private void chkMember2_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember2'", chkMember2.Text) == true)
-                {
-                    chkMember2.Focus();
-                }
-                else
-                {
-                    if (chkMember2.Text == "1")
-                    {
-                        obj_op.EnableControls(IG0402);
-                        obj_op.EnableControls(IG0502);
-                        obj_op.EnableControls(IG060102);
-                        obj_op.EnableControls(IG060202);
-                        obj_op.EnableControls(IG060302);
-                        obj_op.EnableControls(IG060402);
-                        obj_op.EnableControls(IG060502);
-                        obj_op.EnableControls(IG070102);
-                        obj_op.EnableControls(IG070202);
-                        obj_op.EnableControls(IG070302);
-                        obj_op.EnableControls(IG070402);
-
-                        obj_op.EnableControls(IG070502);
-                        obj_op.EnableControls(IG070602);
-                        obj_op.EnableControls(IG070702);
-                        obj_op.EnableControls(IG070802);
-                        obj_op.EnableControls(IG070902);
-                        obj_op.EnableControls(IG0701002);
-                        obj_op.EnableControls(IG0701102);
-                        obj_op.EnableControls(IG0701202);
-                        obj_op.EnableControls(IG0701302);
-                        obj_op.EnableControls(IG0802);
-                        obj_op.EnableControls(IG0902);
-                        obj_op.EnableControls(IG01002);
-                        obj_op.EnableControls(IG01102);
-                        obj_op.EnableControls(IG01202);
-                        obj_op.EnableControls(IG01302);
-                        obj_op.EnableControls(IG01402);
-                        obj_op.EnableControls(IG01502);
-                        obj_op.EnableControls(IG160102);
-                        obj_op.EnableControls(IG160202);
-                        obj_op.EnableControls(IG160302);
-                        obj_op.EnableControls(IG160402);
-                        obj_op.EnableControls(IG160502);
-                        obj_op.EnableControls(IG160602);
-                        obj_op.EnableControls(IG160702);
-                        obj_op.EnableControls(IG160802);
-                        obj_op.EnableControls(IG160902);
-                        obj_op.EnableControls(IG1601002);
-                        obj_op.EnableControls(IG1601102);
-                        obj_op.EnableControls(IG1601202);
-
-                        IG0402.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IG0402);
-                        obj_op.DisableControls(IG0502);
-                        obj_op.DisableControls(IG060102);
-                        obj_op.DisableControls(IG060202);
-                        obj_op.DisableControls(IG060302);
-                        obj_op.DisableControls(IG060402);
-                        obj_op.DisableControls(IG060502);
-                        obj_op.DisableControls(IG070102);
-                        obj_op.DisableControls(IG070202);
-                        obj_op.DisableControls(IG070302);
-                        obj_op.DisableControls(IG070402);
-
-                        obj_op.DisableControls(IG070502);
-                        obj_op.DisableControls(IG070602);
-                        obj_op.DisableControls(IG070702);
-                        obj_op.DisableControls(IG070802);
-                        obj_op.DisableControls(IG070902);
-                        obj_op.DisableControls(IG0701002);
-                        obj_op.DisableControls(IG0701102);
-                        obj_op.DisableControls(IG0701202);
-                        obj_op.DisableControls(IG0701302);
-                        obj_op.DisableControls(IG0802);
-                        obj_op.DisableControls(IG0902);
-                        obj_op.DisableControls(IG01002);
-                        obj_op.DisableControls(IG01102);
-                        obj_op.DisableControls(IG01202);
-                        obj_op.DisableControls(IG01302);
-                        obj_op.DisableControls(IG01402);
-                        obj_op.DisableControls(IG01502);
-                        obj_op.DisableControls(IG160102);
-                        obj_op.DisableControls(IG160202);
-                        obj_op.DisableControls(IG160302);
-                        obj_op.DisableControls(IG160402);
-                        obj_op.DisableControls(IG160502);
-                        obj_op.DisableControls(IG160602);
-                        obj_op.DisableControls(IG160702);
-                        obj_op.DisableControls(IG160802);
-                        obj_op.DisableControls(IG160902);
-                        obj_op.DisableControls(IG1601002);
-                        obj_op.DisableControls(IG1601102);
-                        obj_op.DisableControls(IG1601202);
-
-                        chkMember3.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkMember2.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkMember2);
-        }
-
-
-        private void IG0402_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0402'", IG0402.Text) == true)
-                {
-                    IG0402.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0402.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0402);
-        }
-
-
-        private void IG0502_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0502'", IG0502.Text) == true)
-                {
-                    IG0502.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0502.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0502);
-        }
-
-
-        private void IG060102_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060102'", IG060102.Text) == true)
-                {
-                    IG060102.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060102.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060102);
-        }
-
-
-        private void IG060202_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060202'", IG060202.Text) == true)
-                {
-                    IG060202.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060202.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060202);
-        }
-
-
-        private void IG060302_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060302'", IG060302.Text) == true)
-                {
-                    IG060302.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060302.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060302);
-        }
-
-
-        private void IG060402_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060402'", IG060402.Text) == true)
-                {
-                    IG060402.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060402.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060402);
-        }
-
-
-        private void IG060502_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060502'", IG060502.Text) == true)
-                {
-                    IG060502.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060502.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060502);
-        }
-
-
-        private void IG070102_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070102'", IG070102.Text) == true)
-                {
-                    IG070102.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070102.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070102);
-        }
-
-
-        private void IG070202_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070202'", IG070202.Text) == true)
-                {
-                    IG070202.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070202.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070202);
-        }
-
-
-        private void IG070302_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070302'", IG070302.Text) == true)
-                {
-                    IG070302.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070302.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070302);
-        }
-
-
-        private void IG070402_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070402'", IG070402.Text) == true)
-                {
-                    IG070402.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070402.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070402);
-        }
-
-
-        private void chkMember3_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember3'", chkMember3.Text) == true)
-                {
-                    chkMember3.Focus();
-                }
-                else
-                {
-                    if (chkMember3.Text == "1")
-                    {
-                        obj_op.EnableControls(IG0403);
-                        obj_op.EnableControls(IG0503);
-                        obj_op.EnableControls(IG060103);
-                        obj_op.EnableControls(IG060203);
-                        obj_op.EnableControls(IG060303);
-                        obj_op.EnableControls(IG060403);
-                        obj_op.EnableControls(IG060503);
-                        obj_op.EnableControls(IG070103);
-                        obj_op.EnableControls(IG070203);
-                        obj_op.EnableControls(IG070303);
-                        obj_op.EnableControls(IG070403);
-
-
-                        obj_op.EnableControls(IG070503);
-                        obj_op.EnableControls(IG070603);
-                        obj_op.EnableControls(IG070703);
-                        obj_op.EnableControls(IG070803);
-                        obj_op.EnableControls(IG070903);
-                        obj_op.EnableControls(IG0701003);
-                        obj_op.EnableControls(IG0701103);
-                        obj_op.EnableControls(IG0701203);
-                        obj_op.EnableControls(IG0701303);
-                        obj_op.EnableControls(IG0803);
-                        obj_op.EnableControls(IG0903);
-                        obj_op.EnableControls(IG01003);
-                        obj_op.EnableControls(IG01103);
-                        obj_op.EnableControls(IG01203);
-                        obj_op.EnableControls(IG01303);
-                        obj_op.EnableControls(IG01403);
-                        obj_op.EnableControls(IG01503);
-                        obj_op.EnableControls(IG160103);
-                        obj_op.EnableControls(IG160203);
-                        obj_op.EnableControls(IG160303);
-                        obj_op.EnableControls(IG160403);
-                        obj_op.EnableControls(IG160503);
-                        obj_op.EnableControls(IG160603);
-                        obj_op.EnableControls(IG160703);
-                        obj_op.EnableControls(IG160803);
-                        obj_op.EnableControls(IG160903);
-                        obj_op.EnableControls(IG1601003);
-                        obj_op.EnableControls(IG1601103);
-                        obj_op.EnableControls(IG1601203);
-
-
-                        IG0403.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IG0403);
-                        obj_op.DisableControls(IG0503);
-                        obj_op.DisableControls(IG060103);
-                        obj_op.DisableControls(IG060203);
-                        obj_op.DisableControls(IG060303);
-                        obj_op.DisableControls(IG060403);
-                        obj_op.DisableControls(IG060503);
-                        obj_op.DisableControls(IG070103);
-                        obj_op.DisableControls(IG070203);
-                        obj_op.DisableControls(IG070303);
-                        obj_op.DisableControls(IG070403);
-
-
-                        obj_op.DisableControls(IG070503);
-                        obj_op.DisableControls(IG070603);
-                        obj_op.DisableControls(IG070703);
-                        obj_op.DisableControls(IG070803);
-                        obj_op.DisableControls(IG070903);
-                        obj_op.DisableControls(IG0701003);
-                        obj_op.DisableControls(IG0701103);
-                        obj_op.DisableControls(IG0701203);
-                        obj_op.DisableControls(IG0701303);
-                        obj_op.DisableControls(IG0803);
-                        obj_op.DisableControls(IG0903);
-                        obj_op.DisableControls(IG01003);
-                        obj_op.DisableControls(IG01103);
-                        obj_op.DisableControls(IG01203);
-                        obj_op.DisableControls(IG01303);
-                        obj_op.DisableControls(IG01403);
-                        obj_op.DisableControls(IG01503);
-                        obj_op.DisableControls(IG160103);
-                        obj_op.DisableControls(IG160203);
-                        obj_op.DisableControls(IG160303);
-                        obj_op.DisableControls(IG160403);
-                        obj_op.DisableControls(IG160503);
-                        obj_op.DisableControls(IG160603);
-                        obj_op.DisableControls(IG160703);
-                        obj_op.DisableControls(IG160803);
-                        obj_op.DisableControls(IG160903);
-                        obj_op.DisableControls(IG1601003);
-                        obj_op.DisableControls(IG1601103);
-                        obj_op.DisableControls(IG1601203);
-
-
-                        chkMember4.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkMember3.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkMember3);
-        }
-
-
-        private void IG0403_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0403'", IG0403.Text) == true)
-                {
-                    IG0403.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0403.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0403);
-        }
-
-
-        private void IG0503_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0503'", IG0503.Text) == true)
-                {
-                    IG0503.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0503.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0503);
-        }
-
-
-        private void IG060103_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060103'", IG060103.Text) == true)
-                {
-                    IG060103.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060103.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060103);
-        }
-
-
-        private void IG060203_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060203'", IG060203.Text) == true)
-                {
-                    IG060203.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060203.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060203);
-        }
-
-
-        private void IG060303_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060303'", IG060303.Text) == true)
-                {
-                    IG060303.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060303.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060303);
-        }
-
-
-        private void IG060403_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060403'", IG060403.Text) == true)
-                {
-                    IG060403.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060403.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060403);
-        }
-
-
-        private void IG060503_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060503'", IG060503.Text) == true)
-                {
-                    IG060503.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060503.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060503);
-        }
-
-
-        private void IG070103_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070103'", IG070103.Text) == true)
-                {
-                    IG070103.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070103.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070103);
-        }
-
-
-        private void IG070203_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070203'", IG070203.Text) == true)
-                {
-                    IG070203.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070203.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070203);
-        }
-
-
-        private void IG070303_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070303'", IG070303.Text) == true)
-                {
-                    IG070303.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070303.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070303);
-        }
-
-
-        private void IG070403_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070403'", IG070403.Text) == true)
-                {
-                    IG070403.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070403.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070403);
-        }
-
-
-        private void chkMember4_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember4'", chkMember4.Text) == true)
-                {
-                    chkMember4.Focus();
-                }
-                else
-                {
-                    if (chkMember4.Text == "1")
-                    {
-                        obj_op.EnableControls(IG0404);
-                        obj_op.EnableControls(IG0504);
-                        obj_op.EnableControls(IG060104);
-                        obj_op.EnableControls(IG060204);
-                        obj_op.EnableControls(IG060304);
-                        obj_op.EnableControls(IG060404);
-                        obj_op.EnableControls(IG060504);
-                        obj_op.EnableControls(IG070104);
-                        obj_op.EnableControls(IG070204);
-                        obj_op.EnableControls(IG070304);
-                        obj_op.EnableControls(IG070404);
-
-                        obj_op.EnableControls(IG070504);
-                        obj_op.EnableControls(IG070604);
-                        obj_op.EnableControls(IG070704);
-                        obj_op.EnableControls(IG070804);
-                        obj_op.EnableControls(IG070904);
-                        obj_op.EnableControls(IG0701004);
-                        obj_op.EnableControls(IG0701104);
-                        obj_op.EnableControls(IG0701204);
-                        obj_op.EnableControls(IG0701304);
-                        obj_op.EnableControls(IG0804);
-                        obj_op.EnableControls(IG0904);
-                        obj_op.EnableControls(IG01004);
-                        obj_op.EnableControls(IG01104);
-                        obj_op.EnableControls(IG01204);
-                        obj_op.EnableControls(IG01304);
-                        obj_op.EnableControls(IG01404);
-                        obj_op.EnableControls(IG01504);
-                        obj_op.EnableControls(IG160104);
-                        obj_op.EnableControls(IG160204);
-                        obj_op.EnableControls(IG160304);
-                        obj_op.EnableControls(IG160404);
-                        obj_op.EnableControls(IG160504);
-                        obj_op.EnableControls(IG160604);
-                        obj_op.EnableControls(IG160704);
-                        obj_op.EnableControls(IG160804);
-                        obj_op.EnableControls(IG160904);
-                        obj_op.EnableControls(IG1601004);
-                        obj_op.EnableControls(IG1601104);
-                        obj_op.EnableControls(IG1601204);
-
-                        IG0404.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IG0404);
-                        obj_op.DisableControls(IG0504);
-                        obj_op.DisableControls(IG060104);
-                        obj_op.DisableControls(IG060204);
-                        obj_op.DisableControls(IG060304);
-                        obj_op.DisableControls(IG060404);
-                        obj_op.DisableControls(IG060504);
-                        obj_op.DisableControls(IG070104);
-                        obj_op.DisableControls(IG070204);
-                        obj_op.DisableControls(IG070304);
-                        obj_op.DisableControls(IG070404);
-
-                        obj_op.DisableControls(IG070504);
-                        obj_op.DisableControls(IG070604);
-                        obj_op.DisableControls(IG070704);
-                        obj_op.DisableControls(IG070804);
-                        obj_op.DisableControls(IG070904);
-                        obj_op.DisableControls(IG0701004);
-                        obj_op.DisableControls(IG0701104);
-                        obj_op.DisableControls(IG0701204);
-                        obj_op.DisableControls(IG0701304);
-                        obj_op.DisableControls(IG0804);
-                        obj_op.DisableControls(IG0904);
-                        obj_op.DisableControls(IG01004);
-                        obj_op.DisableControls(IG01104);
-                        obj_op.DisableControls(IG01204);
-                        obj_op.DisableControls(IG01304);
-                        obj_op.DisableControls(IG01404);
-                        obj_op.DisableControls(IG01504);
-                        obj_op.DisableControls(IG160104);
-                        obj_op.DisableControls(IG160204);
-                        obj_op.DisableControls(IG160304);
-                        obj_op.DisableControls(IG160404);
-                        obj_op.DisableControls(IG160504);
-                        obj_op.DisableControls(IG160604);
-                        obj_op.DisableControls(IG160704);
-                        obj_op.DisableControls(IG160804);
-                        obj_op.DisableControls(IG160904);
-                        obj_op.DisableControls(IG1601004);
-                        obj_op.DisableControls(IG1601104);
-                        obj_op.DisableControls(IG1601204);
-
-                        chkMember5.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkMember4.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkMember4);
-        }
-
-
-        private void IG0404_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0404'", IG0404.Text) == true)
-                {
-                    IG0404.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0404.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0404);
-        }
-
-
-        private void IG0504_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0504'", IG0504.Text) == true)
-                {
-                    IG0504.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0504.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0504);
-        }
-
-
-        private void IG060104_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060104'", IG060104.Text) == true)
-                {
-                    IG060104.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060104.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060104);
-        }
-
-
-        private void IG060204_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060204'", IG060204.Text) == true)
-                {
-                    IG060204.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060204.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060204);
-        }
-
-
-        private void IG060304_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060304'", IG060304.Text) == true)
-                {
-                    IG060304.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060304.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060304);
-        }
-
-
-        private void IG060404_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060404'", IG060404.Text) == true)
-                {
-                    IG060404.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060404.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060404);
-        }
-
-
-        private void IG060504_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060504'", IG060504.Text) == true)
-                {
-                    IG060504.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060504.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060504);
-        }
+        
 
 
         private void IG070104_Leave(object sender, EventArgs e)
@@ -7900,349 +5035,13 @@ namespace iNCK
         }
 
 
-        private void chkMember5_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember5'", chkMember5.Text) == true)
-                {
-                    chkMember5.Focus();
-                }
-                else
-                {
-                    if (chkMember5.Text == "1")
-                    {
-                        obj_op.EnableControls(IG0405);
-                        obj_op.EnableControls(IG0505);
-                        obj_op.EnableControls(IG060105);
-                        obj_op.EnableControls(IG060205);
-                        obj_op.EnableControls(IG060305);
-                        obj_op.EnableControls(IG060405);
-                        obj_op.EnableControls(IG060505);
-                        obj_op.EnableControls(IG070105);
-                        obj_op.EnableControls(IG070205);
-                        obj_op.EnableControls(IG070305);
-                        obj_op.EnableControls(IG070405);
-
-                        obj_op.EnableControls(IG070505);
-                        obj_op.EnableControls(IG070605);
-                        obj_op.EnableControls(IG070705);
-                        obj_op.EnableControls(IG070805);
-                        obj_op.EnableControls(IG070905);
-                        obj_op.EnableControls(IG0701005);
-                        obj_op.EnableControls(IG0701105);
-                        obj_op.EnableControls(IG0701205);
-                        obj_op.EnableControls(IG0701305);
-                        obj_op.EnableControls(IG0805);
-                        obj_op.EnableControls(IG0905);
-                        obj_op.EnableControls(IG01005);
-                        obj_op.EnableControls(IG01105);
-                        obj_op.EnableControls(IG01205);
-                        obj_op.EnableControls(IG01305);
-                        obj_op.EnableControls(IG01405);
-                        obj_op.EnableControls(IG01505);
-                        obj_op.EnableControls(IG160105);
-                        obj_op.EnableControls(IG160205);
-                        obj_op.EnableControls(IG160305);
-                        obj_op.EnableControls(IG160405);
-                        obj_op.EnableControls(IG160505);
-                        obj_op.EnableControls(IG160605);
-                        obj_op.EnableControls(IG160705);
-                        obj_op.EnableControls(IG160805);
-                        obj_op.EnableControls(IG160905);
-                        obj_op.EnableControls(IG1601005);
-                        obj_op.EnableControls(IG1601105);
-                        obj_op.EnableControls(IG1601205);
-
-                        IG0405.Focus();
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IG0405);
-                        obj_op.DisableControls(IG0505);
-                        obj_op.DisableControls(IG060105);
-                        obj_op.DisableControls(IG060205);
-                        obj_op.DisableControls(IG060305);
-                        obj_op.DisableControls(IG060405);
-                        obj_op.DisableControls(IG060505);
-                        obj_op.DisableControls(IG070105);
-                        obj_op.DisableControls(IG070205);
-                        obj_op.DisableControls(IG070305);
-                        obj_op.DisableControls(IG070405);
-
-                        obj_op.DisableControls(IG070505);
-                        obj_op.DisableControls(IG070605);
-                        obj_op.DisableControls(IG070705);
-                        obj_op.DisableControls(IG070805);
-                        obj_op.DisableControls(IG070905);
-                        obj_op.DisableControls(IG0701005);
-                        obj_op.DisableControls(IG0701105);
-                        obj_op.DisableControls(IG0701205);
-                        obj_op.DisableControls(IG0701305);
-                        obj_op.DisableControls(IG0805);
-                        obj_op.DisableControls(IG0905);
-                        obj_op.DisableControls(IG01005);
-                        obj_op.DisableControls(IG01105);
-                        obj_op.DisableControls(IG01205);
-                        obj_op.DisableControls(IG01305);
-                        obj_op.DisableControls(IG01405);
-                        obj_op.DisableControls(IG01505);
-                        obj_op.DisableControls(IG160105);
-                        obj_op.DisableControls(IG160205);
-                        obj_op.DisableControls(IG160305);
-                        obj_op.DisableControls(IG160405);
-                        obj_op.DisableControls(IG160505);
-                        obj_op.DisableControls(IG160605);
-                        obj_op.DisableControls(IG160705);
-                        obj_op.DisableControls(IG160805);
-                        obj_op.DisableControls(IG160905);
-                        obj_op.DisableControls(IG1601005);
-                        obj_op.DisableControls(IG1601105);
-                        obj_op.DisableControls(IG1601205);
 
 
 
-                        if (IG070501.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 6;
-                            IG070501.Focus();
-                        }
-                        else if (IG070502.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 6;
-                            IG070502.Focus();
-                        }
-                        else if (IG070503.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 6;
-                            IG070503.Focus();
-                        }
-                        else if (IG070504.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 6;
-                            IG070504.Focus();
-                        }
-                        else if (IG070505.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 6;
-                            IG070505.Focus();
-                        }
-
-                    }
-                }
+        
 
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkMember5.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_chkMember5);
-        }
-
-
-        private void IG0405_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0405'", IG0405.Text) == true)
-                {
-                    IG0405.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0405.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0405);
-        }
-
-
-        private void IG0505_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0505'", IG0505.Text) == true)
-                {
-                    IG0505.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0505.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0505);
-        }
-
-
-        private void IG060105_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060105'", IG060105.Text) == true)
-                {
-                    IG060105.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060105.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060105);
-        }
-
-
-        private void IG060205_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060205'", IG060205.Text) == true)
-                {
-                    IG060205.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060205.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060205);
-        }
-
-
-        private void IG060305_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060305'", IG060305.Text) == true)
-                {
-                    IG060305.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060305.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060305);
-        }
-
-
-        private void IG060405_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060405'", IG060405.Text) == true)
-                {
-                    IG060405.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060405.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060405);
-        }
-
-
-        private void IG060505_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060505'", IG060505.Text) == true)
-                {
-                    IG060505.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG060505.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG060505);
-        }
+        
 
 
         private void IG070105_Leave(object sender, EventArgs e)
@@ -8383,272 +5182,7 @@ namespace iNCK
         }
 
 
-        private void IG070501_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070501'", IG070501.Text) == true)
-                {
-                    IG070501.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070501.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070501);
-        }
-
-
-        private void IG070601_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070601'", IG070601.Text) == true)
-                {
-                    IG070601.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070601.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070601);
-        }
-
-
-        private void IG070701_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070701'", IG070701.Text) == true)
-                {
-                    IG070701.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070701.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070701);
-        }
-
-
-        private void IG070801_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070801'", IG070801.Text) == true)
-                {
-                    IG070801.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070801.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070801);
-        }
-
-
-        private void IG070901_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070901'", IG070901.Text) == true)
-                {
-                    IG070901.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070901.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070901);
-        }
-
-
-        private void IG0701001_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701001'", IG0701001.Text) == true)
-                {
-                    IG0701001.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701001.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701001);
-        }
-
-
-        private void IG0701101_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701101'", IG0701101.Text) == true)
-                {
-                    IG0701101.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701101.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701101);
-        }
-
-
-        private void IG0701201_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701201'", IG0701201.Text) == true)
-                {
-                    IG0701201.Focus();
-                }
-                else
-                {
-                    if (IG0701201.Text == "0")
-                    {
-                        obj_op.DisableControls(IG0701301);
-                        obj_op.DisableControls(IG0801);
-
-                        IG0901.Focus();
-                    }
-                    else
-                    {
-                        obj_op.EnableControls(IG0701301);
-                        obj_op.EnableControls(IG0801);
-
-                        IG0701301.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701201.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701201);
-        }
-
-
-        private void IG0701301_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701301'", IG0701301.Text) == true)
-                {
-                    IG0701301.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701301.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701301);
-        }
+        
 
 
         private void IG0801_Leave(object sender, EventArgs e)
@@ -9315,256 +5849,7 @@ namespace iNCK
         }
 
 
-        private void IG070502_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070502'", IG070502.Text) == true)
-                {
-                    IG070502.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070502.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070502);
-        }
-
-
-        private void IG070602_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070602'", IG070602.Text) == true)
-                {
-                    IG070602.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070602.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070602);
-        }
-
-
-        private void IG070702_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070702'", IG070702.Text) == true)
-                {
-                    IG070702.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070702.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070702);
-        }
-
-
-        private void IG070802_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070802'", IG070802.Text) == true)
-                {
-                    IG070802.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070802.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070802);
-        }
-
-
-        private void IG070902_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070902'", IG070902.Text) == true)
-                {
-                    IG070902.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070902.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070902);
-        }
-
-
-        private void IG0701002_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701002'", IG0701002.Text) == true)
-                {
-                    IG0701002.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701002.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701002);
-        }
-
-
-        private void IG0701102_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701102'", IG0701102.Text) == true)
-                {
-                    IG0701102.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701102.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701102);
-        }
-
-
-        private void IG0701202_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701202'", IG0701202.Text) == true)
-                {
-                    IG0701202.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701202.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701202);
-        }
-
-
-        private void IG0701302_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701302'", IG0701302.Text) == true)
-                {
-                    IG0701302.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701302.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701302);
-        }
+        
 
 
         private void IG0802_Leave(object sender, EventArgs e)
@@ -10226,256 +6511,7 @@ namespace iNCK
         }
 
 
-        private void IG070503_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070503'", IG070503.Text) == true)
-                {
-                    IG070503.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070503.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070503);
-        }
-
-
-        private void IG070603_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070603'", IG070603.Text) == true)
-                {
-                    IG070603.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070603.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070603);
-        }
-
-
-        private void IG070703_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070703'", IG070703.Text) == true)
-                {
-                    IG070703.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070703.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070703);
-        }
-
-
-        private void IG070803_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070803'", IG070803.Text) == true)
-                {
-                    IG070803.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070803.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070803);
-        }
-
-
-        private void IG070903_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070903'", IG070903.Text) == true)
-                {
-                    IG070903.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG070903.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG070903);
-        }
-
-
-        private void IG0701003_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701003'", IG0701003.Text) == true)
-                {
-                    IG0701003.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701003.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701003);
-        }
-
-
-        private void IG0701103_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701103'", IG0701103.Text) == true)
-                {
-                    IG0701103.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701103.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701103);
-        }
-
-
-        private void IG0701203_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701203'", IG0701203.Text) == true)
-                {
-                    IG0701203.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701203.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701203);
-        }
-
-
-        private void IG0701303_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701303'", IG0701303.Text) == true)
-                {
-                    IG0701303.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            IG0701303.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_IG0701303);
-        }
+        
 
 
         private void IG0803_Leave(object sender, EventArgs e)
@@ -12900,32 +8936,7 @@ namespace iNCK
         }
 
 
-        private void QCFUP01_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
 
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'QCFUP01'", QCFUP01.Text) == true)
-                {
-                    QCFUP01.Focus();
-                }
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            QCFUP01.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_QCFUP01);
-        }
 
 
         private void QCFUP02_Leave(object sender, EventArgs e)
@@ -13227,98 +9238,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby5_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby5'", chkBaby5.Text) == true)
-                {
-                    chkBaby5.Focus();
-                }
-                else
-                {
-                    if (chkBaby5.Text == "1")
-                    {
-                        obj_op.EnableControls(IC0605);
-                        obj_op.EnableControls(IC0705);
-                        obj_op.EnableControls(IC0805);
-                        obj_op.EnableControls(IC0905);
-                        obj_op.EnableControls(IC01005);
-                        obj_op.EnableControls(IC01105);
-
-                        IC0605.Focus();
-
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IC0605);
-                        obj_op.DisableControls(IC0705);
-                        obj_op.DisableControls(IC0805);
-                        obj_op.DisableControls(IC0905);
-                        obj_op.DisableControls(IC01005);
-                        obj_op.DisableControls(IC01105);
-
-                        obj_op.DisableControls(IC0606);
-                        obj_op.DisableControls(IC0706);
-                        obj_op.DisableControls(IC0806);
-                        obj_op.DisableControls(IC0906);
-                        obj_op.DisableControls(IC01006);
-                        obj_op.DisableControls(IC01106);
-
-                        obj_op.DisableControls(IC0607);
-                        obj_op.DisableControls(IC0707);
-                        obj_op.DisableControls(IC0807);
-                        obj_op.DisableControls(IC0907);
-                        obj_op.DisableControls(IC01007);
-                        obj_op.DisableControls(IC01107);
-
-                        obj_op.DisableControls(IC0608);
-                        obj_op.DisableControls(IC0708);
-                        obj_op.DisableControls(IC0808);
-                        obj_op.DisableControls(IC0908);
-                        obj_op.DisableControls(IC01008);
-                        obj_op.DisableControls(IC01108);
-
-                        obj_op.DisableControls(IC0609);
-                        obj_op.DisableControls(IC0709);
-                        obj_op.DisableControls(IC0809);
-                        obj_op.DisableControls(IC0909);
-                        obj_op.DisableControls(IC01009);
-                        obj_op.DisableControls(IC01109);
-
-                        obj_op.DisableControls(IC06010);
-                        obj_op.DisableControls(IC07010);
-                        obj_op.DisableControls(IC08010);
-                        obj_op.DisableControls(IC09010);
-                        obj_op.DisableControls(IC01010);
-                        obj_op.DisableControls(IC01110);
-
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-                        chkBaby6.Focus();
-                    }
-                }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby5.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby5);
-        }
+        
 
 
         private void IC0605_Leave(object sender, EventArgs e)
@@ -13501,95 +9421,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby6_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby6'", chkBaby6.Text) == true)
-                {
-                    chkBaby6.Focus();
-                }
-                else
-                {
-                    if (chkBaby6.Text == "1")
-                    {
-                        obj_op.EnableControls(IC0606);
-                        obj_op.EnableControls(IC0706);
-                        obj_op.EnableControls(IC0806);
-                        obj_op.EnableControls(IC0906);
-                        obj_op.EnableControls(IC01006);
-                        obj_op.EnableControls(IC01106);
-
-                        IC0606.Focus();
-
-                    }
-                    else
-                    {
-
-                        obj_op.DisableControls(IC0606);
-                        obj_op.DisableControls(IC0706);
-                        obj_op.DisableControls(IC0806);
-                        obj_op.DisableControls(IC0906);
-                        obj_op.DisableControls(IC01006);
-                        obj_op.DisableControls(IC01106);
-
-
-                        obj_op.DisableControls(IC0607);
-                        obj_op.DisableControls(IC0707);
-                        obj_op.DisableControls(IC0807);
-                        obj_op.DisableControls(IC0907);
-                        obj_op.DisableControls(IC01007);
-                        obj_op.DisableControls(IC01107);
-
-                        obj_op.DisableControls(IC0608);
-                        obj_op.DisableControls(IC0708);
-                        obj_op.DisableControls(IC0808);
-                        obj_op.DisableControls(IC0908);
-                        obj_op.DisableControls(IC01008);
-                        obj_op.DisableControls(IC01108);
-
-                        obj_op.DisableControls(IC0609);
-                        obj_op.DisableControls(IC0709);
-                        obj_op.DisableControls(IC0809);
-                        obj_op.DisableControls(IC0909);
-                        obj_op.DisableControls(IC01009);
-                        obj_op.DisableControls(IC01109);
-
-                        obj_op.DisableControls(IC06010);
-                        obj_op.DisableControls(IC07010);
-                        obj_op.DisableControls(IC08010);
-                        obj_op.DisableControls(IC09010);
-                        obj_op.DisableControls(IC01010);
-                        obj_op.DisableControls(IC01110);
-
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-
-                        chkBaby7.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby6.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby6);
-        }
+        
 
 
         private void IC0606_Leave(object sender, EventArgs e)
@@ -13772,86 +9604,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby7_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby7'", chkBaby7.Text) == true)
-                {
-                    chkBaby7.Focus();
-                }
-                else
-                {
-                    if (chkBaby7.Text == "1")
-                    {
-                        obj_op.EnableControls(IC0607);
-                        obj_op.EnableControls(IC0707);
-                        obj_op.EnableControls(IC0807);
-                        obj_op.EnableControls(IC0907);
-                        obj_op.EnableControls(IC01007);
-                        obj_op.EnableControls(IC01107);
-
-                        IC0607.Focus();
-
-                    }
-                    else
-                    {
-
-                        obj_op.DisableControls(IC0607);
-                        obj_op.DisableControls(IC0707);
-                        obj_op.DisableControls(IC0807);
-                        obj_op.DisableControls(IC0907);
-                        obj_op.DisableControls(IC01007);
-                        obj_op.DisableControls(IC01107);
-
-                        obj_op.DisableControls(IC0608);
-                        obj_op.DisableControls(IC0708);
-                        obj_op.DisableControls(IC0808);
-                        obj_op.DisableControls(IC0908);
-                        obj_op.DisableControls(IC01008);
-                        obj_op.DisableControls(IC01108);
-
-                        obj_op.DisableControls(IC0609);
-                        obj_op.DisableControls(IC0709);
-                        obj_op.DisableControls(IC0809);
-                        obj_op.DisableControls(IC0909);
-                        obj_op.DisableControls(IC01009);
-                        obj_op.DisableControls(IC01109);
-
-                        obj_op.DisableControls(IC06010);
-                        obj_op.DisableControls(IC07010);
-                        obj_op.DisableControls(IC08010);
-                        obj_op.DisableControls(IC09010);
-                        obj_op.DisableControls(IC01010);
-                        obj_op.DisableControls(IC01110);
-
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-                        chkBaby8.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby7.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby7);
-        }
+        
 
 
         private void IC0607_Leave(object sender, EventArgs e)
@@ -14034,79 +9787,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby8_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby8'", chkBaby8.Text) == true)
-                {
-                    chkBaby8.Focus();
-                }
-                else
-                {
-                    if (chkBaby8.Text == "1")
-                    {
-                        obj_op.EnableControls(IC0608);
-                        obj_op.EnableControls(IC0708);
-                        obj_op.EnableControls(IC0808);
-                        obj_op.EnableControls(IC0908);
-                        obj_op.EnableControls(IC01008);
-                        obj_op.EnableControls(IC01108);
-
-                        IC0608.Focus();
-
-                    }
-                    else
-                    {
-
-                        obj_op.DisableControls(IC0608);
-                        obj_op.DisableControls(IC0708);
-                        obj_op.DisableControls(IC0808);
-                        obj_op.DisableControls(IC0908);
-                        obj_op.DisableControls(IC01008);
-                        obj_op.DisableControls(IC01108);
-
-                        obj_op.DisableControls(IC0609);
-                        obj_op.DisableControls(IC0709);
-                        obj_op.DisableControls(IC0809);
-                        obj_op.DisableControls(IC0909);
-                        obj_op.DisableControls(IC01009);
-                        obj_op.DisableControls(IC01109);
-
-                        obj_op.DisableControls(IC06010);
-                        obj_op.DisableControls(IC07010);
-                        obj_op.DisableControls(IC08010);
-                        obj_op.DisableControls(IC09010);
-                        obj_op.DisableControls(IC01010);
-                        obj_op.DisableControls(IC01110);
-
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-                        chkBaby9.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby8.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby8);
-        }
+        
 
 
         private void IC0608_Leave(object sender, EventArgs e)
@@ -14289,72 +9970,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby9_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby9'", chkBaby9.Text) == true)
-                {
-                    chkBaby9.Focus();
-                }
-                else
-                {
-                    if (chkBaby9.Text == "1")
-                    {
-                        obj_op.EnableControls(IC0609);
-                        obj_op.EnableControls(IC0709);
-                        obj_op.EnableControls(IC0809);
-                        obj_op.EnableControls(IC0909);
-                        obj_op.EnableControls(IC01009);
-                        obj_op.EnableControls(IC01109);
-
-                        IC0609.Focus();
-
-                    }
-                    else
-                    {
-
-                        obj_op.DisableControls(IC0609);
-                        obj_op.DisableControls(IC0709);
-                        obj_op.DisableControls(IC0809);
-                        obj_op.DisableControls(IC0909);
-                        obj_op.DisableControls(IC01009);
-                        obj_op.DisableControls(IC01109);
-
-                        obj_op.DisableControls(IC06010);
-                        obj_op.DisableControls(IC07010);
-                        obj_op.DisableControls(IC08010);
-                        obj_op.DisableControls(IC09010);
-                        obj_op.DisableControls(IC01010);
-                        obj_op.DisableControls(IC01110);
-
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-                        chkBaby10.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby9.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby9);
-        }
+        
 
 
         private void IC0609_Leave(object sender, EventArgs e)
@@ -14537,64 +10153,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby10_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby10'", chkBaby10.Text) == true)
-                {
-                    chkBaby10.Focus();
-                }
-                else
-                {
-                    if (chkBaby10.Text == "1")
-                    {
-                        obj_op.EnableControls(IC06010);
-                        obj_op.EnableControls(IC07010);
-                        obj_op.EnableControls(IC08010);
-                        obj_op.EnableControls(IC09010);
-                        obj_op.EnableControls(IC01010);
-                        obj_op.EnableControls(IC01110);
-
-                        IC06010.Focus();
-
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IC06010);
-                        obj_op.DisableControls(IC07010);
-                        obj_op.DisableControls(IC08010);
-                        obj_op.DisableControls(IC09010);
-                        obj_op.DisableControls(IC01010);
-                        obj_op.DisableControls(IC01110);
-
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-                        chkBaby11.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby10.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby10);
-        }
+        
 
 
         private void IC06010_Leave(object sender, EventArgs e)
@@ -14777,59 +10336,7 @@ namespace iNCK
         }
 
 
-        private void ckkBaby11_Leave(object sender, EventArgs e)
-        {
-            CDBOperations obj_op = new CDBOperations();
-
-            try
-            {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby11'", chkBaby11.Text) == true)
-                {
-                    chkBaby11.Focus();
-                }
-                else
-                {
-                    if (chkBaby11.Text == "1")
-                    {
-                        obj_op.EnableControls(IC06011);
-                        obj_op.EnableControls(IC07011);
-                        obj_op.EnableControls(IC08011);
-                        obj_op.EnableControls(IC09011);
-                        obj_op.EnableControls(IC01011);
-                        obj_op.EnableControls(IC01111);
-
-                        IC06011.Focus();
-
-                    }
-                    else
-                    {
-                        obj_op.DisableControls(IC06011);
-                        obj_op.DisableControls(IC07011);
-                        obj_op.DisableControls(IC08011);
-                        obj_op.DisableControls(IC09011);
-                        obj_op.DisableControls(IC01011);
-                        obj_op.DisableControls(IC01111);
-
-                        tabControl1.SelectedIndex = 3;
-
-                        ID01.Focus();
-                    }
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                obj_op = null;
-            }
-
-            chkBaby11.BackColor = Color.Bisque;
-            ChangeColorLabel(0, lbl_ckkBaby11);
-        }
+        
 
 
         private void IC06011_Leave(object sender, EventArgs e)
@@ -29636,12 +25143,7 @@ namespace iNCK
             IE03.SelectAll();
         }
 
-        private void IE04_Enter(object sender, EventArgs e)
-        {
-            IE04.BackColor = Color.Aqua;
-            ChangeColorLabel(1, lbl_IE04);
-            IE04.SelectAll();
-        }
+
 
         private void chkHHMem1_Enter(object sender, EventArgs e)
         {
@@ -29650,12 +25152,7 @@ namespace iNCK
             chkHHMem1.SelectAll();
         }
 
-        private void IE0701_Enter(object sender, EventArgs e)
-        {
-            IE0701.BackColor = Color.Aqua;
-            ChangeColorLabel(1, lbl_IE0701);
-            IE0701.SelectAll();
-        }
+
 
         private void chkHHMem2_Enter(object sender, EventArgs e)
         {
@@ -29664,12 +25161,7 @@ namespace iNCK
             chkHHMem2.SelectAll();
         }
 
-        private void IE0702_Enter(object sender, EventArgs e)
-        {
-            IE0702.BackColor = Color.Aqua;
-            ChangeColorLabel(1, lbl_IE0702);
-            IE0702.SelectAll();
-        }
+
 
         private void chkHHMem3_Enter(object sender, EventArgs e)
         {
@@ -29678,12 +25170,7 @@ namespace iNCK
             chkHHMem3.SelectAll();
         }
 
-        private void IE0703_Enter(object sender, EventArgs e)
-        {
-            IE0703.BackColor = Color.Aqua;
-            ChangeColorLabel(1, lbl_IE0703);
-            IE0703.SelectAll();
-        }
+
 
         private void chkHHMem4_Enter(object sender, EventArgs e)
         {
@@ -29692,12 +25179,7 @@ namespace iNCK
             chkHHMem4.SelectAll();
         }
 
-        private void IE0704_Enter(object sender, EventArgs e)
-        {
-            IE0704.BackColor = Color.Aqua;
-            ChangeColorLabel(1, lbl_IE0704);
-            IE0704.SelectAll();
-        }
+
 
         private void IE0801_Enter(object sender, EventArgs e)
         {
@@ -31358,12 +26840,7 @@ namespace iNCK
             IG1601205.SelectAll();
         }
 
-        private void QCFUP01_Enter(object sender, EventArgs e)
-        {
-            QCFUP01.BackColor = Color.Aqua;
-            ChangeColorLabel(1, lbl_QCFUP01);
-            QCFUP01.SelectAll();
-        }
+
 
         private void QCFUP02_Enter(object sender, EventArgs e)
         {
@@ -38878,14 +34355,14 @@ namespace iNCK
                                 IG1601205.Text = ds.Tables[0].Rows[0]["IG1601205"].ToString();
                             }
 
-                            if (ds.Tables[0].Rows[0]["QCFUP01"].ToString() == null)
-                            {
-                                QCFUP01.Text = "";
-                            }
-                            else
-                            {
-                                QCFUP01.Text = ds.Tables[0].Rows[0]["QCFUP01"].ToString();
-                            }
+                            //if (ds.Tables[0].Rows[0]["QCFUP01"].ToString() == null)
+                            //{
+                            //    QCFUP01.Text = "";
+                            //}
+                            //else
+                            //{
+                            //    QCFUP01.Text = ds.Tables[0].Rows[0]["QCFUP01"].ToString();
+                            //}
 
                             if (ds.Tables[0].Rows[0]["QCFUP02"].ToString() == null)
                             {
@@ -44830,7 +40307,6 @@ namespace iNCK
 "IG1601005," +
 "IG1601105," +
 "IG1601205," +
-"QCFUP01," +
 "QCFUP02," +
 "QCFUP03," +
 "QCFUP04," +
@@ -45604,7 +41080,6 @@ IG160905.Text + "', '" +
 IG1601005.Text + "', '" +
 IG1601105.Text + "', '" +
 IG1601205.Text + "', '" +
-QCFUP01.Text + "', '" +
 QCFUP02.Text + "', '" +
 QCFUP03.Text + "', '" +
 QCFUP04.Text + "', '" +
@@ -46456,7 +41931,6 @@ CVariables.UserName + "')";
 "IG1601005 = '" + IG1601005.Text + "', " +
 "IG1601105 = '" + IG1601105.Text + "', " +
 "IG1601205 = '" + IG1601205.Text + "', " +
-"QCFUP01 = '" + QCFUP01.Text + "', " +
 "QCFUP02 = '" + QCFUP02.Text + "', " +
 "QCFUP03 = '" + QCFUP03.Text + "', " +
 "QCFUP04 = '" + QCFUP04.Text + "', " +
@@ -57548,6 +53022,4479 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
 
             IF04.BackColor = Color.Bisque;
             ChangeColorLabel(0, lbl_IF04);
+        }
+
+        private void tabPage13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IE0701_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0701'", IE0701.Text) == true)
+                {
+                    IE0701.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IE0701.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IE0701);
+        }
+
+        private void IE0702_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0702'", IE0702.Text) == true)
+                {
+                    IE0702.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IE0702.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IE0702);
+        }
+
+        private void IE0703_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0703'", IE0703.Text) == true)
+                {
+                    IE0703.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IE0703.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IE0703);
+        }
+
+        private void IE0704_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IE0704'", IE0704.Text) == true)
+                {
+                    IE0704.Focus();
+                }
+                else
+                {
+
+
+                    if (IE0801.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 4;
+                        IE0801.Focus();
+                    }
+                    else if (IE0802.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 4;
+                        IE0802.Focus();
+                    }
+                    else if (IE0803.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 4;
+                        IE0803.Focus();
+                    }
+                    else if (IE0804.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 4;
+                        IE0804.Focus();
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IE0704.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IE0704);
+        }
+
+        private void IE0701_Enter(object sender, EventArgs e)
+        {
+            IE0701.BackColor = Color.Aqua;
+            ChangeColorLabel(1, lbl_IE0701);
+            IE0701.SelectAll();
+        }
+
+        private void IE0702_Enter(object sender, EventArgs e)
+        {
+            IE0702.BackColor = Color.Aqua;
+            ChangeColorLabel(1, lbl_IE0702);
+            IE0702.SelectAll();
+        }
+
+        private void IE0703_Enter(object sender, EventArgs e)
+        {
+            IE0703.BackColor = Color.Aqua;
+            ChangeColorLabel(1, lbl_IE0703);
+            IE0703.SelectAll();
+        }
+
+        private void IE0704_Enter(object sender, EventArgs e)
+        {
+            IE0704.BackColor = Color.Aqua;
+            ChangeColorLabel(1, lbl_IE0704);
+            IE0704.SelectAll();
+        }
+
+        private void IE04_Enter(object sender, EventArgs e)
+        {
+            IE04.BackColor = Color.Aqua;
+            ChangeColorLabel(1, lbl_IE04);
+            IE04.SelectAll();
+        }
+
+        private void IB011_Enter(object sender, EventArgs e)
+        {
+            IB011.BackColor = Color.Aqua;
+            IB011.SelectAll();
+        }
+
+        private void chkPW1_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW1'", chkPW1.Text) == true)
+                {
+                    chkPW1.Focus();
+                }
+                else
+                {
+                    if (chkPW1.Text == "1")
+                    {
+                        obj_op.EnableControls(IF0601);
+                        IF0601.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IF0601);
+                        obj_op.DisableControls(IF0602);
+                        obj_op.DisableControls(IF0603);
+                        obj_op.DisableControls(IF0604);
+
+                        chkPW2.Focus();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkPW1.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkPW1);
+        }
+
+        private void chkPW2_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW2'", chkPW2.Text) == true)
+                {
+                    chkPW2.Focus();
+                }
+                else
+                {
+                    if (chkPW2.Text == "1")
+                    {
+                        obj_op.EnableControls(IF0602);
+                        IF0602.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IF0602);
+                        obj_op.DisableControls(IF0603);
+                        obj_op.DisableControls(IF0604);
+
+                        chkPW3.Focus();
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkPW2.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkPW2);
+        }
+
+        private void chkPW3_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW3'", chkPW3.Text) == true)
+                {
+                    chkPW3.Focus();
+                }
+                else
+                {
+                    if (chkPW3.Text == "1")
+                    {
+                        obj_op.EnableControls(IF0603);
+                        IF0603.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IF0603);
+                        obj_op.DisableControls(IF0604);
+
+                        chkPW4.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkPW3.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkPW3);
+        }
+
+        private void chkPW4_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkPW4'", chkPW4.Text) == true)
+                {
+                    chkPW4.Focus();
+                }
+                else
+                {
+                    if (chkPW4.Text == "1")
+                    {
+                        obj_op.EnableControls(IF0604);
+                        IF0604.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IF0604);
+
+                        tabControl1.SelectedIndex = 5;
+                        IG01.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkPW4.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkPW4);
+        }
+
+        private void IF0601_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0601'", IF0601.Text) == true)
+                {
+                    IF0601.Focus();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IF0601.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IF0601);
+        }
+
+        private void IF0602_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0602'", IF0602.Text) == true)
+                {
+                    IF0602.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IF0602.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IF0602);
+        }
+
+        private void IF0603_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0603'", IF0603.Text) == true)
+                {
+                    IF0603.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IF0603.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IF0603);
+        }
+
+
+
+
+        private void IF0604_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IF0604'", IF0604.Text) == true)
+                {
+                    IF0604.Focus();
+                }
+                else
+                {
+                    tabControl1.SelectedIndex = 5;
+                    IG01.Focus();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IF0604.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IF0604);
+        }
+
+        private void IG01_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG01'", IG01.Text) == true)
+                {
+                    IG01.Focus();
+                }
+                else
+                {
+                    if (IG01.Text == "0")
+                    {
+                        obj_op.DisableControls(IG02);
+                        obj_op.DisableControls(IG0301);
+                        obj_op.DisableControls(IG0302);
+                        obj_op.DisableControls(IG0303);
+                        obj_op.DisableControls(IG0304);
+                        obj_op.DisableControls(IG0305);
+                        obj_op.DisableControls(IG0306);
+                        obj_op.DisableControls(IG0307);
+                        obj_op.DisableControls(IG0308);
+                        obj_op.DisableControls(IG0309);
+                        obj_op.DisableControls(IG03010);
+
+                        obj_op.DisableControls(chkMember1);
+                        obj_op.DisableControls(chkMember2);
+                        obj_op.DisableControls(chkMember3);
+                        obj_op.DisableControls(chkMember4);
+                        obj_op.DisableControls(chkMember5);
+
+                        obj_op.DisableControls(IG0401);
+                        obj_op.DisableControls(IG0501);
+                        obj_op.DisableControls(IG060101);
+                        obj_op.DisableControls(IG060201);
+                        obj_op.DisableControls(IG060301);
+                        obj_op.DisableControls(IG060401);
+                        obj_op.DisableControls(IG060501);
+
+                        obj_op.DisableControls(IG070101);
+                        obj_op.DisableControls(IG070201);
+                        obj_op.DisableControls(IG070301);
+                        obj_op.DisableControls(IG070401);
+                        obj_op.DisableControls(IG070501);
+                        obj_op.DisableControls(IG070601);
+                        obj_op.DisableControls(IG070701);
+                        obj_op.DisableControls(IG070801);
+                        obj_op.DisableControls(IG070901);
+                        obj_op.DisableControls(IG0701001);
+                        obj_op.DisableControls(IG0701101);
+                        obj_op.DisableControls(IG0701201);
+                        obj_op.DisableControls(IG0701301);
+                        obj_op.DisableControls(IG0801);
+                        obj_op.DisableControls(IG0901);
+                        obj_op.DisableControls(IG01001);
+                        obj_op.DisableControls(IG01101);
+                        obj_op.DisableControls(IG01201);
+                        obj_op.DisableControls(IG01301);
+                        obj_op.DisableControls(IG01401);
+                        obj_op.DisableControls(IG01501);
+                        obj_op.DisableControls(IG160101);
+                        obj_op.DisableControls(IG160201);
+                        obj_op.DisableControls(IG160301);
+                        obj_op.DisableControls(IG160401);
+                        obj_op.DisableControls(IG160501);
+                        obj_op.DisableControls(IG160601);
+                        obj_op.DisableControls(IG160701);
+                        obj_op.DisableControls(IG160801);
+                        obj_op.DisableControls(IG160901);
+                        obj_op.DisableControls(IG1601001);
+                        obj_op.DisableControls(IG1601101);
+                        obj_op.DisableControls(IG1601201);
+
+
+
+                        obj_op.DisableControls(IG0402);
+                        obj_op.DisableControls(IG0502);
+                        obj_op.DisableControls(IG060102);
+                        obj_op.DisableControls(IG060202);
+                        obj_op.DisableControls(IG060302);
+                        obj_op.DisableControls(IG060402);
+                        obj_op.DisableControls(IG060502);
+
+                        obj_op.DisableControls(IG070102);
+                        obj_op.DisableControls(IG070202);
+                        obj_op.DisableControls(IG070302);
+                        obj_op.DisableControls(IG070402);
+                        obj_op.DisableControls(IG070502);
+                        obj_op.DisableControls(IG070602);
+                        obj_op.DisableControls(IG070702);
+                        obj_op.DisableControls(IG070802);
+                        obj_op.DisableControls(IG070902);
+                        obj_op.DisableControls(IG0701002);
+                        obj_op.DisableControls(IG0701102);
+                        obj_op.DisableControls(IG0701202);
+                        obj_op.DisableControls(IG0701302);
+                        obj_op.DisableControls(IG0802);
+                        obj_op.DisableControls(IG0902);
+                        obj_op.DisableControls(IG01002);
+                        obj_op.DisableControls(IG01102);
+                        obj_op.DisableControls(IG01202);
+                        obj_op.DisableControls(IG01302);
+                        obj_op.DisableControls(IG01402);
+                        obj_op.DisableControls(IG01502);
+                        obj_op.DisableControls(IG160102);
+                        obj_op.DisableControls(IG160202);
+                        obj_op.DisableControls(IG160302);
+                        obj_op.DisableControls(IG160402);
+                        obj_op.DisableControls(IG160502);
+                        obj_op.DisableControls(IG160602);
+                        obj_op.DisableControls(IG160702);
+                        obj_op.DisableControls(IG160802);
+                        obj_op.DisableControls(IG160902);
+                        obj_op.DisableControls(IG1601002);
+                        obj_op.DisableControls(IG1601102);
+                        obj_op.DisableControls(IG1601202);
+
+
+                        obj_op.DisableControls(IG0403);
+                        obj_op.DisableControls(IG0503);
+                        obj_op.DisableControls(IG060103);
+                        obj_op.DisableControls(IG060203);
+                        obj_op.DisableControls(IG060303);
+                        obj_op.DisableControls(IG060403);
+                        obj_op.DisableControls(IG060503);
+
+                        obj_op.DisableControls(IG070103);
+                        obj_op.DisableControls(IG070203);
+                        obj_op.DisableControls(IG070303);
+                        obj_op.DisableControls(IG070403);
+                        obj_op.DisableControls(IG070503);
+                        obj_op.DisableControls(IG070603);
+                        obj_op.DisableControls(IG070703);
+                        obj_op.DisableControls(IG070803);
+                        obj_op.DisableControls(IG070903);
+                        obj_op.DisableControls(IG0701003);
+                        obj_op.DisableControls(IG0701103);
+                        obj_op.DisableControls(IG0701203);
+                        obj_op.DisableControls(IG0701303);
+                        obj_op.DisableControls(IG0803);
+                        obj_op.DisableControls(IG0903);
+                        obj_op.DisableControls(IG01003);
+                        obj_op.DisableControls(IG01103);
+                        obj_op.DisableControls(IG01203);
+                        obj_op.DisableControls(IG01303);
+                        obj_op.DisableControls(IG01403);
+                        obj_op.DisableControls(IG01503);
+                        obj_op.DisableControls(IG160103);
+                        obj_op.DisableControls(IG160203);
+                        obj_op.DisableControls(IG160303);
+                        obj_op.DisableControls(IG160403);
+                        obj_op.DisableControls(IG160503);
+                        obj_op.DisableControls(IG160603);
+                        obj_op.DisableControls(IG160703);
+                        obj_op.DisableControls(IG160803);
+                        obj_op.DisableControls(IG160903);
+                        obj_op.DisableControls(IG1601003);
+                        obj_op.DisableControls(IG1601103);
+                        obj_op.DisableControls(IG1601203);
+
+
+
+                        obj_op.DisableControls(IG0404);
+                        obj_op.DisableControls(IG0504);
+                        obj_op.DisableControls(IG060104);
+                        obj_op.DisableControls(IG060204);
+                        obj_op.DisableControls(IG060304);
+                        obj_op.DisableControls(IG060404);
+                        obj_op.DisableControls(IG060504);
+
+                        obj_op.DisableControls(IG070104);
+                        obj_op.DisableControls(IG070204);
+                        obj_op.DisableControls(IG070304);
+                        obj_op.DisableControls(IG070404);
+                        obj_op.DisableControls(IG070504);
+                        obj_op.DisableControls(IG070604);
+                        obj_op.DisableControls(IG070704);
+                        obj_op.DisableControls(IG070804);
+                        obj_op.DisableControls(IG070904);
+                        obj_op.DisableControls(IG0701004);
+                        obj_op.DisableControls(IG0701104);
+                        obj_op.DisableControls(IG0701204);
+                        obj_op.DisableControls(IG0701304);
+                        obj_op.DisableControls(IG0804);
+                        obj_op.DisableControls(IG0904);
+                        obj_op.DisableControls(IG01004);
+                        obj_op.DisableControls(IG01104);
+                        obj_op.DisableControls(IG01204);
+                        obj_op.DisableControls(IG01304);
+                        obj_op.DisableControls(IG01404);
+                        obj_op.DisableControls(IG01504);
+                        obj_op.DisableControls(IG160104);
+                        obj_op.DisableControls(IG160204);
+                        obj_op.DisableControls(IG160304);
+                        obj_op.DisableControls(IG160404);
+                        obj_op.DisableControls(IG160504);
+                        obj_op.DisableControls(IG160604);
+                        obj_op.DisableControls(IG160704);
+                        obj_op.DisableControls(IG160804);
+                        obj_op.DisableControls(IG160904);
+                        obj_op.DisableControls(IG1601004);
+                        obj_op.DisableControls(IG1601104);
+                        obj_op.DisableControls(IG1601204);
+
+
+
+                        obj_op.DisableControls(IG0405);
+                        obj_op.DisableControls(IG0505);
+                        obj_op.DisableControls(IG060105);
+                        obj_op.DisableControls(IG060205);
+                        obj_op.DisableControls(IG060305);
+                        obj_op.DisableControls(IG060405);
+                        obj_op.DisableControls(IG060505);
+
+                        obj_op.DisableControls(IG070105);
+                        obj_op.DisableControls(IG070205);
+                        obj_op.DisableControls(IG070305);
+                        obj_op.DisableControls(IG070405);
+                        obj_op.DisableControls(IG070505);
+                        obj_op.DisableControls(IG070605);
+                        obj_op.DisableControls(IG070705);
+                        obj_op.DisableControls(IG070805);
+                        obj_op.DisableControls(IG070905);
+                        obj_op.DisableControls(IG0701005);
+                        obj_op.DisableControls(IG0701105);
+                        obj_op.DisableControls(IG0701205);
+                        obj_op.DisableControls(IG0701305);
+                        obj_op.DisableControls(IG0805);
+                        obj_op.DisableControls(IG0905);
+                        obj_op.DisableControls(IG01005);
+                        obj_op.DisableControls(IG01105);
+                        obj_op.DisableControls(IG01205);
+                        obj_op.DisableControls(IG01305);
+                        obj_op.DisableControls(IG01405);
+                        obj_op.DisableControls(IG01505);
+                        obj_op.DisableControls(IG160105);
+                        obj_op.DisableControls(IG160205);
+                        obj_op.DisableControls(IG160305);
+                        obj_op.DisableControls(IG160405);
+                        obj_op.DisableControls(IG160505);
+                        obj_op.DisableControls(IG160605);
+                        obj_op.DisableControls(IG160705);
+                        obj_op.DisableControls(IG160805);
+                        obj_op.DisableControls(IG160905);
+                        obj_op.DisableControls(IG1601005);
+                        obj_op.DisableControls(IG1601105);
+                        obj_op.DisableControls(IG1601205);
+
+                        tabControl1.SelectedIndex = 8;
+                        QCFUP02.Focus();
+
+                    }
+                    else
+                    {
+
+                        obj_op.EnableControls(IG02);
+                        obj_op.EnableControls(IG0301);
+                        obj_op.EnableControls(IG0302);
+                        obj_op.EnableControls(IG0303);
+                        obj_op.EnableControls(IG0304);
+                        obj_op.EnableControls(IG0305);
+                        obj_op.EnableControls(IG0306);
+                        obj_op.EnableControls(IG0307);
+                        obj_op.EnableControls(IG0308);
+                        obj_op.EnableControls(IG0309);
+                        obj_op.EnableControls(IG03010);
+
+                        obj_op.EnableControls(chkMember1);
+                        obj_op.EnableControls(chkMember2);
+                        obj_op.EnableControls(chkMember3);
+                        obj_op.EnableControls(chkMember4);
+                        obj_op.EnableControls(chkMember5);
+
+                        obj_op.EnableControls(IG0401);
+                        obj_op.EnableControls(IG0501);
+                        obj_op.EnableControls(IG060101);
+                        obj_op.EnableControls(IG060201);
+                        obj_op.EnableControls(IG060301);
+                        obj_op.EnableControls(IG060401);
+                        obj_op.EnableControls(IG060501);
+
+                        obj_op.EnableControls(IG070101);
+                        obj_op.EnableControls(IG070201);
+                        obj_op.EnableControls(IG070301);
+                        obj_op.EnableControls(IG070401);
+                        obj_op.EnableControls(IG070501);
+                        obj_op.EnableControls(IG070601);
+                        obj_op.EnableControls(IG070701);
+                        obj_op.EnableControls(IG070801);
+                        obj_op.EnableControls(IG070901);
+                        obj_op.EnableControls(IG0701001);
+                        obj_op.EnableControls(IG0701101);
+                        obj_op.EnableControls(IG0701201);
+                        obj_op.EnableControls(IG0701301);
+                        obj_op.EnableControls(IG0801);
+                        obj_op.EnableControls(IG0901);
+                        obj_op.EnableControls(IG01001);
+                        obj_op.EnableControls(IG01101);
+                        obj_op.EnableControls(IG01201);
+                        obj_op.EnableControls(IG01301);
+                        obj_op.EnableControls(IG01401);
+                        obj_op.EnableControls(IG01501);
+                        obj_op.EnableControls(IG160101);
+                        obj_op.EnableControls(IG160201);
+                        obj_op.EnableControls(IG160301);
+                        obj_op.EnableControls(IG160401);
+                        obj_op.EnableControls(IG160501);
+                        obj_op.EnableControls(IG160601);
+                        obj_op.EnableControls(IG160701);
+                        obj_op.EnableControls(IG160801);
+                        obj_op.EnableControls(IG160901);
+                        obj_op.EnableControls(IG1601001);
+                        obj_op.EnableControls(IG1601101);
+                        obj_op.EnableControls(IG1601201);
+
+
+
+                        obj_op.EnableControls(IG0402);
+                        obj_op.EnableControls(IG0502);
+                        obj_op.EnableControls(IG060102);
+                        obj_op.EnableControls(IG060202);
+                        obj_op.EnableControls(IG060302);
+                        obj_op.EnableControls(IG060402);
+                        obj_op.EnableControls(IG060502);
+
+                        obj_op.EnableControls(IG070102);
+                        obj_op.EnableControls(IG070202);
+                        obj_op.EnableControls(IG070302);
+                        obj_op.EnableControls(IG070402);
+                        obj_op.EnableControls(IG070502);
+                        obj_op.EnableControls(IG070602);
+                        obj_op.EnableControls(IG070702);
+                        obj_op.EnableControls(IG070802);
+                        obj_op.EnableControls(IG070902);
+                        obj_op.EnableControls(IG0701002);
+                        obj_op.EnableControls(IG0701102);
+                        obj_op.EnableControls(IG0701202);
+                        obj_op.EnableControls(IG0701302);
+                        obj_op.EnableControls(IG0802);
+                        obj_op.EnableControls(IG0902);
+                        obj_op.EnableControls(IG01002);
+                        obj_op.EnableControls(IG01102);
+                        obj_op.EnableControls(IG01202);
+                        obj_op.EnableControls(IG01302);
+                        obj_op.EnableControls(IG01402);
+                        obj_op.EnableControls(IG01502);
+                        obj_op.EnableControls(IG160102);
+                        obj_op.EnableControls(IG160202);
+                        obj_op.EnableControls(IG160302);
+                        obj_op.EnableControls(IG160402);
+                        obj_op.EnableControls(IG160502);
+                        obj_op.EnableControls(IG160602);
+                        obj_op.EnableControls(IG160702);
+                        obj_op.EnableControls(IG160802);
+                        obj_op.EnableControls(IG160902);
+                        obj_op.EnableControls(IG1601002);
+                        obj_op.EnableControls(IG1601102);
+                        obj_op.EnableControls(IG1601202);
+
+
+                        obj_op.EnableControls(IG0403);
+                        obj_op.EnableControls(IG0503);
+                        obj_op.EnableControls(IG060103);
+                        obj_op.EnableControls(IG060203);
+                        obj_op.EnableControls(IG060303);
+                        obj_op.EnableControls(IG060403);
+                        obj_op.EnableControls(IG060503);
+
+                        obj_op.EnableControls(IG070103);
+                        obj_op.EnableControls(IG070203);
+                        obj_op.EnableControls(IG070303);
+                        obj_op.EnableControls(IG070403);
+                        obj_op.EnableControls(IG070503);
+                        obj_op.EnableControls(IG070603);
+                        obj_op.EnableControls(IG070703);
+                        obj_op.EnableControls(IG070803);
+                        obj_op.EnableControls(IG070903);
+                        obj_op.EnableControls(IG0701003);
+                        obj_op.EnableControls(IG0701103);
+                        obj_op.EnableControls(IG0701203);
+                        obj_op.EnableControls(IG0701303);
+                        obj_op.EnableControls(IG0803);
+                        obj_op.EnableControls(IG0903);
+                        obj_op.EnableControls(IG01003);
+                        obj_op.EnableControls(IG01103);
+                        obj_op.EnableControls(IG01203);
+                        obj_op.EnableControls(IG01303);
+                        obj_op.EnableControls(IG01403);
+                        obj_op.EnableControls(IG01503);
+                        obj_op.EnableControls(IG160103);
+                        obj_op.EnableControls(IG160203);
+                        obj_op.EnableControls(IG160303);
+                        obj_op.EnableControls(IG160403);
+                        obj_op.EnableControls(IG160503);
+                        obj_op.EnableControls(IG160603);
+                        obj_op.EnableControls(IG160703);
+                        obj_op.EnableControls(IG160803);
+                        obj_op.EnableControls(IG160903);
+                        obj_op.EnableControls(IG1601003);
+                        obj_op.EnableControls(IG1601103);
+                        obj_op.EnableControls(IG1601203);
+
+
+
+                        obj_op.EnableControls(IG0404);
+                        obj_op.EnableControls(IG0504);
+                        obj_op.EnableControls(IG060104);
+                        obj_op.EnableControls(IG060204);
+                        obj_op.EnableControls(IG060304);
+                        obj_op.EnableControls(IG060404);
+                        obj_op.EnableControls(IG060504);
+
+                        obj_op.EnableControls(IG070104);
+                        obj_op.EnableControls(IG070204);
+                        obj_op.EnableControls(IG070304);
+                        obj_op.EnableControls(IG070404);
+                        obj_op.EnableControls(IG070504);
+                        obj_op.EnableControls(IG070604);
+                        obj_op.EnableControls(IG070704);
+                        obj_op.EnableControls(IG070804);
+                        obj_op.EnableControls(IG070904);
+                        obj_op.EnableControls(IG0701004);
+                        obj_op.EnableControls(IG0701104);
+                        obj_op.EnableControls(IG0701204);
+                        obj_op.EnableControls(IG0701304);
+                        obj_op.EnableControls(IG0804);
+                        obj_op.EnableControls(IG0904);
+                        obj_op.EnableControls(IG01004);
+                        obj_op.EnableControls(IG01104);
+                        obj_op.EnableControls(IG01204);
+                        obj_op.EnableControls(IG01304);
+                        obj_op.EnableControls(IG01404);
+                        obj_op.EnableControls(IG01504);
+                        obj_op.EnableControls(IG160104);
+                        obj_op.EnableControls(IG160204);
+                        obj_op.EnableControls(IG160304);
+                        obj_op.EnableControls(IG160404);
+                        obj_op.EnableControls(IG160504);
+                        obj_op.EnableControls(IG160604);
+                        obj_op.EnableControls(IG160704);
+                        obj_op.EnableControls(IG160804);
+                        obj_op.EnableControls(IG160904);
+                        obj_op.EnableControls(IG1601004);
+                        obj_op.EnableControls(IG1601104);
+                        obj_op.EnableControls(IG1601204);
+
+
+
+                        obj_op.EnableControls(IG0405);
+                        obj_op.EnableControls(IG0505);
+                        obj_op.EnableControls(IG060105);
+                        obj_op.EnableControls(IG060205);
+                        obj_op.EnableControls(IG060305);
+                        obj_op.EnableControls(IG060405);
+                        obj_op.EnableControls(IG060505);
+
+                        obj_op.EnableControls(IG070105);
+                        obj_op.EnableControls(IG070205);
+                        obj_op.EnableControls(IG070305);
+                        obj_op.EnableControls(IG070405);
+                        obj_op.EnableControls(IG070505);
+                        obj_op.EnableControls(IG070605);
+                        obj_op.EnableControls(IG070705);
+                        obj_op.EnableControls(IG070805);
+                        obj_op.EnableControls(IG070905);
+                        obj_op.EnableControls(IG0701005);
+                        obj_op.EnableControls(IG0701105);
+                        obj_op.EnableControls(IG0701205);
+                        obj_op.EnableControls(IG0701305);
+                        obj_op.EnableControls(IG0805);
+                        obj_op.EnableControls(IG0905);
+                        obj_op.EnableControls(IG01005);
+                        obj_op.EnableControls(IG01105);
+                        obj_op.EnableControls(IG01205);
+                        obj_op.EnableControls(IG01305);
+                        obj_op.EnableControls(IG01405);
+                        obj_op.EnableControls(IG01505);
+                        obj_op.EnableControls(IG160105);
+                        obj_op.EnableControls(IG160205);
+                        obj_op.EnableControls(IG160305);
+                        obj_op.EnableControls(IG160405);
+                        obj_op.EnableControls(IG160505);
+                        obj_op.EnableControls(IG160605);
+                        obj_op.EnableControls(IG160705);
+                        obj_op.EnableControls(IG160805);
+                        obj_op.EnableControls(IG160905);
+                        obj_op.EnableControls(IG1601005);
+                        obj_op.EnableControls(IG1601105);
+                        obj_op.EnableControls(IG1601205);
+
+                        IG02.Focus();
+
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG01.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG01);
+        }
+
+        private void IG02_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG02'", IG02.Text) == true)
+                {
+                    IG02.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG02.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG02);
+        }
+
+        private void IG0301_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0301'", IG0301.Text) == true)
+                {
+                    IG0301.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0301.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0301);
+        }
+
+        private void IG0302_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0302'", IG0302.Text) == true)
+                {
+                    IG0302.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0302.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0302);
+        }
+
+        private void IG0303_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0303'", IG0303.Text) == true)
+                {
+                    IG0303.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0303.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0303);
+        }
+
+        private void IG0304_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0304'", IG0304.Text) == true)
+                {
+                    IG0304.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0304.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0304);
+        }
+
+        private void IG0305_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0305'", IG0305.Text) == true)
+                {
+                    IG0305.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0305.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0305);
+        }
+
+        private void IG0306_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0306'", IG0306.Text) == true)
+                {
+                    IG0306.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0306.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0306);
+        }
+
+        private void IG0307_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0307'", IG0307.Text) == true)
+                {
+                    IG0307.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0307.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0307);
+        }
+
+        private void IG0308_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0308'", IG0308.Text) == true)
+                {
+                    IG0308.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0308.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0308);
+        }
+
+        private void IG0309_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0309'", IG0309.Text) == true)
+                {
+                    IG0309.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0309.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0309);
+        }
+
+        private void IG03010_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG03010'", IG03010.Text) == true)
+                {
+                    IG03010.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG03010.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG03010);
+        }
+
+        private void chkMember1_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember1'", chkMember1.Text) == true)
+                {
+                    chkMember1.Focus();
+                }
+                else
+                {
+                    if (chkMember1.Text == "1")
+                    {
+                        obj_op.EnableControls(IG0401);
+                        obj_op.EnableControls(IG0501);
+                        obj_op.EnableControls(IG060101);
+                        obj_op.EnableControls(IG060201);
+                        obj_op.EnableControls(IG060301);
+                        obj_op.EnableControls(IG060401);
+                        obj_op.EnableControls(IG060501);
+                        obj_op.EnableControls(IG070101);
+                        obj_op.EnableControls(IG070201);
+                        obj_op.EnableControls(IG070301);
+                        obj_op.EnableControls(IG070401);
+
+                        obj_op.EnableControls(IG070501);
+                        obj_op.EnableControls(IG070601);
+                        obj_op.EnableControls(IG070701);
+                        obj_op.EnableControls(IG070801);
+                        obj_op.EnableControls(IG070901);
+                        obj_op.EnableControls(IG0701001);
+                        obj_op.EnableControls(IG0701101);
+                        obj_op.EnableControls(IG0701201);
+                        obj_op.EnableControls(IG0701301);
+                        obj_op.EnableControls(IG0801);
+                        obj_op.EnableControls(IG0901);
+                        obj_op.EnableControls(IG01001);
+                        obj_op.EnableControls(IG01101);
+                        obj_op.EnableControls(IG01201);
+                        obj_op.EnableControls(IG01301);
+                        obj_op.EnableControls(IG01401);
+                        obj_op.EnableControls(IG01501);
+                        obj_op.EnableControls(IG160101);
+                        obj_op.EnableControls(IG160201);
+                        obj_op.EnableControls(IG160301);
+                        obj_op.EnableControls(IG160401);
+                        obj_op.EnableControls(IG160501);
+                        obj_op.EnableControls(IG160601);
+                        obj_op.EnableControls(IG160701);
+                        obj_op.EnableControls(IG160801);
+                        obj_op.EnableControls(IG160901);
+                        obj_op.EnableControls(IG1601001);
+                        obj_op.EnableControls(IG1601101);
+                        obj_op.EnableControls(IG1601201);
+
+                        IG0401.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IG0401);
+                        obj_op.DisableControls(IG0501);
+                        obj_op.DisableControls(IG060101);
+                        obj_op.DisableControls(IG060201);
+                        obj_op.DisableControls(IG060301);
+                        obj_op.DisableControls(IG060401);
+                        obj_op.DisableControls(IG060501);
+                        obj_op.DisableControls(IG070101);
+                        obj_op.DisableControls(IG070201);
+                        obj_op.DisableControls(IG070301);
+                        obj_op.DisableControls(IG070401);
+
+                        obj_op.DisableControls(IG070501);
+                        obj_op.DisableControls(IG070601);
+                        obj_op.DisableControls(IG070701);
+                        obj_op.DisableControls(IG070801);
+                        obj_op.DisableControls(IG070901);
+                        obj_op.DisableControls(IG0701001);
+                        obj_op.DisableControls(IG0701101);
+                        obj_op.DisableControls(IG0701201);
+                        obj_op.DisableControls(IG0701301);
+                        obj_op.DisableControls(IG0801);
+                        obj_op.DisableControls(IG0901);
+                        obj_op.DisableControls(IG01001);
+                        obj_op.DisableControls(IG01101);
+                        obj_op.DisableControls(IG01201);
+                        obj_op.DisableControls(IG01301);
+                        obj_op.DisableControls(IG01401);
+                        obj_op.DisableControls(IG01501);
+                        obj_op.DisableControls(IG160101);
+                        obj_op.DisableControls(IG160201);
+                        obj_op.DisableControls(IG160301);
+                        obj_op.DisableControls(IG160401);
+                        obj_op.DisableControls(IG160501);
+                        obj_op.DisableControls(IG160601);
+                        obj_op.DisableControls(IG160701);
+                        obj_op.DisableControls(IG160801);
+                        obj_op.DisableControls(IG160901);
+                        obj_op.DisableControls(IG1601001);
+                        obj_op.DisableControls(IG1601101);
+                        obj_op.DisableControls(IG1601201);
+
+
+                        chkMember2.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkMember1.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkMember1);
+        }
+
+        private void chkMember2_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember2'", chkMember2.Text) == true)
+                {
+                    chkMember2.Focus();
+                }
+                else
+                {
+                    if (chkMember2.Text == "1")
+                    {
+                        obj_op.EnableControls(IG0402);
+                        obj_op.EnableControls(IG0502);
+                        obj_op.EnableControls(IG060102);
+                        obj_op.EnableControls(IG060202);
+                        obj_op.EnableControls(IG060302);
+                        obj_op.EnableControls(IG060402);
+                        obj_op.EnableControls(IG060502);
+                        obj_op.EnableControls(IG070102);
+                        obj_op.EnableControls(IG070202);
+                        obj_op.EnableControls(IG070302);
+                        obj_op.EnableControls(IG070402);
+
+                        obj_op.EnableControls(IG070502);
+                        obj_op.EnableControls(IG070602);
+                        obj_op.EnableControls(IG070702);
+                        obj_op.EnableControls(IG070802);
+                        obj_op.EnableControls(IG070902);
+                        obj_op.EnableControls(IG0701002);
+                        obj_op.EnableControls(IG0701102);
+                        obj_op.EnableControls(IG0701202);
+                        obj_op.EnableControls(IG0701302);
+                        obj_op.EnableControls(IG0802);
+                        obj_op.EnableControls(IG0902);
+                        obj_op.EnableControls(IG01002);
+                        obj_op.EnableControls(IG01102);
+                        obj_op.EnableControls(IG01202);
+                        obj_op.EnableControls(IG01302);
+                        obj_op.EnableControls(IG01402);
+                        obj_op.EnableControls(IG01502);
+                        obj_op.EnableControls(IG160102);
+                        obj_op.EnableControls(IG160202);
+                        obj_op.EnableControls(IG160302);
+                        obj_op.EnableControls(IG160402);
+                        obj_op.EnableControls(IG160502);
+                        obj_op.EnableControls(IG160602);
+                        obj_op.EnableControls(IG160702);
+                        obj_op.EnableControls(IG160802);
+                        obj_op.EnableControls(IG160902);
+                        obj_op.EnableControls(IG1601002);
+                        obj_op.EnableControls(IG1601102);
+                        obj_op.EnableControls(IG1601202);
+
+                        IG0402.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IG0402);
+                        obj_op.DisableControls(IG0502);
+                        obj_op.DisableControls(IG060102);
+                        obj_op.DisableControls(IG060202);
+                        obj_op.DisableControls(IG060302);
+                        obj_op.DisableControls(IG060402);
+                        obj_op.DisableControls(IG060502);
+                        obj_op.DisableControls(IG070102);
+                        obj_op.DisableControls(IG070202);
+                        obj_op.DisableControls(IG070302);
+                        obj_op.DisableControls(IG070402);
+
+                        obj_op.DisableControls(IG070502);
+                        obj_op.DisableControls(IG070602);
+                        obj_op.DisableControls(IG070702);
+                        obj_op.DisableControls(IG070802);
+                        obj_op.DisableControls(IG070902);
+                        obj_op.DisableControls(IG0701002);
+                        obj_op.DisableControls(IG0701102);
+                        obj_op.DisableControls(IG0701202);
+                        obj_op.DisableControls(IG0701302);
+                        obj_op.DisableControls(IG0802);
+                        obj_op.DisableControls(IG0902);
+                        obj_op.DisableControls(IG01002);
+                        obj_op.DisableControls(IG01102);
+                        obj_op.DisableControls(IG01202);
+                        obj_op.DisableControls(IG01302);
+                        obj_op.DisableControls(IG01402);
+                        obj_op.DisableControls(IG01502);
+                        obj_op.DisableControls(IG160102);
+                        obj_op.DisableControls(IG160202);
+                        obj_op.DisableControls(IG160302);
+                        obj_op.DisableControls(IG160402);
+                        obj_op.DisableControls(IG160502);
+                        obj_op.DisableControls(IG160602);
+                        obj_op.DisableControls(IG160702);
+                        obj_op.DisableControls(IG160802);
+                        obj_op.DisableControls(IG160902);
+                        obj_op.DisableControls(IG1601002);
+                        obj_op.DisableControls(IG1601102);
+                        obj_op.DisableControls(IG1601202);
+
+                        chkMember3.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkMember2.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkMember2);
+        }
+
+        private void chkMember3_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember3'", chkMember3.Text) == true)
+                {
+                    chkMember3.Focus();
+                }
+                else
+                {
+                    if (chkMember3.Text == "1")
+                    {
+                        obj_op.EnableControls(IG0403);
+                        obj_op.EnableControls(IG0503);
+                        obj_op.EnableControls(IG060103);
+                        obj_op.EnableControls(IG060203);
+                        obj_op.EnableControls(IG060303);
+                        obj_op.EnableControls(IG060403);
+                        obj_op.EnableControls(IG060503);
+                        obj_op.EnableControls(IG070103);
+                        obj_op.EnableControls(IG070203);
+                        obj_op.EnableControls(IG070303);
+                        obj_op.EnableControls(IG070403);
+
+
+                        obj_op.EnableControls(IG070503);
+                        obj_op.EnableControls(IG070603);
+                        obj_op.EnableControls(IG070703);
+                        obj_op.EnableControls(IG070803);
+                        obj_op.EnableControls(IG070903);
+                        obj_op.EnableControls(IG0701003);
+                        obj_op.EnableControls(IG0701103);
+                        obj_op.EnableControls(IG0701203);
+                        obj_op.EnableControls(IG0701303);
+                        obj_op.EnableControls(IG0803);
+                        obj_op.EnableControls(IG0903);
+                        obj_op.EnableControls(IG01003);
+                        obj_op.EnableControls(IG01103);
+                        obj_op.EnableControls(IG01203);
+                        obj_op.EnableControls(IG01303);
+                        obj_op.EnableControls(IG01403);
+                        obj_op.EnableControls(IG01503);
+                        obj_op.EnableControls(IG160103);
+                        obj_op.EnableControls(IG160203);
+                        obj_op.EnableControls(IG160303);
+                        obj_op.EnableControls(IG160403);
+                        obj_op.EnableControls(IG160503);
+                        obj_op.EnableControls(IG160603);
+                        obj_op.EnableControls(IG160703);
+                        obj_op.EnableControls(IG160803);
+                        obj_op.EnableControls(IG160903);
+                        obj_op.EnableControls(IG1601003);
+                        obj_op.EnableControls(IG1601103);
+                        obj_op.EnableControls(IG1601203);
+
+
+                        IG0403.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IG0403);
+                        obj_op.DisableControls(IG0503);
+                        obj_op.DisableControls(IG060103);
+                        obj_op.DisableControls(IG060203);
+                        obj_op.DisableControls(IG060303);
+                        obj_op.DisableControls(IG060403);
+                        obj_op.DisableControls(IG060503);
+                        obj_op.DisableControls(IG070103);
+                        obj_op.DisableControls(IG070203);
+                        obj_op.DisableControls(IG070303);
+                        obj_op.DisableControls(IG070403);
+
+
+                        obj_op.DisableControls(IG070503);
+                        obj_op.DisableControls(IG070603);
+                        obj_op.DisableControls(IG070703);
+                        obj_op.DisableControls(IG070803);
+                        obj_op.DisableControls(IG070903);
+                        obj_op.DisableControls(IG0701003);
+                        obj_op.DisableControls(IG0701103);
+                        obj_op.DisableControls(IG0701203);
+                        obj_op.DisableControls(IG0701303);
+                        obj_op.DisableControls(IG0803);
+                        obj_op.DisableControls(IG0903);
+                        obj_op.DisableControls(IG01003);
+                        obj_op.DisableControls(IG01103);
+                        obj_op.DisableControls(IG01203);
+                        obj_op.DisableControls(IG01303);
+                        obj_op.DisableControls(IG01403);
+                        obj_op.DisableControls(IG01503);
+                        obj_op.DisableControls(IG160103);
+                        obj_op.DisableControls(IG160203);
+                        obj_op.DisableControls(IG160303);
+                        obj_op.DisableControls(IG160403);
+                        obj_op.DisableControls(IG160503);
+                        obj_op.DisableControls(IG160603);
+                        obj_op.DisableControls(IG160703);
+                        obj_op.DisableControls(IG160803);
+                        obj_op.DisableControls(IG160903);
+                        obj_op.DisableControls(IG1601003);
+                        obj_op.DisableControls(IG1601103);
+                        obj_op.DisableControls(IG1601203);
+
+
+                        chkMember4.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkMember3.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkMember3);
+        }
+
+        private void chkMember4_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember4'", chkMember4.Text) == true)
+                {
+                    chkMember4.Focus();
+                }
+                else
+                {
+                    if (chkMember4.Text == "1")
+                    {
+                        obj_op.EnableControls(IG0404);
+                        obj_op.EnableControls(IG0504);
+                        obj_op.EnableControls(IG060104);
+                        obj_op.EnableControls(IG060204);
+                        obj_op.EnableControls(IG060304);
+                        obj_op.EnableControls(IG060404);
+                        obj_op.EnableControls(IG060504);
+                        obj_op.EnableControls(IG070104);
+                        obj_op.EnableControls(IG070204);
+                        obj_op.EnableControls(IG070304);
+                        obj_op.EnableControls(IG070404);
+
+                        obj_op.EnableControls(IG070504);
+                        obj_op.EnableControls(IG070604);
+                        obj_op.EnableControls(IG070704);
+                        obj_op.EnableControls(IG070804);
+                        obj_op.EnableControls(IG070904);
+                        obj_op.EnableControls(IG0701004);
+                        obj_op.EnableControls(IG0701104);
+                        obj_op.EnableControls(IG0701204);
+                        obj_op.EnableControls(IG0701304);
+                        obj_op.EnableControls(IG0804);
+                        obj_op.EnableControls(IG0904);
+                        obj_op.EnableControls(IG01004);
+                        obj_op.EnableControls(IG01104);
+                        obj_op.EnableControls(IG01204);
+                        obj_op.EnableControls(IG01304);
+                        obj_op.EnableControls(IG01404);
+                        obj_op.EnableControls(IG01504);
+                        obj_op.EnableControls(IG160104);
+                        obj_op.EnableControls(IG160204);
+                        obj_op.EnableControls(IG160304);
+                        obj_op.EnableControls(IG160404);
+                        obj_op.EnableControls(IG160504);
+                        obj_op.EnableControls(IG160604);
+                        obj_op.EnableControls(IG160704);
+                        obj_op.EnableControls(IG160804);
+                        obj_op.EnableControls(IG160904);
+                        obj_op.EnableControls(IG1601004);
+                        obj_op.EnableControls(IG1601104);
+                        obj_op.EnableControls(IG1601204);
+
+                        IG0404.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IG0404);
+                        obj_op.DisableControls(IG0504);
+                        obj_op.DisableControls(IG060104);
+                        obj_op.DisableControls(IG060204);
+                        obj_op.DisableControls(IG060304);
+                        obj_op.DisableControls(IG060404);
+                        obj_op.DisableControls(IG060504);
+                        obj_op.DisableControls(IG070104);
+                        obj_op.DisableControls(IG070204);
+                        obj_op.DisableControls(IG070304);
+                        obj_op.DisableControls(IG070404);
+
+                        obj_op.DisableControls(IG070504);
+                        obj_op.DisableControls(IG070604);
+                        obj_op.DisableControls(IG070704);
+                        obj_op.DisableControls(IG070804);
+                        obj_op.DisableControls(IG070904);
+                        obj_op.DisableControls(IG0701004);
+                        obj_op.DisableControls(IG0701104);
+                        obj_op.DisableControls(IG0701204);
+                        obj_op.DisableControls(IG0701304);
+                        obj_op.DisableControls(IG0804);
+                        obj_op.DisableControls(IG0904);
+                        obj_op.DisableControls(IG01004);
+                        obj_op.DisableControls(IG01104);
+                        obj_op.DisableControls(IG01204);
+                        obj_op.DisableControls(IG01304);
+                        obj_op.DisableControls(IG01404);
+                        obj_op.DisableControls(IG01504);
+                        obj_op.DisableControls(IG160104);
+                        obj_op.DisableControls(IG160204);
+                        obj_op.DisableControls(IG160304);
+                        obj_op.DisableControls(IG160404);
+                        obj_op.DisableControls(IG160504);
+                        obj_op.DisableControls(IG160604);
+                        obj_op.DisableControls(IG160704);
+                        obj_op.DisableControls(IG160804);
+                        obj_op.DisableControls(IG160904);
+                        obj_op.DisableControls(IG1601004);
+                        obj_op.DisableControls(IG1601104);
+                        obj_op.DisableControls(IG1601204);
+
+                        chkMember5.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkMember4.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkMember4);
+        }
+
+        private void chkMember5_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkMember5'", chkMember5.Text) == true)
+                {
+                    chkMember5.Focus();
+                }
+                else
+                {
+                    if (chkMember5.Text == "1")
+                    {
+                        obj_op.EnableControls(IG0405);
+                        obj_op.EnableControls(IG0505);
+                        obj_op.EnableControls(IG060105);
+                        obj_op.EnableControls(IG060205);
+                        obj_op.EnableControls(IG060305);
+                        obj_op.EnableControls(IG060405);
+                        obj_op.EnableControls(IG060505);
+                        obj_op.EnableControls(IG070105);
+                        obj_op.EnableControls(IG070205);
+                        obj_op.EnableControls(IG070305);
+                        obj_op.EnableControls(IG070405);
+
+                        obj_op.EnableControls(IG070505);
+                        obj_op.EnableControls(IG070605);
+                        obj_op.EnableControls(IG070705);
+                        obj_op.EnableControls(IG070805);
+                        obj_op.EnableControls(IG070905);
+                        obj_op.EnableControls(IG0701005);
+                        obj_op.EnableControls(IG0701105);
+                        obj_op.EnableControls(IG0701205);
+                        obj_op.EnableControls(IG0701305);
+                        obj_op.EnableControls(IG0805);
+                        obj_op.EnableControls(IG0905);
+                        obj_op.EnableControls(IG01005);
+                        obj_op.EnableControls(IG01105);
+                        obj_op.EnableControls(IG01205);
+                        obj_op.EnableControls(IG01305);
+                        obj_op.EnableControls(IG01405);
+                        obj_op.EnableControls(IG01505);
+                        obj_op.EnableControls(IG160105);
+                        obj_op.EnableControls(IG160205);
+                        obj_op.EnableControls(IG160305);
+                        obj_op.EnableControls(IG160405);
+                        obj_op.EnableControls(IG160505);
+                        obj_op.EnableControls(IG160605);
+                        obj_op.EnableControls(IG160705);
+                        obj_op.EnableControls(IG160805);
+                        obj_op.EnableControls(IG160905);
+                        obj_op.EnableControls(IG1601005);
+                        obj_op.EnableControls(IG1601105);
+                        obj_op.EnableControls(IG1601205);
+
+                        IG0405.Focus();
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IG0405);
+                        obj_op.DisableControls(IG0505);
+                        obj_op.DisableControls(IG060105);
+                        obj_op.DisableControls(IG060205);
+                        obj_op.DisableControls(IG060305);
+                        obj_op.DisableControls(IG060405);
+                        obj_op.DisableControls(IG060505);
+                        obj_op.DisableControls(IG070105);
+                        obj_op.DisableControls(IG070205);
+                        obj_op.DisableControls(IG070305);
+                        obj_op.DisableControls(IG070405);
+
+                        obj_op.DisableControls(IG070505);
+                        obj_op.DisableControls(IG070605);
+                        obj_op.DisableControls(IG070705);
+                        obj_op.DisableControls(IG070805);
+                        obj_op.DisableControls(IG070905);
+                        obj_op.DisableControls(IG0701005);
+                        obj_op.DisableControls(IG0701105);
+                        obj_op.DisableControls(IG0701205);
+                        obj_op.DisableControls(IG0701305);
+                        obj_op.DisableControls(IG0805);
+                        obj_op.DisableControls(IG0905);
+                        obj_op.DisableControls(IG01005);
+                        obj_op.DisableControls(IG01105);
+                        obj_op.DisableControls(IG01205);
+                        obj_op.DisableControls(IG01305);
+                        obj_op.DisableControls(IG01405);
+                        obj_op.DisableControls(IG01505);
+                        obj_op.DisableControls(IG160105);
+                        obj_op.DisableControls(IG160205);
+                        obj_op.DisableControls(IG160305);
+                        obj_op.DisableControls(IG160405);
+                        obj_op.DisableControls(IG160505);
+                        obj_op.DisableControls(IG160605);
+                        obj_op.DisableControls(IG160705);
+                        obj_op.DisableControls(IG160805);
+                        obj_op.DisableControls(IG160905);
+                        obj_op.DisableControls(IG1601005);
+                        obj_op.DisableControls(IG1601105);
+                        obj_op.DisableControls(IG1601205);
+
+
+
+                        if (IG070501.Enabled == true)
+                        {
+                            tabControl1.SelectedIndex = 6;
+                            IG070501.Focus();
+                        }
+                        else if (IG070502.Enabled == true)
+                        {
+                            tabControl1.SelectedIndex = 6;
+                            IG070502.Focus();
+                        }
+                        else if (IG070503.Enabled == true)
+                        {
+                            tabControl1.SelectedIndex = 6;
+                            IG070503.Focus();
+                        }
+                        else if (IG070504.Enabled == true)
+                        {
+                            tabControl1.SelectedIndex = 6;
+                            IG070504.Focus();
+                        }
+                        else if (IG070505.Enabled == true)
+                        {
+                            tabControl1.SelectedIndex = 6;
+                            IG070505.Focus();
+                        }
+
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkMember5.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_chkMember5);
+        }
+
+        private void IG0401_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0401'", IG0401.Text) == true)
+                {
+                    IG0401.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0401.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0401);
+        }
+
+        private void IG0501_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0501'", IG0501.Text) == true)
+                {
+                    IG0501.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0501.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0501);
+        }
+
+        private void IG0402_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0402'", IG0402.Text) == true)
+                {
+                    IG0402.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0402.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0402);
+        }
+
+        private void IG0502_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0502'", IG0502.Text) == true)
+                {
+                    IG0502.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0502.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0502);
+        }
+
+        private void IG0403_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0403'", IG0403.Text) == true)
+                {
+                    IG0403.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0403.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0403);
+        }
+
+        private void IG0503_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0503'", IG0503.Text) == true)
+                {
+                    IG0503.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0503.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0503);
+        }
+
+        private void IG0404_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0404'", IG0404.Text) == true)
+                {
+                    IG0404.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0404.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0404);
+        }
+
+        private void IG0504_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0504'", IG0504.Text) == true)
+                {
+                    IG0504.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0504.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0504);
+        }
+
+        private void IG0405_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0405'", IG0405.Text) == true)
+                {
+                    IG0405.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0405.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0405);
+        }
+
+        private void IG0505_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0505'", IG0505.Text) == true)
+                {
+                    IG0505.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0505.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0505);
+        }
+
+        private void IG060101_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060101'", IG060101.Text) == true)
+                {
+                    IG060101.Focus();
+                }
+                else
+                {
+                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                    {
+                        Disabled_IG060101_Q47();
+                    }
+                    else
+                    {
+                        Enabled_IG060101_Q47();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060101.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060101);
+        }
+
+        private void IG060201_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060201'", IG060201.Text) == true)
+                {
+                    IG060201.Focus();
+                }
+                else
+                {
+                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                    {
+                        Disabled_IG060101_Q47();
+                    }
+                    else
+                    {
+                        Enabled_IG060101_Q47();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060201.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060201);
+        }
+
+        private void IG060301_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060301'", IG060301.Text) == true)
+                {
+                    IG060301.Focus();
+                }
+                else
+                {
+                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                    {
+                        Disabled_IG060101_Q47();
+                    }
+                    else
+                    {
+                        Enabled_IG060101_Q47();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060301.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060301);
+        }
+
+        private void IG060401_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060401'", IG060401.Text) == true)
+                {
+                    IG060401.Focus();
+                }
+                else
+                {
+                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                    {
+                        Disabled_IG060101_Q47();
+                    }
+                    else
+                    {
+                        Enabled_IG060101_Q47();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060401.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060401);
+        }
+
+        private void IG060501_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060501'", IG060501.Text) == true)
+                {
+                    IG060501.Focus();
+                }
+                else
+                {
+                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                    {
+                        Disabled_IG060101_Q47();
+                    }
+                    else
+                    {
+                        Enabled_IG060101_Q47();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060501.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060501);
+        }
+
+        private void IG060102_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060102'", IG060102.Text) == true)
+                {
+                    IG060102.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060102.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060102);
+        }
+
+        private void IG060202_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060202'", IG060202.Text) == true)
+                {
+                    IG060202.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060202.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060202);
+        }
+
+        private void IG060302_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060302'", IG060302.Text) == true)
+                {
+                    IG060302.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060302.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060302);
+        }
+
+        private void IG060402_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060402'", IG060402.Text) == true)
+                {
+                    IG060402.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060402.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060402);
+        }
+
+        private void IG060502_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060502'", IG060502.Text) == true)
+                {
+                    IG060502.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060502.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060502);
+        }
+
+        private void IG060103_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060103'", IG060103.Text) == true)
+                {
+                    IG060103.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060103.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060103);
+        }
+
+        private void IG060203_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060203'", IG060203.Text) == true)
+                {
+                    IG060203.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060203.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060203);
+        }
+
+        private void IG060303_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060303'", IG060303.Text) == true)
+                {
+                    IG060303.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060303.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060303);
+        }
+
+        private void IG060403_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060403'", IG060403.Text) == true)
+                {
+                    IG060403.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060403.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060403);
+        }
+
+        private void IG060503_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060503'", IG060503.Text) == true)
+                {
+                    IG060503.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060503.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060503);
+        }
+
+        private void IG060104_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060104'", IG060104.Text) == true)
+                {
+                    IG060104.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060104.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060104);
+        }
+
+        private void IG060204_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060204'", IG060204.Text) == true)
+                {
+                    IG060204.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060204.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060204);
+        }
+
+        private void IG060304_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060304'", IG060304.Text) == true)
+                {
+                    IG060304.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060304.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060304);
+        }
+
+        private void IG060404_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060404'", IG060404.Text) == true)
+                {
+                    IG060404.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060404.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060404);
+        }
+
+        private void IG060504_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060504'", IG060504.Text) == true)
+                {
+                    IG060504.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060504.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060504);
+        }
+
+        private void IG060105_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060105'", IG060105.Text) == true)
+                {
+                    IG060105.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060105.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060105);
+        }
+
+        private void IG060205_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060205'", IG060205.Text) == true)
+                {
+                    IG060205.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060205.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060205);
+        }
+
+        private void IG060305_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060305'", IG060305.Text) == true)
+                {
+                    IG060305.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060305.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060305);
+        }
+
+        private void IG060405_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060405'", IG060405.Text) == true)
+                {
+                    IG060405.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060405.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060405);
+        }
+
+        private void IG060505_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG060505'", IG060505.Text) == true)
+                {
+                    IG060505.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG060505.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG060505);
+        }
+
+        private void IG070101_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070101'", IG070101.Text) == true)
+                {
+                    IG070101.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070101.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070101);
+        }
+
+        private void IG070201_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070201'", IG070201.Text) == true)
+                {
+                    IG070201.Focus();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070201.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070201);
+        }
+
+        private void IG070301_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070301'", IG070301.Text) == true)
+                {
+                    IG070301.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070301.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070301);
+        }
+
+        private void IG070401_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070401'", IG070401.Text) == true)
+                {
+                    IG070401.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070401.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070401);
+        }
+
+        private void IG070501_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070501'", IG070501.Text) == true)
+                {
+                    IG070501.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070501.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070501);
+        }
+
+        private void IG070601_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070601'", IG070601.Text) == true)
+                {
+                    IG070601.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070601.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070601);
+        }
+
+        private void IG070701_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070701'", IG070701.Text) == true)
+                {
+                    IG070701.Focus();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070701.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070701);
+        }
+
+        private void IG070801_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070801'", IG070801.Text) == true)
+                {
+                    IG070801.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070801.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070801);
+        }
+
+        private void IG070901_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070901'", IG070901.Text) == true)
+                {
+                    IG070901.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070901.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070901);
+        }
+
+        private void IG0701001_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701001'", IG0701001.Text) == true)
+                {
+                    IG0701001.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701001.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701001);
+        }
+
+        private void IG0701101_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701101'", IG0701101.Text) == true)
+                {
+                    IG0701101.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701101.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701101);
+        }
+
+        private void IG0701201_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701201'", IG0701201.Text) == true)
+                {
+                    IG0701201.Focus();
+                }
+                else
+                {
+                    if (IG0701201.Text == "0")
+                    {
+                        obj_op.DisableControls(IG0701301);
+                        obj_op.DisableControls(IG0801);
+
+                        IG0901.Focus();
+                    }
+                    else
+                    {
+                        obj_op.EnableControls(IG0701301);
+                        obj_op.EnableControls(IG0801);
+
+                        IG0701301.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701201.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701201);
+        }
+
+        private void IG0701301_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701301'", IG0701301.Text) == true)
+                {
+                    IG0701301.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701301.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701301);
+        }
+
+        private void IG070102_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070102'", IG070102.Text) == true)
+                {
+                    IG070102.Focus();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070102.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070102);
+        }
+
+        private void IG070202_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070202'", IG070202.Text) == true)
+                {
+                    IG070202.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070202.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070202);
+        }
+
+        private void IG070302_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070302'", IG070302.Text) == true)
+                {
+                    IG070302.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070302.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070302);
+        }
+
+        private void IG070402_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070402'", IG070402.Text) == true)
+                {
+                    IG070402.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070402.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070402);
+        }
+
+        private void IG070502_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070502'", IG070502.Text) == true)
+                {
+                    IG070502.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070502.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070502);
+        }
+
+        private void IG070602_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070602'", IG070602.Text) == true)
+                {
+                    IG070602.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070602.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070602);
+        }
+
+        private void IG070702_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070702'", IG070702.Text) == true)
+                {
+                    IG070702.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070702.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070702);
+        }
+
+        private void IG070802_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070802'", IG070802.Text) == true)
+                {
+                    IG070802.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070802.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070802);
+        }
+
+        private void IG070902_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070902'", IG070902.Text) == true)
+                {
+                    IG070902.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070902.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070902);
+        }
+
+        private void IG0701002_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701002'", IG0701002.Text) == true)
+                {
+                    IG0701002.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701002.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701002);
+        }
+
+        private void IG0701102_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701102'", IG0701102.Text) == true)
+                {
+                    IG0701102.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701102.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701102);
+        }
+
+        private void IG0701202_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701202'", IG0701202.Text) == true)
+                {
+                    IG0701202.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701202.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701202);
+        }
+
+        private void IG0701302_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701302'", IG0701302.Text) == true)
+                {
+                    IG0701302.Focus();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701302.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701302);
+        }
+
+        private void IG070103_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070103'", IG070103.Text) == true)
+                {
+                    IG070103.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070103.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070103);
+        }
+
+        private void IG070203_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070203'", IG070203.Text) == true)
+                {
+                    IG070203.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070203.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070203);
+        }
+
+        private void IG070303_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070303'", IG070303.Text) == true)
+                {
+                    IG070303.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070303.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070303);
+        }
+
+        private void IG070403_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070403'", IG070403.Text) == true)
+                {
+                    IG070403.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070403.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070403);
+        }
+
+        private void IG070503_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070503'", IG070503.Text) == true)
+                {
+                    IG070503.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070503.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070503);
+        }
+
+        private void IG070603_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070603'", IG070603.Text) == true)
+                {
+                    IG070603.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070603.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070603);
+        }
+
+        private void IG070703_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070703'", IG070703.Text) == true)
+                {
+                    IG070703.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070703.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070703);
+        }
+
+        private void IG070803_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070803'", IG070803.Text) == true)
+                {
+                    IG070803.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070803.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070803);
+        }
+
+        private void IG070903_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG070903'", IG070903.Text) == true)
+                {
+                    IG070903.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG070903.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG070903);
+        }
+
+        private void IG0701003_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701003'", IG0701003.Text) == true)
+                {
+                    IG0701003.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701003.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701003);
+        }
+
+        private void IG0701103_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701103'", IG0701103.Text) == true)
+                {
+                    IG0701103.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701103.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701103);
+        }
+
+        private void IG0701203_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701203'", IG0701203.Text) == true)
+                {
+                    IG0701203.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701203.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701203);
+        }
+
+        private void IG0701303_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701303'", IG0701303.Text) == true)
+                {
+                    IG0701303.Focus();
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            IG0701303.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_IG0701303);
+        }
+        
+
+        private void chkBaby5_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby5'", chkBaby5.Text) == true)
+                {
+                    chkBaby5.Focus();
+                }
+                else
+                {
+                    if (chkBaby5.Text == "1")
+                    {
+                        obj_op.EnableControls(IC0605);
+                        obj_op.EnableControls(IC0705);
+                        obj_op.EnableControls(IC0805);
+                        obj_op.EnableControls(IC0905);
+                        obj_op.EnableControls(IC01005);
+                        obj_op.EnableControls(IC01105);
+
+                        IC0605.Focus();
+
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IC0605);
+                        obj_op.DisableControls(IC0705);
+                        obj_op.DisableControls(IC0805);
+                        obj_op.DisableControls(IC0905);
+                        obj_op.DisableControls(IC01005);
+                        obj_op.DisableControls(IC01105);
+
+                        obj_op.DisableControls(IC0606);
+                        obj_op.DisableControls(IC0706);
+                        obj_op.DisableControls(IC0806);
+                        obj_op.DisableControls(IC0906);
+                        obj_op.DisableControls(IC01006);
+                        obj_op.DisableControls(IC01106);
+
+                        obj_op.DisableControls(IC0607);
+                        obj_op.DisableControls(IC0707);
+                        obj_op.DisableControls(IC0807);
+                        obj_op.DisableControls(IC0907);
+                        obj_op.DisableControls(IC01007);
+                        obj_op.DisableControls(IC01107);
+
+                        obj_op.DisableControls(IC0608);
+                        obj_op.DisableControls(IC0708);
+                        obj_op.DisableControls(IC0808);
+                        obj_op.DisableControls(IC0908);
+                        obj_op.DisableControls(IC01008);
+                        obj_op.DisableControls(IC01108);
+
+                        obj_op.DisableControls(IC0609);
+                        obj_op.DisableControls(IC0709);
+                        obj_op.DisableControls(IC0809);
+                        obj_op.DisableControls(IC0909);
+                        obj_op.DisableControls(IC01009);
+                        obj_op.DisableControls(IC01109);
+
+                        obj_op.DisableControls(IC06010);
+                        obj_op.DisableControls(IC07010);
+                        obj_op.DisableControls(IC08010);
+                        obj_op.DisableControls(IC09010);
+                        obj_op.DisableControls(IC01010);
+                        obj_op.DisableControls(IC01110);
+
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+                        chkBaby6.Focus();
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby5.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby5);
+        }
+
+        private void chkBaby6_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby6'", chkBaby6.Text) == true)
+                {
+                    chkBaby6.Focus();
+                }
+                else
+                {
+                    if (chkBaby6.Text == "1")
+                    {
+                        obj_op.EnableControls(IC0606);
+                        obj_op.EnableControls(IC0706);
+                        obj_op.EnableControls(IC0806);
+                        obj_op.EnableControls(IC0906);
+                        obj_op.EnableControls(IC01006);
+                        obj_op.EnableControls(IC01106);
+
+                        IC0606.Focus();
+
+                    }
+                    else
+                    {
+
+                        obj_op.DisableControls(IC0606);
+                        obj_op.DisableControls(IC0706);
+                        obj_op.DisableControls(IC0806);
+                        obj_op.DisableControls(IC0906);
+                        obj_op.DisableControls(IC01006);
+                        obj_op.DisableControls(IC01106);
+
+
+                        obj_op.DisableControls(IC0607);
+                        obj_op.DisableControls(IC0707);
+                        obj_op.DisableControls(IC0807);
+                        obj_op.DisableControls(IC0907);
+                        obj_op.DisableControls(IC01007);
+                        obj_op.DisableControls(IC01107);
+
+                        obj_op.DisableControls(IC0608);
+                        obj_op.DisableControls(IC0708);
+                        obj_op.DisableControls(IC0808);
+                        obj_op.DisableControls(IC0908);
+                        obj_op.DisableControls(IC01008);
+                        obj_op.DisableControls(IC01108);
+
+                        obj_op.DisableControls(IC0609);
+                        obj_op.DisableControls(IC0709);
+                        obj_op.DisableControls(IC0809);
+                        obj_op.DisableControls(IC0909);
+                        obj_op.DisableControls(IC01009);
+                        obj_op.DisableControls(IC01109);
+
+                        obj_op.DisableControls(IC06010);
+                        obj_op.DisableControls(IC07010);
+                        obj_op.DisableControls(IC08010);
+                        obj_op.DisableControls(IC09010);
+                        obj_op.DisableControls(IC01010);
+                        obj_op.DisableControls(IC01110);
+
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+
+                        chkBaby7.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby6.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby6);
+        }
+
+        private void chkBaby7_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby7'", chkBaby7.Text) == true)
+                {
+                    chkBaby7.Focus();
+                }
+                else
+                {
+                    if (chkBaby7.Text == "1")
+                    {
+                        obj_op.EnableControls(IC0607);
+                        obj_op.EnableControls(IC0707);
+                        obj_op.EnableControls(IC0807);
+                        obj_op.EnableControls(IC0907);
+                        obj_op.EnableControls(IC01007);
+                        obj_op.EnableControls(IC01107);
+
+                        IC0607.Focus();
+
+                    }
+                    else
+                    {
+
+                        obj_op.DisableControls(IC0607);
+                        obj_op.DisableControls(IC0707);
+                        obj_op.DisableControls(IC0807);
+                        obj_op.DisableControls(IC0907);
+                        obj_op.DisableControls(IC01007);
+                        obj_op.DisableControls(IC01107);
+
+                        obj_op.DisableControls(IC0608);
+                        obj_op.DisableControls(IC0708);
+                        obj_op.DisableControls(IC0808);
+                        obj_op.DisableControls(IC0908);
+                        obj_op.DisableControls(IC01008);
+                        obj_op.DisableControls(IC01108);
+
+                        obj_op.DisableControls(IC0609);
+                        obj_op.DisableControls(IC0709);
+                        obj_op.DisableControls(IC0809);
+                        obj_op.DisableControls(IC0909);
+                        obj_op.DisableControls(IC01009);
+                        obj_op.DisableControls(IC01109);
+
+                        obj_op.DisableControls(IC06010);
+                        obj_op.DisableControls(IC07010);
+                        obj_op.DisableControls(IC08010);
+                        obj_op.DisableControls(IC09010);
+                        obj_op.DisableControls(IC01010);
+                        obj_op.DisableControls(IC01110);
+
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+                        chkBaby8.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby7.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby7);
+        }
+
+        private void chkBaby8_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby8'", chkBaby8.Text) == true)
+                {
+                    chkBaby8.Focus();
+                }
+                else
+                {
+                    if (chkBaby8.Text == "1")
+                    {
+                        obj_op.EnableControls(IC0608);
+                        obj_op.EnableControls(IC0708);
+                        obj_op.EnableControls(IC0808);
+                        obj_op.EnableControls(IC0908);
+                        obj_op.EnableControls(IC01008);
+                        obj_op.EnableControls(IC01108);
+
+                        IC0608.Focus();
+
+                    }
+                    else
+                    {
+
+                        obj_op.DisableControls(IC0608);
+                        obj_op.DisableControls(IC0708);
+                        obj_op.DisableControls(IC0808);
+                        obj_op.DisableControls(IC0908);
+                        obj_op.DisableControls(IC01008);
+                        obj_op.DisableControls(IC01108);
+
+                        obj_op.DisableControls(IC0609);
+                        obj_op.DisableControls(IC0709);
+                        obj_op.DisableControls(IC0809);
+                        obj_op.DisableControls(IC0909);
+                        obj_op.DisableControls(IC01009);
+                        obj_op.DisableControls(IC01109);
+
+                        obj_op.DisableControls(IC06010);
+                        obj_op.DisableControls(IC07010);
+                        obj_op.DisableControls(IC08010);
+                        obj_op.DisableControls(IC09010);
+                        obj_op.DisableControls(IC01010);
+                        obj_op.DisableControls(IC01110);
+
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+                        chkBaby9.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby8.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby8);
+        }
+
+        private void chkBaby9_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby9'", chkBaby9.Text) == true)
+                {
+                    chkBaby9.Focus();
+                }
+                else
+                {
+                    if (chkBaby9.Text == "1")
+                    {
+                        obj_op.EnableControls(IC0609);
+                        obj_op.EnableControls(IC0709);
+                        obj_op.EnableControls(IC0809);
+                        obj_op.EnableControls(IC0909);
+                        obj_op.EnableControls(IC01009);
+                        obj_op.EnableControls(IC01109);
+
+                        IC0609.Focus();
+
+                    }
+                    else
+                    {
+
+                        obj_op.DisableControls(IC0609);
+                        obj_op.DisableControls(IC0709);
+                        obj_op.DisableControls(IC0809);
+                        obj_op.DisableControls(IC0909);
+                        obj_op.DisableControls(IC01009);
+                        obj_op.DisableControls(IC01109);
+
+                        obj_op.DisableControls(IC06010);
+                        obj_op.DisableControls(IC07010);
+                        obj_op.DisableControls(IC08010);
+                        obj_op.DisableControls(IC09010);
+                        obj_op.DisableControls(IC01010);
+                        obj_op.DisableControls(IC01110);
+
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+                        chkBaby10.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby9.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby9);
+        }
+
+        private void chkBaby10_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby10'", chkBaby10.Text) == true)
+                {
+                    chkBaby10.Focus();
+                }
+                else
+                {
+                    if (chkBaby10.Text == "1")
+                    {
+                        obj_op.EnableControls(IC06010);
+                        obj_op.EnableControls(IC07010);
+                        obj_op.EnableControls(IC08010);
+                        obj_op.EnableControls(IC09010);
+                        obj_op.EnableControls(IC01010);
+                        obj_op.EnableControls(IC01110);
+
+                        IC06010.Focus();
+
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IC06010);
+                        obj_op.DisableControls(IC07010);
+                        obj_op.DisableControls(IC08010);
+                        obj_op.DisableControls(IC09010);
+                        obj_op.DisableControls(IC01010);
+                        obj_op.DisableControls(IC01110);
+
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+                        chkBaby11.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby10.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby10);
+        }
+
+        private void chkBaby11_Leave(object sender, EventArgs e)
+        {
+            CDBOperations obj_op = new CDBOperations();
+
+            try
+            {
+                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'chkBaby11'", chkBaby11.Text) == true)
+                {
+                    chkBaby11.Focus();
+                }
+                else
+                {
+                    if (chkBaby11.Text == "1")
+                    {
+                        obj_op.EnableControls(IC06011);
+                        obj_op.EnableControls(IC07011);
+                        obj_op.EnableControls(IC08011);
+                        obj_op.EnableControls(IC09011);
+                        obj_op.EnableControls(IC01011);
+                        obj_op.EnableControls(IC01111);
+
+                        IC06011.Focus();
+
+                    }
+                    else
+                    {
+                        obj_op.DisableControls(IC06011);
+                        obj_op.DisableControls(IC07011);
+                        obj_op.DisableControls(IC08011);
+                        obj_op.DisableControls(IC09011);
+                        obj_op.DisableControls(IC01011);
+                        obj_op.DisableControls(IC01111);
+
+                        tabControl1.SelectedIndex = 3;
+
+                        ID01.Focus();
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                obj_op = null;
+            }
+
+            chkBaby11.BackColor = Color.Bisque;
+            ChangeColorLabel(0, lbl_ckkBaby11);
         }
     }
 }
