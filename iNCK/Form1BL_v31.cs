@@ -2582,7 +2582,10 @@ namespace iNCK
                 {
                     IB07.Focus();
                 }
-
+                else
+                {
+                    tabControl1.SelectedIndex = 1;
+                }
 
 
             }
@@ -4289,7 +4292,7 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 9;
+                    tabControl1.SelectedIndex = 10;
                     chkBaby5.Focus();
                 }
             }
@@ -4580,6 +4583,7 @@ namespace iNCK
                     }
                     else
                     {
+                        tabControl1.SelectedIndex = 5;
                         obj_op.EnableControls(IE04);
                         IE04.Focus();
                     }
@@ -4826,6 +4830,8 @@ namespace iNCK
                     if (IE0804.Text == "0")
                     {
                         obj_op.DisableControls(IE0904);
+
+                        tabControl1.SelectedIndex = 5;
                         IF01.Focus();
                     }
                     else
@@ -4861,7 +4867,11 @@ namespace iNCK
                 {
                     IE0904.Focus();
                 }
-
+                else
+                {
+                    tabControl1.SelectedIndex = 5;
+                    IF01.Focus();
+                }
 
 
             }
@@ -4885,42 +4895,42 @@ namespace iNCK
 
 
 
-        
-
-
-        
 
 
 
 
 
-        
-
-
-        
-
-
-        
 
 
 
 
 
-        
-
-
-        
-
-
-        
 
 
 
 
-        
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         private void IG070104_Leave(object sender, EventArgs e)
@@ -5038,10 +5048,10 @@ namespace iNCK
 
 
 
-        
 
 
-        
+
+
 
 
         private void IG070105_Leave(object sender, EventArgs e)
@@ -5138,34 +5148,6 @@ namespace iNCK
                 {
                     IG070405.Focus();
                 }
-                else
-                {
-                    if (IG070501.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 6;
-                        IG070501.Focus();
-                    }
-                    else if (IG070502.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 6;
-                        IG070502.Focus();
-                    }
-                    else if (IG070503.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 6;
-                        IG070503.Focus();
-                    }
-                    else if (IG070504.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 6;
-                        IG070504.Focus();
-                    }
-                    else if (IG070505.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 6;
-                        IG070505.Focus();
-                    }
-                }
 
             }
             catch (Exception ex)
@@ -5182,7 +5164,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IG0801_Leave(object sender, EventArgs e)
@@ -5228,6 +5210,8 @@ namespace iNCK
                     if (IG0901.Text == "0")
                     {
                         obj_op.DisableControls(IG01001);
+
+                        tabControl1.SelectedIndex = 8;
                         IG01101.Focus();
                     }
                     else
@@ -5270,14 +5254,32 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01101);
                         obj_op.DisableControls(IG01201);
-                        IG01301.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01101);
                         obj_op.EnableControls(IG01201);
-                        IG01101.Focus();
                     }
+
+
+                    if (IG060102.Enabled == true)
+                    {
+                        IG060102.Focus();
+                    }
+                    else if (IG060103.Enabled == true)
+                    {
+                        IG060103.Focus();
+                    }
+                    else if (IG060104.Enabled == true)
+                    {
+                        IG060104.Focus();
+                    }
+                    else if (IG060105.Enabled == true)
+                    {
+                        IG060105.Focus();
+                    }
+
+
                 }
 
 
@@ -5810,25 +5812,41 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160602.Enabled == true)
+                    if (IG01102.Enabled == true)
                     {
-                        IG160602.Focus();
+                        IG01102.Focus();
                     }
-                    else if (IG160603.Enabled == true)
+                    else if (IG01103.Enabled == true)
                     {
-                        IG160603.Focus();
+                        IG01103.Focus();
                     }
-                    else if (IG160604.Enabled == true)
+                    else if (IG01104.Enabled == true)
                     {
-                        IG160604.Focus();
+                        IG01104.Focus();
                     }
-                    else if (IG160605.Enabled == true)
+                    else if (IG01105.Enabled == true)
                     {
-                        IG160605.Focus();
+                        IG01105.Focus();
+                    }
+                    else if (IG01302.Enabled == true)
+                    {
+                        IG01302.Focus();
+                    }
+                    else if (IG01303.Enabled == true)
+                    {
+                        IG01303.Focus();
+                    }
+                    else if (IG01304.Enabled == true)
+                    {
+                        IG01304.Focus();
+                    }
+                    else if (IG01305.Enabled == true)
+                    {
+                        IG01305.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 10;
+                        tabControl1.SelectedIndex = 12;
                         chkMember6.Focus();
                     }
                 }
@@ -5849,7 +5867,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IG0802_Leave(object sender, EventArgs e)
@@ -5895,6 +5913,8 @@ namespace iNCK
                     if (IG0902.Text == "0")
                     {
                         obj_op.DisableControls(IG01002);
+
+                        tabControl1.SelectedIndex = 8;
                         IG01102.Focus();
                     }
                     else
@@ -5936,14 +5956,28 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01102);
                         obj_op.DisableControls(IG01202);
-                        IG01302.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01102);
                         obj_op.EnableControls(IG01202);
-                        IG01102.Focus();
                     }
+
+
+                    if (IG060103.Enabled == true)
+                    {
+                        IG060103.Focus();
+                    }
+                    else if (IG060104.Enabled == true)
+                    {
+                        IG060104.Focus();
+                    }
+                    else if (IG060105.Enabled == true)
+                    {
+                        IG060105.Focus();
+                    }
+
+
                 }
 
 
@@ -6476,21 +6510,33 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160603.Enabled == true)
+                    if (IG01103.Enabled == true)
                     {
-                        IG160603.Focus();
+                        IG01103.Focus();
                     }
-                    else if (IG160604.Enabled == true)
+                    else if (IG01104.Enabled == true)
                     {
-                        IG160604.Focus();
+                        IG01104.Focus();
                     }
-                    else if (IG160605.Enabled == true)
+                    else if (IG01105.Enabled == true)
                     {
-                        IG160605.Focus();
+                        IG01105.Focus();
+                    }
+                    else if (IG01303.Enabled == true)
+                    {
+                        IG01303.Focus();
+                    }
+                    else if (IG01304.Enabled == true)
+                    {
+                        IG01304.Focus();
+                    }
+                    else if (IG01305.Enabled == true)
+                    {
+                        IG01305.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 10;
+                        tabControl1.SelectedIndex = 12;
                         chkMember6.Focus();
                     }
                 }
@@ -6511,7 +6557,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IG0803_Leave(object sender, EventArgs e)
@@ -6557,6 +6603,8 @@ namespace iNCK
                     if (IG0903.Text == "0")
                     {
                         obj_op.DisableControls(IG01003);
+
+                        tabControl1.SelectedIndex = 8;
                         IG01103.Focus();
                     }
                     else
@@ -6598,14 +6646,24 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01103);
                         obj_op.DisableControls(IG01203);
-                        IG01303.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01103);
                         obj_op.EnableControls(IG01203);
-                        IG01103.Focus();
                     }
+
+
+
+                    if (IG060104.Enabled == true)
+                    {
+                        IG060104.Focus();
+                    }
+                    else if (IG060105.Enabled == true)
+                    {
+                        IG060105.Focus();
+                    }
+
                 }
 
 
@@ -7134,17 +7192,25 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160604.Enabled == true)
+                    if (IG01104.Enabled == true)
                     {
-                        IG160604.Focus();
+                        IG01104.Focus();
                     }
-                    else if (IG160605.Enabled == true)
+                    else if (IG01105.Enabled == true)
                     {
-                        IG160605.Focus();
+                        IG01105.Focus();
+                    }
+                    else if (IG01304.Enabled == true)
+                    {
+                        IG01304.Focus();
+                    }
+                    else if (IG01305.Enabled == true)
+                    {
+                        IG01305.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 10;
+                        tabControl1.SelectedIndex = 12;
                         chkMember6.Focus();
                     }
                 }
@@ -7460,6 +7526,8 @@ namespace iNCK
                     if (IG0904.Text == "0")
                     {
                         obj_op.DisableControls(IG01004);
+
+                        tabControl1.SelectedIndex = 8;
                         IG01104.Focus();
                     }
                     else
@@ -7500,14 +7568,20 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01104);
                         obj_op.DisableControls(IG01204);
-                        IG01304.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01104);
                         obj_op.EnableControls(IG01204);
-                        IG01104.Focus();
                     }
+
+
+                    if (IG060105.Enabled == true)
+                    {
+                        IG060105.Focus();
+                    }
+
+
                 }
 
 
@@ -8031,13 +8105,17 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160605.Enabled == true)
+                    if (IG01105.Enabled == true)
                     {
-                        IG160605.Focus();
+                        IG01105.Focus();
+                    }
+                    else if (IG01305.Enabled == true)
+                    {
+                        IG01305.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 10;
+                        tabControl1.SelectedIndex = 12;
                         chkMember6.Focus();
                     }
                 }
@@ -8353,6 +8431,8 @@ namespace iNCK
                     if (IG0905.Text == "0")
                     {
                         obj_op.DisableControls(IG01005);
+
+                        tabControl1.SelectedIndex = 8;
                         IG01105.Focus();
                     }
                     else
@@ -8393,14 +8473,41 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01105);
                         obj_op.DisableControls(IG01205);
-                        IG01305.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01105);
                         obj_op.EnableControls(IG01205);
+                    }
+
+
+                    if (IG01102.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 8;
+                        IG01102.Focus();
+                    }
+                    else if (IG01103.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 8;
+                        IG01103.Focus();
+                    }
+                    else if (IG01104.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 8;
+                        IG01104.Focus();
+                    }
+                    else if (IG01105.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 8;
                         IG01105.Focus();
                     }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 8;
+                        IG01201.Focus();
+                    }
+
+
                 }
 
 
@@ -8693,34 +8800,6 @@ namespace iNCK
                 {
                     IG160505.Focus();
                 }
-                else
-                {
-                    if (IG160601.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 7;
-                        IG160601.Focus();
-                    }
-                    else if (IG160602.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 7;
-                        IG160602.Focus();
-                    }
-                    else if (IG160603.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 7;
-                        IG160603.Focus();
-                    }
-                    else if (IG160604.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 7;
-                        IG160604.Focus();
-                    }
-                    else if (IG160605.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 7;
-                        IG160605.Focus();
-                    }
-                }
 
             }
             catch (Exception ex)
@@ -8917,7 +8996,7 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 10;
+                    tabControl1.SelectedIndex = 12;
                     chkMember6.Focus();
                 }
 
@@ -9238,7 +9317,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC0605_Leave(object sender, EventArgs e)
@@ -9340,6 +9419,8 @@ namespace iNCK
                     if (IC0905.Text == "1")
                     {
                         obj_op.DisableControls(IC01005);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01105.Focus();
                     }
                     else
@@ -9403,7 +9484,38 @@ namespace iNCK
                 {
                     IC01105.Focus();
                 }
-
+                else
+                {
+                    if (IC01106.Enabled == true)
+                    {
+                        IC01106.Focus();
+                    }
+                    else if (IC01107.Enabled == true)
+                    {
+                        IC01107.Focus();
+                    }
+                    else if (IC01108.Enabled == true)
+                    {
+                        IC01108.Focus();
+                    }
+                    else if (IC01109.Enabled == true)
+                    {
+                        IC01109.Focus();
+                    }
+                    else if (IC01110.Enabled == true)
+                    {
+                        IC01110.Focus();
+                    }
+                    else if (IC01111.Enabled == true)
+                    {
+                        IC01111.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                }
 
 
             }
@@ -9421,7 +9533,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC0606_Leave(object sender, EventArgs e)
@@ -9523,6 +9635,8 @@ namespace iNCK
                     if (IC0906.Text == "1")
                     {
                         obj_op.DisableControls(IC01006);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01106.Focus();
                     }
                     else
@@ -9586,7 +9700,34 @@ namespace iNCK
                 {
                     IC01106.Focus();
                 }
-
+                else
+                {
+                    if (IC01107.Enabled == true)
+                    {
+                        IC01107.Focus();
+                    }
+                    else if (IC01108.Enabled == true)
+                    {
+                        IC01108.Focus();
+                    }
+                    else if (IC01109.Enabled == true)
+                    {
+                        IC01109.Focus();
+                    }
+                    else if (IC01110.Enabled == true)
+                    {
+                        IC01110.Focus();
+                    }
+                    else if (IC01111.Enabled == true)
+                    {
+                        IC01111.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                }
 
 
             }
@@ -9604,7 +9745,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC0607_Leave(object sender, EventArgs e)
@@ -9706,6 +9847,8 @@ namespace iNCK
                     if (IC0907.Text == "1")
                     {
                         obj_op.DisableControls(IC01007);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01107.Focus();
                     }
                     else
@@ -9769,6 +9912,30 @@ namespace iNCK
                 {
                     IC01107.Focus();
                 }
+                else
+                {
+                    if (IC01108.Enabled == true)
+                    {
+                        IC01108.Focus();
+                    }
+                    else if (IC01109.Enabled == true)
+                    {
+                        IC01109.Focus();
+                    }
+                    else if (IC01110.Enabled == true)
+                    {
+                        IC01110.Focus();
+                    }
+                    else if (IC01111.Enabled == true)
+                    {
+                        IC01111.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                }
 
 
 
@@ -9787,7 +9954,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC0608_Leave(object sender, EventArgs e)
@@ -9889,6 +10056,8 @@ namespace iNCK
                     if (IC0908.Text == "1")
                     {
                         obj_op.DisableControls(IC01008);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01108.Focus();
                     }
                     else
@@ -9952,6 +10121,26 @@ namespace iNCK
                 {
                     IC01108.Focus();
                 }
+                else
+                {
+                    if (IC01109.Enabled == true)
+                    {
+                        IC01109.Focus();
+                    }
+                    else if (IC01110.Enabled == true)
+                    {
+                        IC01110.Focus();
+                    }
+                    else if (IC01111.Enabled == true)
+                    {
+                        IC01111.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                }
 
 
 
@@ -9970,7 +10159,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC0609_Leave(object sender, EventArgs e)
@@ -10072,6 +10261,8 @@ namespace iNCK
                     if (IC0909.Text == "1")
                     {
                         obj_op.DisableControls(IC01009);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01109.Focus();
                     }
                     else
@@ -10135,6 +10326,22 @@ namespace iNCK
                 {
                     IC01109.Focus();
                 }
+                else
+                {
+                    if (IC01110.Enabled == true)
+                    {
+                        IC01110.Focus();
+                    }
+                    else if (IC01111.Enabled == true)
+                    {
+                        IC01111.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                }
 
 
 
@@ -10153,7 +10360,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC06010_Leave(object sender, EventArgs e)
@@ -10255,6 +10462,8 @@ namespace iNCK
                     if (IC09010.Text == "1")
                     {
                         obj_op.DisableControls(IC01010);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01110.Focus();
                     }
                     else
@@ -10318,7 +10527,18 @@ namespace iNCK
                 {
                     IC01110.Focus();
                 }
-
+                else
+                {
+                    if (IC01111.Enabled == true)
+                    {
+                        IC01111.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                }
 
 
             }
@@ -10336,7 +10556,7 @@ namespace iNCK
         }
 
 
-        
+
 
 
         private void IC06011_Leave(object sender, EventArgs e)
@@ -10438,6 +10658,8 @@ namespace iNCK
                     if (IC09011.Text == "1")
                     {
                         obj_op.DisableControls(IC01011);
+
+                        tabControl1.SelectedIndex = 11;
                         IC01110.Focus();
                     }
                     else
@@ -11026,9 +11248,6 @@ namespace iNCK
                 {
                     IG060506.Focus();
                 }
-
-
-
             }
             catch (Exception ex)
             {
@@ -11451,13 +11670,35 @@ namespace iNCK
                     if (IG0906.Text == "0")
                     {
                         obj_op.DisableControls(IG01006);
-                        chkMember7.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01006);
+                    }
+
+
+                    if (IG01006.Enabled == true)
+                    {
                         IG01006.Focus();
                     }
+                    else if (IG070107.Enabled == true)
+                    {
+                        IG070107.Focus();
+                    }
+                    else if (IG070108.Enabled == true)
+                    {
+                        IG070108.Focus();
+                    }
+                    else if (IG070109.Enabled == true)
+                    {
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
+
                 }
 
 
@@ -11492,14 +11733,32 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01106);
                         obj_op.DisableControls(IG01206);
-                        chkMember7.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01106);
                         obj_op.EnableControls(IG01206);
-                        chkMember7.Focus();
                     }
+
+
+                    if (IG070107.Enabled == true)
+                    {
+                        IG070107.Focus();
+                    }
+                    else if (IG070108.Enabled == true)
+                    {
+                        IG070108.Focus();
+                    }
+                    else if (IG070109.Enabled == true)
+                    {
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
+
                 }
 
 
@@ -12400,13 +12659,33 @@ namespace iNCK
                     if (IG0907.Text == "0")
                     {
                         obj_op.DisableControls(IG01007);
-                        chkMember8.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01007);
+                    }
+
+
+                    if (IG01007.Enabled == true)
+                    {
                         IG01007.Focus();
                     }
+                    else if (IG070108.Enabled == true)
+                    {
+                        IG070108.Focus();
+                    }
+                    else if (IG070109.Enabled == true)
+                    {
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
+
+
+
                 }
 
 
@@ -12441,14 +12720,29 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01107);
                         obj_op.DisableControls(IG01207);
-                        chkMember8.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01107);
                         obj_op.EnableControls(IG01207);
-                        chkMember8.Focus();
                     }
+
+
+
+                    if (IG070108.Enabled == true)
+                    {
+                        IG070108.Focus();
+                    }
+                    else if (IG070109.Enabled == true)
+                    {
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
+
                 }
 
 
@@ -13305,13 +13599,30 @@ namespace iNCK
                     if (IG0908.Text == "0")
                     {
                         obj_op.DisableControls(IG01008);
-                        chkMember9.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01008);
+                    }
+
+
+                    if (IG01008.Enabled == true)
+                    {
                         IG01008.Focus();
                     }
+                    else if (IG070109.Enabled == true)
+                    {
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
+
+
+
+
                 }
 
 
@@ -13346,14 +13657,24 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01108);
                         obj_op.DisableControls(IG01208);
-                        chkMember9.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01108);
                         obj_op.EnableControls(IG01208);
-                        chkMember9.Focus();
                     }
+
+
+
+                    if (IG070109.Enabled == true)
+                    {
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
                 }
 
 
@@ -14158,13 +14479,25 @@ namespace iNCK
                     if (IG0909.Text == "0")
                     {
                         obj_op.DisableControls(IG01009);
-                        chkMember10.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01009);
+                    }
+
+
+
+                    if (IG01009.Enabled == true)
+                    {
                         IG01009.Focus();
                     }
+                    else if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
+
+
                 }
 
 
@@ -14199,14 +14532,19 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01109);
                         obj_op.DisableControls(IG01209);
-                        chkMember10.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01109);
                         obj_op.EnableControls(IG01209);
-                        chkMember10.Focus();
                     }
+
+
+                    if (IG070110.Enabled == true)
+                    {
+                        IG070110.Focus();
+                    }
+
                 }
 
 
@@ -14546,7 +14884,10 @@ namespace iNCK
                 {
                     IG060510.Focus();
                 }
-
+                else
+                {
+                    tabControl1.SelectedIndex = 13;
+                }
 
 
             }
@@ -14971,15 +15312,51 @@ namespace iNCK
                     if (IG0910.Text == "0")
                     {
                         obj_op.DisableControls(IG01010);
-
-                        tabControl1.SelectedIndex = 11;
-                        IG01106.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01010);
+                    }
+
+
+
+                    if (IG01010.Enabled == true)
+                    {
                         IG01010.Focus();
                     }
+                    else if (IG01106.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01106.Focus();
+                    }
+                    else if (IG01107.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01107.Focus();
+                    }
+                    else if (IG01107.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01107.Focus();
+                    }
+                    else if (IG01108.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01108.Focus();
+                    }
+                    else if (IG01109.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01109.Focus();
+                    }
+                    else if (IG01110.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01110.Focus();
+                    }
+
+
+
                 }
 
 
@@ -15010,30 +15387,49 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (IG01010.Text == "1")
+                    {
+                        obj_op.DisableControls(IG01110);
+                        obj_op.DisableControls(IG01210);
+                    }
+                    else
+                    {
+                        obj_op.EnableControls(IG01110);
+                        obj_op.EnableControls(IG01210);
+                    }
+
+
+
                     if (IG01106.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 11;
+                        tabControl1.SelectedIndex = 14;
                         IG01106.Focus();
                     }
                     else if (IG01107.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 11;
+                        tabControl1.SelectedIndex = 14;
                         IG01107.Focus();
                     }
                     else if (IG01108.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 11;
+                        tabControl1.SelectedIndex = 14;
                         IG01108.Focus();
                     }
                     else if (IG01109.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 11;
+                        tabControl1.SelectedIndex = 14;
                         IG01109.Focus();
                     }
                     else if (IG01110.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 11;
+                        tabControl1.SelectedIndex = 14;
                         IG01110.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01206.Focus();
                     }
                 }
 
@@ -15207,7 +15603,7 @@ namespace iNCK
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
+                        tabControl1.SelectedIndex = 15;
                         IG160106.Focus();
                     }
                 }
@@ -15377,7 +15773,7 @@ namespace iNCK
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
+                        tabControl1.SelectedIndex = 14;
                         IG160106.Focus();
                     }
                 }
@@ -15544,7 +15940,7 @@ namespace iNCK
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
+                        tabControl1.SelectedIndex = 14;
                         IG160106.Focus();
                     }
                 }
@@ -15707,7 +16103,7 @@ namespace iNCK
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
+                        tabControl1.SelectedIndex = 14;
                         IG160106.Focus();
                     }
                 }
@@ -15863,7 +16259,7 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 12;
+                    tabControl1.SelectedIndex = 14;
                     IG160106.Focus();
                 }
 
@@ -17591,8 +17987,11 @@ namespace iNCK
                 {
                     IG1601210.Focus();
                 }
-
-
+                else
+                {
+                    tabControl1.SelectedIndex = 16;
+                    chkMember11.Focus();
+                }
 
             }
             catch (Exception ex)
@@ -19522,7 +19921,7 @@ namespace iNCK
                         obj_op.DisableControls(IG1601215);
 
 
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
                     }
 
@@ -19726,27 +20125,27 @@ namespace iNCK
                 {
                     if (IG070111.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 13;
+                        tabControl1.SelectedIndex = 17;
                         IG070111.Focus();
                     }
                     else if (IG070112.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 13;
+                        tabControl1.SelectedIndex = 17;
                         IG070112.Focus();
                     }
                     else if (IG070113.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 13;
+                        tabControl1.SelectedIndex = 17;
                         IG070113.Focus();
                     }
                     else if (IG070114.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 13;
+                        tabControl1.SelectedIndex = 17;
                         IG070114.Focus();
                     }
                     else if (IG070115.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 13;
+                        tabControl1.SelectedIndex = 17;
                         IG070115.Focus();
                     }
 
@@ -20217,14 +20616,37 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01111);
                         obj_op.DisableControls(IG01211);
-                        IG01311.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01111);
                         obj_op.EnableControls(IG01211);
+                    }
+
+
+
+                    if (IG01111.Enabled == true)
+                    {
                         IG01111.Focus();
                     }
+                    else if (IG070112.Enabled == true)
+                    {
+                        IG070112.Focus();
+                    }
+                    else if (IG070113.Enabled == true)
+                    {
+                        IG070113.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
+
                 }
 
 
@@ -20258,13 +20680,34 @@ namespace iNCK
                     if (IG01111.Text == "1")
                     {
                         obj_op.DisableControls(IG01211);
-                        IG01311.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01211);
-                        IG01211.Focus();
                     }
+
+
+                    if (IG070112.Enabled == true)
+                    {
+                        IG070112.Focus();
+                    }
+                    else if (IG070113.Enabled == true)
+                    {
+                        IG070113.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
                 }
 
 
@@ -20862,14 +21305,34 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01112);
                         obj_op.DisableControls(IG01212);
-                        IG01312.Focus();
+
                     }
                     else
                     {
                         obj_op.EnableControls(IG01112);
                         obj_op.EnableControls(IG01212);
+
+                    }
+
+
+                    if (IG01112.Enabled == true)
+                    {
                         IG01112.Focus();
                     }
+                    else if (IG070113.Enabled == true)
+                    {
+                        IG070113.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
+
                 }
 
 
@@ -20903,13 +21366,30 @@ namespace iNCK
                     if (IG01112.Text == "1")
                     {
                         obj_op.DisableControls(IG01212);
-                        IG01312.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01212);
-                        IG01212.Focus();
                     }
+
+
+                    if (IG070113.Enabled == true)
+                    {
+                        IG070113.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
                 }
 
 
@@ -21503,14 +21983,28 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01113);
                         obj_op.DisableControls(IG01213);
-                        IG01313.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01113);
                         obj_op.EnableControls(IG01213);
+                    }
+
+
+                    if (IG01113.Enabled == true)
+                    {
                         IG01113.Focus();
                     }
+                    else if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
+
                 }
 
 
@@ -21544,13 +22038,23 @@ namespace iNCK
                     if (IG01113.Text == "1")
                     {
                         obj_op.DisableControls(IG01213);
-                        IG01313.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01213);
-                        IG01213.Focus();
                     }
+
+
+
+                    if (IG070114.Enabled == true)
+                    {
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
                 }
 
 
@@ -22140,14 +22644,24 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01114);
                         obj_op.DisableControls(IG01214);
-                        IG01314.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01114);
                         obj_op.EnableControls(IG01214);
+                    }
+
+
+                    if (IG01114.Enabled == true)
+                    {
                         IG01114.Focus();
                     }
+                    else if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
+
                 }
 
 
@@ -22181,13 +22695,19 @@ namespace iNCK
                     if (IG01114.Text == "1")
                     {
                         obj_op.DisableControls(IG01214);
-                        IG01314.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01214);
-                        IG01214.Focus();
                     }
+
+
+                    if (IG070115.Enabled == true)
+                    {
+                        IG070115.Focus();
+                    }
+
+
                 }
 
 
@@ -22773,14 +23293,51 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01115);
                         obj_op.DisableControls(IG01215);
-                        IG01315.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01115);
                         obj_op.EnableControls(IG01215);
+                    }
+
+
+
+                    if (IG01115.Enabled == true)
+                    {
                         IG01115.Focus();
                     }
+                    else if (IG01211.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
+                    else if (IG01212.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01212.Focus();
+                    }
+                    else if (IG01213.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01213.Focus();
+                    }
+                    else if (IG01214.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01214.Focus();
+                    }
+                    else if (IG01215.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01215.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01311.Focus();
+                    }
+
+
                 }
 
 
@@ -22814,13 +23371,40 @@ namespace iNCK
                     if (IG01115.Text == "1")
                     {
                         obj_op.DisableControls(IG01215);
-                        IG01315.Focus();
                     }
                     else
                     {
                         obj_op.EnableControls(IG01215);
+                    }
+
+
+                    if (IG01211.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
+                    else if (IG01212.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01212.Focus();
+                    }
+                    else if (IG01213.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01213.Focus();
+                    }
+                    else if (IG01214.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01214.Focus();
+                    }
+                    else if (IG01215.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 18;
                         IG01215.Focus();
                     }
+
+
                 }
 
 
@@ -22932,35 +23516,7 @@ namespace iNCK
                 if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG01515'", IG01515.Text) == true)
                 {
                     IG01515.Focus();
-                }
-                else
-                {
-                    if (IG160111.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 14;
-                        IG160111.Focus();
-                    }
-                    else if (IG160112.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 14;
-                        IG160112.Focus();
-                    }
-                    else if (IG160113.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 14;
-                        IG160113.Focus();
-                    }
-                    else if (IG160114.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 14;
-                        IG160114.Focus();
-                    }
-                    else if (IG160115.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 14;
-                        IG160115.Focus();
-                    }
-                }
+                }                
 
 
             }
@@ -23298,25 +23854,29 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160112.Enabled == true)
+                    if (IG01212.Enabled == true)
                     {
-                        IG160112.Focus();
+                        IG01212.Focus();
                     }
-                    else if (IG160113.Enabled == true)
+                    else if (IG01213.Enabled == true)
                     {
-                        IG160113.Focus();
+                        IG01213.Focus();
                     }
-                    else if (IG160114.Enabled == true)
+                    else if (IG01214.Enabled == true)
                     {
-                        IG160114.Focus();
+                        IG01214.Focus();
                     }
-                    else if (IG160115.Enabled == true)
+                    else if (IG01215.Enabled == true)
                     {
-                        IG160115.Focus();
+                        IG01215.Focus();
+                    }
+                    else if (IG01312.Enabled == true)
+                    {
+                        IG01312.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
                     }
                 }
@@ -23657,21 +24217,25 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160113.Enabled == true)
+                    if (IG01213.Enabled == true)
                     {
-                        IG160113.Focus();
+                        IG01213.Focus();
                     }
-                    else if (IG160114.Enabled == true)
+                    else if (IG01214.Enabled == true)
                     {
-                        IG160114.Focus();
+                        IG01214.Focus();
                     }
-                    else if (IG160115.Enabled == true)
+                    else if (IG01215.Enabled == true)
                     {
-                        IG160115.Focus();
+                        IG01215.Focus();
+                    }
+                    else if (IG01313.Enabled == true)
+                    {
+                        IG01313.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
                     }
                 }
@@ -24012,17 +24576,21 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160114.Enabled == true)
+                    if (IG01214.Enabled == true)
                     {
-                        IG160114.Focus();
+                        IG01214.Focus();
                     }
-                    else if (IG160115.Enabled == true)
+                    else if (IG01215.Enabled == true)
                     {
-                        IG160115.Focus();
+                        IG01215.Focus();
+                    }
+                    else if (IG01314.Enabled == true)
+                    {
+                        IG01314.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
                     }
                 }
@@ -24363,13 +24931,17 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160115.Enabled == true)
+                    if (IG01215.Enabled == true)
                     {
-                        IG160115.Focus();
+                        IG01215.Focus();
+                    }
+                    else if (IG01315.Enabled == true)
+                    {
+                        IG01315.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
                     }
                 }
@@ -24710,7 +25282,7 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 8;
+                    tabControl1.SelectedIndex = 9;
                     QCFUP02.Focus();
                 }
 
@@ -42470,6 +43042,7 @@ CVariables.UserName + "')";
             GetTotalForms();
 
 
+
             if (CVariables.dualisperforming == true)
             {
                 CVariables.dual_normal_update = false;
@@ -42495,9 +43068,46 @@ CVariables.UserName + "')";
 
         private void cmdSave_Click(object sender, EventArgs e)
         {
+            //if (Validate_Fields_New())
+            //{
+            //    SaveData();
+            //}
+
             Validate_Fields();
         }
 
+
+        private bool Validate_Fields_New()
+        {
+
+            if (string.IsNullOrEmpty(IA01.Text) && IA01.Enabled == true) { MessageBox.Show("سُپروائیزر کا نام is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IA01.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IA02.Text) && IA02.Enabled == true) { MessageBox.Show("سُپروائیزر کا شناختی نمبر is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IA02.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IA03.Text) && IA03.Enabled == true) { MessageBox.Show("گائوں کا نام is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IA03.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IA04.Text) && IA04.Enabled == true) { MessageBox.Show("یونین کونسل کا نام is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IA04.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IA05.Text) && IA05.Enabled == true) { MessageBox.Show("کلسٹرآئی ڈی نمبر is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IA05.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB01.Text) && IB01.Enabled == true) { MessageBox.Show("فارم دینے والے کا نام is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB01.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB02.Text) && IB02.Enabled == true) { MessageBox.Show("فارم دینے والے کا آئی ڈی نمبر is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB02.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB03.Text) && IB03.Enabled == true) { MessageBox.Show("گھرانے کا نمبر(لائن لسٹنگ کے دوران دیئے گئے نمبر کا استعمال کریں۔ گھرانے کا نمبر گھرانے کی فہرست کے فارم سے کاپی کریں) is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB03.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB04.Text) && IB04.Enabled == true) { MessageBox.Show("(تاریخ کو دونوںفارمیٹ میں درج کریں) دورے کی تاریخ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB04.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB05.Text) && IB05.Enabled == true) { MessageBox.Show("زبانی اجازت : ہم اس کمیونٹی کے گھرانوں میں ایک سروے کا انعقاد کر رہے ہیں تاکہ گلگت بلتستان کے کچھ علاقوں میں تولیدی معلومات ، نوزائیدہ بچوں کی صحت ، ہجرت کے طریقوں اور ٹیلیفون کی دستیابی کے بارے میں جان سکیں۔ اس انٹرویوکو مکمل ہونے میں تقریباً 15 منٹس لگیں گے۔آپ سے حاصل کردہ تمام معلومات ہمارے پاس انتہائی خفیہ اور گمنام رہیں گی (یعنی آپ کا نام یا آپ کے خاندان کے کسی فرد کا نام کبھی بھی ظاہر نہیں کیا جائے گا) اور ان کو مستقبل کے ریسرچ پروگرام میں آگاہی کے لئے استعمال کیا جائے گا ۔ کیا میں اب انٹرویو شروع کرسکتا/سکتی ہوں؟ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB05.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB06.Text) && IB06.Enabled == true) { MessageBox.Show("سوالنامہ کے آغاز کا وقت is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB06.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB07.Text) && IB07.Enabled == true) { MessageBox.Show("(گھر کے افراد کی تعداد)اس وقت اس گھر میں کتنے افراد رہتے ہیں،اپنے آپ کو شامل کریں؟ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB07.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB08.Text) && IB08.Enabled == true) { MessageBox.Show("کیا گھر میں فون / لینڈ لائن ، سیل فون ، یاان دونوں میں سے کوئی ایک موجود ہیں؟ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB08.BackColor = Color.Red; return false; }
+
+            if (string.IsNullOrEmpty(IB0901.Text) && IB0901.Enabled == true) { MessageBox.Show("صبح is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB0901.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB0902.Text) && IB0902.Enabled == true) { MessageBox.Show("دوپہر is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB0902.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB0903.Text) && IB0903.Enabled == true) { MessageBox.Show("شام is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB0903.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IB0996.Text) && IB0996.Enabled == true) { MessageBox.Show("دیگر(برائے مہربانی وضاحت کریں) is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IB0996.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IC01.Text) && IC01.Enabled == true) { MessageBox.Show("کیا گزشتہ5 سالوں میں ، اس گھر کی کوئی خاتون حاملہ ہوئی تھیں؟ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IC01.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IC02.Text) && IC02.Enabled == true) { MessageBox.Show("گزشتہ 5 برس میں،ان عورتوں میں سے کتنی عورتوں نے بچوں کو جنم دیا تھا(اس بات سے قطع نظر کہ بچہ زندہ پیدا ہوا تھا یا مردہ )؟ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IC02.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IC03.Text) && IC03.Enabled == true) { MessageBox.Show("گزشتہ5سالوں میں،ان میں سے ایسی کتنی خواتین تھیں(یعنی جن کے بچوں کی پیدائش ہوئی)ہو اور ان کو بچے کی پیدائش کے بعد پہلے 24 گھنٹوں کے دوران اندام نہانی سے خون کا غیر معمولی اخراج ہواہو؟ (مندرجہ ذیل مثالیں دے کر اشارہ دیں) is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IC03.BackColor = Color.Red; return false; }
+            if (string.IsNullOrEmpty(IC04.Text) && IC04.Enabled == true) { MessageBox.Show("گزشتہ5 سالوں میں ، اس گھر میں پیدا ہونے والے کتنے بچوں کی مردہ پیدائش ہوئی (یعنی مردہ پیدا ہوئے تھے)؟ is required ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); IC04.BackColor = Color.Red; return false; }
+
+
+
+
+            return true;
+        }
 
 
         private void Validate_Fields()
@@ -42510,7 +43120,7 @@ CVariables.UserName + "')";
             for (int b = 0; b <= ds_new.Tables[0].Rows.Count - 1; b++)
             {
 
-                if (ds_new.Tables[0].Rows[b]["var_id"].ToString() != "form_id")
+                if (ds_new.Tables[0].Rows[b]["var_id"].ToString() != "form_id" && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "QCFUP01")
                 {
                     if (tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"])].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB05")
                     {
@@ -52786,26 +53396,19 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IE0904);
 
 
-                        if (IE0801.Enabled == true)
+                        if (IE0701.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 4;
-                            IE0801.Focus();
+                            IE0701.Focus();
                         }
-                        else if (IE0802.Enabled == true)
+                        else if (IE0702.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 4;
-                            IE0802.Focus();
+                            IE0702.Focus();
                         }
-                        else if (IE0803.Enabled == true)
+                        else if (IE0703.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 4;
-                            IE0803.Focus();
+                            IE0703.Focus();
                         }
-                        else if (IE0804.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 4;
-                            IE0804.Focus();
-                        }
+
                     }
                 }
 
@@ -53345,7 +53948,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                     {
                         obj_op.DisableControls(IF0604);
 
-                        tabControl1.SelectedIndex = 5;
+                        tabControl1.SelectedIndex = 6;
                         IG01.Focus();
                     }
                 }
@@ -53460,7 +54063,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 5;
+                    tabControl1.SelectedIndex = 6;
                     IG01.Focus();
                 }
 
@@ -53728,7 +54331,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IG1601105);
                         obj_op.DisableControls(IG1601205);
 
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
 
                     }
@@ -55177,7 +55780,10 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0505.Focus();
                 }
-
+                else
+                {
+                    tabControl1.SelectedIndex = 7;
+                }
 
 
             }
@@ -56977,7 +57583,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
             IG0701303.BackColor = Color.Bisque;
             ChangeColorLabel(0, lbl_IG0701303);
         }
-        
+
 
         private void chkBaby5_Leave(object sender, EventArgs e)
         {
@@ -57495,6 +58101,21 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
 
             chkBaby11.BackColor = Color.Bisque;
             ChangeColorLabel(0, lbl_ckkBaby11);
+        }
+
+        private void tabPage14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IG160315_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }
