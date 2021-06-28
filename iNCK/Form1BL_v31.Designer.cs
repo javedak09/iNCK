@@ -830,6 +830,7 @@
             this.IG1601015 = new System.Windows.Forms.MaskedTextBox();
             this.IG1601115 = new System.Windows.Forms.MaskedTextBox();
             this.IG1601215 = new System.Windows.Forms.MaskedTextBox();
+            this.IB04a = new System.Windows.Forms.DateTimePicker();
             this.tabControl1.SuspendLayout();
             this.tabPage0.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -919,6 +920,7 @@
             // 
             this.tabPage0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage0.BackgroundImage")));
             this.tabPage0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPage0.Controls.Add(this.IB04a);
             this.tabPage0.Controls.Add(this.IB010);
             this.tabPage0.Controls.Add(this.FORM_ID);
             this.tabPage0.Controls.Add(this.lbl_fld_FORM_ID);
@@ -947,7 +949,6 @@
             this.tabPage0.TabIndex = 0;
             this.tabPage0.Text = " Page - 0";
             this.tabPage0.UseVisualStyleBackColor = true;
-            this.tabPage0.Click += new System.EventHandler(this.tabPage0_Click);
             // 
             // IB010
             // 
@@ -957,7 +958,7 @@
             this.IB010.Mask = ">??????????????????????????????????????????????????";
             this.IB010.Name = "IB010";
             this.IB010.Size = new System.Drawing.Size(391, 20);
-            this.IB010.TabIndex = 12;
+            this.IB010.TabIndex = 13;
             this.IB010.Leave += new System.EventHandler(this.IB010_Leave);
             // 
             // FORM_ID
@@ -1162,7 +1163,7 @@
             this.IB05.Mask = "9999";
             this.IB05.Name = "IB05";
             this.IB05.Size = new System.Drawing.Size(35, 20);
-            this.IB05.TabIndex = 10;
+            this.IB05.TabIndex = 11;
             this.IB05.Enter += new System.EventHandler(this.IB05_Enter);
             this.IB05.Leave += new System.EventHandler(this.IB05_Leave);
             // 
@@ -1174,7 +1175,7 @@
             this.IB06.Mask = "99:99";
             this.IB06.Name = "IB06";
             this.IB06.Size = new System.Drawing.Size(90, 20);
-            this.IB06.TabIndex = 11;
+            this.IB06.TabIndex = 12;
             this.IB06.Enter += new System.EventHandler(this.IB06_Enter);
             this.IB06.Leave += new System.EventHandler(this.IB06_Leave);
             // 
@@ -1186,7 +1187,7 @@
             this.IB07.Mask = "9999";
             this.IB07.Name = "IB07";
             this.IB07.Size = new System.Drawing.Size(57, 20);
-            this.IB07.TabIndex = 13;
+            this.IB07.TabIndex = 14;
             this.IB07.Enter += new System.EventHandler(this.IB07_Enter);
             this.IB07.Leave += new System.EventHandler(this.IB07_Leave);
             // 
@@ -1739,7 +1740,6 @@
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = " Page - 3";
             this.tabPage3.UseVisualStyleBackColor = true;
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
             // ID01
             // 
@@ -2264,7 +2264,6 @@
             this.tabPage6.TabIndex = 6;
             this.tabPage6.Text = " Page - 6";
             this.tabPage6.UseVisualStyleBackColor = true;
-            this.tabPage6.Click += new System.EventHandler(this.tabPage6_Click);
             // 
             // IG0501
             // 
@@ -2714,272 +2713,320 @@
             this.IG060101.Location = new System.Drawing.Point(482, 77);
             this.IG060101.Mask = "9999";
             this.IG060101.Name = "IG060101";
-            this.IG060101.Size = new System.Drawing.Size(28, 20);
+            this.IG060101.Size = new System.Drawing.Size(31, 20);
             this.IG060101.TabIndex = 0;
             this.IG060101.Leave += new System.EventHandler(this.IG060101_Leave);
             // 
             // IG060201
             // 
-            this.IG060201.BackColor = System.Drawing.Color.Bisque;
+            this.IG060201.BackColor = System.Drawing.Color.Silver;
             this.IG060201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060201.Enabled = false;
             this.IG060201.Location = new System.Drawing.Point(482, 99);
             this.IG060201.Mask = "9999";
             this.IG060201.Name = "IG060201";
-            this.IG060201.Size = new System.Drawing.Size(28, 20);
+            this.IG060201.Size = new System.Drawing.Size(31, 20);
             this.IG060201.TabIndex = 1;
+            this.IG060201.Visible = false;
             this.IG060201.Leave += new System.EventHandler(this.IG060201_Leave);
             // 
             // IG060301
             // 
-            this.IG060301.BackColor = System.Drawing.Color.Bisque;
+            this.IG060301.BackColor = System.Drawing.Color.Silver;
             this.IG060301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060301.Enabled = false;
             this.IG060301.Location = new System.Drawing.Point(482, 121);
             this.IG060301.Mask = "9999";
             this.IG060301.Name = "IG060301";
-            this.IG060301.Size = new System.Drawing.Size(28, 20);
+            this.IG060301.Size = new System.Drawing.Size(31, 20);
             this.IG060301.TabIndex = 2;
+            this.IG060301.Visible = false;
             this.IG060301.Leave += new System.EventHandler(this.IG060301_Leave);
             // 
             // IG060401
             // 
-            this.IG060401.BackColor = System.Drawing.Color.Bisque;
+            this.IG060401.BackColor = System.Drawing.Color.Silver;
             this.IG060401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060401.Enabled = false;
             this.IG060401.Location = new System.Drawing.Point(482, 144);
             this.IG060401.Mask = "9999";
             this.IG060401.Name = "IG060401";
-            this.IG060401.Size = new System.Drawing.Size(28, 20);
+            this.IG060401.Size = new System.Drawing.Size(31, 20);
             this.IG060401.TabIndex = 3;
+            this.IG060401.Visible = false;
             this.IG060401.Leave += new System.EventHandler(this.IG060401_Leave);
             // 
             // IG060501
             // 
-            this.IG060501.BackColor = System.Drawing.Color.Bisque;
+            this.IG060501.BackColor = System.Drawing.Color.Silver;
             this.IG060501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060501.Enabled = false;
             this.IG060501.Location = new System.Drawing.Point(482, 166);
             this.IG060501.Mask = "9999";
             this.IG060501.Name = "IG060501";
-            this.IG060501.Size = new System.Drawing.Size(28, 20);
+            this.IG060501.Size = new System.Drawing.Size(31, 20);
             this.IG060501.TabIndex = 4;
+            this.IG060501.Visible = false;
             this.IG060501.Leave += new System.EventHandler(this.IG060501_Leave);
             // 
             // IG060102
             // 
-            this.IG060102.BackColor = System.Drawing.Color.Bisque;
+            this.IG060102.BackColor = System.Drawing.Color.Silver;
             this.IG060102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060102.Enabled = false;
             this.IG060102.Location = new System.Drawing.Point(601, 77);
             this.IG060102.Mask = "9999";
             this.IG060102.Name = "IG060102";
-            this.IG060102.Size = new System.Drawing.Size(28, 20);
+            this.IG060102.Size = new System.Drawing.Size(31, 20);
             this.IG060102.TabIndex = 21;
+            this.IG060102.Visible = false;
             this.IG060102.Leave += new System.EventHandler(this.IG060102_Leave);
             // 
             // IG060202
             // 
-            this.IG060202.BackColor = System.Drawing.Color.Bisque;
+            this.IG060202.BackColor = System.Drawing.Color.Silver;
             this.IG060202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060202.Enabled = false;
             this.IG060202.Location = new System.Drawing.Point(601, 99);
             this.IG060202.Mask = "9999";
             this.IG060202.Name = "IG060202";
-            this.IG060202.Size = new System.Drawing.Size(28, 20);
+            this.IG060202.Size = new System.Drawing.Size(31, 20);
             this.IG060202.TabIndex = 22;
+            this.IG060202.Visible = false;
             this.IG060202.Leave += new System.EventHandler(this.IG060202_Leave);
             // 
             // IG060302
             // 
-            this.IG060302.BackColor = System.Drawing.Color.Bisque;
+            this.IG060302.BackColor = System.Drawing.Color.Silver;
             this.IG060302.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060302.Enabled = false;
             this.IG060302.Location = new System.Drawing.Point(601, 122);
             this.IG060302.Mask = "9999";
             this.IG060302.Name = "IG060302";
-            this.IG060302.Size = new System.Drawing.Size(28, 20);
+            this.IG060302.Size = new System.Drawing.Size(31, 20);
             this.IG060302.TabIndex = 23;
+            this.IG060302.Visible = false;
             this.IG060302.Leave += new System.EventHandler(this.IG060302_Leave);
             // 
             // IG060402
             // 
-            this.IG060402.BackColor = System.Drawing.Color.Bisque;
+            this.IG060402.BackColor = System.Drawing.Color.Silver;
             this.IG060402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060402.Enabled = false;
             this.IG060402.Location = new System.Drawing.Point(601, 144);
             this.IG060402.Mask = "9999";
             this.IG060402.Name = "IG060402";
-            this.IG060402.Size = new System.Drawing.Size(28, 20);
+            this.IG060402.Size = new System.Drawing.Size(31, 20);
             this.IG060402.TabIndex = 24;
+            this.IG060402.Visible = false;
             this.IG060402.Leave += new System.EventHandler(this.IG060402_Leave);
             // 
             // IG060502
             // 
-            this.IG060502.BackColor = System.Drawing.Color.Bisque;
+            this.IG060502.BackColor = System.Drawing.Color.Silver;
             this.IG060502.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060502.Enabled = false;
             this.IG060502.Location = new System.Drawing.Point(601, 166);
             this.IG060502.Mask = "9999";
             this.IG060502.Name = "IG060502";
-            this.IG060502.Size = new System.Drawing.Size(28, 20);
+            this.IG060502.Size = new System.Drawing.Size(31, 20);
             this.IG060502.TabIndex = 25;
+            this.IG060502.Visible = false;
             this.IG060502.Leave += new System.EventHandler(this.IG060502_Leave);
             // 
             // IG060103
             // 
-            this.IG060103.BackColor = System.Drawing.Color.Bisque;
+            this.IG060103.BackColor = System.Drawing.Color.Silver;
             this.IG060103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060103.Enabled = false;
             this.IG060103.Location = new System.Drawing.Point(714, 77);
             this.IG060103.Mask = "9999";
             this.IG060103.Name = "IG060103";
-            this.IG060103.Size = new System.Drawing.Size(28, 20);
+            this.IG060103.Size = new System.Drawing.Size(31, 20);
             this.IG060103.TabIndex = 42;
+            this.IG060103.Visible = false;
             this.IG060103.Leave += new System.EventHandler(this.IG060103_Leave);
             // 
             // IG060203
             // 
-            this.IG060203.BackColor = System.Drawing.Color.Bisque;
+            this.IG060203.BackColor = System.Drawing.Color.Silver;
             this.IG060203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060203.Enabled = false;
             this.IG060203.Location = new System.Drawing.Point(714, 98);
             this.IG060203.Mask = "9999";
             this.IG060203.Name = "IG060203";
-            this.IG060203.Size = new System.Drawing.Size(28, 20);
+            this.IG060203.Size = new System.Drawing.Size(31, 20);
             this.IG060203.TabIndex = 43;
+            this.IG060203.Visible = false;
             this.IG060203.Leave += new System.EventHandler(this.IG060203_Leave);
             // 
             // IG060303
             // 
-            this.IG060303.BackColor = System.Drawing.Color.Bisque;
+            this.IG060303.BackColor = System.Drawing.Color.Silver;
             this.IG060303.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060303.Enabled = false;
             this.IG060303.Location = new System.Drawing.Point(714, 119);
             this.IG060303.Mask = "9999";
             this.IG060303.Name = "IG060303";
-            this.IG060303.Size = new System.Drawing.Size(28, 20);
+            this.IG060303.Size = new System.Drawing.Size(31, 20);
             this.IG060303.TabIndex = 44;
+            this.IG060303.Visible = false;
             this.IG060303.Leave += new System.EventHandler(this.IG060303_Leave);
             // 
             // IG060403
             // 
-            this.IG060403.BackColor = System.Drawing.Color.Bisque;
+            this.IG060403.BackColor = System.Drawing.Color.Silver;
             this.IG060403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060403.Enabled = false;
             this.IG060403.Location = new System.Drawing.Point(714, 140);
             this.IG060403.Mask = "9999";
             this.IG060403.Name = "IG060403";
-            this.IG060403.Size = new System.Drawing.Size(28, 20);
+            this.IG060403.Size = new System.Drawing.Size(31, 20);
             this.IG060403.TabIndex = 45;
+            this.IG060403.Visible = false;
             this.IG060403.Leave += new System.EventHandler(this.IG060403_Leave);
             // 
             // IG060503
             // 
-            this.IG060503.BackColor = System.Drawing.Color.Bisque;
+            this.IG060503.BackColor = System.Drawing.Color.Silver;
             this.IG060503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060503.Enabled = false;
             this.IG060503.Location = new System.Drawing.Point(714, 161);
             this.IG060503.Mask = "9999";
             this.IG060503.Name = "IG060503";
-            this.IG060503.Size = new System.Drawing.Size(28, 20);
+            this.IG060503.Size = new System.Drawing.Size(31, 20);
             this.IG060503.TabIndex = 46;
+            this.IG060503.Visible = false;
             this.IG060503.Leave += new System.EventHandler(this.IG060503_Leave);
             // 
             // IG060104
             // 
-            this.IG060104.BackColor = System.Drawing.Color.Bisque;
+            this.IG060104.BackColor = System.Drawing.Color.Silver;
             this.IG060104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060104.Enabled = false;
             this.IG060104.Location = new System.Drawing.Point(831, 77);
             this.IG060104.Mask = "9999";
             this.IG060104.Name = "IG060104";
-            this.IG060104.Size = new System.Drawing.Size(27, 20);
+            this.IG060104.Size = new System.Drawing.Size(30, 20);
             this.IG060104.TabIndex = 63;
+            this.IG060104.Visible = false;
             this.IG060104.Leave += new System.EventHandler(this.IG060104_Leave);
             // 
             // IG060204
             // 
-            this.IG060204.BackColor = System.Drawing.Color.Bisque;
+            this.IG060204.BackColor = System.Drawing.Color.Silver;
             this.IG060204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060204.Enabled = false;
             this.IG060204.Location = new System.Drawing.Point(831, 98);
             this.IG060204.Mask = "9999";
             this.IG060204.Name = "IG060204";
-            this.IG060204.Size = new System.Drawing.Size(27, 20);
+            this.IG060204.Size = new System.Drawing.Size(30, 20);
             this.IG060204.TabIndex = 64;
+            this.IG060204.Visible = false;
             this.IG060204.Leave += new System.EventHandler(this.IG060204_Leave);
             // 
             // IG060304
             // 
-            this.IG060304.BackColor = System.Drawing.Color.Bisque;
+            this.IG060304.BackColor = System.Drawing.Color.Silver;
             this.IG060304.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060304.Enabled = false;
             this.IG060304.Location = new System.Drawing.Point(831, 120);
             this.IG060304.Mask = "9999";
             this.IG060304.Name = "IG060304";
-            this.IG060304.Size = new System.Drawing.Size(27, 20);
+            this.IG060304.Size = new System.Drawing.Size(30, 20);
             this.IG060304.TabIndex = 65;
+            this.IG060304.Visible = false;
             this.IG060304.Leave += new System.EventHandler(this.IG060304_Leave);
             // 
             // IG060404
             // 
-            this.IG060404.BackColor = System.Drawing.Color.Bisque;
+            this.IG060404.BackColor = System.Drawing.Color.Silver;
             this.IG060404.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060404.Enabled = false;
             this.IG060404.Location = new System.Drawing.Point(831, 142);
             this.IG060404.Mask = "9999";
             this.IG060404.Name = "IG060404";
-            this.IG060404.Size = new System.Drawing.Size(27, 20);
+            this.IG060404.Size = new System.Drawing.Size(30, 20);
             this.IG060404.TabIndex = 66;
+            this.IG060404.Visible = false;
             this.IG060404.Leave += new System.EventHandler(this.IG060404_Leave);
             // 
             // IG060504
             // 
-            this.IG060504.BackColor = System.Drawing.Color.Bisque;
+            this.IG060504.BackColor = System.Drawing.Color.Silver;
             this.IG060504.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060504.Enabled = false;
             this.IG060504.Location = new System.Drawing.Point(831, 163);
             this.IG060504.Mask = "9999";
             this.IG060504.Name = "IG060504";
-            this.IG060504.Size = new System.Drawing.Size(27, 20);
+            this.IG060504.Size = new System.Drawing.Size(30, 20);
             this.IG060504.TabIndex = 67;
+            this.IG060504.Visible = false;
             this.IG060504.Leave += new System.EventHandler(this.IG060504_Leave);
             // 
             // IG060105
             // 
-            this.IG060105.BackColor = System.Drawing.Color.Bisque;
+            this.IG060105.BackColor = System.Drawing.Color.Silver;
             this.IG060105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060105.Enabled = false;
             this.IG060105.Location = new System.Drawing.Point(934, 77);
             this.IG060105.Mask = "9999";
             this.IG060105.Name = "IG060105";
-            this.IG060105.Size = new System.Drawing.Size(27, 20);
+            this.IG060105.Size = new System.Drawing.Size(30, 20);
             this.IG060105.TabIndex = 84;
+            this.IG060105.Visible = false;
             this.IG060105.Leave += new System.EventHandler(this.IG060105_Leave);
             // 
             // IG060205
             // 
-            this.IG060205.BackColor = System.Drawing.Color.Bisque;
+            this.IG060205.BackColor = System.Drawing.Color.Silver;
             this.IG060205.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060205.Enabled = false;
             this.IG060205.Location = new System.Drawing.Point(934, 99);
             this.IG060205.Mask = "9999";
             this.IG060205.Name = "IG060205";
-            this.IG060205.Size = new System.Drawing.Size(27, 20);
+            this.IG060205.Size = new System.Drawing.Size(30, 20);
             this.IG060205.TabIndex = 85;
+            this.IG060205.Visible = false;
             this.IG060205.Leave += new System.EventHandler(this.IG060205_Leave);
             // 
             // IG060305
             // 
-            this.IG060305.BackColor = System.Drawing.Color.Bisque;
+            this.IG060305.BackColor = System.Drawing.Color.Silver;
             this.IG060305.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060305.Enabled = false;
             this.IG060305.Location = new System.Drawing.Point(934, 120);
             this.IG060305.Mask = "9999";
             this.IG060305.Name = "IG060305";
-            this.IG060305.Size = new System.Drawing.Size(27, 20);
+            this.IG060305.Size = new System.Drawing.Size(30, 20);
             this.IG060305.TabIndex = 86;
+            this.IG060305.Visible = false;
             this.IG060305.Leave += new System.EventHandler(this.IG060305_Leave);
             // 
             // IG060405
             // 
-            this.IG060405.BackColor = System.Drawing.Color.Bisque;
+            this.IG060405.BackColor = System.Drawing.Color.Silver;
             this.IG060405.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060405.Enabled = false;
             this.IG060405.Location = new System.Drawing.Point(934, 141);
             this.IG060405.Mask = "9999";
             this.IG060405.Name = "IG060405";
-            this.IG060405.Size = new System.Drawing.Size(27, 20);
+            this.IG060405.Size = new System.Drawing.Size(30, 20);
             this.IG060405.TabIndex = 87;
+            this.IG060405.Visible = false;
             this.IG060405.Leave += new System.EventHandler(this.IG060405_Leave);
             // 
             // IG060505
             // 
-            this.IG060505.BackColor = System.Drawing.Color.Bisque;
+            this.IG060505.BackColor = System.Drawing.Color.Silver;
             this.IG060505.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060505.Enabled = false;
             this.IG060505.Location = new System.Drawing.Point(934, 162);
             this.IG060505.Mask = "9999";
             this.IG060505.Name = "IG060505";
-            this.IG060505.Size = new System.Drawing.Size(27, 20);
+            this.IG060505.Size = new System.Drawing.Size(30, 20);
             this.IG060505.TabIndex = 88;
+            this.IG060505.Visible = false;
             this.IG060505.Leave += new System.EventHandler(this.IG060505_Leave);
             // 
             // IG070501
@@ -5669,46 +5716,54 @@
             // 
             // IG060206
             // 
-            this.IG060206.BackColor = System.Drawing.Color.Bisque;
+            this.IG060206.BackColor = System.Drawing.Color.Silver;
             this.IG060206.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060206.Enabled = false;
             this.IG060206.Location = new System.Drawing.Point(421, 260);
             this.IG060206.Mask = "9999";
             this.IG060206.Name = "IG060206";
             this.IG060206.Size = new System.Drawing.Size(35, 20);
             this.IG060206.TabIndex = 4;
+            this.IG060206.Visible = false;
             this.IG060206.Leave += new System.EventHandler(this.IG060206_Leave);
             // 
             // IG060306
             // 
-            this.IG060306.BackColor = System.Drawing.Color.Bisque;
+            this.IG060306.BackColor = System.Drawing.Color.Silver;
             this.IG060306.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060306.Enabled = false;
             this.IG060306.Location = new System.Drawing.Point(421, 281);
             this.IG060306.Mask = "9999";
             this.IG060306.Name = "IG060306";
             this.IG060306.Size = new System.Drawing.Size(35, 20);
             this.IG060306.TabIndex = 5;
+            this.IG060306.Visible = false;
             this.IG060306.Leave += new System.EventHandler(this.IG060306_Leave);
             // 
             // IG060406
             // 
-            this.IG060406.BackColor = System.Drawing.Color.Bisque;
+            this.IG060406.BackColor = System.Drawing.Color.Silver;
             this.IG060406.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060406.Enabled = false;
             this.IG060406.Location = new System.Drawing.Point(421, 302);
             this.IG060406.Mask = "9999";
             this.IG060406.Name = "IG060406";
             this.IG060406.Size = new System.Drawing.Size(35, 20);
             this.IG060406.TabIndex = 6;
+            this.IG060406.Visible = false;
             this.IG060406.Leave += new System.EventHandler(this.IG060406_Leave);
             // 
             // IG060506
             // 
-            this.IG060506.BackColor = System.Drawing.Color.Bisque;
+            this.IG060506.BackColor = System.Drawing.Color.Silver;
             this.IG060506.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060506.Enabled = false;
             this.IG060506.Location = new System.Drawing.Point(421, 323);
             this.IG060506.Mask = "9999";
             this.IG060506.Name = "IG060506";
             this.IG060506.Size = new System.Drawing.Size(35, 20);
             this.IG060506.TabIndex = 7;
+            this.IG060506.Visible = false;
             this.IG060506.Leave += new System.EventHandler(this.IG060506_Leave);
             // 
             // IG0507
@@ -5724,57 +5779,67 @@
             // 
             // IG060107
             // 
-            this.IG060107.BackColor = System.Drawing.Color.Bisque;
+            this.IG060107.BackColor = System.Drawing.Color.Silver;
             this.IG060107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060107.Enabled = false;
             this.IG060107.Location = new System.Drawing.Point(564, 239);
             this.IG060107.Mask = "9999";
             this.IG060107.Name = "IG060107";
             this.IG060107.Size = new System.Drawing.Size(34, 20);
             this.IG060107.TabIndex = 11;
+            this.IG060107.Visible = false;
             this.IG060107.Leave += new System.EventHandler(this.IG060107_Leave);
             // 
             // IG060207
             // 
-            this.IG060207.BackColor = System.Drawing.Color.Bisque;
+            this.IG060207.BackColor = System.Drawing.Color.Silver;
             this.IG060207.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060207.Enabled = false;
             this.IG060207.Location = new System.Drawing.Point(564, 260);
             this.IG060207.Mask = "9999";
             this.IG060207.Name = "IG060207";
             this.IG060207.Size = new System.Drawing.Size(34, 20);
             this.IG060207.TabIndex = 12;
+            this.IG060207.Visible = false;
             this.IG060207.Leave += new System.EventHandler(this.IG060207_Leave);
             // 
             // IG060307
             // 
-            this.IG060307.BackColor = System.Drawing.Color.Bisque;
+            this.IG060307.BackColor = System.Drawing.Color.Silver;
             this.IG060307.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060307.Enabled = false;
             this.IG060307.Location = new System.Drawing.Point(564, 281);
             this.IG060307.Mask = "9999";
             this.IG060307.Name = "IG060307";
             this.IG060307.Size = new System.Drawing.Size(34, 20);
             this.IG060307.TabIndex = 13;
+            this.IG060307.Visible = false;
             this.IG060307.Leave += new System.EventHandler(this.IG060307_Leave);
             // 
             // IG060407
             // 
-            this.IG060407.BackColor = System.Drawing.Color.Bisque;
+            this.IG060407.BackColor = System.Drawing.Color.Silver;
             this.IG060407.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060407.Enabled = false;
             this.IG060407.Location = new System.Drawing.Point(564, 302);
             this.IG060407.Mask = "9999";
             this.IG060407.Name = "IG060407";
             this.IG060407.Size = new System.Drawing.Size(34, 20);
             this.IG060407.TabIndex = 14;
+            this.IG060407.Visible = false;
             this.IG060407.Leave += new System.EventHandler(this.IG060407_Leave);
             // 
             // IG060507
             // 
-            this.IG060507.BackColor = System.Drawing.Color.Bisque;
+            this.IG060507.BackColor = System.Drawing.Color.Silver;
             this.IG060507.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060507.Enabled = false;
             this.IG060507.Location = new System.Drawing.Point(564, 323);
             this.IG060507.Mask = "9999";
             this.IG060507.Name = "IG060507";
             this.IG060507.Size = new System.Drawing.Size(34, 20);
             this.IG060507.TabIndex = 15;
+            this.IG060507.Visible = false;
             this.IG060507.Leave += new System.EventHandler(this.IG060507_Leave);
             // 
             // IG0508
@@ -5790,57 +5855,67 @@
             // 
             // IG060108
             // 
-            this.IG060108.BackColor = System.Drawing.Color.Bisque;
+            this.IG060108.BackColor = System.Drawing.Color.Silver;
             this.IG060108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060108.Enabled = false;
             this.IG060108.Location = new System.Drawing.Point(692, 239);
             this.IG060108.Mask = "9999";
             this.IG060108.Name = "IG060108";
             this.IG060108.Size = new System.Drawing.Size(36, 20);
             this.IG060108.TabIndex = 19;
+            this.IG060108.Visible = false;
             this.IG060108.Leave += new System.EventHandler(this.IG060108_Leave);
             // 
             // IG060208
             // 
-            this.IG060208.BackColor = System.Drawing.Color.Bisque;
+            this.IG060208.BackColor = System.Drawing.Color.Silver;
             this.IG060208.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060208.Enabled = false;
             this.IG060208.Location = new System.Drawing.Point(692, 260);
             this.IG060208.Mask = "9999";
             this.IG060208.Name = "IG060208";
             this.IG060208.Size = new System.Drawing.Size(36, 20);
             this.IG060208.TabIndex = 20;
+            this.IG060208.Visible = false;
             this.IG060208.Leave += new System.EventHandler(this.IG060208_Leave);
             // 
             // IG060308
             // 
-            this.IG060308.BackColor = System.Drawing.Color.Bisque;
+            this.IG060308.BackColor = System.Drawing.Color.Silver;
             this.IG060308.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060308.Enabled = false;
             this.IG060308.Location = new System.Drawing.Point(692, 281);
             this.IG060308.Mask = "9999";
             this.IG060308.Name = "IG060308";
             this.IG060308.Size = new System.Drawing.Size(36, 20);
             this.IG060308.TabIndex = 21;
+            this.IG060308.Visible = false;
             this.IG060308.Leave += new System.EventHandler(this.IG060308_Leave);
             // 
             // IG060408
             // 
-            this.IG060408.BackColor = System.Drawing.Color.Bisque;
+            this.IG060408.BackColor = System.Drawing.Color.Silver;
             this.IG060408.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060408.Enabled = false;
             this.IG060408.Location = new System.Drawing.Point(692, 302);
             this.IG060408.Mask = "9999";
             this.IG060408.Name = "IG060408";
             this.IG060408.Size = new System.Drawing.Size(36, 20);
             this.IG060408.TabIndex = 22;
+            this.IG060408.Visible = false;
             this.IG060408.Leave += new System.EventHandler(this.IG060408_Leave);
             // 
             // IG060508
             // 
-            this.IG060508.BackColor = System.Drawing.Color.Bisque;
+            this.IG060508.BackColor = System.Drawing.Color.Silver;
             this.IG060508.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060508.Enabled = false;
             this.IG060508.Location = new System.Drawing.Point(692, 323);
             this.IG060508.Mask = "9999";
             this.IG060508.Name = "IG060508";
             this.IG060508.Size = new System.Drawing.Size(36, 20);
             this.IG060508.TabIndex = 23;
+            this.IG060508.Visible = false;
             this.IG060508.Leave += new System.EventHandler(this.IG060508_Leave);
             // 
             // IG0509
@@ -5856,57 +5931,67 @@
             // 
             // IG060109
             // 
-            this.IG060109.BackColor = System.Drawing.Color.Bisque;
+            this.IG060109.BackColor = System.Drawing.Color.Silver;
             this.IG060109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060109.Enabled = false;
             this.IG060109.Location = new System.Drawing.Point(816, 239);
             this.IG060109.Mask = "9999";
             this.IG060109.Name = "IG060109";
             this.IG060109.Size = new System.Drawing.Size(34, 20);
             this.IG060109.TabIndex = 27;
+            this.IG060109.Visible = false;
             this.IG060109.Leave += new System.EventHandler(this.IG060109_Leave);
             // 
             // IG060209
             // 
-            this.IG060209.BackColor = System.Drawing.Color.Bisque;
+            this.IG060209.BackColor = System.Drawing.Color.Silver;
             this.IG060209.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060209.Enabled = false;
             this.IG060209.Location = new System.Drawing.Point(816, 260);
             this.IG060209.Mask = "9999";
             this.IG060209.Name = "IG060209";
             this.IG060209.Size = new System.Drawing.Size(34, 20);
             this.IG060209.TabIndex = 28;
+            this.IG060209.Visible = false;
             this.IG060209.Leave += new System.EventHandler(this.IG060209_Leave);
             // 
             // IG060309
             // 
-            this.IG060309.BackColor = System.Drawing.Color.Bisque;
+            this.IG060309.BackColor = System.Drawing.Color.Silver;
             this.IG060309.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060309.Enabled = false;
             this.IG060309.Location = new System.Drawing.Point(816, 281);
             this.IG060309.Mask = "9999";
             this.IG060309.Name = "IG060309";
             this.IG060309.Size = new System.Drawing.Size(34, 20);
             this.IG060309.TabIndex = 29;
+            this.IG060309.Visible = false;
             this.IG060309.Leave += new System.EventHandler(this.IG060309_Leave);
             // 
             // IG060409
             // 
-            this.IG060409.BackColor = System.Drawing.Color.Bisque;
+            this.IG060409.BackColor = System.Drawing.Color.Silver;
             this.IG060409.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060409.Enabled = false;
             this.IG060409.Location = new System.Drawing.Point(816, 302);
             this.IG060409.Mask = "9999";
             this.IG060409.Name = "IG060409";
             this.IG060409.Size = new System.Drawing.Size(34, 20);
             this.IG060409.TabIndex = 30;
+            this.IG060409.Visible = false;
             this.IG060409.Leave += new System.EventHandler(this.IG060409_Leave);
             // 
             // IG060509
             // 
-            this.IG060509.BackColor = System.Drawing.Color.Bisque;
+            this.IG060509.BackColor = System.Drawing.Color.Silver;
             this.IG060509.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060509.Enabled = false;
             this.IG060509.Location = new System.Drawing.Point(816, 323);
             this.IG060509.Mask = "9999";
             this.IG060509.Name = "IG060509";
             this.IG060509.Size = new System.Drawing.Size(34, 20);
             this.IG060509.TabIndex = 31;
+            this.IG060509.Visible = false;
             this.IG060509.Leave += new System.EventHandler(this.IG060509_Leave);
             // 
             // IG0510
@@ -5922,57 +6007,67 @@
             // 
             // IG060110
             // 
-            this.IG060110.BackColor = System.Drawing.Color.Bisque;
+            this.IG060110.BackColor = System.Drawing.Color.Silver;
             this.IG060110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060110.Enabled = false;
             this.IG060110.Location = new System.Drawing.Point(943, 239);
             this.IG060110.Mask = "9999";
             this.IG060110.Name = "IG060110";
             this.IG060110.Size = new System.Drawing.Size(34, 20);
             this.IG060110.TabIndex = 35;
+            this.IG060110.Visible = false;
             this.IG060110.Leave += new System.EventHandler(this.IG060110_Leave);
             // 
             // IG060210
             // 
-            this.IG060210.BackColor = System.Drawing.Color.Bisque;
+            this.IG060210.BackColor = System.Drawing.Color.Silver;
             this.IG060210.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060210.Enabled = false;
             this.IG060210.Location = new System.Drawing.Point(943, 260);
             this.IG060210.Mask = "9999";
             this.IG060210.Name = "IG060210";
             this.IG060210.Size = new System.Drawing.Size(34, 20);
             this.IG060210.TabIndex = 36;
+            this.IG060210.Visible = false;
             this.IG060210.Leave += new System.EventHandler(this.IG060210_Leave);
             // 
             // IG060310
             // 
-            this.IG060310.BackColor = System.Drawing.Color.Bisque;
+            this.IG060310.BackColor = System.Drawing.Color.Silver;
             this.IG060310.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060310.Enabled = false;
             this.IG060310.Location = new System.Drawing.Point(943, 281);
             this.IG060310.Mask = "9999";
             this.IG060310.Name = "IG060310";
             this.IG060310.Size = new System.Drawing.Size(34, 20);
             this.IG060310.TabIndex = 37;
+            this.IG060310.Visible = false;
             this.IG060310.Leave += new System.EventHandler(this.IG060310_Leave);
             // 
             // IG060410
             // 
-            this.IG060410.BackColor = System.Drawing.Color.Bisque;
+            this.IG060410.BackColor = System.Drawing.Color.Silver;
             this.IG060410.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060410.Enabled = false;
             this.IG060410.Location = new System.Drawing.Point(943, 302);
             this.IG060410.Mask = "9999";
             this.IG060410.Name = "IG060410";
             this.IG060410.Size = new System.Drawing.Size(34, 20);
             this.IG060410.TabIndex = 38;
+            this.IG060410.Visible = false;
             this.IG060410.Leave += new System.EventHandler(this.IG060410_Leave);
             // 
             // IG060510
             // 
-            this.IG060510.BackColor = System.Drawing.Color.Bisque;
+            this.IG060510.BackColor = System.Drawing.Color.Silver;
             this.IG060510.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060510.Enabled = false;
             this.IG060510.Location = new System.Drawing.Point(943, 323);
             this.IG060510.Mask = "9999";
             this.IG060510.Name = "IG060510";
             this.IG060510.Size = new System.Drawing.Size(34, 20);
             this.IG060510.TabIndex = 39;
+            this.IG060510.Visible = false;
             this.IG060510.Leave += new System.EventHandler(this.IG060510_Leave);
             // 
             // chkMember6
@@ -7094,7 +7189,6 @@
             this.tabPage14.TabIndex = 14;
             this.tabPage14.Text = " Page - 14";
             this.tabPage14.UseVisualStyleBackColor = true;
-            this.tabPage14.Click += new System.EventHandler(this.tabPage14_Click);
             // 
             // IG01106
             // 
@@ -8199,46 +8293,54 @@
             // 
             // IG060211
             // 
-            this.IG060211.BackColor = System.Drawing.Color.Bisque;
+            this.IG060211.BackColor = System.Drawing.Color.Silver;
             this.IG060211.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060211.Enabled = false;
             this.IG060211.Location = new System.Drawing.Point(444, 257);
             this.IG060211.Mask = "9999";
             this.IG060211.Name = "IG060211";
             this.IG060211.Size = new System.Drawing.Size(31, 20);
             this.IG060211.TabIndex = 4;
+            this.IG060211.Visible = false;
             this.IG060211.Leave += new System.EventHandler(this.IG060211_Leave);
             // 
             // IG060311
             // 
-            this.IG060311.BackColor = System.Drawing.Color.Bisque;
+            this.IG060311.BackColor = System.Drawing.Color.Silver;
             this.IG060311.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060311.Enabled = false;
             this.IG060311.Location = new System.Drawing.Point(444, 278);
             this.IG060311.Mask = "9999";
             this.IG060311.Name = "IG060311";
             this.IG060311.Size = new System.Drawing.Size(31, 20);
             this.IG060311.TabIndex = 5;
+            this.IG060311.Visible = false;
             this.IG060311.Leave += new System.EventHandler(this.IG060311_Leave);
             // 
             // IG060411
             // 
-            this.IG060411.BackColor = System.Drawing.Color.Bisque;
+            this.IG060411.BackColor = System.Drawing.Color.Silver;
             this.IG060411.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060411.Enabled = false;
             this.IG060411.Location = new System.Drawing.Point(444, 299);
             this.IG060411.Mask = "9999";
             this.IG060411.Name = "IG060411";
             this.IG060411.Size = new System.Drawing.Size(31, 20);
             this.IG060411.TabIndex = 6;
+            this.IG060411.Visible = false;
             this.IG060411.Leave += new System.EventHandler(this.IG060411_Leave);
             // 
             // IG060511
             // 
-            this.IG060511.BackColor = System.Drawing.Color.Bisque;
+            this.IG060511.BackColor = System.Drawing.Color.Silver;
             this.IG060511.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060511.Enabled = false;
             this.IG060511.Location = new System.Drawing.Point(444, 320);
             this.IG060511.Mask = "9999";
             this.IG060511.Name = "IG060511";
             this.IG060511.Size = new System.Drawing.Size(31, 20);
             this.IG060511.TabIndex = 7;
+            this.IG060511.Visible = false;
             this.IG060511.Leave += new System.EventHandler(this.IG060511_Leave);
             // 
             // chkMember12
@@ -8276,57 +8378,67 @@
             // 
             // IG060112
             // 
-            this.IG060112.BackColor = System.Drawing.Color.Bisque;
+            this.IG060112.BackColor = System.Drawing.Color.Silver;
             this.IG060112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060112.Enabled = false;
             this.IG060112.Location = new System.Drawing.Point(578, 236);
             this.IG060112.Mask = "9999";
             this.IG060112.Name = "IG060112";
             this.IG060112.Size = new System.Drawing.Size(31, 20);
             this.IG060112.TabIndex = 11;
+            this.IG060112.Visible = false;
             this.IG060112.Leave += new System.EventHandler(this.IG060112_Leave);
             // 
             // IG060212
             // 
-            this.IG060212.BackColor = System.Drawing.Color.Bisque;
+            this.IG060212.BackColor = System.Drawing.Color.Silver;
             this.IG060212.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060212.Enabled = false;
             this.IG060212.Location = new System.Drawing.Point(578, 257);
             this.IG060212.Mask = "9999";
             this.IG060212.Name = "IG060212";
             this.IG060212.Size = new System.Drawing.Size(31, 20);
             this.IG060212.TabIndex = 12;
+            this.IG060212.Visible = false;
             this.IG060212.Leave += new System.EventHandler(this.IG060212_Leave);
             // 
             // IG060312
             // 
-            this.IG060312.BackColor = System.Drawing.Color.Bisque;
+            this.IG060312.BackColor = System.Drawing.Color.Silver;
             this.IG060312.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060312.Enabled = false;
             this.IG060312.Location = new System.Drawing.Point(578, 278);
             this.IG060312.Mask = "9999";
             this.IG060312.Name = "IG060312";
             this.IG060312.Size = new System.Drawing.Size(31, 20);
             this.IG060312.TabIndex = 13;
+            this.IG060312.Visible = false;
             this.IG060312.Leave += new System.EventHandler(this.IG060312_Leave);
             // 
             // IG060412
             // 
-            this.IG060412.BackColor = System.Drawing.Color.Bisque;
+            this.IG060412.BackColor = System.Drawing.Color.Silver;
             this.IG060412.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060412.Enabled = false;
             this.IG060412.Location = new System.Drawing.Point(578, 299);
             this.IG060412.Mask = "9999";
             this.IG060412.Name = "IG060412";
             this.IG060412.Size = new System.Drawing.Size(31, 20);
             this.IG060412.TabIndex = 14;
+            this.IG060412.Visible = false;
             this.IG060412.Leave += new System.EventHandler(this.IG060412_Leave);
             // 
             // IG060512
             // 
-            this.IG060512.BackColor = System.Drawing.Color.Bisque;
+            this.IG060512.BackColor = System.Drawing.Color.Silver;
             this.IG060512.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060512.Enabled = false;
             this.IG060512.Location = new System.Drawing.Point(578, 320);
             this.IG060512.Mask = "9999";
             this.IG060512.Name = "IG060512";
             this.IG060512.Size = new System.Drawing.Size(31, 20);
             this.IG060512.TabIndex = 15;
+            this.IG060512.Visible = false;
             this.IG060512.Leave += new System.EventHandler(this.IG060512_Leave);
             // 
             // chkMember13
@@ -8364,57 +8476,67 @@
             // 
             // IG060113
             // 
-            this.IG060113.BackColor = System.Drawing.Color.Bisque;
+            this.IG060113.BackColor = System.Drawing.Color.Silver;
             this.IG060113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060113.Enabled = false;
             this.IG060113.Location = new System.Drawing.Point(691, 236);
             this.IG060113.Mask = "9999";
             this.IG060113.Name = "IG060113";
             this.IG060113.Size = new System.Drawing.Size(33, 20);
             this.IG060113.TabIndex = 19;
+            this.IG060113.Visible = false;
             this.IG060113.Leave += new System.EventHandler(this.IG060113_Leave);
             // 
             // IG060213
             // 
-            this.IG060213.BackColor = System.Drawing.Color.Bisque;
+            this.IG060213.BackColor = System.Drawing.Color.Silver;
             this.IG060213.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060213.Enabled = false;
             this.IG060213.Location = new System.Drawing.Point(691, 257);
             this.IG060213.Mask = "9999";
             this.IG060213.Name = "IG060213";
             this.IG060213.Size = new System.Drawing.Size(33, 20);
             this.IG060213.TabIndex = 20;
+            this.IG060213.Visible = false;
             this.IG060213.Leave += new System.EventHandler(this.IG060213_Leave);
             // 
             // IG060313
             // 
-            this.IG060313.BackColor = System.Drawing.Color.Bisque;
+            this.IG060313.BackColor = System.Drawing.Color.Silver;
             this.IG060313.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060313.Enabled = false;
             this.IG060313.Location = new System.Drawing.Point(691, 278);
             this.IG060313.Mask = "9999";
             this.IG060313.Name = "IG060313";
             this.IG060313.Size = new System.Drawing.Size(33, 20);
             this.IG060313.TabIndex = 21;
+            this.IG060313.Visible = false;
             this.IG060313.Leave += new System.EventHandler(this.IG060313_Leave);
             // 
             // IG060413
             // 
-            this.IG060413.BackColor = System.Drawing.Color.Bisque;
+            this.IG060413.BackColor = System.Drawing.Color.Silver;
             this.IG060413.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060413.Enabled = false;
             this.IG060413.Location = new System.Drawing.Point(691, 299);
             this.IG060413.Mask = "9999";
             this.IG060413.Name = "IG060413";
             this.IG060413.Size = new System.Drawing.Size(33, 20);
             this.IG060413.TabIndex = 22;
+            this.IG060413.Visible = false;
             this.IG060413.Leave += new System.EventHandler(this.IG060413_Leave);
             // 
             // IG060513
             // 
-            this.IG060513.BackColor = System.Drawing.Color.Bisque;
+            this.IG060513.BackColor = System.Drawing.Color.Silver;
             this.IG060513.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060513.Enabled = false;
             this.IG060513.Location = new System.Drawing.Point(691, 320);
             this.IG060513.Mask = "9999";
             this.IG060513.Name = "IG060513";
             this.IG060513.Size = new System.Drawing.Size(33, 20);
             this.IG060513.TabIndex = 23;
+            this.IG060513.Visible = false;
             this.IG060513.Leave += new System.EventHandler(this.IG060513_Leave);
             // 
             // chkMember14
@@ -8452,57 +8574,67 @@
             // 
             // IG060114
             // 
-            this.IG060114.BackColor = System.Drawing.Color.Bisque;
+            this.IG060114.BackColor = System.Drawing.Color.Silver;
             this.IG060114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060114.Enabled = false;
             this.IG060114.Location = new System.Drawing.Point(811, 236);
             this.IG060114.Mask = "9999";
             this.IG060114.Name = "IG060114";
             this.IG060114.Size = new System.Drawing.Size(34, 20);
             this.IG060114.TabIndex = 27;
+            this.IG060114.Visible = false;
             this.IG060114.Leave += new System.EventHandler(this.IG060114_Leave);
             // 
             // IG060214
             // 
-            this.IG060214.BackColor = System.Drawing.Color.Bisque;
+            this.IG060214.BackColor = System.Drawing.Color.Silver;
             this.IG060214.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060214.Enabled = false;
             this.IG060214.Location = new System.Drawing.Point(811, 257);
             this.IG060214.Mask = "9999";
             this.IG060214.Name = "IG060214";
             this.IG060214.Size = new System.Drawing.Size(34, 20);
             this.IG060214.TabIndex = 28;
+            this.IG060214.Visible = false;
             this.IG060214.Leave += new System.EventHandler(this.IG060214_Leave);
             // 
             // IG060314
             // 
-            this.IG060314.BackColor = System.Drawing.Color.Bisque;
+            this.IG060314.BackColor = System.Drawing.Color.Silver;
             this.IG060314.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060314.Enabled = false;
             this.IG060314.Location = new System.Drawing.Point(811, 278);
             this.IG060314.Mask = "9999";
             this.IG060314.Name = "IG060314";
             this.IG060314.Size = new System.Drawing.Size(34, 20);
             this.IG060314.TabIndex = 29;
+            this.IG060314.Visible = false;
             this.IG060314.Leave += new System.EventHandler(this.IG060314_Leave);
             // 
             // IG060414
             // 
-            this.IG060414.BackColor = System.Drawing.Color.Bisque;
+            this.IG060414.BackColor = System.Drawing.Color.Silver;
             this.IG060414.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060414.Enabled = false;
             this.IG060414.Location = new System.Drawing.Point(811, 299);
             this.IG060414.Mask = "9999";
             this.IG060414.Name = "IG060414";
             this.IG060414.Size = new System.Drawing.Size(34, 20);
             this.IG060414.TabIndex = 30;
+            this.IG060414.Visible = false;
             this.IG060414.Leave += new System.EventHandler(this.IG060414_Leave);
             // 
             // IG060514
             // 
-            this.IG060514.BackColor = System.Drawing.Color.Bisque;
+            this.IG060514.BackColor = System.Drawing.Color.Silver;
             this.IG060514.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060514.Enabled = false;
             this.IG060514.Location = new System.Drawing.Point(811, 320);
             this.IG060514.Mask = "9999";
             this.IG060514.Name = "IG060514";
             this.IG060514.Size = new System.Drawing.Size(34, 20);
             this.IG060514.TabIndex = 31;
+            this.IG060514.Visible = false;
             this.IG060514.Leave += new System.EventHandler(this.IG060514_Leave);
             // 
             // chkMember15
@@ -8540,57 +8672,67 @@
             // 
             // IG060115
             // 
-            this.IG060115.BackColor = System.Drawing.Color.Bisque;
+            this.IG060115.BackColor = System.Drawing.Color.Silver;
             this.IG060115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060115.Enabled = false;
             this.IG060115.Location = new System.Drawing.Point(937, 236);
             this.IG060115.Mask = "9999";
             this.IG060115.Name = "IG060115";
             this.IG060115.Size = new System.Drawing.Size(33, 20);
             this.IG060115.TabIndex = 35;
+            this.IG060115.Visible = false;
             this.IG060115.Leave += new System.EventHandler(this.IG060115_Leave);
             // 
             // IG060215
             // 
-            this.IG060215.BackColor = System.Drawing.Color.Bisque;
+            this.IG060215.BackColor = System.Drawing.Color.Silver;
             this.IG060215.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060215.Enabled = false;
             this.IG060215.Location = new System.Drawing.Point(937, 257);
             this.IG060215.Mask = "9999";
             this.IG060215.Name = "IG060215";
             this.IG060215.Size = new System.Drawing.Size(33, 20);
             this.IG060215.TabIndex = 36;
+            this.IG060215.Visible = false;
             this.IG060215.Leave += new System.EventHandler(this.IG060215_Leave);
             // 
             // IG060315
             // 
-            this.IG060315.BackColor = System.Drawing.Color.Bisque;
+            this.IG060315.BackColor = System.Drawing.Color.Silver;
             this.IG060315.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060315.Enabled = false;
             this.IG060315.Location = new System.Drawing.Point(937, 278);
             this.IG060315.Mask = "9999";
             this.IG060315.Name = "IG060315";
             this.IG060315.Size = new System.Drawing.Size(33, 20);
             this.IG060315.TabIndex = 37;
+            this.IG060315.Visible = false;
             this.IG060315.Leave += new System.EventHandler(this.IG060315_Leave);
             // 
             // IG060415
             // 
-            this.IG060415.BackColor = System.Drawing.Color.Bisque;
+            this.IG060415.BackColor = System.Drawing.Color.Silver;
             this.IG060415.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060415.Enabled = false;
             this.IG060415.Location = new System.Drawing.Point(937, 299);
             this.IG060415.Mask = "9999";
             this.IG060415.Name = "IG060415";
             this.IG060415.Size = new System.Drawing.Size(33, 20);
             this.IG060415.TabIndex = 38;
+            this.IG060415.Visible = false;
             this.IG060415.Leave += new System.EventHandler(this.IG060415_Leave);
             // 
             // IG060515
             // 
-            this.IG060515.BackColor = System.Drawing.Color.Bisque;
+            this.IG060515.BackColor = System.Drawing.Color.Silver;
             this.IG060515.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.IG060515.Enabled = false;
             this.IG060515.Location = new System.Drawing.Point(937, 320);
             this.IG060515.Mask = "9999";
             this.IG060515.Name = "IG060515";
             this.IG060515.Size = new System.Drawing.Size(33, 20);
             this.IG060515.TabIndex = 39;
+            this.IG060515.Visible = false;
             this.IG060515.Leave += new System.EventHandler(this.IG060515_Leave);
             // 
             // tabPage17
@@ -10494,7 +10636,6 @@
             this.IG160315.Name = "IG160315";
             this.IG160315.Size = new System.Drawing.Size(35, 20);
             this.IG160315.TabIndex = 70;
-            this.IG160315.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.IG160315_MaskInputRejected);
             this.IG160315.Leave += new System.EventHandler(this.IG160315_Leave);
             // 
             // IG160415
@@ -10596,13 +10737,24 @@
             this.IG1601215.TabIndex = 79;
             this.IG1601215.Leave += new System.EventHandler(this.IG1601215_Leave);
             // 
+            // IB04a
+            // 
+            this.IB04a.CalendarMonthBackground = System.Drawing.Color.Bisque;
+            this.IB04a.CustomFormat = "MMMM d yyyy";
+            this.IB04a.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.IB04a.Location = new System.Drawing.Point(665, 775);
+            this.IB04a.Name = "IB04a";
+            this.IB04a.Size = new System.Drawing.Size(200, 20);
+            this.IB04a.TabIndex = 10;
+            this.IB04a.Leave += new System.EventHandler(this.IB04a_Leave);
+            // 
             // Form1BL_v31
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 400);
-            this.ClientSize = new System.Drawing.Size(1209, 1061);
+            this.ClientSize = new System.Drawing.Size(1243, 1061);
             this.ControlBox = false;
             this.Controls.Add(this.cmdDelete);
             this.Controls.Add(this.cmdCancel);
@@ -13001,5 +13153,6 @@
         private System.Windows.Forms.MaskedTextBox IG060305;
         private System.Windows.Forms.MaskedTextBox IG060405;
         private System.Windows.Forms.MaskedTextBox IG060505;
+        private System.Windows.Forms.DateTimePicker IB04a;
     }
 }

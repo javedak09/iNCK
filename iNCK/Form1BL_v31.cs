@@ -440,6 +440,8 @@ namespace iNCK
                 obj_op.DisableControls(IC04);
                 obj_op.DisableControls(IC05);
 
+
+                obj_op.DisableControls(chkBaby1);
                 obj_op.DisableControls(IC0601);
                 obj_op.DisableControls(IC0701);
                 obj_op.DisableControls(IC0801);
@@ -448,6 +450,7 @@ namespace iNCK
                 obj_op.DisableControls(IC01101);
 
 
+                obj_op.DisableControls(chkBaby2);
                 obj_op.DisableControls(IC0602);
                 obj_op.DisableControls(IC0702);
                 obj_op.DisableControls(IC0802);
@@ -456,6 +459,7 @@ namespace iNCK
                 obj_op.DisableControls(IC01102);
 
 
+                obj_op.DisableControls(chkBaby3);
                 obj_op.DisableControls(IC0603);
                 obj_op.DisableControls(IC0703);
                 obj_op.DisableControls(IC0803);
@@ -464,6 +468,7 @@ namespace iNCK
                 obj_op.DisableControls(IC01103);
 
 
+                obj_op.DisableControls(chkBaby4);
                 obj_op.DisableControls(IC0604);
                 obj_op.DisableControls(IC0704);
                 obj_op.DisableControls(IC0804);
@@ -472,6 +477,7 @@ namespace iNCK
                 obj_op.DisableControls(IC01104);
 
                 obj_op.DisableControls(ID01);
+
 
             }
             else if (IC01.Text == "99")
@@ -482,6 +488,8 @@ namespace iNCK
                 obj_op.DisableControls(IC04);
                 obj_op.DisableControls(IC05);
 
+
+                obj_op.DisableControls(chkBaby1);
                 obj_op.DisableControls(IC0601);
                 obj_op.DisableControls(IC0701);
                 obj_op.DisableControls(IC0801);
@@ -490,6 +498,7 @@ namespace iNCK
                 obj_op.DisableControls(IC01101);
 
 
+                obj_op.DisableControls(chkBaby2);
                 obj_op.DisableControls(IC0602);
                 obj_op.DisableControls(IC0702);
                 obj_op.DisableControls(IC0802);
@@ -498,6 +507,7 @@ namespace iNCK
                 obj_op.DisableControls(IC01102);
 
 
+                obj_op.DisableControls(chkBaby3);
                 obj_op.DisableControls(IC0603);
                 obj_op.DisableControls(IC0703);
                 obj_op.DisableControls(IC0803);
@@ -506,6 +516,150 @@ namespace iNCK
                 obj_op.DisableControls(IC01103);
 
 
+                obj_op.DisableControls(chkBaby4);
+                obj_op.DisableControls(IC0604);
+                obj_op.DisableControls(IC0704);
+                obj_op.DisableControls(IC0804);
+                obj_op.DisableControls(IC0904);
+                obj_op.DisableControls(IC01004);
+                obj_op.DisableControls(IC01104);
+
+                obj_op.EnableControls(ID01);
+
+
+            }
+            else
+            {
+                obj_op.EnableControls(IC02);
+                obj_op.EnableControls(IC03);
+                obj_op.EnableControls(IC04);
+                obj_op.EnableControls(IC05);
+
+
+                obj_op.EnableControls(chkBaby1);
+                obj_op.EnableControls(IC0601);
+                obj_op.EnableControls(IC0701);
+                obj_op.EnableControls(IC0801);
+                obj_op.EnableControls(IC0901);
+                obj_op.EnableControls(IC01001);
+                obj_op.EnableControls(IC01101);
+
+
+                obj_op.EnableControls(chkBaby2);
+                obj_op.EnableControls(IC0602);
+                obj_op.EnableControls(IC0702);
+                obj_op.EnableControls(IC0802);
+                obj_op.EnableControls(IC0902);
+                obj_op.EnableControls(IC01002);
+                obj_op.EnableControls(IC01102);
+
+
+                obj_op.EnableControls(chkBaby3);
+                obj_op.EnableControls(IC0603);
+                obj_op.EnableControls(IC0703);
+                obj_op.EnableControls(IC0803);
+                obj_op.EnableControls(IC0903);
+                obj_op.EnableControls(IC01003);
+                obj_op.EnableControls(IC01103);
+
+
+
+                obj_op.EnableControls(chkBaby4);
+                obj_op.EnableControls(IC0604);
+                obj_op.EnableControls(IC0704);
+                obj_op.EnableControls(IC0804);
+                obj_op.EnableControls(IC0904);
+                obj_op.EnableControls(IC01004);
+                obj_op.EnableControls(IC01104);
+
+                obj_op.EnableControls(ID01);
+
+            }
+
+
+
+            if (IC02.Text == "0")
+            {
+                obj_op.DisableControls(IC03);
+                obj_op.DisableControls(IC04);
+                obj_op.DisableControls(IC05);
+
+
+                obj_op.DisableControls(chkBaby1);
+                obj_op.DisableControls(IC0601);
+                obj_op.DisableControls(IC0701);
+                obj_op.DisableControls(IC0801);
+                obj_op.DisableControls(IC0901);
+                obj_op.DisableControls(IC01001);
+                obj_op.DisableControls(IC01101);
+
+
+                obj_op.DisableControls(chkBaby2);
+                obj_op.DisableControls(IC0602);
+                obj_op.DisableControls(IC0702);
+                obj_op.DisableControls(IC0802);
+                obj_op.DisableControls(IC0902);
+                obj_op.DisableControls(IC01002);
+                obj_op.DisableControls(IC01102);
+
+
+                obj_op.DisableControls(chkBaby3);
+                obj_op.DisableControls(IC0603);
+                obj_op.DisableControls(IC0703);
+                obj_op.DisableControls(IC0803);
+                obj_op.DisableControls(IC0903);
+                obj_op.DisableControls(IC01003);
+                obj_op.DisableControls(IC01103);
+
+
+                obj_op.DisableControls(chkBaby4);
+                obj_op.DisableControls(IC0604);
+                obj_op.DisableControls(IC0704);
+                obj_op.DisableControls(IC0804);
+                obj_op.DisableControls(IC0904);
+                obj_op.DisableControls(IC01004);
+                obj_op.DisableControls(IC01104);
+
+                obj_op.DisableControls(ID01);
+
+
+            }
+            else if (IC02.Text == "99")
+            {
+
+                obj_op.DisableControls(IC03);
+                obj_op.DisableControls(IC04);
+                obj_op.DisableControls(IC05);
+
+
+                obj_op.DisableControls(chkBaby1);
+                obj_op.DisableControls(IC0601);
+                obj_op.DisableControls(IC0701);
+                obj_op.DisableControls(IC0801);
+                obj_op.DisableControls(IC0901);
+                obj_op.DisableControls(IC01001);
+                obj_op.DisableControls(IC01101);
+
+
+                obj_op.DisableControls(chkBaby2);
+                obj_op.DisableControls(IC0602);
+                obj_op.DisableControls(IC0702);
+                obj_op.DisableControls(IC0802);
+                obj_op.DisableControls(IC0902);
+                obj_op.DisableControls(IC01002);
+                obj_op.DisableControls(IC01102);
+
+
+                obj_op.DisableControls(chkBaby3);
+                obj_op.DisableControls(IC0603);
+                obj_op.DisableControls(IC0703);
+                obj_op.DisableControls(IC0803);
+                obj_op.DisableControls(IC0903);
+                obj_op.DisableControls(IC01003);
+                obj_op.DisableControls(IC01103);
+
+
+                obj_op.DisableControls(chkBaby4);
                 obj_op.DisableControls(IC0604);
                 obj_op.DisableControls(IC0704);
                 obj_op.DisableControls(IC0804);
@@ -518,142 +672,307 @@ namespace iNCK
             }
             else
             {
-                obj_op.EnableControls(IC02);
+                obj_op.EnableControls(IC03);
+                obj_op.EnableControls(IC04);
+                obj_op.EnableControls(IC05);
+
+                obj_op.EnableControls(chkBaby1);
+                obj_op.EnableControls(IC0601);
+                obj_op.EnableControls(IC0701);
+                obj_op.EnableControls(IC0801);
+                obj_op.EnableControls(IC0901);
+                obj_op.EnableControls(IC01001);
+                obj_op.EnableControls(IC01101);
+
+                obj_op.EnableControls(chkBaby2);
+                obj_op.EnableControls(IC0602);
+                obj_op.EnableControls(IC0702);
+                obj_op.EnableControls(IC0802);
+                obj_op.EnableControls(IC0902);
+                obj_op.EnableControls(IC01002);
+                obj_op.EnableControls(IC01102);
+
+                obj_op.EnableControls(chkBaby3);
+                obj_op.EnableControls(IC0603);
+                obj_op.EnableControls(IC0703);
+                obj_op.EnableControls(IC0803);
+                obj_op.EnableControls(IC0903);
+                obj_op.EnableControls(IC01003);
+                obj_op.EnableControls(IC01103);
+
+                obj_op.EnableControls(chkBaby4);
+                obj_op.EnableControls(IC0604);
+                obj_op.EnableControls(IC0704);
+                obj_op.EnableControls(IC0804);
+                obj_op.EnableControls(IC0904);
+                obj_op.EnableControls(IC01004);
+                obj_op.EnableControls(IC01104);
+
+                obj_op.EnableControls(ID01);
+
+            }
 
 
-                if (IC02.Text != "0" && IC02.Text != "99")
+
+
+
+
+            if (IC05.Text == "0")
+            {
+
+                obj_op.DisableControls(chkBaby1);
+                obj_op.DisableControls(IC0601);
+                obj_op.DisableControls(IC0701);
+                obj_op.DisableControls(IC0801);
+                obj_op.DisableControls(IC0901);
+                obj_op.DisableControls(IC01001);
+                obj_op.DisableControls(IC01101);
+
+
+                obj_op.DisableControls(chkBaby2);
+                obj_op.DisableControls(IC0602);
+                obj_op.DisableControls(IC0702);
+                obj_op.DisableControls(IC0802);
+                obj_op.DisableControls(IC0902);
+                obj_op.DisableControls(IC01002);
+                obj_op.DisableControls(IC01102);
+
+
+                obj_op.DisableControls(chkBaby3);
+                obj_op.DisableControls(IC0603);
+                obj_op.DisableControls(IC0703);
+                obj_op.DisableControls(IC0803);
+                obj_op.DisableControls(IC0903);
+                obj_op.DisableControls(IC01003);
+                obj_op.DisableControls(IC01103);
+
+
+                obj_op.DisableControls(chkBaby4);
+                obj_op.DisableControls(IC0604);
+                obj_op.DisableControls(IC0704);
+                obj_op.DisableControls(IC0804);
+                obj_op.DisableControls(IC0904);
+                obj_op.DisableControls(IC01004);
+                obj_op.DisableControls(IC01104);
+
+            }
+            else if (!string.IsNullOrEmpty(IC05.Text))
+            {
+                if (Convert.ToInt32(IC05.Text) > 1 && Convert.ToInt32(IC05.Text) < 4)
                 {
 
-                    obj_op.EnableControls(IC03);
-                    obj_op.EnableControls(IC04);
-                    obj_op.EnableControls(IC05);
+                    obj_op.EnableControls(chkBaby1);
+                    obj_op.EnableControls(IC0601);
+                    obj_op.EnableControls(IC0701);
+                    obj_op.EnableControls(IC0801);
+                    obj_op.EnableControls(IC0901);
+                    obj_op.EnableControls(IC01001);
+                    obj_op.EnableControls(IC01101);
 
+                    obj_op.EnableControls(chkBaby2);
+                    obj_op.EnableControls(IC0602);
+                    obj_op.EnableControls(IC0702);
+                    obj_op.EnableControls(IC0802);
+                    obj_op.EnableControls(IC0902);
+                    obj_op.EnableControls(IC01002);
+                    obj_op.EnableControls(IC01102);
 
-                    if (IC05.Text == "0")
-                    {
+                    obj_op.EnableControls(chkBaby3);
+                    obj_op.EnableControls(IC0603);
+                    obj_op.EnableControls(IC0703);
+                    obj_op.EnableControls(IC0803);
+                    obj_op.EnableControls(IC0903);
+                    obj_op.EnableControls(IC01003);
+                    obj_op.EnableControls(IC01103);
 
-                        obj_op.DisableControls(chkBaby1);
-                        obj_op.DisableControls(IC0601);
-                        obj_op.DisableControls(IC0701);
-                        obj_op.DisableControls(IC0801);
-                        obj_op.DisableControls(IC0901);
-                        obj_op.DisableControls(IC01001);
-                        obj_op.DisableControls(IC01101);
-
-
-                        obj_op.DisableControls(chkBaby2);
-                        obj_op.DisableControls(IC0602);
-                        obj_op.DisableControls(IC0702);
-                        obj_op.DisableControls(IC0802);
-                        obj_op.DisableControls(IC0902);
-                        obj_op.DisableControls(IC01002);
-                        obj_op.DisableControls(IC01102);
-
-
-                        obj_op.DisableControls(chkBaby3);
-                        obj_op.DisableControls(IC0603);
-                        obj_op.DisableControls(IC0703);
-                        obj_op.DisableControls(IC0803);
-                        obj_op.DisableControls(IC0903);
-                        obj_op.DisableControls(IC01003);
-                        obj_op.DisableControls(IC01103);
-
-
-                        obj_op.DisableControls(chkBaby4);
-                        obj_op.DisableControls(IC0604);
-                        obj_op.DisableControls(IC0704);
-                        obj_op.DisableControls(IC0804);
-                        obj_op.DisableControls(IC0904);
-                        obj_op.DisableControls(IC01004);
-                        obj_op.DisableControls(IC01104);
-
-                    }
-                    else
-                    {
-
-                        obj_op.EnableControls(chkBaby1);
-
-
-                        if (chkBaby1.Text == "1")
-                        {
-                            obj_op.EnableControls(IC0601);
-                            obj_op.EnableControls(IC0701);
-                            obj_op.EnableControls(IC0801);
-                            obj_op.EnableControls(IC0901);
-                            obj_op.EnableControls(IC01001);
-                            obj_op.EnableControls(IC01101);
-                        }
-                        else
-                        {
-                            obj_op.DisableControls(IC0601);
-                            obj_op.DisableControls(IC0701);
-                            obj_op.DisableControls(IC0801);
-                            obj_op.DisableControls(IC0901);
-                            obj_op.DisableControls(IC01001);
-                            obj_op.DisableControls(IC01101);
-
-
-                            obj_op.DisableControls(IC0602);
-                            obj_op.DisableControls(IC0702);
-                            obj_op.DisableControls(IC0802);
-                            obj_op.DisableControls(IC0902);
-                            obj_op.DisableControls(IC01002);
-                            obj_op.DisableControls(IC01102);
-
-
-                            obj_op.DisableControls(IC0603);
-                            obj_op.DisableControls(IC0703);
-                            obj_op.DisableControls(IC0803);
-                            obj_op.DisableControls(IC0903);
-                            obj_op.DisableControls(IC01003);
-                            obj_op.DisableControls(IC01103);
-
-
-                            obj_op.DisableControls(IC0604);
-                            obj_op.DisableControls(IC0704);
-                            obj_op.DisableControls(IC0804);
-                            obj_op.DisableControls(IC0904);
-                            obj_op.DisableControls(IC01004);
-                            obj_op.DisableControls(IC01104);
-
-                        }
+                    obj_op.EnableControls(chkBaby4);
+                    obj_op.EnableControls(IC0604);
+                    obj_op.EnableControls(IC0704);
+                    obj_op.EnableControls(IC0804);
+                    obj_op.EnableControls(IC0904);
+                    obj_op.EnableControls(IC01004);
+                    obj_op.EnableControls(IC01104);
 
 
 
+                    obj_op.DisableControls(IC0605);
+                    obj_op.DisableControls(IC0705);
+                    obj_op.DisableControls(IC0805);
+                    obj_op.DisableControls(IC0905);
+                    obj_op.DisableControls(IC01005);
+                    obj_op.DisableControls(IC01105);
 
-                        obj_op.EnableControls(chkBaby2);
-                        obj_op.EnableControls(IC0602);
-                        obj_op.EnableControls(IC0702);
-                        obj_op.EnableControls(IC0802);
-                        obj_op.EnableControls(IC0902);
-                        obj_op.EnableControls(IC01002);
-                        obj_op.EnableControls(IC01102);
+                    obj_op.DisableControls(IC0606);
+                    obj_op.DisableControls(IC0706);
+                    obj_op.DisableControls(IC0806);
+                    obj_op.DisableControls(IC0906);
+                    obj_op.DisableControls(IC01006);
+                    obj_op.DisableControls(IC01106);
 
-                        obj_op.EnableControls(chkBaby3);
-                        obj_op.EnableControls(IC0603);
-                        obj_op.EnableControls(IC0703);
-                        obj_op.EnableControls(IC0803);
-                        obj_op.EnableControls(IC0903);
-                        obj_op.EnableControls(IC01003);
-                        obj_op.EnableControls(IC01103);
+                    obj_op.DisableControls(IC0607);
+                    obj_op.DisableControls(IC0707);
+                    obj_op.DisableControls(IC0807);
+                    obj_op.DisableControls(IC0907);
+                    obj_op.DisableControls(IC01007);
+                    obj_op.DisableControls(IC01107);
 
-                        obj_op.EnableControls(chkBaby4);
-                        obj_op.EnableControls(IC0604);
-                        obj_op.EnableControls(IC0704);
-                        obj_op.EnableControls(IC0804);
-                        obj_op.EnableControls(IC0904);
-                        obj_op.EnableControls(IC01004);
-                        obj_op.EnableControls(IC01104);
+                    obj_op.DisableControls(IC0608);
+                    obj_op.DisableControls(IC0708);
+                    obj_op.DisableControls(IC0808);
+                    obj_op.DisableControls(IC0908);
+                    obj_op.DisableControls(IC01008);
+                    obj_op.DisableControls(IC01108);
+
+                    obj_op.DisableControls(IC0609);
+                    obj_op.DisableControls(IC0709);
+                    obj_op.DisableControls(IC0809);
+                    obj_op.DisableControls(IC0909);
+                    obj_op.DisableControls(IC01009);
+                    obj_op.DisableControls(IC01109);
+
+                    obj_op.DisableControls(IC06010);
+                    obj_op.DisableControls(IC07010);
+                    obj_op.DisableControls(IC08010);
+                    obj_op.DisableControls(IC09010);
+                    obj_op.DisableControls(IC01010);
+                    obj_op.DisableControls(IC01110);
+
+                    obj_op.DisableControls(IC06011);
+                    obj_op.DisableControls(IC07011);
+                    obj_op.DisableControls(IC08011);
+                    obj_op.DisableControls(IC09011);
+                    obj_op.DisableControls(IC01011);
+                    obj_op.DisableControls(IC01111);
+
+                }
+                else if (Convert.ToInt32(IC05.Text) > 5)
+                {
+                    obj_op.EnableControls(chkBaby1);
+                    obj_op.EnableControls(IC0601);
+                    obj_op.EnableControls(IC0701);
+                    obj_op.EnableControls(IC0801);
+                    obj_op.EnableControls(IC0901);
+                    obj_op.EnableControls(IC01001);
+                    obj_op.EnableControls(IC01101);
 
 
-                    }
+                    obj_op.EnableControls(chkBaby3);
+                    obj_op.EnableControls(IC0602);
+                    obj_op.EnableControls(IC0702);
+                    obj_op.EnableControls(IC0802);
+                    obj_op.EnableControls(IC0902);
+                    obj_op.EnableControls(IC01002);
+                    obj_op.EnableControls(IC01102);
 
-                    obj_op.EnableControls(ID01);
+
+                    obj_op.EnableControls(chkBaby3);
+                    obj_op.EnableControls(IC0603);
+                    obj_op.EnableControls(IC0703);
+                    obj_op.EnableControls(IC0803);
+                    obj_op.EnableControls(IC0903);
+                    obj_op.EnableControls(IC01003);
+                    obj_op.EnableControls(IC01103);
+
+
+                    obj_op.EnableControls(chkBaby4);
+                    obj_op.EnableControls(IC0604);
+                    obj_op.EnableControls(IC0704);
+                    obj_op.EnableControls(IC0804);
+                    obj_op.EnableControls(IC0904);
+                    obj_op.EnableControls(IC01004);
+                    obj_op.EnableControls(IC01104);
+
+
+
+                    obj_op.EnableControls(IC0605);
+                    obj_op.EnableControls(IC0705);
+                    obj_op.EnableControls(IC0805);
+                    obj_op.EnableControls(IC0905);
+                    obj_op.EnableControls(IC01005);
+                    obj_op.EnableControls(IC01105);
+
+                    obj_op.EnableControls(IC0606);
+                    obj_op.EnableControls(IC0706);
+                    obj_op.EnableControls(IC0806);
+                    obj_op.EnableControls(IC0906);
+                    obj_op.EnableControls(IC01006);
+                    obj_op.EnableControls(IC01106);
+
+                    obj_op.EnableControls(IC0607);
+                    obj_op.EnableControls(IC0707);
+                    obj_op.EnableControls(IC0807);
+                    obj_op.EnableControls(IC0907);
+                    obj_op.EnableControls(IC01007);
+                    obj_op.EnableControls(IC01107);
+
+                    obj_op.EnableControls(IC0608);
+                    obj_op.EnableControls(IC0708);
+                    obj_op.EnableControls(IC0808);
+                    obj_op.EnableControls(IC0908);
+                    obj_op.EnableControls(IC01008);
+                    obj_op.EnableControls(IC01108);
+
+                    obj_op.EnableControls(IC0609);
+                    obj_op.EnableControls(IC0709);
+                    obj_op.EnableControls(IC0809);
+                    obj_op.EnableControls(IC0909);
+                    obj_op.EnableControls(IC01009);
+                    obj_op.EnableControls(IC01109);
+
+                    obj_op.EnableControls(IC06010);
+                    obj_op.EnableControls(IC07010);
+                    obj_op.EnableControls(IC08010);
+                    obj_op.EnableControls(IC09010);
+                    obj_op.EnableControls(IC01010);
+                    obj_op.EnableControls(IC01110);
+
+                    obj_op.EnableControls(IC06011);
+                    obj_op.EnableControls(IC07011);
+                    obj_op.EnableControls(IC08011);
+                    obj_op.EnableControls(IC09011);
+                    obj_op.EnableControls(IC01011);
+                    obj_op.EnableControls(IC01111);
 
                 }
 
 
             }
+            else
+            {
+                obj_op.EnableControls(chkBaby1);
+                obj_op.EnableControls(IC0601);
+                obj_op.EnableControls(IC0701);
+                obj_op.EnableControls(IC0801);
+                obj_op.EnableControls(IC0901);
+                obj_op.EnableControls(IC01001);
+                obj_op.EnableControls(IC01101);
+
+                obj_op.EnableControls(chkBaby2);
+                obj_op.EnableControls(IC0602);
+                obj_op.EnableControls(IC0702);
+                obj_op.EnableControls(IC0802);
+                obj_op.EnableControls(IC0902);
+                obj_op.EnableControls(IC01002);
+                obj_op.EnableControls(IC01102);
+
+                obj_op.EnableControls(chkBaby3);
+                obj_op.EnableControls(IC0603);
+                obj_op.EnableControls(IC0703);
+                obj_op.EnableControls(IC0803);
+                obj_op.EnableControls(IC0903);
+                obj_op.EnableControls(IC01003);
+                obj_op.EnableControls(IC01103);
+
+                obj_op.EnableControls(chkBaby4);
+                obj_op.EnableControls(IC0604);
+                obj_op.EnableControls(IC0704);
+                obj_op.EnableControls(IC0804);
+                obj_op.EnableControls(IC0904);
+                obj_op.EnableControls(IC01004);
+                obj_op.EnableControls(IC01104);
+
+            }
+
 
 
 
@@ -703,32 +1022,106 @@ namespace iNCK
                 if (IE03.Text == "0")
                 {
                     obj_op.DisableControls(IE04);
+                    obj_op.EnableControls(chkHHMem1);
+                    obj_op.EnableControls(chkHHMem2);
+                    obj_op.EnableControls(chkHHMem3);
+                    obj_op.EnableControls(chkHHMem4);
+                    obj_op.EnableControls(IE0701);
+                    obj_op.EnableControls(IE0702);
+                    obj_op.EnableControls(IE0703);
+                    obj_op.EnableControls(IE0704);
+
+                    obj_op.EnableControls(IE0801);
+                    obj_op.EnableControls(IE0802);
+                    obj_op.EnableControls(IE0803);
+                    obj_op.EnableControls(IE0804);
+
+                    obj_op.EnableControls(IE0901);
+                    obj_op.EnableControls(IE0902);
+                    obj_op.EnableControls(IE0903);
+                    obj_op.EnableControls(IE0904);
+
+
                 }
                 else
                 {
                     obj_op.EnableControls(IE04);
+                    obj_op.EnableControls(chkHHMem1);
+                    obj_op.EnableControls(chkHHMem2);
+                    obj_op.EnableControls(chkHHMem3);
+                    obj_op.EnableControls(chkHHMem4);
+                    obj_op.EnableControls(IE0701);
+                    obj_op.EnableControls(IE0702);
+                    obj_op.EnableControls(IE0703);
+                    obj_op.EnableControls(IE0704);
+
+                    obj_op.EnableControls(IE0801);
+                    obj_op.EnableControls(IE0802);
+                    obj_op.EnableControls(IE0803);
+                    obj_op.EnableControls(IE0804);
+
+                    obj_op.EnableControls(IE0901);
+                    obj_op.EnableControls(IE0902);
+                    obj_op.EnableControls(IE0903);
+                    obj_op.EnableControls(IE0904);
+
                 }
 
-                obj_op.EnableControls(chkHHMem1);
-                obj_op.EnableControls(chkHHMem2);
-                obj_op.EnableControls(chkHHMem3);
-                obj_op.EnableControls(chkHHMem4);
-                obj_op.EnableControls(IE0701);
-                obj_op.EnableControls(IE0702);
-                obj_op.EnableControls(IE0703);
-                obj_op.EnableControls(IE0704);
             }
 
 
 
-            obj_op.EnableControls(IE0801);
-            obj_op.EnableControls(IE0901);
-            obj_op.EnableControls(IE0802);
-            obj_op.EnableControls(IE0902);
-            obj_op.EnableControls(IE0803);
-            obj_op.EnableControls(IE0903);
-            obj_op.EnableControls(IE0804);
-            obj_op.EnableControls(IE0904);
+
+            if (IE0801.Text == "0")
+            {
+                obj_op.DisableControls(IE0901);
+            }
+            else
+            {
+                obj_op.EnableControls(IE0901);
+            }
+
+
+
+
+            if (IE0802.Text == "0")
+            {
+                obj_op.DisableControls(IE0902);
+            }
+            else
+            {
+                obj_op.EnableControls(IE0902);
+            }
+
+
+
+
+            if (IE0803.Text == "0")
+            {
+                obj_op.DisableControls(IE0903);
+            }
+            else
+            {
+                obj_op.EnableControls(IE0903);
+            }
+
+
+
+
+            if (IE0804.Text == "0")
+            {
+                obj_op.DisableControls(IE0904);
+            }
+            else
+            {
+                obj_op.EnableControls(IE0904);
+            }
+
+
+
+
+
+
             obj_op.EnableControls(IF01);
             obj_op.EnableControls(IF02);
             obj_op.EnableControls(IF03);
@@ -2625,6 +3018,8 @@ namespace iNCK
                         obj_op.DisableControls(IC04);
                         obj_op.DisableControls(IC05);
 
+
+                        obj_op.DisableControls(chkBaby1);
                         obj_op.DisableControls(IC0601);
                         obj_op.DisableControls(IC0701);
                         obj_op.DisableControls(IC0801);
@@ -2633,6 +3028,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01101);
 
 
+                        obj_op.DisableControls(chkBaby2);
                         obj_op.DisableControls(IC0602);
                         obj_op.DisableControls(IC0702);
                         obj_op.DisableControls(IC0802);
@@ -2641,6 +3037,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01102);
 
 
+                        obj_op.DisableControls(chkBaby3);
                         obj_op.DisableControls(IC0603);
                         obj_op.DisableControls(IC0703);
                         obj_op.DisableControls(IC0803);
@@ -2649,6 +3046,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01103);
 
 
+                        obj_op.DisableControls(chkBaby4);
                         obj_op.DisableControls(IC0604);
                         obj_op.DisableControls(IC0704);
                         obj_op.DisableControls(IC0804);
@@ -2670,6 +3068,8 @@ namespace iNCK
                         obj_op.DisableControls(IC04);
                         obj_op.DisableControls(IC05);
 
+
+                        obj_op.DisableControls(chkBaby1);
                         obj_op.DisableControls(IC0601);
                         obj_op.DisableControls(IC0701);
                         obj_op.DisableControls(IC0801);
@@ -2678,6 +3078,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01101);
 
 
+                        obj_op.DisableControls(chkBaby2);
                         obj_op.DisableControls(IC0602);
                         obj_op.DisableControls(IC0702);
                         obj_op.DisableControls(IC0802);
@@ -2686,6 +3087,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01102);
 
 
+                        obj_op.DisableControls(chkBaby3);
                         obj_op.DisableControls(IC0603);
                         obj_op.DisableControls(IC0703);
                         obj_op.DisableControls(IC0803);
@@ -2694,6 +3096,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01103);
 
 
+                        obj_op.DisableControls(chkBaby4);
                         obj_op.DisableControls(IC0604);
                         obj_op.DisableControls(IC0704);
                         obj_op.DisableControls(IC0804);
@@ -2714,6 +3117,8 @@ namespace iNCK
                         obj_op.EnableControls(IC04);
                         obj_op.EnableControls(IC05);
 
+
+                        obj_op.EnableControls(chkBaby1);
                         obj_op.EnableControls(IC0601);
                         obj_op.EnableControls(IC0701);
                         obj_op.EnableControls(IC0801);
@@ -2721,6 +3126,8 @@ namespace iNCK
                         obj_op.EnableControls(IC01001);
                         obj_op.EnableControls(IC01101);
 
+
+                        obj_op.EnableControls(chkBaby2);
                         obj_op.EnableControls(IC0602);
                         obj_op.EnableControls(IC0702);
                         obj_op.EnableControls(IC0802);
@@ -2728,6 +3135,8 @@ namespace iNCK
                         obj_op.EnableControls(IC01002);
                         obj_op.EnableControls(IC01102);
 
+
+                        obj_op.EnableControls(chkBaby3);
                         obj_op.EnableControls(IC0603);
                         obj_op.EnableControls(IC0703);
                         obj_op.EnableControls(IC0803);
@@ -2735,6 +3144,9 @@ namespace iNCK
                         obj_op.EnableControls(IC01003);
                         obj_op.EnableControls(IC01103);
 
+
+
+                        obj_op.EnableControls(chkBaby4);
                         obj_op.EnableControls(IC0604);
                         obj_op.EnableControls(IC0704);
                         obj_op.EnableControls(IC0804);
@@ -2777,17 +3189,6 @@ namespace iNCK
                 }
                 else
                 {
-                    if (!string.IsNullOrEmpty(IC03.Text))
-                    {
-                        if (Convert.ToInt32(IC03.Text) > Convert.ToInt32(IC02.Text))
-                        {
-                            MessageBox.Show("Q No.19 cannot be greater than Q No.18 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            IC02.Focus();
-
-                            return;
-                        }
-                    }
-
 
                     if (IC02.Text == "0")
                     {
@@ -2958,17 +3359,6 @@ namespace iNCK
                 {
                     IC03.Focus();
                 }
-                else
-                {
-                    if (Convert.ToInt32(IC03.Text) > Convert.ToInt32(IC02.Text))
-                    {
-                        MessageBox.Show("Q No.19 cannot be greater than Q No.18 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        IC03.Focus();
-
-                        return;
-                    }
-                }
-
 
             }
             catch (Exception ex)
@@ -3025,19 +3415,10 @@ namespace iNCK
                 }
                 else
                 {
-                    if ((Convert.ToInt32(IC05.Text) + Convert.ToInt32(IC04.Text)) > Convert.ToInt32(IC02.Text))
-                    {
-                        MessageBox.Show("Sum of QNo.20 and QNo.21 cannot be greater than QNo.18 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        IC05.Focus();
-
-                        return;
-                    }
-
-
-
                     if (IC05.Text == "0")
                     {
 
+                        obj_op.DisableControls(chkBaby1);
                         obj_op.DisableControls(IC0601);
                         obj_op.DisableControls(IC0701);
                         obj_op.DisableControls(IC0801);
@@ -3046,6 +3427,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01101);
 
 
+                        obj_op.DisableControls(chkBaby2);
                         obj_op.DisableControls(IC0602);
                         obj_op.DisableControls(IC0702);
                         obj_op.DisableControls(IC0802);
@@ -3054,6 +3436,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01102);
 
 
+                        obj_op.DisableControls(chkBaby3);
                         obj_op.DisableControls(IC0603);
                         obj_op.DisableControls(IC0703);
                         obj_op.DisableControls(IC0803);
@@ -3062,6 +3445,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01103);
 
 
+                        obj_op.DisableControls(chkBaby4);
                         obj_op.DisableControls(IC0604);
                         obj_op.DisableControls(IC0704);
                         obj_op.DisableControls(IC0804);
@@ -3075,6 +3459,7 @@ namespace iNCK
                     else if (Convert.ToInt32(IC05.Text) > 1 && Convert.ToInt32(IC05.Text) < 4)
                     {
 
+                        obj_op.EnableControls(chkBaby1);
                         obj_op.EnableControls(IC0601);
                         obj_op.EnableControls(IC0701);
                         obj_op.EnableControls(IC0801);
@@ -3082,6 +3467,7 @@ namespace iNCK
                         obj_op.EnableControls(IC01001);
                         obj_op.EnableControls(IC01101);
 
+                        obj_op.EnableControls(chkBaby2);
                         obj_op.EnableControls(IC0602);
                         obj_op.EnableControls(IC0702);
                         obj_op.EnableControls(IC0802);
@@ -3089,6 +3475,7 @@ namespace iNCK
                         obj_op.EnableControls(IC01002);
                         obj_op.EnableControls(IC01102);
 
+                        obj_op.EnableControls(chkBaby3);
                         obj_op.EnableControls(IC0603);
                         obj_op.EnableControls(IC0703);
                         obj_op.EnableControls(IC0803);
@@ -3096,6 +3483,7 @@ namespace iNCK
                         obj_op.EnableControls(IC01003);
                         obj_op.EnableControls(IC01103);
 
+                        obj_op.EnableControls(chkBaby4);
                         obj_op.EnableControls(IC0604);
                         obj_op.EnableControls(IC0704);
                         obj_op.EnableControls(IC0804);
@@ -3162,6 +3550,7 @@ namespace iNCK
                     else if (Convert.ToInt32(IC05.Text) > 5)
                     {
 
+                        obj_op.EnableControls(chkBaby1);
                         obj_op.EnableControls(IC0601);
                         obj_op.EnableControls(IC0701);
                         obj_op.EnableControls(IC0801);
@@ -3169,6 +3558,8 @@ namespace iNCK
                         obj_op.EnableControls(IC01001);
                         obj_op.EnableControls(IC01101);
 
+
+                        obj_op.EnableControls(chkBaby3);
                         obj_op.EnableControls(IC0602);
                         obj_op.EnableControls(IC0702);
                         obj_op.EnableControls(IC0802);
@@ -3176,6 +3567,8 @@ namespace iNCK
                         obj_op.EnableControls(IC01002);
                         obj_op.EnableControls(IC01102);
 
+
+                        obj_op.EnableControls(chkBaby3);
                         obj_op.EnableControls(IC0603);
                         obj_op.EnableControls(IC0703);
                         obj_op.EnableControls(IC0803);
@@ -3183,6 +3576,8 @@ namespace iNCK
                         obj_op.EnableControls(IC01003);
                         obj_op.EnableControls(IC01103);
 
+
+                        obj_op.EnableControls(chkBaby4);
                         obj_op.EnableControls(IC0604);
                         obj_op.EnableControls(IC0704);
                         obj_op.EnableControls(IC0804);
@@ -3249,7 +3644,7 @@ namespace iNCK
                     }
                     else
                     {
-
+                        obj_op.EnableControls(chkBaby1);
                         obj_op.EnableControls(IC0601);
                         obj_op.EnableControls(IC0701);
                         obj_op.EnableControls(IC0801);
@@ -3257,6 +3652,7 @@ namespace iNCK
                         obj_op.EnableControls(IC01001);
                         obj_op.EnableControls(IC01101);
 
+                        obj_op.EnableControls(chkBaby2);
                         obj_op.EnableControls(IC0602);
                         obj_op.EnableControls(IC0702);
                         obj_op.EnableControls(IC0802);
@@ -3264,6 +3660,7 @@ namespace iNCK
                         obj_op.EnableControls(IC01002);
                         obj_op.EnableControls(IC01102);
 
+                        obj_op.EnableControls(chkBaby3);
                         obj_op.EnableControls(IC0603);
                         obj_op.EnableControls(IC0703);
                         obj_op.EnableControls(IC0803);
@@ -3271,6 +3668,7 @@ namespace iNCK
                         obj_op.EnableControls(IC01003);
                         obj_op.EnableControls(IC01103);
 
+                        obj_op.EnableControls(chkBaby4);
                         obj_op.EnableControls(IC0604);
                         obj_op.EnableControls(IC0704);
                         obj_op.EnableControls(IC0804);
@@ -3563,7 +3961,19 @@ namespace iNCK
                 {
                     IC01001.Focus();
                 }
-
+                else
+                {
+                    if (IC01001.Text == "0")
+                    {
+                        obj_op.DisableControls(IC01101);
+                        chkBaby2.Focus();
+                    }
+                    else
+                    {
+                        obj_op.EnableControls(IC01101);
+                        IC01101.Focus();
+                    }
+                }
 
 
             }
@@ -3596,6 +4006,14 @@ namespace iNCK
                 }
                 else
                 {
+                    if (chkBaby1.Text == "2" && chkBaby2.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 1st child first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby2.Focus();
+                        return;
+                    }
+
+
                     if (chkBaby2.Text == "1")
                     {
                         obj_op.EnableControls(IC0602);
@@ -3787,8 +4205,19 @@ namespace iNCK
                 {
                     IC01002.Focus();
                 }
-
-
+                else
+                {
+                    if (IC01002.Text == "0")
+                    {
+                        obj_op.DisableControls(IC01102);
+                        chkBaby3.Focus();
+                    }
+                    else
+                    {
+                        obj_op.EnableControls(IC01102);
+                        IC01102.Focus();
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -3845,6 +4274,15 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (chkBaby2.Text == "2" && chkBaby3.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 2nd child first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby3.Focus();
+                        return;
+                    }
+
+
                     if (chkBaby3.Text == "1")
                     {
                         obj_op.EnableControls(IC0603);
@@ -4027,7 +4465,19 @@ namespace iNCK
                 {
                     IC01003.Focus();
                 }
-
+                else
+                {
+                    if (IC01003.Text == "0")
+                    {
+                        obj_op.DisableControls(IC01003);
+                        chkBaby4.Focus();
+                    }
+                    else
+                    {
+                        obj_op.EnableControls(IC01003);
+                        IC01003.Focus();
+                    }
+                }
 
 
             }
@@ -4085,6 +4535,15 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (chkBaby3.Text == "2" && chkBaby4.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 3rd child first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby4.Focus();
+                        return;
+                    }
+
+
                     if (chkBaby4.Text == "1")
                     {
                         obj_op.EnableControls(IC0604);
@@ -4262,8 +4721,20 @@ namespace iNCK
                 {
                     IC01004.Focus();
                 }
-
-
+                else
+                {
+                    if (IC01004.Text == "0")
+                    {
+                        obj_op.DisableControls(IC01004);
+                        tabControl1.SelectedIndex = 3;
+                        ID01.Focus();
+                    }
+                    else
+                    {
+                        obj_op.EnableControls(IC01004);
+                        IC01004.Focus();
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -4393,7 +4864,17 @@ namespace iNCK
                 {
                     ID03.Focus();
                 }
-
+                else
+                {
+                    if (!string.IsNullOrEmpty(ID02.Text) && !string.IsNullOrEmpty(ID03.Text))
+                    {
+                        if (Convert.ToInt32(ID02.Text) > Convert.ToInt32(ID03.Text))
+                        {
+                            MessageBox.Show("Q29 cannot be greater than Q30 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            ID03.Focus();
+                        }
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -4420,7 +4901,17 @@ namespace iNCK
                 {
                     ID04.Focus();
                 }
-
+                else
+                {
+                    if (!string.IsNullOrEmpty(ID02.Text) && !string.IsNullOrEmpty(ID04.Text))
+                    {
+                        if (Convert.ToInt32(ID02.Text) > Convert.ToInt32(ID04.Text))
+                        {
+                            MessageBox.Show("Q29 cannot be greater than Q31 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            ID04.Focus();
+                        }
+                    }
+                }
 
 
             }
@@ -4455,7 +4946,7 @@ namespace iNCK
                     {
                         if (Convert.ToInt32(IE01.Text) < Convert.ToInt32(IE02.Text) + Convert.ToInt32(IE03.Text) + Convert.ToInt32(IE04.Text))
                         {
-                            MessageBox.Show("QNo.31 cannot be less than sum of QNo.32, QNo.33, QNo.34 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("QNo.32 cannot be less than sum of QNo.33, QNo.34, QNo.35 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             IE01.Focus();
                             return;
                         }
@@ -4477,19 +4968,19 @@ namespace iNCK
                         obj_op.DisableControls(IE0703);
                         obj_op.DisableControls(IE0704);
 
-                        //obj_op.DisableControls(IE0801);
-                        //obj_op.DisableControls(IE0802);
-                        //obj_op.DisableControls(IE0803);
-                        //obj_op.DisableControls(IE0804);
+                        obj_op.DisableControls(IE0801);
+                        obj_op.DisableControls(IE0802);
+                        obj_op.DisableControls(IE0803);
+                        obj_op.DisableControls(IE0804);
 
-                        //obj_op.DisableControls(IE0901);
-                        //obj_op.DisableControls(IE0902);
-                        //obj_op.DisableControls(IE0903);
-                        //obj_op.DisableControls(IE0904);
+                        obj_op.DisableControls(IE0901);
+                        obj_op.DisableControls(IE0902);
+                        obj_op.DisableControls(IE0903);
+                        obj_op.DisableControls(IE0904);
 
 
-                        tabControl1.SelectedIndex = 4;
-                        IE0801.Focus();
+                        tabControl1.SelectedIndex = 5;
+                        IF01.Focus();
                     }
                     else
                     {
@@ -4506,15 +4997,15 @@ namespace iNCK
                         obj_op.EnableControls(IE0703);
                         obj_op.EnableControls(IE0704);
 
-                        //obj_op.EnableControls(IE0801);
-                        //obj_op.EnableControls(IE0802);
-                        //obj_op.EnableControls(IE0803);
-                        //obj_op.EnableControls(IE0804);
+                        obj_op.EnableControls(IE0801);
+                        obj_op.EnableControls(IE0802);
+                        obj_op.EnableControls(IE0803);
+                        obj_op.EnableControls(IE0804);
 
-                        //obj_op.EnableControls(IE0901);
-                        //obj_op.EnableControls(IE0902);
-                        //obj_op.EnableControls(IE0903);
-                        //obj_op.EnableControls(IE0904);
+                        obj_op.EnableControls(IE0901);
+                        obj_op.EnableControls(IE0902);
+                        obj_op.EnableControls(IE0903);
+                        obj_op.EnableControls(IE0904);
 
                         IE02.Focus();
                     }
@@ -4579,12 +5070,53 @@ namespace iNCK
                     if (IE03.Text == "0")
                     {
                         obj_op.DisableControls(IE04);
+                        obj_op.EnableControls(chkHHMem1);
+                        obj_op.EnableControls(chkHHMem2);
+                        obj_op.EnableControls(chkHHMem3);
+                        obj_op.EnableControls(chkHHMem4);
+                        obj_op.EnableControls(IE0701);
+                        obj_op.EnableControls(IE0702);
+                        obj_op.EnableControls(IE0703);
+                        obj_op.EnableControls(IE0704);
+
+                        obj_op.EnableControls(IE0801);
+                        obj_op.EnableControls(IE0802);
+                        obj_op.EnableControls(IE0803);
+                        obj_op.EnableControls(IE0804);
+
+                        obj_op.EnableControls(IE0901);
+                        obj_op.EnableControls(IE0902);
+                        obj_op.EnableControls(IE0903);
+                        obj_op.EnableControls(IE0904);
+
+
+                        tabControl1.SelectedIndex = 4;
                         chkHHMem1.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 5;
+                        tabControl1.SelectedIndex = 4;
+
                         obj_op.EnableControls(IE04);
+                        obj_op.EnableControls(chkHHMem1);
+                        obj_op.EnableControls(chkHHMem2);
+                        obj_op.EnableControls(chkHHMem3);
+                        obj_op.EnableControls(chkHHMem4);
+                        obj_op.EnableControls(IE0701);
+                        obj_op.EnableControls(IE0702);
+                        obj_op.EnableControls(IE0703);
+                        obj_op.EnableControls(IE0704);
+
+                        obj_op.EnableControls(IE0801);
+                        obj_op.EnableControls(IE0802);
+                        obj_op.EnableControls(IE0803);
+                        obj_op.EnableControls(IE0804);
+
+                        obj_op.EnableControls(IE0901);
+                        obj_op.EnableControls(IE0902);
+                        obj_op.EnableControls(IE0903);
+                        obj_op.EnableControls(IE0904);
+
                         IE04.Focus();
                     }
                 }
@@ -4695,7 +5227,6 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IE0902);
                         IE0803.Focus();
-
                     }
                     else
                     {
@@ -4762,7 +5293,6 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IE0903);
                         IE0804.Focus();
-
                     }
                     else
                     {
@@ -5211,8 +5741,27 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01001);
 
-                        tabControl1.SelectedIndex = 8;
-                        IG01101.Focus();
+                        if (IG060102.Enabled == true)
+                        {
+                            IG060102.Focus();
+                        }
+                        else if (IG060103.Enabled == true)
+                        {
+                            IG060103.Focus();
+                        }
+                        else if (IG060104.Enabled == true)
+                        {
+                            IG060104.Focus();
+                        }
+                        else if (IG060105.Enabled == true)
+                        {
+                            IG060105.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 8;
+                            IG01101.Focus();
+                        }
                     }
                     else
                     {
@@ -5277,6 +5826,11 @@ namespace iNCK
                     else if (IG060105.Enabled == true)
                     {
                         IG060105.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 8;
+                        IG01101.Focus();
                     }
 
 
@@ -5782,7 +6336,26 @@ namespace iNCK
                 {
                     IG1601101.Focus();
                 }
-
+                else
+                {
+                    if (
+                        IG160101.Text == "1" &&
+                        IG160201.Text == "1" &&
+                        IG160301.Text == "1" &&
+                        IG160401.Text == "1" &&
+                        IG160501.Text == "1" &&
+                        IG160601.Text == "1" &&
+                        IG160701.Text == "1" &&
+                        IG160801.Text == "1" &&
+                        IG160901.Text == "1" &&
+                        IG1601001.Text == "1" &&
+                        IG1601101.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601101.Focus();
+                    }
+                }
 
 
             }
@@ -5812,43 +6385,67 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01102.Enabled == true)
+
+                    if (
+                      IG160101.Text == "1" &&
+                      IG160201.Text == "1" &&
+                      IG160301.Text == "1" &&
+                      IG160401.Text == "1" &&
+                      IG160501.Text == "1" &&
+                      IG160601.Text == "1" &&
+                      IG160701.Text == "1" &&
+                      IG160801.Text == "1" &&
+                      IG160901.Text == "1" &&
+                      IG1601001.Text == "1" &&
+                      IG1601201.Text == "1"
+                      )
                     {
-                        IG01102.Focus();
-                    }
-                    else if (IG01103.Enabled == true)
-                    {
-                        IG01103.Focus();
-                    }
-                    else if (IG01104.Enabled == true)
-                    {
-                        IG01104.Focus();
-                    }
-                    else if (IG01105.Enabled == true)
-                    {
-                        IG01105.Focus();
-                    }
-                    else if (IG01302.Enabled == true)
-                    {
-                        IG01302.Focus();
-                    }
-                    else if (IG01303.Enabled == true)
-                    {
-                        IG01303.Focus();
-                    }
-                    else if (IG01304.Enabled == true)
-                    {
-                        IG01304.Focus();
-                    }
-                    else if (IG01305.Enabled == true)
-                    {
-                        IG01305.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601201.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
-                        chkMember6.Focus();
+                        if (IG01102.Enabled == true)
+                        {
+                            IG01102.Focus();
+                        }
+                        else if (IG01103.Enabled == true)
+                        {
+                            IG01103.Focus();
+                        }
+                        else if (IG01104.Enabled == true)
+                        {
+                            IG01104.Focus();
+                        }
+                        else if (IG01105.Enabled == true)
+                        {
+                            IG01105.Focus();
+                        }
+                        else if (IG01302.Enabled == true)
+                        {
+                            IG01302.Focus();
+                        }
+                        else if (IG01303.Enabled == true)
+                        {
+                            IG01303.Focus();
+                        }
+                        else if (IG01304.Enabled == true)
+                        {
+                            IG01304.Focus();
+                        }
+                        else if (IG01305.Enabled == true)
+                        {
+                            IG01305.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 12;
+                            chkMember6.Focus();
+                        }
+
                     }
+
+
                 }
 
 
@@ -5914,8 +6511,23 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01002);
 
-                        tabControl1.SelectedIndex = 8;
-                        IG01102.Focus();
+                        if (IG060103.Enabled == true)
+                        {
+                            IG060103.Focus();
+                        }
+                        else if (IG060104.Enabled == true)
+                        {
+                            IG060104.Focus();
+                        }
+                        else if (IG060105.Enabled == true)
+                        {
+                            IG060105.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 8;
+                            IG01101.Focus();
+                        }
                     }
                     else
                     {
@@ -6480,6 +7092,26 @@ namespace iNCK
                 {
                     IG1601102.Focus();
                 }
+                else
+                {
+                    if (
+                        IG160102.Text == "1" &&
+                        IG160202.Text == "1" &&
+                        IG160302.Text == "1" &&
+                        IG160402.Text == "1" &&
+                        IG160502.Text == "1" &&
+                        IG160602.Text == "1" &&
+                        IG160702.Text == "1" &&
+                        IG160802.Text == "1" &&
+                        IG160902.Text == "1" &&
+                        IG1601002.Text == "1" &&
+                        IG1601102.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601102.Focus();
+                    }
+                }
 
 
 
@@ -6510,35 +7142,59 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01103.Enabled == true)
+                    if (
+                      IG160102.Text == "1" &&
+                      IG160202.Text == "1" &&
+                      IG160302.Text == "1" &&
+                      IG160402.Text == "1" &&
+                      IG160502.Text == "1" &&
+                      IG160602.Text == "1" &&
+                      IG160702.Text == "1" &&
+                      IG160802.Text == "1" &&
+                      IG160902.Text == "1" &&
+                      IG1601002.Text == "1" &&
+                      IG1601202.Text == "1"
+                      )
                     {
-                        IG01103.Focus();
-                    }
-                    else if (IG01104.Enabled == true)
-                    {
-                        IG01104.Focus();
-                    }
-                    else if (IG01105.Enabled == true)
-                    {
-                        IG01105.Focus();
-                    }
-                    else if (IG01303.Enabled == true)
-                    {
-                        IG01303.Focus();
-                    }
-                    else if (IG01304.Enabled == true)
-                    {
-                        IG01304.Focus();
-                    }
-                    else if (IG01305.Enabled == true)
-                    {
-                        IG01305.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601202.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
-                        chkMember6.Focus();
+
+                        if (IG01103.Enabled == true)
+                        {
+                            IG01103.Focus();
+                        }
+                        else if (IG01104.Enabled == true)
+                        {
+                            IG01104.Focus();
+                        }
+                        else if (IG01105.Enabled == true)
+                        {
+                            IG01105.Focus();
+                        }
+                        else if (IG01303.Enabled == true)
+                        {
+                            IG01303.Focus();
+                        }
+                        else if (IG01304.Enabled == true)
+                        {
+                            IG01304.Focus();
+                        }
+                        else if (IG01305.Enabled == true)
+                        {
+                            IG01305.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 12;
+                            chkMember6.Focus();
+                        }
+
                     }
+
+
                 }
 
 
@@ -6604,8 +7260,20 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01003);
 
-                        tabControl1.SelectedIndex = 8;
-                        IG01103.Focus();
+                        if (IG060104.Enabled == true)
+                        {
+                            IG060104.Focus();
+                        }
+                        else if (IG060105.Enabled == true)
+                        {
+                            IG060105.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 8;
+                            IG01101.Focus();
+                        }
+
                     }
                     else
                     {
@@ -7162,7 +7830,28 @@ namespace iNCK
                 {
                     IG1601103.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG160103.Text == "1" &&
+                        IG160203.Text == "1" &&
+                        IG160303.Text == "1" &&
+                        IG160403.Text == "1" &&
+                        IG160503.Text == "1" &&
+                        IG160603.Text == "1" &&
+                        IG160703.Text == "1" &&
+                        IG160803.Text == "1" &&
+                        IG160903.Text == "1" &&
+                        IG1601003.Text == "1" &&
+                        IG1601103.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601103.Focus();
+                    }
+
+                }
 
 
             }
@@ -7192,27 +7881,53 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01104.Enabled == true)
+
+
+                    if (
+                      IG160103.Text == "1" &&
+                      IG160203.Text == "1" &&
+                      IG160303.Text == "1" &&
+                      IG160403.Text == "1" &&
+                      IG160503.Text == "1" &&
+                      IG160603.Text == "1" &&
+                      IG160703.Text == "1" &&
+                      IG160803.Text == "1" &&
+                      IG160903.Text == "1" &&
+                      IG1601003.Text == "1" &&
+                      IG1601203.Text == "1"
+                      )
                     {
-                        IG01104.Focus();
-                    }
-                    else if (IG01105.Enabled == true)
-                    {
-                        IG01105.Focus();
-                    }
-                    else if (IG01304.Enabled == true)
-                    {
-                        IG01304.Focus();
-                    }
-                    else if (IG01305.Enabled == true)
-                    {
-                        IG01305.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601203.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
-                        chkMember6.Focus();
+
+                        if (IG01104.Enabled == true)
+                        {
+                            IG01104.Focus();
+                        }
+                        else if (IG01105.Enabled == true)
+                        {
+                            IG01105.Focus();
+                        }
+                        else if (IG01304.Enabled == true)
+                        {
+                            IG01304.Focus();
+                        }
+                        else if (IG01305.Enabled == true)
+                        {
+                            IG01305.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 12;
+                            chkMember6.Focus();
+                        }
+
                     }
+
+
                 }
 
 
@@ -7437,7 +8152,45 @@ namespace iNCK
                 {
                     IG0701204.Focus();
                 }
+                else
+                {
 
+                    if (IG070104.Text == "1" &&
+                       IG070204.Text == "1" &&
+                       IG070304.Text == "1" &&
+                       IG070404.Text == "1" &&
+                       IG070504.Text == "1" &&
+                       IG070604.Text == "1" &&
+                       IG070704.Text == "1" &&
+                       IG070804.Text == "1" &&
+                       IG070904.Text == "1" &&
+                       IG0701004.Text == "1" &&
+                       IG0701104.Text == "1" &&
+                       IG0701204.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("Dont know cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701204.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701204.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701204);
+                            obj_op.DisableControls(IG0804);
+
+                            IG0904.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701204);
+                            obj_op.EnableControls(IG0804);
+
+                            IG0701204.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -7465,7 +8218,41 @@ namespace iNCK
                 {
                     IG0701304.Focus();
                 }
+                else
+                {
 
+                    if (IG070104.Text == "1" &&
+                       IG070204.Text == "1" &&
+                       IG070304.Text == "1" &&
+                       IG070404.Text == "1" &&
+                       IG070504.Text == "1" &&
+                       IG070604.Text == "1" &&
+                       IG070704.Text == "1" &&
+                       IG070804.Text == "1" &&
+                       IG070904.Text == "1" &&
+                       IG0701004.Text == "1" &&
+                       IG0701104.Text == "1" &&
+                       IG0701304.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("None of the above cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701304.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701304.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0804);
+                            IG0904.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0804);
+                            IG0804.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -7527,8 +8314,16 @@ namespace iNCK
                     {
                         obj_op.DisableControls(IG01004);
 
-                        tabControl1.SelectedIndex = 8;
-                        IG01104.Focus();
+                        if (IG060105.Enabled == true)
+                        {
+                            IG060105.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 8;
+                            IG01101.Focus();
+                        }
+
                     }
                     else
                     {
@@ -8075,7 +8870,28 @@ namespace iNCK
                 {
                     IG1601104.Focus();
                 }
+                else
+                {
 
+                    if (
+                       IG160104.Text == "1" &&
+                       IG160204.Text == "1" &&
+                       IG160304.Text == "1" &&
+                       IG160404.Text == "1" &&
+                       IG160504.Text == "1" &&
+                       IG160604.Text == "1" &&
+                       IG160704.Text == "1" &&
+                       IG160804.Text == "1" &&
+                       IG160904.Text == "1" &&
+                       IG1601004.Text == "1" &&
+                       IG1601104.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601104.Focus();
+                    }
+
+                }
 
 
             }
@@ -8105,19 +8921,43 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01105.Enabled == true)
+
+                    if (
+                      IG160104.Text == "1" &&
+                      IG160204.Text == "1" &&
+                      IG160304.Text == "1" &&
+                      IG160404.Text == "1" &&
+                      IG160504.Text == "1" &&
+                      IG160604.Text == "1" &&
+                      IG160704.Text == "1" &&
+                      IG160804.Text == "1" &&
+                      IG160904.Text == "1" &&
+                      IG1601004.Text == "1" &&
+                      IG1601204.Text == "1"
+                      )
                     {
-                        IG01105.Focus();
-                    }
-                    else if (IG01305.Enabled == true)
-                    {
-                        IG01305.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601204.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 12;
-                        chkMember6.Focus();
+
+                        if (IG01105.Enabled == true)
+                        {
+                            IG01105.Focus();
+                        }
+                        else if (IG01305.Enabled == true)
+                        {
+                            IG01305.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 12;
+                            chkMember6.Focus();
+                        }
+
                     }
+
                 }
 
 
@@ -8342,7 +9182,46 @@ namespace iNCK
                 {
                     IG0701205.Focus();
                 }
+                else
+                {
 
+                    if (IG070105.Text == "1" &&
+                       IG070205.Text == "1" &&
+                       IG070305.Text == "1" &&
+                       IG070405.Text == "1" &&
+                       IG070505.Text == "1" &&
+                       IG070605.Text == "1" &&
+                       IG070705.Text == "1" &&
+                       IG070805.Text == "1" &&
+                       IG070905.Text == "1" &&
+                       IG0701005.Text == "1" &&
+                       IG0701105.Text == "1" &&
+                       IG0701205.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("Dont know cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701205.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701205.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701305);
+                            obj_op.DisableControls(IG0805);
+
+                            IG0905.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701305);
+                            obj_op.EnableControls(IG0805);
+
+                            IG0701305.Focus();
+                        }
+                    }
+
+
+                }
 
 
             }
@@ -8370,7 +9249,41 @@ namespace iNCK
                 {
                     IG0701305.Focus();
                 }
+                else
+                {
 
+                    if (IG070101.Text == "1" &&
+                       IG070201.Text == "1" &&
+                       IG070301.Text == "1" &&
+                       IG070401.Text == "1" &&
+                       IG070501.Text == "1" &&
+                       IG070601.Text == "1" &&
+                       IG070701.Text == "1" &&
+                       IG070801.Text == "1" &&
+                       IG070901.Text == "1" &&
+                       IG0701001.Text == "1" &&
+                       IG0701101.Text == "1" &&
+                       IG0701305.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("None of the above cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701305.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701305.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0805);
+                            IG0905.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0805);
+                            IG0805.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -8433,7 +9346,7 @@ namespace iNCK
                         obj_op.DisableControls(IG01005);
 
                         tabControl1.SelectedIndex = 8;
-                        IG01105.Focus();
+                        IG01101.Focus();
                     }
                     else
                     {
@@ -8966,7 +9879,29 @@ namespace iNCK
                 {
                     IG1601105.Focus();
                 }
+                else
+                {
 
+                    if (
+                      IG160105.Text == "1" &&
+                      IG160205.Text == "1" &&
+                      IG160305.Text == "1" &&
+                      IG160405.Text == "1" &&
+                      IG160505.Text == "1" &&
+                      IG160605.Text == "1" &&
+                      IG160705.Text == "1" &&
+                      IG160805.Text == "1" &&
+                      IG160905.Text == "1" &&
+                      IG1601005.Text == "1" &&
+                      IG1601105.Text == "1"
+                      )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601105.Focus();
+                    }
+
+
+                }
 
 
             }
@@ -8996,8 +9931,29 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 12;
-                    chkMember6.Focus();
+                    if (
+                      IG160105.Text == "1" &&
+                      IG160205.Text == "1" &&
+                      IG160305.Text == "1" &&
+                      IG160405.Text == "1" &&
+                      IG160505.Text == "1" &&
+                      IG160605.Text == "1" &&
+                      IG160705.Text == "1" &&
+                      IG160805.Text == "1" &&
+                      IG160905.Text == "1" &&
+                      IG1601005.Text == "1" &&
+                      IG1601205.Text == "1"
+                      )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601205.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 12;
+                        chkMember6.Focus();
+                    }
+
                 }
 
             }
@@ -11581,7 +12537,44 @@ namespace iNCK
                 {
                     IG0701206.Focus();
                 }
+                else
+                {
+                    if (
+                        IG070106.Text == "1" &&
+                        IG070206.Text == "1" &&
+                        IG070306.Text == "1" &&
+                        IG070406.Text == "1" &&
+                        IG070506.Text == "1" &&
+                        IG070606.Text == "1" &&
+                        IG070706.Text == "1" &&
+                        IG070806.Text == "1" &&
+                        IG070906.Text == "1" &&
+                        IG0701006.Text == "1" &&
+                        IG0701106.Text == "1" &&
+                        IG0701206.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701206.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701206.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701306);
+                            obj_op.DisableControls(IG0806);
 
+                            IG0906.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701306);
+                            obj_op.EnableControls(IG0806);
+
+                            IG0701306.Focus();
+                        }
+                    }
+                }
 
 
             }
@@ -11609,7 +12602,42 @@ namespace iNCK
                 {
                     IG0701306.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070106.Text == "1" &&
+                        IG070206.Text == "1" &&
+                        IG070306.Text == "1" &&
+                        IG070406.Text == "1" &&
+                        IG070506.Text == "1" &&
+                        IG070606.Text == "1" &&
+                        IG070706.Text == "1" &&
+                        IG070806.Text == "1" &&
+                        IG070906.Text == "1" &&
+                        IG0701006.Text == "1" &&
+                        IG0701106.Text == "1" &&
+                        IG0701306.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701306.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701306.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0806);
+                            IG0906.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0806);
+                            IG0806.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -11789,6 +12817,16 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (chkMember6.Text == "2" && chkMember7.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 6th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember7.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember7.Text == "1")
                     {
                         obj_op.EnableControls(IG0407);
@@ -12570,7 +13608,46 @@ namespace iNCK
                 {
                     IG0701207.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070107.Text == "1" &&
+                        IG070207.Text == "1" &&
+                        IG070307.Text == "1" &&
+                        IG070407.Text == "1" &&
+                        IG070507.Text == "1" &&
+                        IG070607.Text == "1" &&
+                        IG070707.Text == "1" &&
+                        IG070807.Text == "1" &&
+                        IG070907.Text == "1" &&
+                        IG0701007.Text == "1" &&
+                        IG0701107.Text == "1" &&
+                        IG0701207.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701207.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701207.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701307);
+                            obj_op.DisableControls(IG0807);
+
+                            IG0907.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701307);
+                            obj_op.EnableControls(IG0807);
+
+                            IG0701307.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -12598,7 +13675,42 @@ namespace iNCK
                 {
                     IG0701307.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070107.Text == "1" &&
+                        IG070207.Text == "1" &&
+                        IG070307.Text == "1" &&
+                        IG070407.Text == "1" &&
+                        IG070507.Text == "1" &&
+                        IG070607.Text == "1" &&
+                        IG070707.Text == "1" &&
+                        IG070807.Text == "1" &&
+                        IG070907.Text == "1" &&
+                        IG0701007.Text == "1" &&
+                        IG0701107.Text == "1" &&
+                        IG0701307.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701307.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701307.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0807);
+                            IG0907.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0807);
+                            IG0807.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -12773,6 +13885,15 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (chkMember7.Text == "2" && chkMember8.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 7th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember8.Focus();
+                        return;
+                    }
+
+
 
                     if (chkMember8.Text == "1")
                     {
@@ -13510,8 +14631,46 @@ namespace iNCK
                 {
                     IG0701208.Focus();
                 }
+                else
+                {
 
+                    if (
+                       IG070108.Text == "1" &&
+                       IG070208.Text == "1" &&
+                       IG070308.Text == "1" &&
+                       IG070408.Text == "1" &&
+                       IG070508.Text == "1" &&
+                       IG070608.Text == "1" &&
+                       IG070708.Text == "1" &&
+                       IG070808.Text == "1" &&
+                       IG070908.Text == "1" &&
+                       IG0701008.Text == "1" &&
+                       IG0701108.Text == "1" &&
+                       IG0701208.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701208.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701208.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701208);
+                            obj_op.DisableControls(IG0808);
 
+                            IG0908.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701208);
+                            obj_op.EnableControls(IG0808);
+
+                            IG0701208.Focus();
+                        }
+                    }
+
+                }
 
             }
             catch (Exception ex)
@@ -13538,7 +14697,42 @@ namespace iNCK
                 {
                     IG0701308.Focus();
                 }
+                else
+                {
 
+                    if (
+                      IG070108.Text == "1" &&
+                      IG070208.Text == "1" &&
+                      IG070308.Text == "1" &&
+                      IG070408.Text == "1" &&
+                      IG070508.Text == "1" &&
+                      IG070608.Text == "1" &&
+                      IG070708.Text == "1" &&
+                      IG070808.Text == "1" &&
+                      IG070908.Text == "1" &&
+                      IG0701008.Text == "1" &&
+                      IG0701108.Text == "1" &&
+                      IG0701308.Text == "1"
+                      )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701308.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701308.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0808);
+                            IG0908.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0808);
+                            IG0808.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -13705,6 +14899,16 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (chkMember8.Text == "2" && chkMember9.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 8th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember9.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember9.Text == "1")
                     {
                         obj_op.EnableControls(IG0409);
@@ -14390,7 +15594,46 @@ namespace iNCK
                 {
                     IG0701209.Focus();
                 }
+                else
+                {
 
+                    if (
+                       IG070109.Text == "1" &&
+                       IG070209.Text == "1" &&
+                       IG070309.Text == "1" &&
+                       IG070409.Text == "1" &&
+                       IG070509.Text == "1" &&
+                       IG070609.Text == "1" &&
+                       IG070709.Text == "1" &&
+                       IG070809.Text == "1" &&
+                       IG070909.Text == "1" &&
+                       IG0701009.Text == "1" &&
+                       IG0701109.Text == "1" &&
+                       IG0701209.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701209.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701209.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701209);
+                            obj_op.DisableControls(IG0809);
+
+                            IG0909.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701209);
+                            obj_op.EnableControls(IG0809);
+
+                            IG0701209.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -14418,7 +15661,43 @@ namespace iNCK
                 {
                     IG0701309.Focus();
                 }
+                else
+                {
 
+                    if (
+                       IG070109.Text == "1" &&
+                       IG070209.Text == "1" &&
+                       IG070309.Text == "1" &&
+                       IG070409.Text == "1" &&
+                       IG070509.Text == "1" &&
+                       IG070609.Text == "1" &&
+                       IG070709.Text == "1" &&
+                       IG070809.Text == "1" &&
+                       IG070909.Text == "1" &&
+                       IG0701009.Text == "1" &&
+                       IG0701109.Text == "1" &&
+                       IG0701309.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701309.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701309.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0809);
+                            IG0909.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0809);
+                            IG0809.Focus();
+                        }
+                    }
+
+
+                }
 
 
             }
@@ -14575,6 +15854,16 @@ namespace iNCK
                 }
                 else
                 {
+
+
+                    if (chkMember9.Text == "2" && chkMember10.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 9th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember10.Focus();
+                        return;
+                    }
+
+
 
                     if (chkMember10.Text == "1")
                     {
@@ -15223,6 +16512,46 @@ namespace iNCK
                 {
                     IG0701210.Focus();
                 }
+                else
+                {
+
+                    if (
+                       IG070110.Text == "1" &&
+                       IG070210.Text == "1" &&
+                       IG070310.Text == "1" &&
+                       IG070410.Text == "1" &&
+                       IG070510.Text == "1" &&
+                       IG070610.Text == "1" &&
+                       IG070710.Text == "1" &&
+                       IG070810.Text == "1" &&
+                       IG070910.Text == "1" &&
+                       IG0701010.Text == "1" &&
+                       IG0701110.Text == "1" &&
+                       IG0701210.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701210.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701210.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701210);
+                            obj_op.DisableControls(IG0810);
+
+                            IG0910.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701210);
+                            obj_op.EnableControls(IG0810);
+
+                            IG0701210.Focus();
+                        }
+                    }
+
+                }
 
 
 
@@ -15250,6 +16579,41 @@ namespace iNCK
                 if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701310'", IG0701310.Text) == true)
                 {
                     IG0701310.Focus();
+                }
+                else
+                {
+                    if (
+                      IG070110.Text == "1" &&
+                      IG070210.Text == "1" &&
+                      IG070310.Text == "1" &&
+                      IG070410.Text == "1" &&
+                      IG070510.Text == "1" &&
+                      IG070610.Text == "1" &&
+                      IG070710.Text == "1" &&
+                      IG070810.Text == "1" &&
+                      IG070910.Text == "1" &&
+                      IG0701010.Text == "1" &&
+                      IG0701110.Text == "1" &&
+                      IG0701310.Text == "1"
+                      )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701310.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701310.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0810);
+                            IG0910.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0810);
+                            IG0810.Focus();
+                        }
+                    }
+
                 }
 
 
@@ -16568,7 +17932,26 @@ namespace iNCK
                 {
                     IG1601106.Focus();
                 }
-
+                else
+                {
+                    if (
+                        IG160106.Text == "1" &&
+                        IG160206.Text == "1" &&
+                        IG160306.Text == "1" &&
+                        IG160406.Text == "1" &&
+                        IG160506.Text == "1" &&
+                        IG160606.Text == "1" &&
+                        IG160706.Text == "1" &&
+                        IG160806.Text == "1" &&
+                        IG160906.Text == "1" &&
+                        IG1601006.Text == "1" &&
+                        IG1601106.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601106.Focus();
+                    }
+                }
 
 
             }
@@ -16598,22 +17981,46 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160107.Enabled == true)
+
+                    if (
+                        IG160106.Text == "1" &&
+                        IG160206.Text == "1" &&
+                        IG160306.Text == "1" &&
+                        IG160406.Text == "1" &&
+                        IG160506.Text == "1" &&
+                        IG160606.Text == "1" &&
+                        IG160706.Text == "1" &&
+                        IG160806.Text == "1" &&
+                        IG160906.Text == "1" &&
+                        IG1601006.Text == "1" &&
+                        IG1601206.Text == "1"
+                        )
                     {
-                        IG160107.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601206.Focus();
                     }
-                    else if (IG160108.Enabled == true)
+                    else
                     {
-                        IG160108.Focus();
+
+                        if (IG160107.Enabled == true)
+                        {
+                            IG160107.Focus();
+                        }
+                        else if (IG160108.Enabled == true)
+                        {
+                            IG160108.Focus();
+                        }
+                        else if (IG160109.Enabled == true)
+                        {
+                            IG160109.Focus();
+                        }
+                        else if (IG160110.Enabled == true)
+                        {
+                            IG160110.Focus();
+                        }
+
                     }
-                    else if (IG160109.Enabled == true)
-                    {
-                        IG160109.Focus();
-                    }
-                    else if (IG160110.Enabled == true)
-                    {
-                        IG160110.Focus();
-                    }
+
                 }
 
             }
@@ -16921,7 +18328,28 @@ namespace iNCK
                 {
                     IG1601107.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG160107.Text == "1" &&
+                        IG160207.Text == "1" &&
+                        IG160307.Text == "1" &&
+                        IG160407.Text == "1" &&
+                        IG160507.Text == "1" &&
+                        IG160607.Text == "1" &&
+                        IG160707.Text == "1" &&
+                        IG160807.Text == "1" &&
+                        IG160907.Text == "1" &&
+                        IG1601007.Text == "1" &&
+                        IG1601107.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601107.Focus();
+                    }
+
+                }
 
 
             }
@@ -16951,18 +18379,40 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160108.Enabled == true)
+                    if (
+                        IG160107.Text == "1" &&
+                        IG160207.Text == "1" &&
+                        IG160307.Text == "1" &&
+                        IG160407.Text == "1" &&
+                        IG160507.Text == "1" &&
+                        IG160607.Text == "1" &&
+                        IG160707.Text == "1" &&
+                        IG160807.Text == "1" &&
+                        IG160907.Text == "1" &&
+                        IG1601007.Text == "1" &&
+                        IG1601207.Text == "1"
+                        )
                     {
-                        IG160108.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601207.Focus();
                     }
-                    else if (IG160109.Enabled == true)
+                    else
                     {
-                        IG160109.Focus();
+                        if (IG160108.Enabled == true)
+                        {
+                            IG160108.Focus();
+                        }
+                        else if (IG160109.Enabled == true)
+                        {
+                            IG160109.Focus();
+                        }
+                        else if (IG160110.Enabled == true)
+                        {
+                            IG160110.Focus();
+                        }
                     }
-                    else if (IG160110.Enabled == true)
-                    {
-                        IG160110.Focus();
-                    }
+
+
                 }
 
 
@@ -17271,7 +18721,28 @@ namespace iNCK
                 {
                     IG1601108.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG160108.Text == "1" &&
+                        IG160208.Text == "1" &&
+                        IG160308.Text == "1" &&
+                        IG160408.Text == "1" &&
+                        IG160508.Text == "1" &&
+                        IG160608.Text == "1" &&
+                        IG160708.Text == "1" &&
+                        IG160808.Text == "1" &&
+                        IG160908.Text == "1" &&
+                        IG1601008.Text == "1" &&
+                        IG1601108.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601108.Focus();
+                    }
+
+                }
 
 
             }
@@ -17301,14 +18772,38 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160109.Enabled == true)
+
+                    if (
+                       IG160108.Text == "1" &&
+                       IG160208.Text == "1" &&
+                       IG160308.Text == "1" &&
+                       IG160408.Text == "1" &&
+                       IG160508.Text == "1" &&
+                       IG160608.Text == "1" &&
+                       IG160708.Text == "1" &&
+                       IG160808.Text == "1" &&
+                       IG160908.Text == "1" &&
+                       IG1601008.Text == "1" &&
+                       IG1601208.Text == "1"
+                       )
                     {
-                        IG160109.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601208.Focus();
                     }
-                    else if (IG160110.Enabled == true)
+                    else
                     {
-                        IG160110.Focus();
+                        if (IG160109.Enabled == true)
+                        {
+                            IG160109.Focus();
+                        }
+                        else if (IG160110.Enabled == true)
+                        {
+                            IG160110.Focus();
+                        }
                     }
+
+
+
                 }
 
 
@@ -17617,7 +19112,28 @@ namespace iNCK
                 {
                     IG1601109.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG160109.Text == "1" &&
+                        IG160209.Text == "1" &&
+                        IG160309.Text == "1" &&
+                        IG160409.Text == "1" &&
+                        IG160509.Text == "1" &&
+                        IG160609.Text == "1" &&
+                        IG160709.Text == "1" &&
+                        IG160809.Text == "1" &&
+                        IG160909.Text == "1" &&
+                        IG1601009.Text == "1" &&
+                        IG1601109.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601109.Focus();
+                    }
+
+                }
 
 
             }
@@ -17647,10 +19163,32 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG160110.Enabled == true)
+
+                    if (
+                       IG160109.Text == "1" &&
+                       IG160209.Text == "1" &&
+                       IG160309.Text == "1" &&
+                       IG160409.Text == "1" &&
+                       IG160509.Text == "1" &&
+                       IG160609.Text == "1" &&
+                       IG160709.Text == "1" &&
+                       IG160809.Text == "1" &&
+                       IG160909.Text == "1" &&
+                       IG1601009.Text == "1" &&
+                       IG1601209.Text == "1"
+                       )
                     {
-                        IG160110.Focus();
+                        MessageBox.Show("if all of the above options are 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601209.Focus();
                     }
+                    else
+                    {
+                        if (IG160110.Enabled == true)
+                        {
+                            IG160110.Focus();
+                        }
+                    }
+
                 }
 
 
@@ -17959,7 +19497,28 @@ namespace iNCK
                 {
                     IG1601110.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG160110.Text == "1" &&
+                        IG160210.Text == "1" &&
+                        IG160310.Text == "1" &&
+                        IG160410.Text == "1" &&
+                        IG160510.Text == "1" &&
+                        IG160610.Text == "1" &&
+                        IG160710.Text == "1" &&
+                        IG160810.Text == "1" &&
+                        IG160910.Text == "1" &&
+                        IG1601010.Text == "1" &&
+                        IG1601110.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601110.Focus();
+                    }
+
+                }
 
 
             }
@@ -17989,8 +19548,30 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 16;
-                    chkMember11.Focus();
+
+                    if (
+                       IG160110.Text == "1" &&
+                       IG160210.Text == "1" &&
+                       IG160310.Text == "1" &&
+                       IG160410.Text == "1" &&
+                       IG160510.Text == "1" &&
+                       IG160610.Text == "1" &&
+                       IG160710.Text == "1" &&
+                       IG160810.Text == "1" &&
+                       IG160910.Text == "1" &&
+                       IG1601010.Text == "1" &&
+                       IG1601210.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601210.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 16;
+                        chkMember11.Focus();
+                    }
+
                 }
 
             }
@@ -18539,6 +20120,16 @@ namespace iNCK
                 else
                 {
 
+
+                    if (chkMember11.Text == "2" && chkMember12.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 11th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember12.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember12.Text == "1")
                     {
                         obj_op.EnableControls(IG0412);
@@ -19014,6 +20605,15 @@ namespace iNCK
                 else
                 {
 
+                    if (chkMember12.Text == "2" && chkMember13.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 13th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember13.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember13.Text == "1")
                     {
                         obj_op.EnableControls(IG0413);
@@ -19439,6 +21039,16 @@ namespace iNCK
                 }
                 else
                 {
+
+                    if (chkMember13.Text == "2" && chkMember14.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 13th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember14.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember14.Text == "1")
                     {
                         obj_op.EnableControls(IG0414);
@@ -19817,6 +21427,16 @@ namespace iNCK
                 }
                 else
                 {
+
+
+                    if (chkMember14.Text == "2" && chkMember15.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 14th member first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember15.Focus();
+                        return;
+                    }
+
+
 
                     if (chkMember15.Text == "1")
                     {
@@ -20485,7 +22105,47 @@ namespace iNCK
                 {
                     IG0701211.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070111.Text == "1" &&
+                        IG070211.Text == "1" &&
+                        IG070311.Text == "1" &&
+                        IG070411.Text == "1" &&
+                        IG070511.Text == "1" &&
+                        IG070611.Text == "1" &&
+                        IG070711.Text == "1" &&
+                        IG070811.Text == "1" &&
+                        IG070911.Text == "1" &&
+                        IG0701011.Text == "1" &&
+                        IG0701111.Text == "1" &&
+                        IG0701211.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701211.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701211.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701311);
+                            obj_op.DisableControls(IG0811);
+
+                            IG0911.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701311);
+                            obj_op.EnableControls(IG0811);
+
+                            IG0701311.Focus();
+                        }
+                    }
+
+
+                }
 
 
             }
@@ -20513,7 +22173,42 @@ namespace iNCK
                 {
                     IG0701311.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070111.Text == "1" &&
+                        IG070211.Text == "1" &&
+                        IG070311.Text == "1" &&
+                        IG070411.Text == "1" &&
+                        IG070511.Text == "1" &&
+                        IG070611.Text == "1" &&
+                        IG070711.Text == "1" &&
+                        IG070811.Text == "1" &&
+                        IG070911.Text == "1" &&
+                        IG0701011.Text == "1" &&
+                        IG0701111.Text == "1" &&
+                        IG0701311.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701311.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701311.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0811);
+                            IG0911.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0811);
+                            IG0811.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -21174,7 +22869,46 @@ namespace iNCK
                 {
                     IG0701212.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070112.Text == "1" &&
+                        IG070212.Text == "1" &&
+                        IG070312.Text == "1" &&
+                        IG070412.Text == "1" &&
+                        IG070512.Text == "1" &&
+                        IG070612.Text == "1" &&
+                        IG070712.Text == "1" &&
+                        IG070812.Text == "1" &&
+                        IG070912.Text == "1" &&
+                        IG0701012.Text == "1" &&
+                        IG0701112.Text == "1" &&
+                        IG0701212.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701212.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701212.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701312);
+                            obj_op.DisableControls(IG0812);
+
+                            IG0912.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701312);
+                            obj_op.EnableControls(IG0812);
+
+                            IG0701312.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -21202,7 +22936,42 @@ namespace iNCK
                 {
                     IG0701312.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070111.Text == "1" &&
+                        IG070211.Text == "1" &&
+                        IG070311.Text == "1" &&
+                        IG070411.Text == "1" &&
+                        IG070511.Text == "1" &&
+                        IG070611.Text == "1" &&
+                        IG070711.Text == "1" &&
+                        IG070811.Text == "1" &&
+                        IG070911.Text == "1" &&
+                        IG0701011.Text == "1" &&
+                        IG0701111.Text == "1" &&
+                        IG0701312.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701312.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701312.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0812);
+                            IG0912.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0812);
+                            IG0812.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -21852,7 +23621,46 @@ namespace iNCK
                 {
                     IG0701213.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070113.Text == "1" &&
+                        IG070213.Text == "1" &&
+                        IG070313.Text == "1" &&
+                        IG070413.Text == "1" &&
+                        IG070513.Text == "1" &&
+                        IG070613.Text == "1" &&
+                        IG070713.Text == "1" &&
+                        IG070813.Text == "1" &&
+                        IG070913.Text == "1" &&
+                        IG0701013.Text == "1" &&
+                        IG0701113.Text == "1" &&
+                        IG0701213.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701213.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701213.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701313);
+                            obj_op.DisableControls(IG0813);
+
+                            IG0913.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701313);
+                            obj_op.EnableControls(IG0813);
+
+                            IG0701313.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -21880,7 +23688,42 @@ namespace iNCK
                 {
                     IG0701313.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070113.Text == "1" &&
+                        IG070213.Text == "1" &&
+                        IG070313.Text == "1" &&
+                        IG070413.Text == "1" &&
+                        IG070513.Text == "1" &&
+                        IG070613.Text == "1" &&
+                        IG070713.Text == "1" &&
+                        IG070813.Text == "1" &&
+                        IG070913.Text == "1" &&
+                        IG0701013.Text == "1" &&
+                        IG0701113.Text == "1" &&
+                        IG0701313.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701313.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701313.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0813);
+                            IG0913.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0813);
+                            IG0813.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -22513,7 +24356,46 @@ namespace iNCK
                 {
                     IG0701214.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070114.Text == "1" &&
+                        IG070214.Text == "1" &&
+                        IG070314.Text == "1" &&
+                        IG070414.Text == "1" &&
+                        IG070514.Text == "1" &&
+                        IG070614.Text == "1" &&
+                        IG070714.Text == "1" &&
+                        IG070814.Text == "1" &&
+                        IG070914.Text == "1" &&
+                        IG0701014.Text == "1" &&
+                        IG0701114.Text == "1" &&
+                        IG0701214.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701214.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701214.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701314);
+                            obj_op.DisableControls(IG0814);
+
+                            IG0914.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701314);
+                            obj_op.EnableControls(IG0814);
+
+                            IG0701314.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -22541,7 +24423,42 @@ namespace iNCK
                 {
                     IG0701314.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070114.Text == "1" &&
+                        IG070214.Text == "1" &&
+                        IG070314.Text == "1" &&
+                        IG070414.Text == "1" &&
+                        IG070514.Text == "1" &&
+                        IG070614.Text == "1" &&
+                        IG070714.Text == "1" &&
+                        IG070814.Text == "1" &&
+                        IG070914.Text == "1" &&
+                        IG0701014.Text == "1" &&
+                        IG0701114.Text == "1" &&
+                        IG0701314.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701314.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701314.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0814);
+                            IG0914.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0814);
+                            IG0814.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -23162,7 +25079,46 @@ namespace iNCK
                 {
                     IG0701215.Focus();
                 }
+                else
+                {
 
+                    if (
+                        IG070115.Text == "1" &&
+                        IG070215.Text == "1" &&
+                        IG070315.Text == "1" &&
+                        IG070415.Text == "1" &&
+                        IG070515.Text == "1" &&
+                        IG070615.Text == "1" &&
+                        IG070715.Text == "1" &&
+                        IG070815.Text == "1" &&
+                        IG070915.Text == "1" &&
+                        IG0701015.Text == "1" &&
+                        IG0701115.Text == "1" &&
+                        IG0701215.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701215.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701215.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701315);
+                            obj_op.DisableControls(IG0815);
+
+                            IG0915.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701315);
+                            obj_op.EnableControls(IG0815);
+
+                            IG0701315.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -23189,6 +25145,42 @@ namespace iNCK
                 if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701315'", IG0701315.Text) == true)
                 {
                     IG0701315.Focus();
+                }
+                else
+                {
+
+                    if (
+                        IG070115.Text == "1" &&
+                        IG070215.Text == "1" &&
+                        IG070315.Text == "1" &&
+                        IG070415.Text == "1" &&
+                        IG070515.Text == "1" &&
+                        IG070615.Text == "1" &&
+                        IG070715.Text == "1" &&
+                        IG070815.Text == "1" &&
+                        IG070915.Text == "1" &&
+                        IG0701015.Text == "1" &&
+                        IG0701115.Text == "1" &&
+                        IG0701315.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if all of the above options are 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701315.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701315.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0815);
+                            IG0915.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0815);
+                            IG0815.Focus();
+                        }
+                    }
+
                 }
 
 
@@ -23516,7 +25508,7 @@ namespace iNCK
                 if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG01515'", IG01515.Text) == true)
                 {
                     IG01515.Focus();
-                }                
+                }
 
 
             }
@@ -23824,7 +25816,26 @@ namespace iNCK
                 {
                     IG1601111.Focus();
                 }
-
+                else
+                {
+                    if (
+                        IG160111.Text == "1" &&
+                        IG160211.Text == "1" &&
+                        IG160311.Text == "1" &&
+                        IG160411.Text == "1" &&
+                        IG160511.Text == "1" &&
+                        IG160611.Text == "1" &&
+                        IG160711.Text == "1" &&
+                        IG160811.Text == "1" &&
+                        IG160911.Text == "1" &&
+                        IG1601011.Text == "1" &&
+                        IG1601111.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if any of the above options 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601111.Focus();
+                    }
+                }
 
 
             }
@@ -23854,31 +25865,52 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01212.Enabled == true)
+                    if (
+                        IG160111.Text == "1" &&
+                        IG160211.Text == "1" &&
+                        IG160311.Text == "1" &&
+                        IG160411.Text == "1" &&
+                        IG160511.Text == "1" &&
+                        IG160611.Text == "1" &&
+                        IG160711.Text == "1" &&
+                        IG160811.Text == "1" &&
+                        IG160911.Text == "1" &&
+                        IG1601011.Text == "1" &&
+                        IG1601211.Text == "1"
+                        )
                     {
-                        IG01212.Focus();
-                    }
-                    else if (IG01213.Enabled == true)
-                    {
-                        IG01213.Focus();
-                    }
-                    else if (IG01214.Enabled == true)
-                    {
-                        IG01214.Focus();
-                    }
-                    else if (IG01215.Enabled == true)
-                    {
-                        IG01215.Focus();
-                    }
-                    else if (IG01312.Enabled == true)
-                    {
-                        IG01312.Focus();
+                        MessageBox.Show("if any of the above options 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601211.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 9;
-                        QCFUP02.Focus();
+                        if (IG01212.Enabled == true)
+                        {
+                            IG01212.Focus();
+                        }
+                        else if (IG01213.Enabled == true)
+                        {
+                            IG01213.Focus();
+                        }
+                        else if (IG01214.Enabled == true)
+                        {
+                            IG01214.Focus();
+                        }
+                        else if (IG01215.Enabled == true)
+                        {
+                            IG01215.Focus();
+                        }
+                        else if (IG01312.Enabled == true)
+                        {
+                            IG01312.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 9;
+                            QCFUP02.Focus();
+                        }
                     }
+
                 }
 
 
@@ -24187,7 +26219,26 @@ namespace iNCK
                 {
                     IG1601112.Focus();
                 }
-
+                else
+                {
+                    if (
+                       IG160112.Text == "1" &&
+                       IG160212.Text == "1" &&
+                       IG160312.Text == "1" &&
+                       IG160412.Text == "1" &&
+                       IG160512.Text == "1" &&
+                       IG160612.Text == "1" &&
+                       IG160712.Text == "1" &&
+                       IG160812.Text == "1" &&
+                       IG160912.Text == "1" &&
+                       IG1601012.Text == "1" &&
+                       IG1601112.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if any of the above options 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601112.Focus();
+                    }
+                }
 
 
             }
@@ -24217,26 +26268,47 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01213.Enabled == true)
+
+                    if (
+                       IG160112.Text == "1" &&
+                       IG160212.Text == "1" &&
+                       IG160312.Text == "1" &&
+                       IG160412.Text == "1" &&
+                       IG160512.Text == "1" &&
+                       IG160612.Text == "1" &&
+                       IG160712.Text == "1" &&
+                       IG160812.Text == "1" &&
+                       IG160912.Text == "1" &&
+                       IG1601012.Text == "1" &&
+                       IG1601212.Text == "1"
+                       )
                     {
-                        IG01213.Focus();
-                    }
-                    else if (IG01214.Enabled == true)
-                    {
-                        IG01214.Focus();
-                    }
-                    else if (IG01215.Enabled == true)
-                    {
-                        IG01215.Focus();
-                    }
-                    else if (IG01313.Enabled == true)
-                    {
-                        IG01313.Focus();
+                        MessageBox.Show("if any of the above options 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601212.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 9;
-                        QCFUP02.Focus();
+                        if (IG01213.Enabled == true)
+                        {
+                            IG01213.Focus();
+                        }
+                        else if (IG01214.Enabled == true)
+                        {
+                            IG01214.Focus();
+                        }
+                        else if (IG01215.Enabled == true)
+                        {
+                            IG01215.Focus();
+                        }
+                        else if (IG01313.Enabled == true)
+                        {
+                            IG01313.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 9;
+                            QCFUP02.Focus();
+                        }
                     }
                 }
 
@@ -24546,7 +26618,26 @@ namespace iNCK
                 {
                     IG1601113.Focus();
                 }
-
+                else
+                {
+                    if (
+                       IG160113.Text == "1" &&
+                       IG160213.Text == "1" &&
+                       IG160313.Text == "1" &&
+                       IG160413.Text == "1" &&
+                       IG160513.Text == "1" &&
+                       IG160613.Text == "1" &&
+                       IG160713.Text == "1" &&
+                       IG160813.Text == "1" &&
+                       IG160913.Text == "1" &&
+                       IG1601013.Text == "1" &&
+                       IG1601113.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if any of the above options 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601113.Focus();
+                    }
+                }
 
 
             }
@@ -24576,23 +26667,45 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01214.Enabled == true)
+
+                    if (
+                      IG160113.Text == "1" &&
+                      IG160213.Text == "1" &&
+                      IG160313.Text == "1" &&
+                      IG160413.Text == "1" &&
+                      IG160513.Text == "1" &&
+                      IG160613.Text == "1" &&
+                      IG160713.Text == "1" &&
+                      IG160813.Text == "1" &&
+                      IG160913.Text == "1" &&
+                      IG1601013.Text == "1" &&
+                      IG1601213.Text == "1"
+                      )
                     {
-                        IG01214.Focus();
-                    }
-                    else if (IG01215.Enabled == true)
-                    {
-                        IG01215.Focus();
-                    }
-                    else if (IG01314.Enabled == true)
-                    {
-                        IG01314.Focus();
+                        MessageBox.Show("if any of the above options 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601213.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 9;
-                        QCFUP02.Focus();
+                        if (IG01214.Enabled == true)
+                        {
+                            IG01214.Focus();
+                        }
+                        else if (IG01215.Enabled == true)
+                        {
+                            IG01215.Focus();
+                        }
+                        else if (IG01314.Enabled == true)
+                        {
+                            IG01314.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 9;
+                            QCFUP02.Focus();
+                        }
                     }
+
                 }
 
 
@@ -24901,7 +27014,26 @@ namespace iNCK
                 {
                     IG1601114.Focus();
                 }
-
+                else
+                {
+                    if (
+                       IG160114.Text == "1" &&
+                       IG160214.Text == "1" &&
+                       IG160314.Text == "1" &&
+                       IG160414.Text == "1" &&
+                       IG160514.Text == "1" &&
+                       IG160614.Text == "1" &&
+                       IG160714.Text == "1" &&
+                       IG160814.Text == "1" &&
+                       IG160914.Text == "1" &&
+                       IG1601014.Text == "1" &&
+                       IG1601114.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if any of the above options 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601114.Focus();
+                    }
+                }
 
 
             }
@@ -24931,19 +27063,41 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG01215.Enabled == true)
+                    if (
+                      IG160114.Text == "1" &&
+                      IG160214.Text == "1" &&
+                      IG160314.Text == "1" &&
+                      IG160414.Text == "1" &&
+                      IG160514.Text == "1" &&
+                      IG160614.Text == "1" &&
+                      IG160714.Text == "1" &&
+                      IG160814.Text == "1" &&
+                      IG160914.Text == "1" &&
+                      IG1601014.Text == "1" &&
+                      IG1601214.Text == "1"
+                      )
                     {
-                        IG01215.Focus();
-                    }
-                    else if (IG01315.Enabled == true)
-                    {
-                        IG01315.Focus();
+                        MessageBox.Show("if any of the above options 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601214.Focus();
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 9;
-                        QCFUP02.Focus();
+                        if (IG01215.Enabled == true)
+                        {
+                            IG01215.Focus();
+                        }
+                        else if (IG01315.Enabled == true)
+                        {
+                            IG01315.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 9;
+                            QCFUP02.Focus();
+                        }
                     }
+
+
                 }
 
 
@@ -25252,7 +27406,26 @@ namespace iNCK
                 {
                     IG1601115.Focus();
                 }
-
+                else
+                {
+                    if (
+                       IG160115.Text == "1" &&
+                       IG160215.Text == "1" &&
+                       IG160315.Text == "1" &&
+                       IG160415.Text == "1" &&
+                       IG160515.Text == "1" &&
+                       IG160615.Text == "1" &&
+                       IG160715.Text == "1" &&
+                       IG160815.Text == "1" &&
+                       IG160915.Text == "1" &&
+                       IG1601015.Text == "1" &&
+                       IG1601115.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if any of the above options 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601115.Focus();
+                    }
+                }
 
 
             }
@@ -25282,8 +27455,29 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 9;
-                    QCFUP02.Focus();
+                    if (
+                       IG160115.Text == "1" &&
+                       IG160215.Text == "1" &&
+                       IG160315.Text == "1" &&
+                       IG160415.Text == "1" &&
+                       IG160515.Text == "1" &&
+                       IG160615.Text == "1" &&
+                       IG160715.Text == "1" &&
+                       IG160815.Text == "1" &&
+                       IG160915.Text == "1" &&
+                       IG1601015.Text == "1" &&
+                       IG1601215.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("if any of the above options 1 - Yes then not applicable cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG1601215.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 9;
+                        QCFUP02.Focus();
+                    }
+
                 }
 
             }
@@ -30800,8 +32994,6 @@ namespace iNCK
 
 
 
-
-
                             if (ds.Tables[0].Rows[0]["IB05"].ToString() == null)
                             {
                                 IB05.Text = "";
@@ -30867,7 +33059,6 @@ namespace iNCK
                                         obj_op.DisableControls(IB0902);
                                         obj_op.DisableControls(IB0903);
                                         obj_op.DisableControls(IB0996);
-                                        obj_op.EnableControls(IB010);
                                     }
                                     else if (IB08.Text == "4")
                                     {
@@ -30875,7 +33066,6 @@ namespace iNCK
                                         obj_op.DisableControls(IB0902);
                                         obj_op.DisableControls(IB0903);
                                         obj_op.DisableControls(IB0996);
-                                        obj_op.DisableControls(IB010);
                                     }
                                     else
                                     {
@@ -30960,6 +33150,8 @@ namespace iNCK
                                         obj_op.DisableControls(IC04);
                                         obj_op.DisableControls(IC05);
 
+
+                                        obj_op.DisableControls(chkBaby1);
                                         obj_op.DisableControls(IC0601);
                                         obj_op.DisableControls(IC0701);
                                         obj_op.DisableControls(IC0801);
@@ -30968,6 +33160,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01101);
 
 
+                                        obj_op.DisableControls(chkBaby2);
                                         obj_op.DisableControls(IC0602);
                                         obj_op.DisableControls(IC0702);
                                         obj_op.DisableControls(IC0802);
@@ -30976,6 +33169,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01102);
 
 
+                                        obj_op.DisableControls(chkBaby3);
                                         obj_op.DisableControls(IC0603);
                                         obj_op.DisableControls(IC0703);
                                         obj_op.DisableControls(IC0803);
@@ -30984,6 +33178,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01103);
 
 
+                                        obj_op.DisableControls(chkBaby4);
                                         obj_op.DisableControls(IC0604);
                                         obj_op.DisableControls(IC0704);
                                         obj_op.DisableControls(IC0804);
@@ -31003,6 +33198,8 @@ namespace iNCK
                                         obj_op.DisableControls(IC04);
                                         obj_op.DisableControls(IC05);
 
+
+                                        obj_op.DisableControls(chkBaby1);
                                         obj_op.DisableControls(IC0601);
                                         obj_op.DisableControls(IC0701);
                                         obj_op.DisableControls(IC0801);
@@ -31011,6 +33208,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01101);
 
 
+                                        obj_op.DisableControls(chkBaby2);
                                         obj_op.DisableControls(IC0602);
                                         obj_op.DisableControls(IC0702);
                                         obj_op.DisableControls(IC0802);
@@ -31019,6 +33217,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01102);
 
 
+                                        obj_op.DisableControls(chkBaby3);
                                         obj_op.DisableControls(IC0603);
                                         obj_op.DisableControls(IC0703);
                                         obj_op.DisableControls(IC0803);
@@ -31027,6 +33226,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01103);
 
 
+                                        obj_op.DisableControls(chkBaby4);
                                         obj_op.DisableControls(IC0604);
                                         obj_op.DisableControls(IC0704);
                                         obj_op.DisableControls(IC0804);
@@ -31044,6 +33244,8 @@ namespace iNCK
                                         obj_op.EnableControls(IC04);
                                         obj_op.EnableControls(IC05);
 
+
+                                        obj_op.EnableControls(chkBaby1);
                                         obj_op.EnableControls(IC0601);
                                         obj_op.EnableControls(IC0701);
                                         obj_op.EnableControls(IC0801);
@@ -31051,6 +33253,8 @@ namespace iNCK
                                         obj_op.EnableControls(IC01001);
                                         obj_op.EnableControls(IC01101);
 
+
+                                        obj_op.EnableControls(chkBaby2);
                                         obj_op.EnableControls(IC0602);
                                         obj_op.EnableControls(IC0702);
                                         obj_op.EnableControls(IC0802);
@@ -31058,6 +33262,8 @@ namespace iNCK
                                         obj_op.EnableControls(IC01002);
                                         obj_op.EnableControls(IC01102);
 
+
+                                        obj_op.EnableControls(chkBaby3);
                                         obj_op.EnableControls(IC0603);
                                         obj_op.EnableControls(IC0703);
                                         obj_op.EnableControls(IC0803);
@@ -31065,6 +33271,9 @@ namespace iNCK
                                         obj_op.EnableControls(IC01003);
                                         obj_op.EnableControls(IC01103);
 
+
+
+                                        obj_op.EnableControls(chkBaby4);
                                         obj_op.EnableControls(IC0604);
                                         obj_op.EnableControls(IC0704);
                                         obj_op.EnableControls(IC0804);
@@ -31097,6 +33306,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC04);
                                         obj_op.DisableControls(IC05);
 
+                                        obj_op.DisableControls(chkBaby1);
                                         obj_op.DisableControls(IC0601);
                                         obj_op.DisableControls(IC0701);
                                         obj_op.DisableControls(IC0801);
@@ -31105,6 +33315,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01101);
 
 
+                                        obj_op.DisableControls(chkBaby2);
                                         obj_op.DisableControls(IC0602);
                                         obj_op.DisableControls(IC0702);
                                         obj_op.DisableControls(IC0802);
@@ -31113,6 +33324,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01102);
 
 
+                                        obj_op.DisableControls(chkBaby3);
                                         obj_op.DisableControls(IC0603);
                                         obj_op.DisableControls(IC0703);
                                         obj_op.DisableControls(IC0803);
@@ -31121,6 +33333,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01103);
 
 
+                                        obj_op.DisableControls(chkBaby4);
                                         obj_op.DisableControls(IC0604);
                                         obj_op.DisableControls(IC0704);
                                         obj_op.DisableControls(IC0804);
@@ -31138,6 +33351,8 @@ namespace iNCK
                                         obj_op.DisableControls(IC04);
                                         obj_op.DisableControls(IC05);
 
+
+                                        obj_op.DisableControls(chkBaby1);
                                         obj_op.DisableControls(IC0601);
                                         obj_op.DisableControls(IC0701);
                                         obj_op.DisableControls(IC0801);
@@ -31146,6 +33361,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01101);
 
 
+                                        obj_op.DisableControls(chkBaby2);
                                         obj_op.DisableControls(IC0602);
                                         obj_op.DisableControls(IC0702);
                                         obj_op.DisableControls(IC0802);
@@ -31154,6 +33370,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01102);
 
 
+                                        obj_op.DisableControls(chkBaby3);
                                         obj_op.DisableControls(IC0603);
                                         obj_op.DisableControls(IC0703);
                                         obj_op.DisableControls(IC0803);
@@ -31162,6 +33379,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01103);
 
 
+                                        obj_op.DisableControls(chkBaby4);
                                         obj_op.DisableControls(IC0604);
                                         obj_op.DisableControls(IC0704);
                                         obj_op.DisableControls(IC0804);
@@ -31174,10 +33392,12 @@ namespace iNCK
                                     }
                                     else
                                     {
+
                                         obj_op.EnableControls(IC03);
                                         obj_op.EnableControls(IC04);
                                         obj_op.EnableControls(IC05);
 
+                                        obj_op.EnableControls(chkBaby1);
                                         obj_op.EnableControls(IC0601);
                                         obj_op.EnableControls(IC0701);
                                         obj_op.EnableControls(IC0801);
@@ -31185,6 +33405,8 @@ namespace iNCK
                                         obj_op.EnableControls(IC01001);
                                         obj_op.EnableControls(IC01101);
 
+
+                                        obj_op.EnableControls(chkBaby2);
                                         obj_op.EnableControls(IC0602);
                                         obj_op.EnableControls(IC0702);
                                         obj_op.EnableControls(IC0802);
@@ -31192,6 +33414,8 @@ namespace iNCK
                                         obj_op.EnableControls(IC01002);
                                         obj_op.EnableControls(IC01102);
 
+
+                                        obj_op.EnableControls(chkBaby3);
                                         obj_op.EnableControls(IC0603);
                                         obj_op.EnableControls(IC0703);
                                         obj_op.EnableControls(IC0803);
@@ -31199,6 +33423,8 @@ namespace iNCK
                                         obj_op.EnableControls(IC01003);
                                         obj_op.EnableControls(IC01103);
 
+
+                                        obj_op.EnableControls(chkBaby4);
                                         obj_op.EnableControls(IC0604);
                                         obj_op.EnableControls(IC0704);
                                         obj_op.EnableControls(IC0804);
@@ -31245,6 +33471,7 @@ namespace iNCK
                                     if (IC05.Text == "0")
                                     {
 
+                                        obj_op.DisableControls(chkBaby1);
                                         obj_op.DisableControls(IC0601);
                                         obj_op.DisableControls(IC0701);
                                         obj_op.DisableControls(IC0801);
@@ -31253,6 +33480,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01101);
 
 
+                                        obj_op.DisableControls(chkBaby2);
                                         obj_op.DisableControls(IC0602);
                                         obj_op.DisableControls(IC0702);
                                         obj_op.DisableControls(IC0802);
@@ -31261,6 +33489,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01102);
 
 
+                                        obj_op.DisableControls(chkBaby3);
                                         obj_op.DisableControls(IC0603);
                                         obj_op.DisableControls(IC0703);
                                         obj_op.DisableControls(IC0803);
@@ -31269,6 +33498,7 @@ namespace iNCK
                                         obj_op.DisableControls(IC01103);
 
 
+                                        obj_op.DisableControls(chkBaby4);
                                         obj_op.DisableControls(IC0604);
                                         obj_op.DisableControls(IC0704);
                                         obj_op.DisableControls(IC0804);
@@ -31277,36 +33507,233 @@ namespace iNCK
                                         obj_op.DisableControls(IC01104);
 
                                     }
-                                    else
+                                    else if (!string.IsNullOrEmpty(IC05.Text))
                                     {
 
-                                        obj_op.EnableControls(IC0601);
-                                        obj_op.EnableControls(IC0701);
-                                        obj_op.EnableControls(IC0801);
-                                        obj_op.EnableControls(IC0901);
-                                        obj_op.EnableControls(IC01001);
-                                        obj_op.EnableControls(IC01101);
+                                        if (Convert.ToInt32(IC05.Text) > 1 && Convert.ToInt32(IC05.Text) < 4)
+                                        {
 
-                                        obj_op.EnableControls(IC0602);
-                                        obj_op.EnableControls(IC0702);
-                                        obj_op.EnableControls(IC0802);
-                                        obj_op.EnableControls(IC0902);
-                                        obj_op.EnableControls(IC01002);
-                                        obj_op.EnableControls(IC01102);
+                                            obj_op.EnableControls(chkBaby1);
+                                            obj_op.EnableControls(IC0601);
+                                            obj_op.EnableControls(IC0701);
+                                            obj_op.EnableControls(IC0801);
+                                            obj_op.EnableControls(IC0901);
+                                            obj_op.EnableControls(IC01001);
+                                            obj_op.EnableControls(IC01101);
 
-                                        obj_op.EnableControls(IC0603);
-                                        obj_op.EnableControls(IC0703);
-                                        obj_op.EnableControls(IC0803);
-                                        obj_op.EnableControls(IC0903);
-                                        obj_op.EnableControls(IC01003);
-                                        obj_op.EnableControls(IC01103);
+                                            obj_op.EnableControls(chkBaby2);
+                                            obj_op.EnableControls(IC0602);
+                                            obj_op.EnableControls(IC0702);
+                                            obj_op.EnableControls(IC0802);
+                                            obj_op.EnableControls(IC0902);
+                                            obj_op.EnableControls(IC01002);
+                                            obj_op.EnableControls(IC01102);
 
-                                        obj_op.EnableControls(IC0604);
-                                        obj_op.EnableControls(IC0704);
-                                        obj_op.EnableControls(IC0804);
-                                        obj_op.EnableControls(IC0904);
-                                        obj_op.EnableControls(IC01004);
-                                        obj_op.EnableControls(IC01104);
+                                            obj_op.EnableControls(chkBaby3);
+                                            obj_op.EnableControls(IC0603);
+                                            obj_op.EnableControls(IC0703);
+                                            obj_op.EnableControls(IC0803);
+                                            obj_op.EnableControls(IC0903);
+                                            obj_op.EnableControls(IC01003);
+                                            obj_op.EnableControls(IC01103);
+
+                                            obj_op.EnableControls(chkBaby4);
+                                            obj_op.EnableControls(IC0604);
+                                            obj_op.EnableControls(IC0704);
+                                            obj_op.EnableControls(IC0804);
+                                            obj_op.EnableControls(IC0904);
+                                            obj_op.EnableControls(IC01004);
+                                            obj_op.EnableControls(IC01104);
+
+
+
+                                            obj_op.DisableControls(IC0605);
+                                            obj_op.DisableControls(IC0705);
+                                            obj_op.DisableControls(IC0805);
+                                            obj_op.DisableControls(IC0905);
+                                            obj_op.DisableControls(IC01005);
+                                            obj_op.DisableControls(IC01105);
+
+                                            obj_op.DisableControls(IC0606);
+                                            obj_op.DisableControls(IC0706);
+                                            obj_op.DisableControls(IC0806);
+                                            obj_op.DisableControls(IC0906);
+                                            obj_op.DisableControls(IC01006);
+                                            obj_op.DisableControls(IC01106);
+
+                                            obj_op.DisableControls(IC0607);
+                                            obj_op.DisableControls(IC0707);
+                                            obj_op.DisableControls(IC0807);
+                                            obj_op.DisableControls(IC0907);
+                                            obj_op.DisableControls(IC01007);
+                                            obj_op.DisableControls(IC01107);
+
+                                            obj_op.DisableControls(IC0608);
+                                            obj_op.DisableControls(IC0708);
+                                            obj_op.DisableControls(IC0808);
+                                            obj_op.DisableControls(IC0908);
+                                            obj_op.DisableControls(IC01008);
+                                            obj_op.DisableControls(IC01108);
+
+                                            obj_op.DisableControls(IC0609);
+                                            obj_op.DisableControls(IC0709);
+                                            obj_op.DisableControls(IC0809);
+                                            obj_op.DisableControls(IC0909);
+                                            obj_op.DisableControls(IC01009);
+                                            obj_op.DisableControls(IC01109);
+
+                                            obj_op.DisableControls(IC06010);
+                                            obj_op.DisableControls(IC07010);
+                                            obj_op.DisableControls(IC08010);
+                                            obj_op.DisableControls(IC09010);
+                                            obj_op.DisableControls(IC01010);
+                                            obj_op.DisableControls(IC01110);
+
+                                            obj_op.DisableControls(IC06011);
+                                            obj_op.DisableControls(IC07011);
+                                            obj_op.DisableControls(IC08011);
+                                            obj_op.DisableControls(IC09011);
+                                            obj_op.DisableControls(IC01011);
+                                            obj_op.DisableControls(IC01111);
+
+                                        }
+                                        else if (Convert.ToInt32(IC05.Text) > 5)
+                                        {
+
+                                            obj_op.EnableControls(chkBaby1);
+                                            obj_op.EnableControls(IC0601);
+                                            obj_op.EnableControls(IC0701);
+                                            obj_op.EnableControls(IC0801);
+                                            obj_op.EnableControls(IC0901);
+                                            obj_op.EnableControls(IC01001);
+                                            obj_op.EnableControls(IC01101);
+
+
+                                            obj_op.EnableControls(chkBaby2);
+                                            obj_op.EnableControls(IC0602);
+                                            obj_op.EnableControls(IC0702);
+                                            obj_op.EnableControls(IC0802);
+                                            obj_op.EnableControls(IC0902);
+                                            obj_op.EnableControls(IC01002);
+                                            obj_op.EnableControls(IC01102);
+
+
+                                            obj_op.EnableControls(chkBaby3);
+                                            obj_op.EnableControls(IC0603);
+                                            obj_op.EnableControls(IC0703);
+                                            obj_op.EnableControls(IC0803);
+                                            obj_op.EnableControls(IC0903);
+                                            obj_op.EnableControls(IC01003);
+                                            obj_op.EnableControls(IC01103);
+
+
+                                            obj_op.EnableControls(chkBaby4);
+                                            obj_op.EnableControls(IC0604);
+                                            obj_op.EnableControls(IC0704);
+                                            obj_op.EnableControls(IC0804);
+                                            obj_op.EnableControls(IC0904);
+                                            obj_op.EnableControls(IC01004);
+                                            obj_op.EnableControls(IC01104);
+
+
+
+                                            obj_op.EnableControls(IC0605);
+                                            obj_op.EnableControls(IC0705);
+                                            obj_op.EnableControls(IC0805);
+                                            obj_op.EnableControls(IC0905);
+                                            obj_op.EnableControls(IC01005);
+                                            obj_op.EnableControls(IC01105);
+
+                                            obj_op.EnableControls(IC0606);
+                                            obj_op.EnableControls(IC0706);
+                                            obj_op.EnableControls(IC0806);
+                                            obj_op.EnableControls(IC0906);
+                                            obj_op.EnableControls(IC01006);
+                                            obj_op.EnableControls(IC01106);
+
+                                            obj_op.EnableControls(IC0607);
+                                            obj_op.EnableControls(IC0707);
+                                            obj_op.EnableControls(IC0807);
+                                            obj_op.EnableControls(IC0907);
+                                            obj_op.EnableControls(IC01007);
+                                            obj_op.EnableControls(IC01107);
+
+                                            obj_op.EnableControls(IC0608);
+                                            obj_op.EnableControls(IC0708);
+                                            obj_op.EnableControls(IC0808);
+                                            obj_op.EnableControls(IC0908);
+                                            obj_op.EnableControls(IC01008);
+                                            obj_op.EnableControls(IC01108);
+
+                                            obj_op.EnableControls(IC0609);
+                                            obj_op.EnableControls(IC0709);
+                                            obj_op.EnableControls(IC0809);
+                                            obj_op.EnableControls(IC0909);
+                                            obj_op.EnableControls(IC01009);
+                                            obj_op.EnableControls(IC01109);
+
+                                            obj_op.EnableControls(IC06010);
+                                            obj_op.EnableControls(IC07010);
+                                            obj_op.EnableControls(IC08010);
+                                            obj_op.EnableControls(IC09010);
+                                            obj_op.EnableControls(IC01010);
+                                            obj_op.EnableControls(IC01110);
+
+                                            obj_op.EnableControls(IC06011);
+                                            obj_op.EnableControls(IC07011);
+                                            obj_op.EnableControls(IC08011);
+                                            obj_op.EnableControls(IC09011);
+                                            obj_op.EnableControls(IC01011);
+                                            obj_op.EnableControls(IC01111);
+
+
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        if (IC01.Text != "0")
+                                        {
+                                            if (IC02.Text != "0")
+                                            {
+
+                                                obj_op.EnableControls(chkBaby1);
+                                                obj_op.EnableControls(IC0601);
+                                                obj_op.EnableControls(IC0701);
+                                                obj_op.EnableControls(IC0801);
+                                                obj_op.EnableControls(IC0901);
+                                                obj_op.EnableControls(IC01001);
+                                                obj_op.EnableControls(IC01101);
+
+                                                obj_op.EnableControls(chkBaby2);
+                                                obj_op.EnableControls(IC0602);
+                                                obj_op.EnableControls(IC0702);
+                                                obj_op.EnableControls(IC0802);
+                                                obj_op.EnableControls(IC0902);
+                                                obj_op.EnableControls(IC01002);
+                                                obj_op.EnableControls(IC01102);
+
+                                                obj_op.EnableControls(chkBaby3);
+                                                obj_op.EnableControls(IC0603);
+                                                obj_op.EnableControls(IC0703);
+                                                obj_op.EnableControls(IC0803);
+                                                obj_op.EnableControls(IC0903);
+                                                obj_op.EnableControls(IC01003);
+                                                obj_op.EnableControls(IC01103);
+
+                                                obj_op.EnableControls(chkBaby4);
+                                                obj_op.EnableControls(IC0604);
+                                                obj_op.EnableControls(IC0704);
+                                                obj_op.EnableControls(IC0804);
+                                                obj_op.EnableControls(IC0904);
+                                                obj_op.EnableControls(IC01004);
+                                                obj_op.EnableControls(IC01104);
+
+                                            }
+
+
+                                        }
+
 
                                     }
                                 }
@@ -31323,49 +33750,60 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkBaby1.Text == "1")
+
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.EnableControls(IC0601);
-                                        obj_op.EnableControls(IC0701);
-                                        obj_op.EnableControls(IC0801);
-                                        obj_op.EnableControls(IC0901);
-                                        obj_op.EnableControls(IC01001);
-                                        obj_op.EnableControls(IC01101);
+                                        if (IC02.Text != "0")
+                                        {
+
+                                            if (chkBaby1.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IC0601);
+                                                obj_op.EnableControls(IC0701);
+                                                obj_op.EnableControls(IC0801);
+                                                obj_op.EnableControls(IC0901);
+                                                obj_op.EnableControls(IC01001);
+                                                obj_op.EnableControls(IC01101);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IC0601);
+                                                obj_op.DisableControls(IC0701);
+                                                obj_op.DisableControls(IC0801);
+                                                obj_op.DisableControls(IC0901);
+                                                obj_op.DisableControls(IC01001);
+                                                obj_op.DisableControls(IC01101);
+
+
+                                                obj_op.DisableControls(IC0602);
+                                                obj_op.DisableControls(IC0702);
+                                                obj_op.DisableControls(IC0802);
+                                                obj_op.DisableControls(IC0902);
+                                                obj_op.DisableControls(IC01002);
+                                                obj_op.DisableControls(IC01102);
+
+
+                                                obj_op.DisableControls(IC0603);
+                                                obj_op.DisableControls(IC0703);
+                                                obj_op.DisableControls(IC0803);
+                                                obj_op.DisableControls(IC0903);
+                                                obj_op.DisableControls(IC01003);
+                                                obj_op.DisableControls(IC01103);
+
+
+                                                obj_op.DisableControls(IC0604);
+                                                obj_op.DisableControls(IC0704);
+                                                obj_op.DisableControls(IC0804);
+                                                obj_op.DisableControls(IC0904);
+                                                obj_op.DisableControls(IC01004);
+                                                obj_op.DisableControls(IC01104);
+
+                                            }
+
+
+                                        }
                                     }
-                                    else
-                                    {
-                                        obj_op.DisableControls(IC0601);
-                                        obj_op.DisableControls(IC0701);
-                                        obj_op.DisableControls(IC0801);
-                                        obj_op.DisableControls(IC0901);
-                                        obj_op.DisableControls(IC01001);
-                                        obj_op.DisableControls(IC01101);
 
-
-                                        obj_op.DisableControls(IC0602);
-                                        obj_op.DisableControls(IC0702);
-                                        obj_op.DisableControls(IC0802);
-                                        obj_op.DisableControls(IC0902);
-                                        obj_op.DisableControls(IC01002);
-                                        obj_op.DisableControls(IC01102);
-
-
-                                        obj_op.DisableControls(IC0603);
-                                        obj_op.DisableControls(IC0703);
-                                        obj_op.DisableControls(IC0803);
-                                        obj_op.DisableControls(IC0903);
-                                        obj_op.DisableControls(IC01003);
-                                        obj_op.DisableControls(IC01103);
-
-
-                                        obj_op.DisableControls(IC0604);
-                                        obj_op.DisableControls(IC0704);
-                                        obj_op.DisableControls(IC0804);
-                                        obj_op.DisableControls(IC0904);
-                                        obj_op.DisableControls(IC01004);
-                                        obj_op.DisableControls(IC01104);
-
-                                    }
                                 }
 
                             }
@@ -31408,13 +33846,20 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
+
                                     if (IC0901.Text == "1")
                                     {
                                         obj_op.DisableControls(IC01001);
                                     }
                                     else
                                     {
-                                        obj_op.EnableControls(IC01001);
+                                        if (IC01.Text != "0")
+                                        {
+                                            if (IC02.Text != "0")
+                                            {
+                                                obj_op.EnableControls(IC01001);
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -31447,43 +33892,55 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkBaby2.Text == "1")
+
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.EnableControls(IC0602);
-                                        obj_op.EnableControls(IC0702);
-                                        obj_op.EnableControls(IC0802);
-                                        obj_op.EnableControls(IC0902);
-                                        obj_op.EnableControls(IC01002);
-                                        obj_op.EnableControls(IC01102);
-                                    }
-                                    else
-                                    {
-                                        obj_op.DisableControls(IC0602);
-                                        obj_op.DisableControls(IC0702);
-                                        obj_op.DisableControls(IC0802);
-                                        obj_op.DisableControls(IC0902);
-                                        obj_op.DisableControls(IC01002);
-                                        obj_op.DisableControls(IC01102);
+                                        if (IC02.Text != "0")
+                                        {
 
 
-                                        obj_op.DisableControls(IC0603);
-                                        obj_op.DisableControls(IC0703);
-                                        obj_op.DisableControls(IC0803);
-                                        obj_op.DisableControls(IC0903);
-                                        obj_op.DisableControls(IC01003);
-                                        obj_op.DisableControls(IC01103);
+                                            if (chkBaby2.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IC0602);
+                                                obj_op.EnableControls(IC0702);
+                                                obj_op.EnableControls(IC0802);
+                                                obj_op.EnableControls(IC0902);
+                                                obj_op.EnableControls(IC01002);
+                                                obj_op.EnableControls(IC01102);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IC0602);
+                                                obj_op.DisableControls(IC0702);
+                                                obj_op.DisableControls(IC0802);
+                                                obj_op.DisableControls(IC0902);
+                                                obj_op.DisableControls(IC01002);
+                                                obj_op.DisableControls(IC01102);
 
 
-                                        obj_op.DisableControls(IC0604);
-                                        obj_op.DisableControls(IC0704);
-                                        obj_op.DisableControls(IC0804);
-                                        obj_op.DisableControls(IC0904);
-                                        obj_op.DisableControls(IC01004);
-                                        obj_op.DisableControls(IC01104);
+                                                obj_op.DisableControls(IC0603);
+                                                obj_op.DisableControls(IC0703);
+                                                obj_op.DisableControls(IC0803);
+                                                obj_op.DisableControls(IC0903);
+                                                obj_op.DisableControls(IC01003);
+                                                obj_op.DisableControls(IC01103);
+
+
+                                                obj_op.DisableControls(IC0604);
+                                                obj_op.DisableControls(IC0704);
+                                                obj_op.DisableControls(IC0804);
+                                                obj_op.DisableControls(IC0904);
+                                                obj_op.DisableControls(IC01004);
+                                                obj_op.DisableControls(IC01104);
+
+                                            }
+
+                                        }
 
                                     }
 
                                 }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IC0602"].ToString() == null)
@@ -31529,7 +33986,13 @@ namespace iNCK
                                     }
                                     else
                                     {
-                                        obj_op.EnableControls(IC01002);
+                                        if (IC01.Text != "0")
+                                        {
+                                            if (IC02.Text != "0")
+                                            {
+                                                obj_op.EnableControls(IC01002);
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -31562,34 +34025,47 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkBaby3.Text == "1")
+
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.EnableControls(IC0603);
-                                        obj_op.EnableControls(IC0703);
-                                        obj_op.EnableControls(IC0803);
-                                        obj_op.EnableControls(IC0903);
-                                        obj_op.EnableControls(IC01003);
-                                        obj_op.EnableControls(IC01103);
+                                        if (IC02.Text != "0")
+                                        {
+
+                                            if (chkBaby3.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IC0603);
+                                                obj_op.EnableControls(IC0703);
+                                                obj_op.EnableControls(IC0803);
+                                                obj_op.EnableControls(IC0903);
+                                                obj_op.EnableControls(IC01003);
+                                                obj_op.EnableControls(IC01103);
+                                            }
+                                            else
+                                            {
+
+                                                obj_op.DisableControls(IC0603);
+                                                obj_op.DisableControls(IC0703);
+                                                obj_op.DisableControls(IC0803);
+                                                obj_op.DisableControls(IC0903);
+                                                obj_op.DisableControls(IC01003);
+                                                obj_op.DisableControls(IC01103);
+
+
+                                                obj_op.DisableControls(IC0604);
+                                                obj_op.DisableControls(IC0704);
+                                                obj_op.DisableControls(IC0804);
+                                                obj_op.DisableControls(IC0904);
+                                                obj_op.DisableControls(IC01004);
+                                                obj_op.DisableControls(IC01104);
+
+                                            }
+
+
+                                        }
+
                                     }
-                                    else
-                                    {
-
-                                        obj_op.DisableControls(IC0603);
-                                        obj_op.DisableControls(IC0703);
-                                        obj_op.DisableControls(IC0803);
-                                        obj_op.DisableControls(IC0903);
-                                        obj_op.DisableControls(IC01003);
-                                        obj_op.DisableControls(IC01103);
 
 
-                                        obj_op.DisableControls(IC0604);
-                                        obj_op.DisableControls(IC0704);
-                                        obj_op.DisableControls(IC0804);
-                                        obj_op.DisableControls(IC0904);
-                                        obj_op.DisableControls(IC01004);
-                                        obj_op.DisableControls(IC01104);
-
-                                    }
 
                                 }
                             }
@@ -31637,7 +34113,13 @@ namespace iNCK
                                     }
                                     else
                                     {
-                                        obj_op.EnableControls(IC01003);
+                                        if (IC01.Text != "0")
+                                        {
+                                            if (IC02.Text != "0")
+                                            {
+                                                obj_op.EnableControls(IC01003);
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -31670,24 +34152,35 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkBaby4.Text == "1")
+
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.EnableControls(IC0604);
-                                        obj_op.EnableControls(IC0704);
-                                        obj_op.EnableControls(IC0804);
-                                        obj_op.EnableControls(IC0904);
-                                        obj_op.EnableControls(IC01004);
-                                        obj_op.EnableControls(IC01104);
+                                        if (IC02.Text != "0")
+                                        {
+
+                                            if (chkBaby4.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IC0604);
+                                                obj_op.EnableControls(IC0704);
+                                                obj_op.EnableControls(IC0804);
+                                                obj_op.EnableControls(IC0904);
+                                                obj_op.EnableControls(IC01004);
+                                                obj_op.EnableControls(IC01104);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IC0604);
+                                                obj_op.DisableControls(IC0704);
+                                                obj_op.DisableControls(IC0804);
+                                                obj_op.DisableControls(IC0904);
+                                                obj_op.DisableControls(IC01004);
+                                                obj_op.DisableControls(IC01104);
+                                            }
+
+                                        }
                                     }
-                                    else
-                                    {
-                                        obj_op.DisableControls(IC0604);
-                                        obj_op.DisableControls(IC0704);
-                                        obj_op.DisableControls(IC0804);
-                                        obj_op.DisableControls(IC0904);
-                                        obj_op.DisableControls(IC01004);
-                                        obj_op.DisableControls(IC01104);
-                                    }
+
+
                                 }
                             }
 
@@ -31734,7 +34227,14 @@ namespace iNCK
                                     }
                                     else
                                     {
-                                        obj_op.EnableControls(IC01004);
+                                        if (IC01.Text != "0")
+                                        {
+                                            if (IC02.Text != "0")
+                                            {
+                                                obj_op.EnableControls(IC01004);
+                                            }
+                                        }
+
                                     }
 
                                 }
@@ -31833,15 +34333,15 @@ namespace iNCK
                                         obj_op.DisableControls(IE0703);
                                         obj_op.DisableControls(IE0704);
 
-                                        //obj_op.DisableControls(IE0801);
-                                        //obj_op.DisableControls(IE0802);
-                                        //obj_op.DisableControls(IE0803);
-                                        //obj_op.DisableControls(IE0804);
+                                        obj_op.DisableControls(IE0801);
+                                        obj_op.DisableControls(IE0802);
+                                        obj_op.DisableControls(IE0803);
+                                        obj_op.DisableControls(IE0804);
 
-                                        //obj_op.DisableControls(IE0901);
-                                        //obj_op.DisableControls(IE0902);
-                                        //obj_op.DisableControls(IE0903);
-                                        //obj_op.DisableControls(IE0904);
+                                        obj_op.DisableControls(IE0901);
+                                        obj_op.DisableControls(IE0902);
+                                        obj_op.DisableControls(IE0903);
+                                        obj_op.DisableControls(IE0904);
 
                                     }
                                     else
@@ -31859,15 +34359,15 @@ namespace iNCK
                                         obj_op.EnableControls(IE0703);
                                         obj_op.EnableControls(IE0704);
 
-                                        //obj_op.EnableControls(IE0801);
-                                        //obj_op.EnableControls(IE0802);
-                                        //obj_op.EnableControls(IE0803);
-                                        //obj_op.EnableControls(IE0804);
+                                        obj_op.EnableControls(IE0801);
+                                        obj_op.EnableControls(IE0802);
+                                        obj_op.EnableControls(IE0803);
+                                        obj_op.EnableControls(IE0804);
 
-                                        //obj_op.EnableControls(IE0901);
-                                        //obj_op.EnableControls(IE0902);
-                                        //obj_op.EnableControls(IE0903);
-                                        //obj_op.EnableControls(IE0904);
+                                        obj_op.EnableControls(IE0901);
+                                        obj_op.EnableControls(IE0902);
+                                        obj_op.EnableControls(IE0903);
+                                        obj_op.EnableControls(IE0904);
 
                                     }
                                 }
@@ -31892,13 +34392,56 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IE03.Text == "0")
+                                    if (IE01.Text != "0")
                                     {
-                                        obj_op.DisableControls(IE04);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IE04);
+
+                                        if (IE03.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IE04);
+                                            obj_op.EnableControls(chkHHMem1);
+                                            obj_op.EnableControls(chkHHMem2);
+                                            obj_op.EnableControls(chkHHMem3);
+                                            obj_op.EnableControls(chkHHMem4);
+                                            obj_op.EnableControls(IE0701);
+                                            obj_op.EnableControls(IE0702);
+                                            obj_op.EnableControls(IE0703);
+                                            obj_op.EnableControls(IE0704);
+
+                                            obj_op.EnableControls(IE0801);
+                                            obj_op.EnableControls(IE0802);
+                                            obj_op.EnableControls(IE0803);
+                                            obj_op.EnableControls(IE0804);
+
+                                            obj_op.EnableControls(IE0901);
+                                            obj_op.EnableControls(IE0902);
+                                            obj_op.EnableControls(IE0903);
+                                            obj_op.EnableControls(IE0904);
+
+
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IE04);
+                                            obj_op.EnableControls(chkHHMem1);
+                                            obj_op.EnableControls(chkHHMem2);
+                                            obj_op.EnableControls(chkHHMem3);
+                                            obj_op.EnableControls(chkHHMem4);
+                                            obj_op.EnableControls(IE0701);
+                                            obj_op.EnableControls(IE0702);
+                                            obj_op.EnableControls(IE0703);
+                                            obj_op.EnableControls(IE0704);
+
+                                            obj_op.EnableControls(IE0801);
+                                            obj_op.EnableControls(IE0802);
+                                            obj_op.EnableControls(IE0803);
+                                            obj_op.EnableControls(IE0804);
+
+                                            obj_op.EnableControls(IE0901);
+                                            obj_op.EnableControls(IE0902);
+                                            obj_op.EnableControls(IE0903);
+                                            obj_op.EnableControls(IE0904);
+
+                                        }
                                     }
                                 }
                             }
@@ -31919,6 +34462,44 @@ namespace iNCK
                             else
                             {
                                 chkHHMem1.Text = ds.Tables[0].Rows[0]["chkHHMem1"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IE01.Text != "0")
+                                    {
+
+                                        if (IE03.Text != "0")
+                                        {
+                                            if (chkHHMem1.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IE0701);
+                                                obj_op.EnableControls(IE0801);
+                                                obj_op.EnableControls(IE0901);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IE0701);
+                                                obj_op.DisableControls(IE0801);
+                                                obj_op.DisableControls(IE0901);
+
+                                                obj_op.DisableControls(IE0702);
+                                                obj_op.DisableControls(IE0802);
+                                                obj_op.DisableControls(IE0902);
+
+                                                obj_op.DisableControls(IE0703);
+                                                obj_op.DisableControls(IE0803);
+                                                obj_op.DisableControls(IE0903);
+
+                                                obj_op.DisableControls(IE0704);
+                                                obj_op.DisableControls(IE0804);
+                                                obj_op.DisableControls(IE0904);
+                                            }
+                                        }
+                                    }
+
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IE0701"].ToString() == null)
@@ -31937,6 +34518,39 @@ namespace iNCK
                             else
                             {
                                 chkHHMem2.Text = ds.Tables[0].Rows[0]["chkHHMem2"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IE01.Text != "0")
+                                    {
+
+                                        if (IE03.Text != "0")
+                                        {
+
+                                            if (chkHHMem2.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IE0702);
+                                                obj_op.EnableControls(IE0802);
+                                                obj_op.EnableControls(IE0902);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IE0702);
+                                                obj_op.DisableControls(IE0802);
+                                                obj_op.DisableControls(IE0902);
+
+                                                obj_op.DisableControls(IE0703);
+                                                obj_op.DisableControls(IE0803);
+                                                obj_op.DisableControls(IE0903);
+
+                                                obj_op.DisableControls(IE0704);
+                                                obj_op.DisableControls(IE0804);
+                                                obj_op.DisableControls(IE0904);
+                                            }
+
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IE0702"].ToString() == null)
@@ -31955,6 +34569,35 @@ namespace iNCK
                             else
                             {
                                 chkHHMem3.Text = ds.Tables[0].Rows[0]["chkHHMem3"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IE01.Text != "0")
+                                    {
+
+                                        if (IE03.Text != "0")
+                                        {
+
+                                            if (chkHHMem3.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IE0703);
+                                                obj_op.EnableControls(IE0803);
+                                                obj_op.EnableControls(IE0903);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IE0703);
+                                                obj_op.DisableControls(IE0803);
+                                                obj_op.DisableControls(IE0903);
+
+                                                obj_op.DisableControls(IE0704);
+                                                obj_op.DisableControls(IE0804);
+                                                obj_op.DisableControls(IE0904);
+                                            }
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IE0703"].ToString() == null)
@@ -31973,6 +34616,30 @@ namespace iNCK
                             else
                             {
                                 chkHHMem4.Text = ds.Tables[0].Rows[0]["chkHHMem4"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+
+                                    if (IE01.Text != "0")
+                                    {
+                                        if (IE02.Text != "0")
+                                        {
+                                            if (chkHHMem4.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IE0704);
+                                                obj_op.EnableControls(IE0804);
+                                                obj_op.EnableControls(IE0904);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IE0704);
+                                                obj_op.DisableControls(IE0804);
+                                                obj_op.DisableControls(IE0904);
+                                            }
+                                        }
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IE0704"].ToString() == null)
@@ -31994,13 +34661,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IE0801.Text == "0")
+                                    if (chkHHMem1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IE0901);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IE0901);
+                                        if (IE0801.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IE0901);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IE0901);
+                                        }
                                     }
                                 }
                             }
@@ -32024,13 +34694,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IE0802.Text == "0")
+                                    if (chkHHMem2.Text == "1")
                                     {
-                                        obj_op.DisableControls(IE0902);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IE0902);
+                                        if (IE0802.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IE0902);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IE0902);
+                                        }
                                     }
                                 }
                             }
@@ -32054,13 +34727,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IE0803.Text == "0")
+                                    if (chkHHMem3.Text == "1")
                                     {
-                                        obj_op.DisableControls(IE0903);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IE0903);
+                                        if (IE0803.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IE0903);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IE0903);
+                                        }
                                     }
                                 }
                             }
@@ -32084,13 +34760,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IE0804.Text == "0")
+                                    if (chkHHMem4.Text == "1")
                                     {
-                                        obj_op.DisableControls(IE0904);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IE0904);
+                                        if (IE0804.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IE0904);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IE0904);
+                                        }
                                     }
                                 }
                             }
@@ -32164,29 +34843,34 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IF03.Text == "0")
+                                    if (IF01.Text != "0")
                                     {
-                                        obj_op.DisableControls(IF04);
-                                        obj_op.DisableControls(chkPW1);
-                                        obj_op.DisableControls(chkPW2);
-                                        obj_op.DisableControls(chkPW3);
-                                        obj_op.DisableControls(chkPW4);
-                                        obj_op.DisableControls(IF0601);
-                                        obj_op.DisableControls(IF0602);
-                                        obj_op.DisableControls(IF0603);
-                                        obj_op.DisableControls(IF0604);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IF04);
-                                        obj_op.EnableControls(chkPW1);
-                                        obj_op.EnableControls(chkPW2);
-                                        obj_op.EnableControls(chkPW3);
-                                        obj_op.EnableControls(chkPW4);
-                                        obj_op.EnableControls(IF0601);
-                                        obj_op.EnableControls(IF0602);
-                                        obj_op.EnableControls(IF0603);
-                                        obj_op.EnableControls(IF0604);
+
+                                        if (IF03.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IF04);
+                                            obj_op.DisableControls(chkPW1);
+                                            obj_op.DisableControls(chkPW2);
+                                            obj_op.DisableControls(chkPW3);
+                                            obj_op.DisableControls(chkPW4);
+                                            obj_op.DisableControls(IF0601);
+                                            obj_op.DisableControls(IF0602);
+                                            obj_op.DisableControls(IF0603);
+                                            obj_op.DisableControls(IF0604);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IF04);
+                                            obj_op.EnableControls(chkPW1);
+                                            obj_op.EnableControls(chkPW2);
+                                            obj_op.EnableControls(chkPW3);
+                                            obj_op.EnableControls(chkPW4);
+                                            obj_op.EnableControls(IF0601);
+                                            obj_op.EnableControls(IF0602);
+                                            obj_op.EnableControls(IF0603);
+                                            obj_op.EnableControls(IF0604);
+
+                                        }
                                     }
                                 }
                             }
@@ -32207,6 +34891,30 @@ namespace iNCK
                             else
                             {
                                 chkPW1.Text = ds.Tables[0].Rows[0]["chkPW1"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IF01.Text != "0")
+                                    {
+                                        if (IF03.Text != "0")
+                                        {
+                                            if (chkPW1.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IF0601);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IF0601);
+                                                obj_op.DisableControls(IF0602);
+                                                obj_op.DisableControls(IF0603);
+                                                obj_op.DisableControls(IF0604);
+                                            }
+                                        }
+                                    }
+                                }
+
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IF0601"].ToString() == null)
@@ -32225,6 +34933,29 @@ namespace iNCK
                             else
                             {
                                 chkPW2.Text = ds.Tables[0].Rows[0]["chkPW2"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IF01.Text != "0")
+                                    {
+                                        if (IF03.Text != "0")
+                                        {
+
+                                            if (chkPW2.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IF0602);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IF0602);
+                                                obj_op.DisableControls(IF0603);
+                                                obj_op.DisableControls(IF0604);
+                                            }
+
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IF0602"].ToString() == null)
@@ -32243,6 +34974,28 @@ namespace iNCK
                             else
                             {
                                 chkPW3.Text = ds.Tables[0].Rows[0]["chkPW3"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IF01.Text != "0")
+                                    {
+                                        if (IF03.Text != "0")
+                                        {
+
+                                            if (chkPW3.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IF0603);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IF0603);
+                                                obj_op.DisableControls(IF0604);
+                                            }
+
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IF0603"].ToString() == null)
@@ -32261,6 +35014,27 @@ namespace iNCK
                             else
                             {
                                 chkPW4.Text = ds.Tables[0].Rows[0]["chkPW4"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IF01.Text != "0")
+                                    {
+                                        if (IF03.Text != "0")
+                                        {
+
+                                            if (chkPW4.Text == "1")
+                                            {
+                                                obj_op.EnableControls(IF0604);
+                                            }
+                                            else
+                                            {
+                                                obj_op.DisableControls(IF0604);
+                                            }
+
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IF0604"].ToString() == null)
@@ -32869,6 +35643,107 @@ namespace iNCK
                             else
                             {
                                 chkMember1.Text = ds.Tables[0].Rows[0]["chkMember1"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IG01.Text == "1")
+                                    {
+
+                                        if (chkMember1.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IG0401);
+                                            obj_op.EnableControls(IG0501);
+                                            obj_op.EnableControls(IG060101);
+                                            obj_op.EnableControls(IG060201);
+                                            obj_op.EnableControls(IG060301);
+                                            obj_op.EnableControls(IG060401);
+                                            obj_op.EnableControls(IG060501);
+                                            obj_op.EnableControls(IG070101);
+                                            obj_op.EnableControls(IG070201);
+                                            obj_op.EnableControls(IG070301);
+                                            obj_op.EnableControls(IG070401);
+
+                                            obj_op.EnableControls(IG070501);
+                                            obj_op.EnableControls(IG070601);
+                                            obj_op.EnableControls(IG070701);
+                                            obj_op.EnableControls(IG070801);
+                                            obj_op.EnableControls(IG070901);
+                                            obj_op.EnableControls(IG0701001);
+                                            obj_op.EnableControls(IG0701101);
+                                            obj_op.EnableControls(IG0701201);
+                                            obj_op.EnableControls(IG0701301);
+                                            obj_op.EnableControls(IG0801);
+                                            obj_op.EnableControls(IG0901);
+                                            obj_op.EnableControls(IG01001);
+                                            obj_op.EnableControls(IG01101);
+                                            obj_op.EnableControls(IG01201);
+                                            obj_op.EnableControls(IG01301);
+                                            obj_op.EnableControls(IG01401);
+                                            obj_op.EnableControls(IG01501);
+                                            obj_op.EnableControls(IG160101);
+                                            obj_op.EnableControls(IG160201);
+                                            obj_op.EnableControls(IG160301);
+                                            obj_op.EnableControls(IG160401);
+                                            obj_op.EnableControls(IG160501);
+                                            obj_op.EnableControls(IG160601);
+                                            obj_op.EnableControls(IG160701);
+                                            obj_op.EnableControls(IG160801);
+                                            obj_op.EnableControls(IG160901);
+                                            obj_op.EnableControls(IG1601001);
+                                            obj_op.EnableControls(IG1601101);
+                                            obj_op.EnableControls(IG1601201);
+
+
+                                        }
+                                        else
+                                        {
+                                            obj_op.DisableControls(IG0401);
+                                            obj_op.DisableControls(IG0501);
+                                            obj_op.DisableControls(IG060101);
+                                            obj_op.DisableControls(IG060201);
+                                            obj_op.DisableControls(IG060301);
+                                            obj_op.DisableControls(IG060401);
+                                            obj_op.DisableControls(IG060501);
+                                            obj_op.DisableControls(IG070101);
+                                            obj_op.DisableControls(IG070201);
+                                            obj_op.DisableControls(IG070301);
+                                            obj_op.DisableControls(IG070401);
+
+                                            obj_op.DisableControls(IG070501);
+                                            obj_op.DisableControls(IG070601);
+                                            obj_op.DisableControls(IG070701);
+                                            obj_op.DisableControls(IG070801);
+                                            obj_op.DisableControls(IG070901);
+                                            obj_op.DisableControls(IG0701001);
+                                            obj_op.DisableControls(IG0701101);
+                                            obj_op.DisableControls(IG0701201);
+                                            obj_op.DisableControls(IG0701301);
+                                            obj_op.DisableControls(IG0801);
+                                            obj_op.DisableControls(IG0901);
+                                            obj_op.DisableControls(IG01001);
+                                            obj_op.DisableControls(IG01101);
+                                            obj_op.DisableControls(IG01201);
+                                            obj_op.DisableControls(IG01301);
+                                            obj_op.DisableControls(IG01401);
+                                            obj_op.DisableControls(IG01501);
+                                            obj_op.DisableControls(IG160101);
+                                            obj_op.DisableControls(IG160201);
+                                            obj_op.DisableControls(IG160301);
+                                            obj_op.DisableControls(IG160401);
+                                            obj_op.DisableControls(IG160501);
+                                            obj_op.DisableControls(IG160601);
+                                            obj_op.DisableControls(IG160701);
+                                            obj_op.DisableControls(IG160801);
+                                            obj_op.DisableControls(IG160901);
+                                            obj_op.DisableControls(IG1601001);
+                                            obj_op.DisableControls(IG1601101);
+                                            obj_op.DisableControls(IG1601201);
+
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0401"].ToString() == null)
@@ -32935,13 +35810,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                                    if (chkMember1.Text == "1" && chkMember2.Text == "1" && chkMember3.Text == "1" && chkMember4.Text == "1")
                                     {
-                                        Disabled_IG060101_Q47();
-                                    }
-                                    else
-                                    {
-                                        Enabled_IG060101_Q47();
+                                        if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                                        {
+                                            Disabled_IG060101_Q47();
+                                        }
+                                        else
+                                        {
+                                            Enabled_IG060101_Q47();
+                                        }
                                     }
                                 }
                             }
@@ -32989,6 +35867,105 @@ namespace iNCK
                             else
                             {
                                 chkMember2.Text = ds.Tables[0].Rows[0]["chkMember2"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IG01.Text == "1")
+                                    {
+
+                                        if (chkMember2.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IG0402);
+                                            obj_op.EnableControls(IG0502);
+                                            obj_op.EnableControls(IG060102);
+                                            obj_op.EnableControls(IG060202);
+                                            obj_op.EnableControls(IG060302);
+                                            obj_op.EnableControls(IG060402);
+                                            obj_op.EnableControls(IG060502);
+                                            obj_op.EnableControls(IG070102);
+                                            obj_op.EnableControls(IG070202);
+                                            obj_op.EnableControls(IG070302);
+                                            obj_op.EnableControls(IG070402);
+
+                                            obj_op.EnableControls(IG070502);
+                                            obj_op.EnableControls(IG070602);
+                                            obj_op.EnableControls(IG070702);
+                                            obj_op.EnableControls(IG070802);
+                                            obj_op.EnableControls(IG070902);
+                                            obj_op.EnableControls(IG0701002);
+                                            obj_op.EnableControls(IG0701102);
+                                            obj_op.EnableControls(IG0701202);
+                                            obj_op.EnableControls(IG0701302);
+                                            obj_op.EnableControls(IG0802);
+                                            obj_op.EnableControls(IG0902);
+                                            obj_op.EnableControls(IG01002);
+                                            obj_op.EnableControls(IG01102);
+                                            obj_op.EnableControls(IG01202);
+                                            obj_op.EnableControls(IG01302);
+                                            obj_op.EnableControls(IG01402);
+                                            obj_op.EnableControls(IG01502);
+                                            obj_op.EnableControls(IG160102);
+                                            obj_op.EnableControls(IG160202);
+                                            obj_op.EnableControls(IG160302);
+                                            obj_op.EnableControls(IG160402);
+                                            obj_op.EnableControls(IG160502);
+                                            obj_op.EnableControls(IG160602);
+                                            obj_op.EnableControls(IG160702);
+                                            obj_op.EnableControls(IG160802);
+                                            obj_op.EnableControls(IG160902);
+                                            obj_op.EnableControls(IG1601002);
+                                            obj_op.EnableControls(IG1601102);
+                                            obj_op.EnableControls(IG1601202);
+                                        }
+                                        else
+                                        {
+                                            obj_op.DisableControls(IG0402);
+                                            obj_op.DisableControls(IG0502);
+                                            obj_op.DisableControls(IG060102);
+                                            obj_op.DisableControls(IG060202);
+                                            obj_op.DisableControls(IG060302);
+                                            obj_op.DisableControls(IG060402);
+                                            obj_op.DisableControls(IG060502);
+                                            obj_op.DisableControls(IG070102);
+                                            obj_op.DisableControls(IG070202);
+                                            obj_op.DisableControls(IG070302);
+                                            obj_op.DisableControls(IG070402);
+
+                                            obj_op.DisableControls(IG070502);
+                                            obj_op.DisableControls(IG070602);
+                                            obj_op.DisableControls(IG070702);
+                                            obj_op.DisableControls(IG070802);
+                                            obj_op.DisableControls(IG070902);
+                                            obj_op.DisableControls(IG0701002);
+                                            obj_op.DisableControls(IG0701102);
+                                            obj_op.DisableControls(IG0701202);
+                                            obj_op.DisableControls(IG0701302);
+                                            obj_op.DisableControls(IG0802);
+                                            obj_op.DisableControls(IG0902);
+                                            obj_op.DisableControls(IG01002);
+                                            obj_op.DisableControls(IG01102);
+                                            obj_op.DisableControls(IG01202);
+                                            obj_op.DisableControls(IG01302);
+                                            obj_op.DisableControls(IG01402);
+                                            obj_op.DisableControls(IG01502);
+                                            obj_op.DisableControls(IG160102);
+                                            obj_op.DisableControls(IG160202);
+                                            obj_op.DisableControls(IG160302);
+                                            obj_op.DisableControls(IG160402);
+                                            obj_op.DisableControls(IG160502);
+                                            obj_op.DisableControls(IG160602);
+                                            obj_op.DisableControls(IG160702);
+                                            obj_op.DisableControls(IG160802);
+                                            obj_op.DisableControls(IG160902);
+                                            obj_op.DisableControls(IG1601002);
+                                            obj_op.DisableControls(IG1601102);
+                                            obj_op.DisableControls(IG1601202);
+                                        }
+
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0402"].ToString() == null)
@@ -33097,6 +36074,107 @@ namespace iNCK
                             else
                             {
                                 chkMember3.Text = ds.Tables[0].Rows[0]["chkMember3"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IG01.Text == "1")
+                                    {
+                                        if (chkMember3.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IG0403);
+                                            obj_op.EnableControls(IG0503);
+                                            obj_op.EnableControls(IG060103);
+                                            obj_op.EnableControls(IG060203);
+                                            obj_op.EnableControls(IG060303);
+                                            obj_op.EnableControls(IG060403);
+                                            obj_op.EnableControls(IG060503);
+                                            obj_op.EnableControls(IG070103);
+                                            obj_op.EnableControls(IG070203);
+                                            obj_op.EnableControls(IG070303);
+                                            obj_op.EnableControls(IG070403);
+
+
+                                            obj_op.EnableControls(IG070503);
+                                            obj_op.EnableControls(IG070603);
+                                            obj_op.EnableControls(IG070703);
+                                            obj_op.EnableControls(IG070803);
+                                            obj_op.EnableControls(IG070903);
+                                            obj_op.EnableControls(IG0701003);
+                                            obj_op.EnableControls(IG0701103);
+                                            obj_op.EnableControls(IG0701203);
+                                            obj_op.EnableControls(IG0701303);
+                                            obj_op.EnableControls(IG0803);
+                                            obj_op.EnableControls(IG0903);
+                                            obj_op.EnableControls(IG01003);
+                                            obj_op.EnableControls(IG01103);
+                                            obj_op.EnableControls(IG01203);
+                                            obj_op.EnableControls(IG01303);
+                                            obj_op.EnableControls(IG01403);
+                                            obj_op.EnableControls(IG01503);
+                                            obj_op.EnableControls(IG160103);
+                                            obj_op.EnableControls(IG160203);
+                                            obj_op.EnableControls(IG160303);
+                                            obj_op.EnableControls(IG160403);
+                                            obj_op.EnableControls(IG160503);
+                                            obj_op.EnableControls(IG160603);
+                                            obj_op.EnableControls(IG160703);
+                                            obj_op.EnableControls(IG160803);
+                                            obj_op.EnableControls(IG160903);
+                                            obj_op.EnableControls(IG1601003);
+                                            obj_op.EnableControls(IG1601103);
+                                            obj_op.EnableControls(IG1601203);
+
+                                        }
+                                        else
+                                        {
+                                            obj_op.DisableControls(IG0403);
+                                            obj_op.DisableControls(IG0503);
+                                            obj_op.DisableControls(IG060103);
+                                            obj_op.DisableControls(IG060203);
+                                            obj_op.DisableControls(IG060303);
+                                            obj_op.DisableControls(IG060403);
+                                            obj_op.DisableControls(IG060503);
+                                            obj_op.DisableControls(IG070103);
+                                            obj_op.DisableControls(IG070203);
+                                            obj_op.DisableControls(IG070303);
+                                            obj_op.DisableControls(IG070403);
+
+
+                                            obj_op.DisableControls(IG070503);
+                                            obj_op.DisableControls(IG070603);
+                                            obj_op.DisableControls(IG070703);
+                                            obj_op.DisableControls(IG070803);
+                                            obj_op.DisableControls(IG070903);
+                                            obj_op.DisableControls(IG0701003);
+                                            obj_op.DisableControls(IG0701103);
+                                            obj_op.DisableControls(IG0701203);
+                                            obj_op.DisableControls(IG0701303);
+                                            obj_op.DisableControls(IG0803);
+                                            obj_op.DisableControls(IG0903);
+                                            obj_op.DisableControls(IG01003);
+                                            obj_op.DisableControls(IG01103);
+                                            obj_op.DisableControls(IG01203);
+                                            obj_op.DisableControls(IG01303);
+                                            obj_op.DisableControls(IG01403);
+                                            obj_op.DisableControls(IG01503);
+                                            obj_op.DisableControls(IG160103);
+                                            obj_op.DisableControls(IG160203);
+                                            obj_op.DisableControls(IG160303);
+                                            obj_op.DisableControls(IG160403);
+                                            obj_op.DisableControls(IG160503);
+                                            obj_op.DisableControls(IG160603);
+                                            obj_op.DisableControls(IG160703);
+                                            obj_op.DisableControls(IG160803);
+                                            obj_op.DisableControls(IG160903);
+                                            obj_op.DisableControls(IG1601003);
+                                            obj_op.DisableControls(IG1601103);
+                                            obj_op.DisableControls(IG1601203);
+
+                                        }
+                                    }
+                                }
+
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0403"].ToString() == null)
@@ -33205,6 +36283,107 @@ namespace iNCK
                             else
                             {
                                 chkMember4.Text = ds.Tables[0].Rows[0]["chkMember4"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IG01.Text == "1")
+                                    {
+
+                                        if (chkMember4.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IG0404);
+                                            obj_op.EnableControls(IG0504);
+                                            obj_op.EnableControls(IG060104);
+                                            obj_op.EnableControls(IG060204);
+                                            obj_op.EnableControls(IG060304);
+                                            obj_op.EnableControls(IG060404);
+                                            obj_op.EnableControls(IG060504);
+                                            obj_op.EnableControls(IG070104);
+                                            obj_op.EnableControls(IG070204);
+                                            obj_op.EnableControls(IG070304);
+                                            obj_op.EnableControls(IG070404);
+
+                                            obj_op.EnableControls(IG070504);
+                                            obj_op.EnableControls(IG070604);
+                                            obj_op.EnableControls(IG070704);
+                                            obj_op.EnableControls(IG070804);
+                                            obj_op.EnableControls(IG070904);
+                                            obj_op.EnableControls(IG0701004);
+                                            obj_op.EnableControls(IG0701104);
+                                            obj_op.EnableControls(IG0701204);
+                                            obj_op.EnableControls(IG0701304);
+                                            obj_op.EnableControls(IG0804);
+                                            obj_op.EnableControls(IG0904);
+                                            obj_op.EnableControls(IG01004);
+                                            obj_op.EnableControls(IG01104);
+                                            obj_op.EnableControls(IG01204);
+                                            obj_op.EnableControls(IG01304);
+                                            obj_op.EnableControls(IG01404);
+                                            obj_op.EnableControls(IG01504);
+                                            obj_op.EnableControls(IG160104);
+                                            obj_op.EnableControls(IG160204);
+                                            obj_op.EnableControls(IG160304);
+                                            obj_op.EnableControls(IG160404);
+                                            obj_op.EnableControls(IG160504);
+                                            obj_op.EnableControls(IG160604);
+                                            obj_op.EnableControls(IG160704);
+                                            obj_op.EnableControls(IG160804);
+                                            obj_op.EnableControls(IG160904);
+                                            obj_op.EnableControls(IG1601004);
+                                            obj_op.EnableControls(IG1601104);
+                                            obj_op.EnableControls(IG1601204);
+
+                                        }
+                                        else
+                                        {
+                                            obj_op.DisableControls(IG0404);
+                                            obj_op.DisableControls(IG0504);
+                                            obj_op.DisableControls(IG060104);
+                                            obj_op.DisableControls(IG060204);
+                                            obj_op.DisableControls(IG060304);
+                                            obj_op.DisableControls(IG060404);
+                                            obj_op.DisableControls(IG060504);
+                                            obj_op.DisableControls(IG070104);
+                                            obj_op.DisableControls(IG070204);
+                                            obj_op.DisableControls(IG070304);
+                                            obj_op.DisableControls(IG070404);
+
+                                            obj_op.DisableControls(IG070504);
+                                            obj_op.DisableControls(IG070604);
+                                            obj_op.DisableControls(IG070704);
+                                            obj_op.DisableControls(IG070804);
+                                            obj_op.DisableControls(IG070904);
+                                            obj_op.DisableControls(IG0701004);
+                                            obj_op.DisableControls(IG0701104);
+                                            obj_op.DisableControls(IG0701204);
+                                            obj_op.DisableControls(IG0701304);
+                                            obj_op.DisableControls(IG0804);
+                                            obj_op.DisableControls(IG0904);
+                                            obj_op.DisableControls(IG01004);
+                                            obj_op.DisableControls(IG01104);
+                                            obj_op.DisableControls(IG01204);
+                                            obj_op.DisableControls(IG01304);
+                                            obj_op.DisableControls(IG01404);
+                                            obj_op.DisableControls(IG01504);
+                                            obj_op.DisableControls(IG160104);
+                                            obj_op.DisableControls(IG160204);
+                                            obj_op.DisableControls(IG160304);
+                                            obj_op.DisableControls(IG160404);
+                                            obj_op.DisableControls(IG160504);
+                                            obj_op.DisableControls(IG160604);
+                                            obj_op.DisableControls(IG160704);
+                                            obj_op.DisableControls(IG160804);
+                                            obj_op.DisableControls(IG160904);
+                                            obj_op.DisableControls(IG1601004);
+                                            obj_op.DisableControls(IG1601104);
+                                            obj_op.DisableControls(IG1601204);
+
+                                        }
+
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0404"].ToString() == null)
@@ -33313,6 +36492,108 @@ namespace iNCK
                             else
                             {
                                 chkMember5.Text = ds.Tables[0].Rows[0]["chkMember5"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IG01.Text == "1")
+                                    {
+
+                                        if (chkMember5.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IG0405);
+                                            obj_op.EnableControls(IG0505);
+                                            obj_op.EnableControls(IG060105);
+                                            obj_op.EnableControls(IG060205);
+                                            obj_op.EnableControls(IG060305);
+                                            obj_op.EnableControls(IG060405);
+                                            obj_op.EnableControls(IG060505);
+                                            obj_op.EnableControls(IG070105);
+                                            obj_op.EnableControls(IG070205);
+                                            obj_op.EnableControls(IG070305);
+                                            obj_op.EnableControls(IG070405);
+
+                                            obj_op.EnableControls(IG070505);
+                                            obj_op.EnableControls(IG070605);
+                                            obj_op.EnableControls(IG070705);
+                                            obj_op.EnableControls(IG070805);
+                                            obj_op.EnableControls(IG070905);
+                                            obj_op.EnableControls(IG0701005);
+                                            obj_op.EnableControls(IG0701105);
+                                            obj_op.EnableControls(IG0701205);
+                                            obj_op.EnableControls(IG0701305);
+                                            obj_op.EnableControls(IG0805);
+                                            obj_op.EnableControls(IG0905);
+                                            obj_op.EnableControls(IG01005);
+                                            obj_op.EnableControls(IG01105);
+                                            obj_op.EnableControls(IG01205);
+                                            obj_op.EnableControls(IG01305);
+                                            obj_op.EnableControls(IG01405);
+                                            obj_op.EnableControls(IG01505);
+                                            obj_op.EnableControls(IG160105);
+                                            obj_op.EnableControls(IG160205);
+                                            obj_op.EnableControls(IG160305);
+                                            obj_op.EnableControls(IG160405);
+                                            obj_op.EnableControls(IG160505);
+                                            obj_op.EnableControls(IG160605);
+                                            obj_op.EnableControls(IG160705);
+                                            obj_op.EnableControls(IG160805);
+                                            obj_op.EnableControls(IG160905);
+                                            obj_op.EnableControls(IG1601005);
+                                            obj_op.EnableControls(IG1601105);
+                                            obj_op.EnableControls(IG1601205);
+
+                                        }
+                                        else
+                                        {
+                                            obj_op.DisableControls(IG0405);
+                                            obj_op.DisableControls(IG0505);
+                                            obj_op.DisableControls(IG060105);
+                                            obj_op.DisableControls(IG060205);
+                                            obj_op.DisableControls(IG060305);
+                                            obj_op.DisableControls(IG060405);
+                                            obj_op.DisableControls(IG060505);
+                                            obj_op.DisableControls(IG070105);
+                                            obj_op.DisableControls(IG070205);
+                                            obj_op.DisableControls(IG070305);
+                                            obj_op.DisableControls(IG070405);
+
+                                            obj_op.DisableControls(IG070505);
+                                            obj_op.DisableControls(IG070605);
+                                            obj_op.DisableControls(IG070705);
+                                            obj_op.DisableControls(IG070805);
+                                            obj_op.DisableControls(IG070905);
+                                            obj_op.DisableControls(IG0701005);
+                                            obj_op.DisableControls(IG0701105);
+                                            obj_op.DisableControls(IG0701205);
+                                            obj_op.DisableControls(IG0701305);
+                                            obj_op.DisableControls(IG0805);
+                                            obj_op.DisableControls(IG0905);
+                                            obj_op.DisableControls(IG01005);
+                                            obj_op.DisableControls(IG01105);
+                                            obj_op.DisableControls(IG01205);
+                                            obj_op.DisableControls(IG01305);
+                                            obj_op.DisableControls(IG01405);
+                                            obj_op.DisableControls(IG01505);
+                                            obj_op.DisableControls(IG160105);
+                                            obj_op.DisableControls(IG160205);
+                                            obj_op.DisableControls(IG160305);
+                                            obj_op.DisableControls(IG160405);
+                                            obj_op.DisableControls(IG160505);
+                                            obj_op.DisableControls(IG160605);
+                                            obj_op.DisableControls(IG160705);
+                                            obj_op.DisableControls(IG160805);
+                                            obj_op.DisableControls(IG160905);
+                                            obj_op.DisableControls(IG1601005);
+                                            obj_op.DisableControls(IG1601105);
+                                            obj_op.DisableControls(IG1601205);
+
+
+                                        }
+
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0405"].ToString() == null)
@@ -33487,15 +36768,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0701201.Text == "0")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG0701301);
-                                        obj_op.DisableControls(IG0801);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG0701301);
-                                        obj_op.EnableControls(IG0801);
+                                        if (IG0701201.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG0701301);
+                                            obj_op.DisableControls(IG0801);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0701301);
+                                            obj_op.EnableControls(IG0801);
+                                        }
                                     }
                                 }
                             }
@@ -33528,13 +36812,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0901.Text == "0")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01001);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01001);
+                                        if (IG0901.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01001);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01001);
+                                        }
                                     }
                                 }
                             }
@@ -33549,17 +36836,19 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01001.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01101);
-                                        obj_op.DisableControls(IG01201);
+                                        if (IG01001.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01101);
+                                            obj_op.DisableControls(IG01201);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01101);
+                                            obj_op.EnableControls(IG01201);
+                                        }
                                     }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01101);
-                                        obj_op.EnableControls(IG01201);
-                                    }
-
                                 }
                             }
 
@@ -33573,13 +36862,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01101.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01201);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01201);
+                                        if (IG01101.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01201);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01201);
+                                        }
                                     }
                                 }
 
@@ -33829,13 +37121,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0902.Text == "0")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01002);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01002);
+                                        if (IG0902.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01002);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01002);
+                                        }
                                     }
                                 }
                             }
@@ -33851,15 +37146,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01002.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01102);
-                                        obj_op.DisableControls(IG01202);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01102);
-                                        obj_op.EnableControls(IG01202);
+                                        if (IG01002.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01102);
+                                            obj_op.DisableControls(IG01202);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01102);
+                                            obj_op.EnableControls(IG01202);
+                                        }
                                     }
                                 }
                             }
@@ -33874,13 +37172,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01102.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01202);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01202);
+                                        if (IG01102.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01202);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01202);
+                                        }
                                     }
                                 }
                             }
@@ -34129,13 +37430,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0903.Text == "0")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01003);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01003);
+                                        if (IG0903.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01003);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01003);
+                                        }
                                     }
                                 }
                             }
@@ -34150,15 +37454,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01003.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01103);
-                                        obj_op.DisableControls(IG01203);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01103);
-                                        obj_op.EnableControls(IG01203);
+                                        if (IG01003.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01103);
+                                            obj_op.DisableControls(IG01203);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01103);
+                                            obj_op.EnableControls(IG01203);
+                                        }
                                     }
                                 }
                             }
@@ -34173,13 +37480,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01103.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01203);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01203);
+                                        if (IG01103.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01203);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01203);
+                                        }
                                     }
                                 }
                             }
@@ -34428,13 +37738,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0904.Text == "0")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01004);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01004);
+                                        if (IG0904.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01004);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01004);
+                                        }
                                     }
                                 }
                             }
@@ -34449,15 +37762,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01004.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01104);
-                                        obj_op.DisableControls(IG01204);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01104);
-                                        obj_op.EnableControls(IG01204);
+                                        if (IG01004.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01104);
+                                            obj_op.DisableControls(IG01204);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01104);
+                                            obj_op.EnableControls(IG01204);
+                                        }
                                     }
                                 }
                             }
@@ -34472,13 +37788,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01104.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01204);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01204);
+                                        if (IG01104.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01204);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01204);
+                                        }
                                     }
                                 }
                             }
@@ -34727,13 +38046,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0905.Text == "0")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01005);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01005);
+                                        if (IG0905.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01005);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01005);
+                                        }
                                     }
 
                                 }
@@ -34749,15 +38071,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01005.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01105);
-                                        obj_op.DisableControls(IG01205);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01105);
-                                        obj_op.EnableControls(IG01205);
+                                        if (IG01005.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01105);
+                                            obj_op.DisableControls(IG01205);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01105);
+                                            obj_op.EnableControls(IG01205);
+                                        }
                                     }
                                 }
                             }
@@ -34772,13 +38097,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01105.Text == "1")
+                                    if (chkMember1.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01205);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01205);
+                                        if (IG01105.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01205);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01205);
+                                        }
                                     }
                                 }
                             }
@@ -35007,6 +38335,73 @@ namespace iNCK
                             else
                             {
                                 chkBaby5.Text = ds.Tables[0].Rows[0]["chkBaby5"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkBaby5.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IC0605);
+                                        obj_op.EnableControls(IC0705);
+                                        obj_op.EnableControls(IC0805);
+                                        obj_op.EnableControls(IC0905);
+                                        obj_op.EnableControls(IC01005);
+                                        obj_op.EnableControls(IC01105);
+
+                                    }
+                                    else
+                                    {
+                                        obj_op.DisableControls(IC0605);
+                                        obj_op.DisableControls(IC0705);
+                                        obj_op.DisableControls(IC0805);
+                                        obj_op.DisableControls(IC0905);
+                                        obj_op.DisableControls(IC01005);
+                                        obj_op.DisableControls(IC01105);
+
+                                        obj_op.DisableControls(IC0606);
+                                        obj_op.DisableControls(IC0706);
+                                        obj_op.DisableControls(IC0806);
+                                        obj_op.DisableControls(IC0906);
+                                        obj_op.DisableControls(IC01006);
+                                        obj_op.DisableControls(IC01106);
+
+                                        obj_op.DisableControls(IC0607);
+                                        obj_op.DisableControls(IC0707);
+                                        obj_op.DisableControls(IC0807);
+                                        obj_op.DisableControls(IC0907);
+                                        obj_op.DisableControls(IC01007);
+                                        obj_op.DisableControls(IC01107);
+
+                                        obj_op.DisableControls(IC0608);
+                                        obj_op.DisableControls(IC0708);
+                                        obj_op.DisableControls(IC0808);
+                                        obj_op.DisableControls(IC0908);
+                                        obj_op.DisableControls(IC01008);
+                                        obj_op.DisableControls(IC01108);
+
+                                        obj_op.DisableControls(IC0609);
+                                        obj_op.DisableControls(IC0709);
+                                        obj_op.DisableControls(IC0809);
+                                        obj_op.DisableControls(IC0909);
+                                        obj_op.DisableControls(IC01009);
+                                        obj_op.DisableControls(IC01109);
+
+                                        obj_op.DisableControls(IC06010);
+                                        obj_op.DisableControls(IC07010);
+                                        obj_op.DisableControls(IC08010);
+                                        obj_op.DisableControls(IC09010);
+                                        obj_op.DisableControls(IC01010);
+                                        obj_op.DisableControls(IC01110);
+
+                                        obj_op.DisableControls(IC06011);
+                                        obj_op.DisableControls(IC07011);
+                                        obj_op.DisableControls(IC08011);
+                                        obj_op.DisableControls(IC09011);
+                                        obj_op.DisableControls(IC01011);
+                                        obj_op.DisableControls(IC01111);
+
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IC0605"].ToString() == null)
@@ -35046,13 +38441,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC0905.Text == "1")
+                                    if (chkBaby5.Text == "1")
                                     {
-                                        obj_op.DisableControls(IC01005);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IC01005);
+                                        if (IC0905.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IC01005);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IC01005);
+                                        }
                                     }
 
                                 }
@@ -35083,231 +38481,447 @@ namespace iNCK
                             else
                             {
                                 chkBaby6.Text = ds.Tables[0].Rows[0]["chkBaby6"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0606"].ToString() == null)
-                            {
-                                IC0606.Text = "";
-                            }
-                            else
-                            {
-                                IC0606.Text = ds.Tables[0].Rows[0]["IC0606"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0706"].ToString() == null)
-                            {
-                                IC0706.Text = "";
-                            }
-                            else
-                            {
-                                IC0706.Text = ds.Tables[0].Rows[0]["IC0706"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0806"].ToString() == null)
-                            {
-                                IC0806.Text = "";
-                            }
-                            else
-                            {
-                                IC0806.Text = ds.Tables[0].Rows[0]["IC0806"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0906"].ToString() == null)
-                            {
-                                IC0906.Text = "";
-                            }
-                            else
-                            {
-                                IC0906.Text = ds.Tables[0].Rows[0]["IC0906"].ToString();
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC0906.Text == "1")
+                                    if (chkBaby6.Text == "1")
                                     {
-                                        obj_op.DisableControls(IC01006);
-                                    }
-                                    else
-                                    {
+                                        obj_op.EnableControls(IC0606);
+                                        obj_op.EnableControls(IC0706);
+                                        obj_op.EnableControls(IC0806);
+                                        obj_op.EnableControls(IC0906);
                                         obj_op.EnableControls(IC01006);
+                                        obj_op.EnableControls(IC01106);
+
                                     }
-                                }
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC01006"].ToString() == null)
-                            {
-                                IC01006.Text = "";
-                            }
-                            else
-                            {
-                                IC01006.Text = ds.Tables[0].Rows[0]["IC01006"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC01106"].ToString() == null)
-                            {
-                                IC01106.Text = "";
-                            }
-                            else
-                            {
-                                IC01106.Text = ds.Tables[0].Rows[0]["IC01106"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["chkBaby7"].ToString() == null)
-                            {
-                                chkBaby7.Text = "";
-                            }
-                            else
-                            {
-                                chkBaby7.Text = ds.Tables[0].Rows[0]["chkBaby7"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0607"].ToString() == null)
-                            {
-                                IC0607.Text = "";
-                            }
-                            else
-                            {
-                                IC0607.Text = ds.Tables[0].Rows[0]["IC0607"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0707"].ToString() == null)
-                            {
-                                IC0707.Text = "";
-                            }
-                            else
-                            {
-                                IC0707.Text = ds.Tables[0].Rows[0]["IC0707"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0807"].ToString() == null)
-                            {
-                                IC0807.Text = "";
-                            }
-                            else
-                            {
-                                IC0807.Text = ds.Tables[0].Rows[0]["IC0807"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0907"].ToString() == null)
-                            {
-                                IC0907.Text = "";
-                            }
-                            else
-                            {
-                                IC0907.Text = ds.Tables[0].Rows[0]["IC0907"].ToString();
-
-                                if (IB05.Text == "1")
-                                {
-                                    if (IC0907.Text == "1")
+                                    else
                                     {
+
+                                        obj_op.DisableControls(IC0606);
+                                        obj_op.DisableControls(IC0706);
+                                        obj_op.DisableControls(IC0806);
+                                        obj_op.DisableControls(IC0906);
+                                        obj_op.DisableControls(IC01006);
+                                        obj_op.DisableControls(IC01106);
+
+
+                                        obj_op.DisableControls(IC0607);
+                                        obj_op.DisableControls(IC0707);
+                                        obj_op.DisableControls(IC0807);
+                                        obj_op.DisableControls(IC0907);
                                         obj_op.DisableControls(IC01007);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IC01007);
-                                    }
-                                }
-                            }
+                                        obj_op.DisableControls(IC01107);
 
-                            if (ds.Tables[0].Rows[0]["IC01007"].ToString() == null)
-                            {
-                                IC01007.Text = "";
-                            }
-                            else
-                            {
-                                IC01007.Text = ds.Tables[0].Rows[0]["IC01007"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC01107"].ToString() == null)
-                            {
-                                IC01107.Text = "";
-                            }
-                            else
-                            {
-                                IC01107.Text = ds.Tables[0].Rows[0]["IC01107"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["chkBaby8"].ToString() == null)
-                            {
-                                chkBaby8.Text = "";
-                            }
-                            else
-                            {
-                                chkBaby8.Text = ds.Tables[0].Rows[0]["chkBaby8"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0608"].ToString() == null)
-                            {
-                                IC0608.Text = "";
-                            }
-                            else
-                            {
-                                IC0608.Text = ds.Tables[0].Rows[0]["IC0608"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0708"].ToString() == null)
-                            {
-                                IC0708.Text = "";
-                            }
-                            else
-                            {
-                                IC0708.Text = ds.Tables[0].Rows[0]["IC0708"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0808"].ToString() == null)
-                            {
-                                IC0808.Text = "";
-                            }
-                            else
-                            {
-                                IC0808.Text = ds.Tables[0].Rows[0]["IC0808"].ToString();
-                            }
-
-                            if (ds.Tables[0].Rows[0]["IC0908"].ToString() == null)
-                            {
-                                IC0908.Text = "";
-                            }
-                            else
-                            {
-                                IC0908.Text = ds.Tables[0].Rows[0]["IC0908"].ToString();
-
-                                if (IB05.Text == "1")
-                                {
-                                    if (IC0908.Text == "1")
-                                    {
+                                        obj_op.DisableControls(IC0608);
+                                        obj_op.DisableControls(IC0708);
+                                        obj_op.DisableControls(IC0808);
+                                        obj_op.DisableControls(IC0908);
                                         obj_op.DisableControls(IC01008);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IC01008);
+                                        obj_op.DisableControls(IC01108);
+
+                                        obj_op.DisableControls(IC0609);
+                                        obj_op.DisableControls(IC0709);
+                                        obj_op.DisableControls(IC0809);
+                                        obj_op.DisableControls(IC0909);
+                                        obj_op.DisableControls(IC01009);
+                                        obj_op.DisableControls(IC01109);
+
+                                        obj_op.DisableControls(IC06010);
+                                        obj_op.DisableControls(IC07010);
+                                        obj_op.DisableControls(IC08010);
+                                        obj_op.DisableControls(IC09010);
+                                        obj_op.DisableControls(IC01010);
+                                        obj_op.DisableControls(IC01110);
+
+                                        obj_op.DisableControls(IC06011);
+                                        obj_op.DisableControls(IC07011);
+                                        obj_op.DisableControls(IC08011);
+                                        obj_op.DisableControls(IC09011);
+                                        obj_op.DisableControls(IC01011);
+                                        obj_op.DisableControls(IC01111);
+
                                     }
                                 }
-                            }
 
-                            if (ds.Tables[0].Rows[0]["IC01008"].ToString() == null)
-                            {
-                                IC01008.Text = "";
-                            }
-                            else
-                            {
-                                IC01008.Text = ds.Tables[0].Rows[0]["IC01008"].ToString();
-                            }
+                                if (ds.Tables[0].Rows[0]["IC0606"].ToString() == null)
+                                {
+                                    IC0606.Text = "";
+                                }
+                                else
+                                {
+                                    IC0606.Text = ds.Tables[0].Rows[0]["IC0606"].ToString();
+                                }
 
-                            if (ds.Tables[0].Rows[0]["IC01108"].ToString() == null)
-                            {
-                                IC01108.Text = "";
-                            }
-                            else
-                            {
-                                IC01108.Text = ds.Tables[0].Rows[0]["IC01108"].ToString();
-                            }
+                                if (ds.Tables[0].Rows[0]["IC0706"].ToString() == null)
+                                {
+                                    IC0706.Text = "";
+                                }
+                                else
+                                {
+                                    IC0706.Text = ds.Tables[0].Rows[0]["IC0706"].ToString();
+                                }
 
-                            if (ds.Tables[0].Rows[0]["chkBaby9"].ToString() == null)
-                            {
-                                chkBaby9.Text = "";
-                            }
-                            else
-                            {
-                                chkBaby9.Text = ds.Tables[0].Rows[0]["chkBaby9"].ToString();
+                                if (ds.Tables[0].Rows[0]["IC0806"].ToString() == null)
+                                {
+                                    IC0806.Text = "";
+                                }
+                                else
+                                {
+                                    IC0806.Text = ds.Tables[0].Rows[0]["IC0806"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0906"].ToString() == null)
+                                {
+                                    IC0906.Text = "";
+                                }
+                                else
+                                {
+                                    IC0906.Text = ds.Tables[0].Rows[0]["IC0906"].ToString();
+
+                                    if (IB05.Text == "1")
+                                    {
+                                        if (chkBaby6.Text == "1")
+                                        {
+                                            if (IC0906.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IC01006);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IC01006);
+                                            }
+                                        }
+                                    }
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC01006"].ToString() == null)
+                                {
+                                    IC01006.Text = "";
+                                }
+                                else
+                                {
+                                    IC01006.Text = ds.Tables[0].Rows[0]["IC01006"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC01106"].ToString() == null)
+                                {
+                                    IC01106.Text = "";
+                                }
+                                else
+                                {
+                                    IC01106.Text = ds.Tables[0].Rows[0]["IC01106"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["chkBaby7"].ToString() == null)
+                                {
+                                    chkBaby7.Text = "";
+                                }
+                                else
+                                {
+                                    chkBaby7.Text = ds.Tables[0].Rows[0]["chkBaby7"].ToString();
+
+                                    if (IB05.Text == "1")
+                                    {
+
+                                        if (chkBaby7.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IC0607);
+                                            obj_op.EnableControls(IC0707);
+                                            obj_op.EnableControls(IC0807);
+                                            obj_op.EnableControls(IC0907);
+                                            obj_op.EnableControls(IC01007);
+                                            obj_op.EnableControls(IC01107);
+
+                                        }
+                                        else
+                                        {
+
+                                            obj_op.DisableControls(IC0607);
+                                            obj_op.DisableControls(IC0707);
+                                            obj_op.DisableControls(IC0807);
+                                            obj_op.DisableControls(IC0907);
+                                            obj_op.DisableControls(IC01007);
+                                            obj_op.DisableControls(IC01107);
+
+                                            obj_op.DisableControls(IC0608);
+                                            obj_op.DisableControls(IC0708);
+                                            obj_op.DisableControls(IC0808);
+                                            obj_op.DisableControls(IC0908);
+                                            obj_op.DisableControls(IC01008);
+                                            obj_op.DisableControls(IC01108);
+
+                                            obj_op.DisableControls(IC0609);
+                                            obj_op.DisableControls(IC0709);
+                                            obj_op.DisableControls(IC0809);
+                                            obj_op.DisableControls(IC0909);
+                                            obj_op.DisableControls(IC01009);
+                                            obj_op.DisableControls(IC01109);
+
+                                            obj_op.DisableControls(IC06010);
+                                            obj_op.DisableControls(IC07010);
+                                            obj_op.DisableControls(IC08010);
+                                            obj_op.DisableControls(IC09010);
+                                            obj_op.DisableControls(IC01010);
+                                            obj_op.DisableControls(IC01110);
+
+                                            obj_op.DisableControls(IC06011);
+                                            obj_op.DisableControls(IC07011);
+                                            obj_op.DisableControls(IC08011);
+                                            obj_op.DisableControls(IC09011);
+                                            obj_op.DisableControls(IC01011);
+                                            obj_op.DisableControls(IC01111);
+
+                                        }
+
+
+                                    }
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0607"].ToString() == null)
+                                {
+                                    IC0607.Text = "";
+                                }
+                                else
+                                {
+                                    IC0607.Text = ds.Tables[0].Rows[0]["IC0607"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0707"].ToString() == null)
+                                {
+                                    IC0707.Text = "";
+                                }
+                                else
+                                {
+                                    IC0707.Text = ds.Tables[0].Rows[0]["IC0707"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0807"].ToString() == null)
+                                {
+                                    IC0807.Text = "";
+                                }
+                                else
+                                {
+                                    IC0807.Text = ds.Tables[0].Rows[0]["IC0807"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0907"].ToString() == null)
+                                {
+                                    IC0907.Text = "";
+                                }
+                                else
+                                {
+                                    IC0907.Text = ds.Tables[0].Rows[0]["IC0907"].ToString();
+
+
+                                    if (IB05.Text == "1")
+                                    {
+                                        if (chkBaby7.Text == "1")
+                                        {
+                                            if (IC0907.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IC01007);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IC01007);
+                                            }
+                                        }
+                                    }
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC01007"].ToString() == null)
+                                {
+                                    IC01007.Text = "";
+                                }
+                                else
+                                {
+                                    IC01007.Text = ds.Tables[0].Rows[0]["IC01007"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC01107"].ToString() == null)
+                                {
+                                    IC01107.Text = "";
+                                }
+                                else
+                                {
+                                    IC01107.Text = ds.Tables[0].Rows[0]["IC01107"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["chkBaby8"].ToString() == null)
+                                {
+                                    chkBaby8.Text = "";
+                                }
+                                else
+                                {
+                                    chkBaby8.Text = ds.Tables[0].Rows[0]["chkBaby8"].ToString();
+
+                                    if (IB05.Text == "1")
+                                    {
+
+                                        if (chkBaby8.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IC0608);
+                                            obj_op.EnableControls(IC0708);
+                                            obj_op.EnableControls(IC0808);
+                                            obj_op.EnableControls(IC0908);
+                                            obj_op.EnableControls(IC01008);
+                                            obj_op.EnableControls(IC01108);
+
+                                        }
+                                        else
+                                        {
+
+                                            obj_op.DisableControls(IC0608);
+                                            obj_op.DisableControls(IC0708);
+                                            obj_op.DisableControls(IC0808);
+                                            obj_op.DisableControls(IC0908);
+                                            obj_op.DisableControls(IC01008);
+                                            obj_op.DisableControls(IC01108);
+
+                                            obj_op.DisableControls(IC0609);
+                                            obj_op.DisableControls(IC0709);
+                                            obj_op.DisableControls(IC0809);
+                                            obj_op.DisableControls(IC0909);
+                                            obj_op.DisableControls(IC01009);
+                                            obj_op.DisableControls(IC01109);
+
+                                            obj_op.DisableControls(IC06010);
+                                            obj_op.DisableControls(IC07010);
+                                            obj_op.DisableControls(IC08010);
+                                            obj_op.DisableControls(IC09010);
+                                            obj_op.DisableControls(IC01010);
+                                            obj_op.DisableControls(IC01110);
+
+                                            obj_op.DisableControls(IC06011);
+                                            obj_op.DisableControls(IC07011);
+                                            obj_op.DisableControls(IC08011);
+                                            obj_op.DisableControls(IC09011);
+                                            obj_op.DisableControls(IC01011);
+                                            obj_op.DisableControls(IC01111);
+
+                                        }
+
+                                    }
+
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0608"].ToString() == null)
+                                {
+                                    IC0608.Text = "";
+                                }
+                                else
+                                {
+                                    IC0608.Text = ds.Tables[0].Rows[0]["IC0608"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0708"].ToString() == null)
+                                {
+                                    IC0708.Text = "";
+                                }
+                                else
+                                {
+                                    IC0708.Text = ds.Tables[0].Rows[0]["IC0708"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0808"].ToString() == null)
+                                {
+                                    IC0808.Text = "";
+                                }
+                                else
+                                {
+                                    IC0808.Text = ds.Tables[0].Rows[0]["IC0808"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC0908"].ToString() == null)
+                                {
+                                    IC0908.Text = "";
+                                }
+                                else
+                                {
+                                    IC0908.Text = ds.Tables[0].Rows[0]["IC0908"].ToString();
+
+                                    if (IB05.Text == "1")
+                                    {
+                                        if (chkBaby8.Text == "1")
+                                        {
+                                            if (IC0908.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IC01008);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IC01008);
+                                            }
+                                        }
+                                    }
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC01008"].ToString() == null)
+                                {
+                                    IC01008.Text = "";
+                                }
+                                else
+                                {
+                                    IC01008.Text = ds.Tables[0].Rows[0]["IC01008"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["IC01108"].ToString() == null)
+                                {
+                                    IC01108.Text = "";
+                                }
+                                else
+                                {
+                                    IC01108.Text = ds.Tables[0].Rows[0]["IC01108"].ToString();
+                                }
+
+                                if (ds.Tables[0].Rows[0]["chkBaby9"].ToString() == null)
+                                {
+                                    chkBaby9.Text = "";
+                                }
+                                else
+                                {
+                                    chkBaby9.Text = ds.Tables[0].Rows[0]["chkBaby9"].ToString();
+
+                                    if (IB05.Text == "1")
+                                    {
+                                        if (chkBaby9.Text == "1")
+                                        {
+                                            obj_op.EnableControls(IC0609);
+                                            obj_op.EnableControls(IC0709);
+                                            obj_op.EnableControls(IC0809);
+                                            obj_op.EnableControls(IC0909);
+                                            obj_op.EnableControls(IC01009);
+                                            obj_op.EnableControls(IC01109);
+
+                                        }
+                                        else
+                                        {
+
+                                            obj_op.DisableControls(IC0609);
+                                            obj_op.DisableControls(IC0709);
+                                            obj_op.DisableControls(IC0809);
+                                            obj_op.DisableControls(IC0909);
+                                            obj_op.DisableControls(IC01009);
+                                            obj_op.DisableControls(IC01109);
+
+                                            obj_op.DisableControls(IC06010);
+                                            obj_op.DisableControls(IC07010);
+                                            obj_op.DisableControls(IC08010);
+                                            obj_op.DisableControls(IC09010);
+                                            obj_op.DisableControls(IC01010);
+                                            obj_op.DisableControls(IC01110);
+
+                                            obj_op.DisableControls(IC06011);
+                                            obj_op.DisableControls(IC07011);
+                                            obj_op.DisableControls(IC08011);
+                                            obj_op.DisableControls(IC09011);
+                                            obj_op.DisableControls(IC01011);
+                                            obj_op.DisableControls(IC01111);
+
+                                        }
+
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IC0609"].ToString() == null)
@@ -35347,13 +38961,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC0909.Text == "1")
+                                    if (chkBaby9.Text == "1")
                                     {
-                                        obj_op.DisableControls(IC01009);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IC01009);
+                                        if (IC0909.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IC01009);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IC01009);
+                                        }
                                     }
                                 }
                             }
@@ -35384,6 +39001,38 @@ namespace iNCK
                             else
                             {
                                 chkBaby10.Text = ds.Tables[0].Rows[0]["chkBaby10"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkBaby10.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IC06010);
+                                        obj_op.EnableControls(IC07010);
+                                        obj_op.EnableControls(IC08010);
+                                        obj_op.EnableControls(IC09010);
+                                        obj_op.EnableControls(IC01010);
+                                        obj_op.EnableControls(IC01110);
+
+                                    }
+                                    else
+                                    {
+                                        obj_op.DisableControls(IC06010);
+                                        obj_op.DisableControls(IC07010);
+                                        obj_op.DisableControls(IC08010);
+                                        obj_op.DisableControls(IC09010);
+                                        obj_op.DisableControls(IC01010);
+                                        obj_op.DisableControls(IC01110);
+
+                                        obj_op.DisableControls(IC06011);
+                                        obj_op.DisableControls(IC07011);
+                                        obj_op.DisableControls(IC08011);
+                                        obj_op.DisableControls(IC09011);
+                                        obj_op.DisableControls(IC01011);
+                                        obj_op.DisableControls(IC01111);
+                                    }
+
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IC06010"].ToString() == null)
@@ -35423,13 +39072,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC09010.Text == "1")
+                                    if (chkBaby10.Text == "1")
                                     {
-                                        obj_op.DisableControls(IC01010);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IC01010);
+                                        if (IC09010.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IC01010);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IC01010);
+                                        }
                                     }
                                 }
                             }
@@ -35459,6 +39111,30 @@ namespace iNCK
                             else
                             {
                                 chkBaby11.Text = ds.Tables[0].Rows[0]["chkBaby11"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkBaby11.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IC06011);
+                                        obj_op.EnableControls(IC07011);
+                                        obj_op.EnableControls(IC08011);
+                                        obj_op.EnableControls(IC09011);
+                                        obj_op.EnableControls(IC01011);
+                                        obj_op.EnableControls(IC01111);
+
+                                    }
+                                    else
+                                    {
+                                        obj_op.DisableControls(IC06011);
+                                        obj_op.DisableControls(IC07011);
+                                        obj_op.DisableControls(IC08011);
+                                        obj_op.DisableControls(IC09011);
+                                        obj_op.DisableControls(IC01011);
+                                        obj_op.DisableControls(IC01111);
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IC06011"].ToString() == null)
@@ -35498,13 +39174,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC09011.Text == "1")
+                                    if (chkBaby11.Text == "1")
                                     {
-                                        obj_op.DisableControls(IC01011);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IC01011);
+                                        if (IC09011.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IC01011);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IC01011);
+                                        }
                                     }
                                 }
                             }
@@ -35534,6 +39213,301 @@ namespace iNCK
                             else
                             {
                                 chkMember6.Text = ds.Tables[0].Rows[0]["chkMember6"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember6.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0406);
+                                        obj_op.EnableControls(IG0506);
+                                        obj_op.EnableControls(IG060106);
+                                        obj_op.EnableControls(IG060206);
+                                        obj_op.EnableControls(IG060306);
+                                        obj_op.EnableControls(IG060406);
+                                        obj_op.EnableControls(IG060506);
+
+                                        obj_op.EnableControls(IG070106);
+                                        obj_op.EnableControls(IG070206);
+                                        obj_op.EnableControls(IG070306);
+                                        obj_op.EnableControls(IG070406);
+                                        obj_op.EnableControls(IG070506);
+                                        obj_op.EnableControls(IG070606);
+                                        obj_op.EnableControls(IG070706);
+                                        obj_op.EnableControls(IG070806);
+                                        obj_op.EnableControls(IG070906);
+                                        obj_op.EnableControls(IG0701006);
+                                        obj_op.EnableControls(IG0701106);
+                                        obj_op.EnableControls(IG0701206);
+                                        obj_op.EnableControls(IG0701306);
+
+                                        obj_op.EnableControls(IG0806);
+                                        obj_op.EnableControls(IG0906);
+                                        obj_op.EnableControls(IG01006);
+
+                                        obj_op.EnableControls(IG01106);
+                                        obj_op.EnableControls(IG01206);
+                                        obj_op.EnableControls(IG01306);
+                                        obj_op.EnableControls(IG01406);
+                                        obj_op.EnableControls(IG01506);
+
+                                        obj_op.EnableControls(IG160106);
+                                        obj_op.EnableControls(IG160206);
+                                        obj_op.EnableControls(IG160306);
+                                        obj_op.EnableControls(IG160406);
+                                        obj_op.EnableControls(IG160506);
+                                        obj_op.EnableControls(IG160606);
+                                        obj_op.EnableControls(IG160706);
+                                        obj_op.EnableControls(IG160806);
+                                        obj_op.EnableControls(IG160906);
+                                        obj_op.EnableControls(IG1601006);
+                                        obj_op.EnableControls(IG1601106);
+                                        obj_op.EnableControls(IG1601206);
+
+                                    }
+                                    else
+                                    {
+
+                                        obj_op.DisableControls(IG0406);
+                                        obj_op.DisableControls(IG0506);
+                                        obj_op.DisableControls(IG060106);
+                                        obj_op.DisableControls(IG060206);
+                                        obj_op.DisableControls(IG060306);
+                                        obj_op.DisableControls(IG060406);
+                                        obj_op.DisableControls(IG060506);
+
+                                        obj_op.DisableControls(IG070106);
+                                        obj_op.DisableControls(IG070206);
+                                        obj_op.DisableControls(IG070306);
+                                        obj_op.DisableControls(IG070406);
+                                        obj_op.DisableControls(IG070506);
+                                        obj_op.DisableControls(IG070606);
+                                        obj_op.DisableControls(IG070706);
+                                        obj_op.DisableControls(IG070806);
+                                        obj_op.DisableControls(IG070906);
+                                        obj_op.DisableControls(IG0701006);
+                                        obj_op.DisableControls(IG0701106);
+                                        obj_op.DisableControls(IG0701206);
+                                        obj_op.DisableControls(IG0701306);
+
+                                        obj_op.DisableControls(IG0806);
+                                        obj_op.DisableControls(IG0906);
+                                        obj_op.DisableControls(IG01006);
+
+                                        obj_op.DisableControls(IG01106);
+                                        obj_op.DisableControls(IG01206);
+                                        obj_op.DisableControls(IG01306);
+                                        obj_op.DisableControls(IG01406);
+                                        obj_op.DisableControls(IG01506);
+
+                                        obj_op.DisableControls(IG160106);
+                                        obj_op.DisableControls(IG160206);
+                                        obj_op.DisableControls(IG160306);
+                                        obj_op.DisableControls(IG160406);
+                                        obj_op.DisableControls(IG160506);
+                                        obj_op.DisableControls(IG160606);
+                                        obj_op.DisableControls(IG160706);
+                                        obj_op.DisableControls(IG160806);
+                                        obj_op.DisableControls(IG160906);
+                                        obj_op.DisableControls(IG1601006);
+                                        obj_op.DisableControls(IG1601106);
+                                        obj_op.DisableControls(IG1601206);
+
+
+
+                                        obj_op.DisableControls(IG0407);
+                                        obj_op.DisableControls(IG0507);
+                                        obj_op.DisableControls(IG060107);
+                                        obj_op.DisableControls(IG060207);
+                                        obj_op.DisableControls(IG060307);
+                                        obj_op.DisableControls(IG060407);
+                                        obj_op.DisableControls(IG060507);
+
+                                        obj_op.DisableControls(IG070107);
+                                        obj_op.DisableControls(IG070207);
+                                        obj_op.DisableControls(IG070307);
+                                        obj_op.DisableControls(IG070407);
+                                        obj_op.DisableControls(IG070507);
+                                        obj_op.DisableControls(IG070607);
+                                        obj_op.DisableControls(IG070707);
+                                        obj_op.DisableControls(IG070807);
+                                        obj_op.DisableControls(IG070907);
+                                        obj_op.DisableControls(IG0701007);
+                                        obj_op.DisableControls(IG0701107);
+                                        obj_op.DisableControls(IG0701207);
+                                        obj_op.DisableControls(IG0701307);
+
+                                        obj_op.DisableControls(IG0807);
+                                        obj_op.DisableControls(IG0907);
+                                        obj_op.DisableControls(IG01007);
+
+                                        obj_op.DisableControls(IG01107);
+                                        obj_op.DisableControls(IG01207);
+                                        obj_op.DisableControls(IG01307);
+                                        obj_op.DisableControls(IG01407);
+                                        obj_op.DisableControls(IG01507);
+
+                                        obj_op.DisableControls(IG160107);
+                                        obj_op.DisableControls(IG160207);
+                                        obj_op.DisableControls(IG160307);
+                                        obj_op.DisableControls(IG160407);
+                                        obj_op.DisableControls(IG160507);
+                                        obj_op.DisableControls(IG160607);
+                                        obj_op.DisableControls(IG160707);
+                                        obj_op.DisableControls(IG160807);
+                                        obj_op.DisableControls(IG160907);
+                                        obj_op.DisableControls(IG1601007);
+                                        obj_op.DisableControls(IG1601107);
+                                        obj_op.DisableControls(IG1601207);
+
+
+
+                                        obj_op.DisableControls(IG0408);
+                                        obj_op.DisableControls(IG0508);
+                                        obj_op.DisableControls(IG060108);
+                                        obj_op.DisableControls(IG060208);
+                                        obj_op.DisableControls(IG060308);
+                                        obj_op.DisableControls(IG060408);
+                                        obj_op.DisableControls(IG060508);
+
+                                        obj_op.DisableControls(IG070108);
+                                        obj_op.DisableControls(IG070208);
+                                        obj_op.DisableControls(IG070308);
+                                        obj_op.DisableControls(IG070408);
+                                        obj_op.DisableControls(IG070508);
+                                        obj_op.DisableControls(IG070608);
+                                        obj_op.DisableControls(IG070708);
+                                        obj_op.DisableControls(IG070808);
+                                        obj_op.DisableControls(IG070908);
+                                        obj_op.DisableControls(IG0701008);
+                                        obj_op.DisableControls(IG0701108);
+                                        obj_op.DisableControls(IG0701208);
+                                        obj_op.DisableControls(IG0701308);
+
+                                        obj_op.DisableControls(IG0808);
+                                        obj_op.DisableControls(IG0908);
+                                        obj_op.DisableControls(IG01008);
+
+                                        obj_op.DisableControls(IG01108);
+                                        obj_op.DisableControls(IG01208);
+                                        obj_op.DisableControls(IG01308);
+                                        obj_op.DisableControls(IG01408);
+                                        obj_op.DisableControls(IG01508);
+
+                                        obj_op.DisableControls(IG160108);
+                                        obj_op.DisableControls(IG160208);
+                                        obj_op.DisableControls(IG160308);
+                                        obj_op.DisableControls(IG160408);
+                                        obj_op.DisableControls(IG160508);
+                                        obj_op.DisableControls(IG160608);
+                                        obj_op.DisableControls(IG160708);
+                                        obj_op.DisableControls(IG160808);
+                                        obj_op.DisableControls(IG160908);
+                                        obj_op.DisableControls(IG1601008);
+                                        obj_op.DisableControls(IG1601108);
+                                        obj_op.DisableControls(IG1601208);
+
+
+
+
+
+                                        obj_op.DisableControls(IG0409);
+                                        obj_op.DisableControls(IG0509);
+                                        obj_op.DisableControls(IG060109);
+                                        obj_op.DisableControls(IG060209);
+                                        obj_op.DisableControls(IG060309);
+                                        obj_op.DisableControls(IG060409);
+                                        obj_op.DisableControls(IG060509);
+
+                                        obj_op.DisableControls(IG070109);
+                                        obj_op.DisableControls(IG070209);
+                                        obj_op.DisableControls(IG070309);
+                                        obj_op.DisableControls(IG070409);
+                                        obj_op.DisableControls(IG070509);
+                                        obj_op.DisableControls(IG070609);
+                                        obj_op.DisableControls(IG070709);
+                                        obj_op.DisableControls(IG070809);
+                                        obj_op.DisableControls(IG070909);
+                                        obj_op.DisableControls(IG0701009);
+                                        obj_op.DisableControls(IG0701109);
+                                        obj_op.DisableControls(IG0701209);
+                                        obj_op.DisableControls(IG0701309);
+
+                                        obj_op.DisableControls(IG0809);
+                                        obj_op.DisableControls(IG0909);
+                                        obj_op.DisableControls(IG01009);
+
+                                        obj_op.DisableControls(IG01109);
+                                        obj_op.DisableControls(IG01209);
+                                        obj_op.DisableControls(IG01309);
+                                        obj_op.DisableControls(IG01409);
+                                        obj_op.DisableControls(IG01509);
+
+                                        obj_op.DisableControls(IG160109);
+                                        obj_op.DisableControls(IG160209);
+                                        obj_op.DisableControls(IG160309);
+                                        obj_op.DisableControls(IG160409);
+                                        obj_op.DisableControls(IG160509);
+                                        obj_op.DisableControls(IG160609);
+                                        obj_op.DisableControls(IG160709);
+                                        obj_op.DisableControls(IG160809);
+                                        obj_op.DisableControls(IG160909);
+                                        obj_op.DisableControls(IG1601009);
+                                        obj_op.DisableControls(IG1601109);
+                                        obj_op.DisableControls(IG1601209);
+
+
+
+
+
+
+                                        obj_op.DisableControls(IG0410);
+                                        obj_op.DisableControls(IG0510);
+                                        obj_op.DisableControls(IG060110);
+                                        obj_op.DisableControls(IG060210);
+                                        obj_op.DisableControls(IG060310);
+                                        obj_op.DisableControls(IG060410);
+                                        obj_op.DisableControls(IG060510);
+
+                                        obj_op.DisableControls(IG070110);
+                                        obj_op.DisableControls(IG070210);
+                                        obj_op.DisableControls(IG070310);
+                                        obj_op.DisableControls(IG070410);
+                                        obj_op.DisableControls(IG070510);
+                                        obj_op.DisableControls(IG070610);
+                                        obj_op.DisableControls(IG070710);
+                                        obj_op.DisableControls(IG070810);
+                                        obj_op.DisableControls(IG070910);
+                                        obj_op.DisableControls(IG0701010);
+                                        obj_op.DisableControls(IG0701110);
+                                        obj_op.DisableControls(IG0701210);
+                                        obj_op.DisableControls(IG0701310);
+
+                                        obj_op.DisableControls(IG0810);
+                                        obj_op.DisableControls(IG0910);
+                                        obj_op.DisableControls(IG01010);
+
+                                        obj_op.DisableControls(IG01110);
+                                        obj_op.DisableControls(IG01210);
+                                        obj_op.DisableControls(IG01310);
+                                        obj_op.DisableControls(IG01410);
+                                        obj_op.DisableControls(IG01510);
+
+                                        obj_op.DisableControls(IG160110);
+                                        obj_op.DisableControls(IG160210);
+                                        obj_op.DisableControls(IG160310);
+                                        obj_op.DisableControls(IG160410);
+                                        obj_op.DisableControls(IG160510);
+                                        obj_op.DisableControls(IG160610);
+                                        obj_op.DisableControls(IG160710);
+                                        obj_op.DisableControls(IG160810);
+                                        obj_op.DisableControls(IG160910);
+                                        obj_op.DisableControls(IG1601010);
+                                        obj_op.DisableControls(IG1601110);
+                                        obj_op.DisableControls(IG1601210);
+
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0406"].ToString() == null)
@@ -35735,13 +39709,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0906.Text == "0")
+                                    if (chkMember6.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01006);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01006);
+                                        if (IG0906.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01006);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01006);
+                                        }
                                     }
                                 }
                             }
@@ -35756,15 +39733,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01006.Text == "1")
+                                    if (chkMember6.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01106);
-                                        obj_op.DisableControls(IG01206);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01106);
-                                        obj_op.EnableControls(IG01206);
+                                        if (IG01006.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01106);
+                                            obj_op.DisableControls(IG01206);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01106);
+                                            obj_op.EnableControls(IG01206);
+                                        }
                                     }
                                 }
                             }
@@ -35776,6 +39756,255 @@ namespace iNCK
                             else
                             {
                                 chkMember7.Text = ds.Tables[0].Rows[0]["chkMember7"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember7.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0407);
+                                        obj_op.EnableControls(IG0507);
+                                        obj_op.EnableControls(IG060107);
+                                        obj_op.EnableControls(IG060207);
+                                        obj_op.EnableControls(IG060307);
+                                        obj_op.EnableControls(IG060407);
+                                        obj_op.EnableControls(IG060507);
+
+                                        obj_op.EnableControls(IG070107);
+                                        obj_op.EnableControls(IG070207);
+                                        obj_op.EnableControls(IG070307);
+                                        obj_op.EnableControls(IG070407);
+                                        obj_op.EnableControls(IG070507);
+                                        obj_op.EnableControls(IG070607);
+                                        obj_op.EnableControls(IG070707);
+                                        obj_op.EnableControls(IG070807);
+                                        obj_op.EnableControls(IG070907);
+                                        obj_op.EnableControls(IG0701007);
+                                        obj_op.EnableControls(IG0701107);
+                                        obj_op.EnableControls(IG0701207);
+                                        obj_op.EnableControls(IG0701307);
+
+                                        obj_op.EnableControls(IG0807);
+                                        obj_op.EnableControls(IG0907);
+                                        obj_op.EnableControls(IG01007);
+
+                                        obj_op.EnableControls(IG01107);
+                                        obj_op.EnableControls(IG01207);
+                                        obj_op.EnableControls(IG01307);
+                                        obj_op.EnableControls(IG01407);
+                                        obj_op.EnableControls(IG01507);
+
+                                        obj_op.EnableControls(IG160107);
+                                        obj_op.EnableControls(IG160207);
+                                        obj_op.EnableControls(IG160307);
+                                        obj_op.EnableControls(IG160407);
+                                        obj_op.EnableControls(IG160507);
+                                        obj_op.EnableControls(IG160607);
+                                        obj_op.EnableControls(IG160707);
+                                        obj_op.EnableControls(IG160807);
+                                        obj_op.EnableControls(IG160907);
+                                        obj_op.EnableControls(IG1601007);
+                                        obj_op.EnableControls(IG1601107);
+                                        obj_op.EnableControls(IG1601207);
+
+                                    }
+                                    else
+                                    {
+
+
+                                        obj_op.DisableControls(IG0407);
+                                        obj_op.DisableControls(IG0507);
+                                        obj_op.DisableControls(IG060107);
+                                        obj_op.DisableControls(IG060207);
+                                        obj_op.DisableControls(IG060307);
+                                        obj_op.DisableControls(IG060407);
+                                        obj_op.DisableControls(IG060507);
+
+                                        obj_op.DisableControls(IG070107);
+                                        obj_op.DisableControls(IG070207);
+                                        obj_op.DisableControls(IG070307);
+                                        obj_op.DisableControls(IG070407);
+                                        obj_op.DisableControls(IG070507);
+                                        obj_op.DisableControls(IG070607);
+                                        obj_op.DisableControls(IG070707);
+                                        obj_op.DisableControls(IG070807);
+                                        obj_op.DisableControls(IG070907);
+                                        obj_op.DisableControls(IG0701007);
+                                        obj_op.DisableControls(IG0701107);
+                                        obj_op.DisableControls(IG0701207);
+                                        obj_op.DisableControls(IG0701307);
+
+                                        obj_op.DisableControls(IG0807);
+                                        obj_op.DisableControls(IG0907);
+                                        obj_op.DisableControls(IG01007);
+
+                                        obj_op.DisableControls(IG01107);
+                                        obj_op.DisableControls(IG01207);
+                                        obj_op.DisableControls(IG01307);
+                                        obj_op.DisableControls(IG01407);
+                                        obj_op.DisableControls(IG01507);
+
+                                        obj_op.DisableControls(IG160107);
+                                        obj_op.DisableControls(IG160207);
+                                        obj_op.DisableControls(IG160307);
+                                        obj_op.DisableControls(IG160407);
+                                        obj_op.DisableControls(IG160507);
+                                        obj_op.DisableControls(IG160607);
+                                        obj_op.DisableControls(IG160707);
+                                        obj_op.DisableControls(IG160807);
+                                        obj_op.DisableControls(IG160907);
+                                        obj_op.DisableControls(IG1601007);
+                                        obj_op.DisableControls(IG1601107);
+                                        obj_op.DisableControls(IG1601207);
+
+
+
+                                        obj_op.DisableControls(IG0408);
+                                        obj_op.DisableControls(IG0508);
+                                        obj_op.DisableControls(IG060108);
+                                        obj_op.DisableControls(IG060208);
+                                        obj_op.DisableControls(IG060308);
+                                        obj_op.DisableControls(IG060408);
+                                        obj_op.DisableControls(IG060508);
+
+                                        obj_op.DisableControls(IG070108);
+                                        obj_op.DisableControls(IG070208);
+                                        obj_op.DisableControls(IG070308);
+                                        obj_op.DisableControls(IG070408);
+                                        obj_op.DisableControls(IG070508);
+                                        obj_op.DisableControls(IG070608);
+                                        obj_op.DisableControls(IG070708);
+                                        obj_op.DisableControls(IG070808);
+                                        obj_op.DisableControls(IG070908);
+                                        obj_op.DisableControls(IG0701008);
+                                        obj_op.DisableControls(IG0701108);
+                                        obj_op.DisableControls(IG0701208);
+                                        obj_op.DisableControls(IG0701308);
+
+                                        obj_op.DisableControls(IG0808);
+                                        obj_op.DisableControls(IG0908);
+                                        obj_op.DisableControls(IG01008);
+
+                                        obj_op.DisableControls(IG01108);
+                                        obj_op.DisableControls(IG01208);
+                                        obj_op.DisableControls(IG01308);
+                                        obj_op.DisableControls(IG01408);
+                                        obj_op.DisableControls(IG01508);
+
+                                        obj_op.DisableControls(IG160108);
+                                        obj_op.DisableControls(IG160208);
+                                        obj_op.DisableControls(IG160308);
+                                        obj_op.DisableControls(IG160408);
+                                        obj_op.DisableControls(IG160508);
+                                        obj_op.DisableControls(IG160608);
+                                        obj_op.DisableControls(IG160708);
+                                        obj_op.DisableControls(IG160808);
+                                        obj_op.DisableControls(IG160908);
+                                        obj_op.DisableControls(IG1601008);
+                                        obj_op.DisableControls(IG1601108);
+                                        obj_op.DisableControls(IG1601208);
+
+
+
+
+
+                                        obj_op.DisableControls(IG0409);
+                                        obj_op.DisableControls(IG0509);
+                                        obj_op.DisableControls(IG060109);
+                                        obj_op.DisableControls(IG060209);
+                                        obj_op.DisableControls(IG060309);
+                                        obj_op.DisableControls(IG060409);
+                                        obj_op.DisableControls(IG060509);
+
+                                        obj_op.DisableControls(IG070109);
+                                        obj_op.DisableControls(IG070209);
+                                        obj_op.DisableControls(IG070309);
+                                        obj_op.DisableControls(IG070409);
+                                        obj_op.DisableControls(IG070509);
+                                        obj_op.DisableControls(IG070609);
+                                        obj_op.DisableControls(IG070709);
+                                        obj_op.DisableControls(IG070809);
+                                        obj_op.DisableControls(IG070909);
+                                        obj_op.DisableControls(IG0701009);
+                                        obj_op.DisableControls(IG0701109);
+                                        obj_op.DisableControls(IG0701209);
+                                        obj_op.DisableControls(IG0701309);
+
+                                        obj_op.DisableControls(IG0809);
+                                        obj_op.DisableControls(IG0909);
+                                        obj_op.DisableControls(IG01009);
+
+                                        obj_op.DisableControls(IG01109);
+                                        obj_op.DisableControls(IG01209);
+                                        obj_op.DisableControls(IG01309);
+                                        obj_op.DisableControls(IG01409);
+                                        obj_op.DisableControls(IG01509);
+
+                                        obj_op.DisableControls(IG160109);
+                                        obj_op.DisableControls(IG160209);
+                                        obj_op.DisableControls(IG160309);
+                                        obj_op.DisableControls(IG160409);
+                                        obj_op.DisableControls(IG160509);
+                                        obj_op.DisableControls(IG160609);
+                                        obj_op.DisableControls(IG160709);
+                                        obj_op.DisableControls(IG160809);
+                                        obj_op.DisableControls(IG160909);
+                                        obj_op.DisableControls(IG1601009);
+                                        obj_op.DisableControls(IG1601109);
+                                        obj_op.DisableControls(IG1601209);
+
+
+
+
+
+
+                                        obj_op.DisableControls(IG0410);
+                                        obj_op.DisableControls(IG0510);
+                                        obj_op.DisableControls(IG060110);
+                                        obj_op.DisableControls(IG060210);
+                                        obj_op.DisableControls(IG060310);
+                                        obj_op.DisableControls(IG060410);
+                                        obj_op.DisableControls(IG060510);
+
+                                        obj_op.DisableControls(IG070110);
+                                        obj_op.DisableControls(IG070210);
+                                        obj_op.DisableControls(IG070310);
+                                        obj_op.DisableControls(IG070410);
+                                        obj_op.DisableControls(IG070510);
+                                        obj_op.DisableControls(IG070610);
+                                        obj_op.DisableControls(IG070710);
+                                        obj_op.DisableControls(IG070810);
+                                        obj_op.DisableControls(IG070910);
+                                        obj_op.DisableControls(IG0701010);
+                                        obj_op.DisableControls(IG0701110);
+                                        obj_op.DisableControls(IG0701210);
+                                        obj_op.DisableControls(IG0701310);
+
+                                        obj_op.DisableControls(IG0810);
+                                        obj_op.DisableControls(IG0910);
+                                        obj_op.DisableControls(IG01010);
+
+                                        obj_op.DisableControls(IG01110);
+                                        obj_op.DisableControls(IG01210);
+                                        obj_op.DisableControls(IG01310);
+                                        obj_op.DisableControls(IG01410);
+                                        obj_op.DisableControls(IG01510);
+
+                                        obj_op.DisableControls(IG160110);
+                                        obj_op.DisableControls(IG160210);
+                                        obj_op.DisableControls(IG160310);
+                                        obj_op.DisableControls(IG160410);
+                                        obj_op.DisableControls(IG160510);
+                                        obj_op.DisableControls(IG160610);
+                                        obj_op.DisableControls(IG160710);
+                                        obj_op.DisableControls(IG160810);
+                                        obj_op.DisableControls(IG160910);
+                                        obj_op.DisableControls(IG1601010);
+                                        obj_op.DisableControls(IG1601110);
+                                        obj_op.DisableControls(IG1601210);
+
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0407"].ToString() == null)
@@ -35977,13 +40206,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0907.Text == "0")
+                                    if (chkMember7.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01007);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01007);
+                                        if (IG0907.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01007);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01007);
+                                        }
                                     }
                                 }
                             }
@@ -35995,6 +40227,23 @@ namespace iNCK
                             else
                             {
                                 IG01007.Text = ds.Tables[0].Rows[0]["IG01007"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember7.Text == "1")
+                                    {
+                                        if (IG01007.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01107);
+                                            obj_op.DisableControls(IG01207);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01107);
+                                            obj_op.EnableControls(IG01207);
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["chkMember8"].ToString() == null)
@@ -36004,6 +40253,208 @@ namespace iNCK
                             else
                             {
                                 chkMember8.Text = ds.Tables[0].Rows[0]["chkMember8"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember8.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0408);
+                                        obj_op.EnableControls(IG0508);
+                                        obj_op.EnableControls(IG060108);
+                                        obj_op.EnableControls(IG060208);
+                                        obj_op.EnableControls(IG060308);
+                                        obj_op.EnableControls(IG060408);
+                                        obj_op.EnableControls(IG060508);
+
+                                        obj_op.EnableControls(IG070108);
+                                        obj_op.EnableControls(IG070208);
+                                        obj_op.EnableControls(IG070308);
+                                        obj_op.EnableControls(IG070408);
+                                        obj_op.EnableControls(IG070508);
+                                        obj_op.EnableControls(IG070608);
+                                        obj_op.EnableControls(IG070708);
+                                        obj_op.EnableControls(IG070808);
+                                        obj_op.EnableControls(IG070908);
+                                        obj_op.EnableControls(IG0701008);
+                                        obj_op.EnableControls(IG0701108);
+                                        obj_op.EnableControls(IG0701208);
+                                        obj_op.EnableControls(IG0701308);
+
+                                        obj_op.EnableControls(IG0808);
+                                        obj_op.EnableControls(IG0908);
+                                        obj_op.EnableControls(IG01008);
+
+                                        obj_op.EnableControls(IG01108);
+                                        obj_op.EnableControls(IG01208);
+                                        obj_op.EnableControls(IG01308);
+                                        obj_op.EnableControls(IG01408);
+                                        obj_op.EnableControls(IG01508);
+
+                                        obj_op.EnableControls(IG160108);
+                                        obj_op.EnableControls(IG160208);
+                                        obj_op.EnableControls(IG160308);
+                                        obj_op.EnableControls(IG160408);
+                                        obj_op.EnableControls(IG160508);
+                                        obj_op.EnableControls(IG160608);
+                                        obj_op.EnableControls(IG160708);
+                                        obj_op.EnableControls(IG160808);
+                                        obj_op.EnableControls(IG160908);
+                                        obj_op.EnableControls(IG1601008);
+                                        obj_op.EnableControls(IG1601108);
+                                        obj_op.EnableControls(IG1601208);
+
+                                    }
+                                    else
+                                    {
+
+
+                                        obj_op.DisableControls(IG0408);
+                                        obj_op.DisableControls(IG0508);
+                                        obj_op.DisableControls(IG060108);
+                                        obj_op.DisableControls(IG060208);
+                                        obj_op.DisableControls(IG060308);
+                                        obj_op.DisableControls(IG060408);
+                                        obj_op.DisableControls(IG060508);
+
+                                        obj_op.DisableControls(IG070108);
+                                        obj_op.DisableControls(IG070208);
+                                        obj_op.DisableControls(IG070308);
+                                        obj_op.DisableControls(IG070408);
+                                        obj_op.DisableControls(IG070508);
+                                        obj_op.DisableControls(IG070608);
+                                        obj_op.DisableControls(IG070708);
+                                        obj_op.DisableControls(IG070808);
+                                        obj_op.DisableControls(IG070908);
+                                        obj_op.DisableControls(IG0701008);
+                                        obj_op.DisableControls(IG0701108);
+                                        obj_op.DisableControls(IG0701208);
+                                        obj_op.DisableControls(IG0701308);
+
+                                        obj_op.DisableControls(IG0808);
+                                        obj_op.DisableControls(IG0908);
+                                        obj_op.DisableControls(IG01008);
+
+                                        obj_op.DisableControls(IG01108);
+                                        obj_op.DisableControls(IG01208);
+                                        obj_op.DisableControls(IG01308);
+                                        obj_op.DisableControls(IG01408);
+                                        obj_op.DisableControls(IG01508);
+
+                                        obj_op.DisableControls(IG160108);
+                                        obj_op.DisableControls(IG160208);
+                                        obj_op.DisableControls(IG160308);
+                                        obj_op.DisableControls(IG160408);
+                                        obj_op.DisableControls(IG160508);
+                                        obj_op.DisableControls(IG160608);
+                                        obj_op.DisableControls(IG160708);
+                                        obj_op.DisableControls(IG160808);
+                                        obj_op.DisableControls(IG160908);
+                                        obj_op.DisableControls(IG1601008);
+                                        obj_op.DisableControls(IG1601108);
+                                        obj_op.DisableControls(IG1601208);
+
+
+
+
+
+                                        obj_op.DisableControls(IG0409);
+                                        obj_op.DisableControls(IG0509);
+                                        obj_op.DisableControls(IG060109);
+                                        obj_op.DisableControls(IG060209);
+                                        obj_op.DisableControls(IG060309);
+                                        obj_op.DisableControls(IG060409);
+                                        obj_op.DisableControls(IG060509);
+
+                                        obj_op.DisableControls(IG070109);
+                                        obj_op.DisableControls(IG070209);
+                                        obj_op.DisableControls(IG070309);
+                                        obj_op.DisableControls(IG070409);
+                                        obj_op.DisableControls(IG070509);
+                                        obj_op.DisableControls(IG070609);
+                                        obj_op.DisableControls(IG070709);
+                                        obj_op.DisableControls(IG070809);
+                                        obj_op.DisableControls(IG070909);
+                                        obj_op.DisableControls(IG0701009);
+                                        obj_op.DisableControls(IG0701109);
+                                        obj_op.DisableControls(IG0701209);
+                                        obj_op.DisableControls(IG0701309);
+
+                                        obj_op.DisableControls(IG0809);
+                                        obj_op.DisableControls(IG0909);
+                                        obj_op.DisableControls(IG01009);
+
+                                        obj_op.DisableControls(IG01109);
+                                        obj_op.DisableControls(IG01209);
+                                        obj_op.DisableControls(IG01309);
+                                        obj_op.DisableControls(IG01409);
+                                        obj_op.DisableControls(IG01509);
+
+                                        obj_op.DisableControls(IG160109);
+                                        obj_op.DisableControls(IG160209);
+                                        obj_op.DisableControls(IG160309);
+                                        obj_op.DisableControls(IG160409);
+                                        obj_op.DisableControls(IG160509);
+                                        obj_op.DisableControls(IG160609);
+                                        obj_op.DisableControls(IG160709);
+                                        obj_op.DisableControls(IG160809);
+                                        obj_op.DisableControls(IG160909);
+                                        obj_op.DisableControls(IG1601009);
+                                        obj_op.DisableControls(IG1601109);
+                                        obj_op.DisableControls(IG1601209);
+
+
+
+
+
+
+                                        obj_op.DisableControls(IG0410);
+                                        obj_op.DisableControls(IG0510);
+                                        obj_op.DisableControls(IG060110);
+                                        obj_op.DisableControls(IG060210);
+                                        obj_op.DisableControls(IG060310);
+                                        obj_op.DisableControls(IG060410);
+                                        obj_op.DisableControls(IG060510);
+
+                                        obj_op.DisableControls(IG070110);
+                                        obj_op.DisableControls(IG070210);
+                                        obj_op.DisableControls(IG070310);
+                                        obj_op.DisableControls(IG070410);
+                                        obj_op.DisableControls(IG070510);
+                                        obj_op.DisableControls(IG070610);
+                                        obj_op.DisableControls(IG070710);
+                                        obj_op.DisableControls(IG070810);
+                                        obj_op.DisableControls(IG070910);
+                                        obj_op.DisableControls(IG0701010);
+                                        obj_op.DisableControls(IG0701110);
+                                        obj_op.DisableControls(IG0701210);
+                                        obj_op.DisableControls(IG0701310);
+
+                                        obj_op.DisableControls(IG0810);
+                                        obj_op.DisableControls(IG0910);
+                                        obj_op.DisableControls(IG01010);
+
+                                        obj_op.DisableControls(IG01110);
+                                        obj_op.DisableControls(IG01210);
+                                        obj_op.DisableControls(IG01310);
+                                        obj_op.DisableControls(IG01410);
+                                        obj_op.DisableControls(IG01510);
+
+                                        obj_op.DisableControls(IG160110);
+                                        obj_op.DisableControls(IG160210);
+                                        obj_op.DisableControls(IG160310);
+                                        obj_op.DisableControls(IG160410);
+                                        obj_op.DisableControls(IG160510);
+                                        obj_op.DisableControls(IG160610);
+                                        obj_op.DisableControls(IG160710);
+                                        obj_op.DisableControls(IG160810);
+                                        obj_op.DisableControls(IG160910);
+                                        obj_op.DisableControls(IG1601010);
+                                        obj_op.DisableControls(IG1601110);
+                                        obj_op.DisableControls(IG1601210);
+
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0408"].ToString() == null)
@@ -36205,13 +40656,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0908.Text == "0")
+                                    if (chkMember8.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01008);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01008);
+                                        if (IG0908.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01008);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01008);
+                                        }
                                     }
                                 }
                             }
@@ -36223,6 +40677,20 @@ namespace iNCK
                             else
                             {
                                 IG01008.Text = ds.Tables[0].Rows[0]["IG01008"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (IG01008.Text == "1")
+                                    {
+                                        obj_op.DisableControls(IG01108);
+                                        obj_op.DisableControls(IG01208);
+                                    }
+                                    else
+                                    {
+                                        obj_op.EnableControls(IG01108);
+                                        obj_op.EnableControls(IG01208);
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["chkMember9"].ToString() == null)
@@ -36232,6 +40700,161 @@ namespace iNCK
                             else
                             {
                                 chkMember9.Text = ds.Tables[0].Rows[0]["chkMember9"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+
+                                    if (chkMember9.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0409);
+                                        obj_op.EnableControls(IG0509);
+                                        obj_op.EnableControls(IG060109);
+                                        obj_op.EnableControls(IG060209);
+                                        obj_op.EnableControls(IG060309);
+                                        obj_op.EnableControls(IG060409);
+                                        obj_op.EnableControls(IG060509);
+
+                                        obj_op.EnableControls(IG070109);
+                                        obj_op.EnableControls(IG070209);
+                                        obj_op.EnableControls(IG070309);
+                                        obj_op.EnableControls(IG070409);
+                                        obj_op.EnableControls(IG070509);
+                                        obj_op.EnableControls(IG070609);
+                                        obj_op.EnableControls(IG070709);
+                                        obj_op.EnableControls(IG070809);
+                                        obj_op.EnableControls(IG070909);
+                                        obj_op.EnableControls(IG0701009);
+                                        obj_op.EnableControls(IG0701109);
+                                        obj_op.EnableControls(IG0701209);
+                                        obj_op.EnableControls(IG0701309);
+
+                                        obj_op.EnableControls(IG0809);
+                                        obj_op.EnableControls(IG0909);
+                                        obj_op.EnableControls(IG01009);
+
+                                        obj_op.EnableControls(IG01109);
+                                        obj_op.EnableControls(IG01209);
+                                        obj_op.EnableControls(IG01309);
+                                        obj_op.EnableControls(IG01409);
+                                        obj_op.EnableControls(IG01509);
+
+                                        obj_op.EnableControls(IG160109);
+                                        obj_op.EnableControls(IG160209);
+                                        obj_op.EnableControls(IG160309);
+                                        obj_op.EnableControls(IG160409);
+                                        obj_op.EnableControls(IG160509);
+                                        obj_op.EnableControls(IG160609);
+                                        obj_op.EnableControls(IG160709);
+                                        obj_op.EnableControls(IG160809);
+                                        obj_op.EnableControls(IG160909);
+                                        obj_op.EnableControls(IG1601009);
+                                        obj_op.EnableControls(IG1601109);
+                                        obj_op.EnableControls(IG1601209);
+
+                                    }
+                                    else
+                                    {
+
+
+                                        obj_op.DisableControls(IG0409);
+                                        obj_op.DisableControls(IG0509);
+                                        obj_op.DisableControls(IG060109);
+                                        obj_op.DisableControls(IG060209);
+                                        obj_op.DisableControls(IG060309);
+                                        obj_op.DisableControls(IG060409);
+                                        obj_op.DisableControls(IG060509);
+
+                                        obj_op.DisableControls(IG070109);
+                                        obj_op.DisableControls(IG070209);
+                                        obj_op.DisableControls(IG070309);
+                                        obj_op.DisableControls(IG070409);
+                                        obj_op.DisableControls(IG070509);
+                                        obj_op.DisableControls(IG070609);
+                                        obj_op.DisableControls(IG070709);
+                                        obj_op.DisableControls(IG070809);
+                                        obj_op.DisableControls(IG070909);
+                                        obj_op.DisableControls(IG0701009);
+                                        obj_op.DisableControls(IG0701109);
+                                        obj_op.DisableControls(IG0701209);
+                                        obj_op.DisableControls(IG0701309);
+
+                                        obj_op.DisableControls(IG0809);
+                                        obj_op.DisableControls(IG0909);
+                                        obj_op.DisableControls(IG01009);
+
+                                        obj_op.DisableControls(IG01109);
+                                        obj_op.DisableControls(IG01209);
+                                        obj_op.DisableControls(IG01309);
+                                        obj_op.DisableControls(IG01409);
+                                        obj_op.DisableControls(IG01509);
+
+                                        obj_op.DisableControls(IG160109);
+                                        obj_op.DisableControls(IG160209);
+                                        obj_op.DisableControls(IG160309);
+                                        obj_op.DisableControls(IG160409);
+                                        obj_op.DisableControls(IG160509);
+                                        obj_op.DisableControls(IG160609);
+                                        obj_op.DisableControls(IG160709);
+                                        obj_op.DisableControls(IG160809);
+                                        obj_op.DisableControls(IG160909);
+                                        obj_op.DisableControls(IG1601009);
+                                        obj_op.DisableControls(IG1601109);
+                                        obj_op.DisableControls(IG1601209);
+
+
+
+
+
+
+                                        obj_op.DisableControls(IG0410);
+                                        obj_op.DisableControls(IG0510);
+                                        obj_op.DisableControls(IG060110);
+                                        obj_op.DisableControls(IG060210);
+                                        obj_op.DisableControls(IG060310);
+                                        obj_op.DisableControls(IG060410);
+                                        obj_op.DisableControls(IG060510);
+
+                                        obj_op.DisableControls(IG070110);
+                                        obj_op.DisableControls(IG070210);
+                                        obj_op.DisableControls(IG070310);
+                                        obj_op.DisableControls(IG070410);
+                                        obj_op.DisableControls(IG070510);
+                                        obj_op.DisableControls(IG070610);
+                                        obj_op.DisableControls(IG070710);
+                                        obj_op.DisableControls(IG070810);
+                                        obj_op.DisableControls(IG070910);
+                                        obj_op.DisableControls(IG0701010);
+                                        obj_op.DisableControls(IG0701110);
+                                        obj_op.DisableControls(IG0701210);
+                                        obj_op.DisableControls(IG0701310);
+
+                                        obj_op.DisableControls(IG0810);
+                                        obj_op.DisableControls(IG0910);
+                                        obj_op.DisableControls(IG01010);
+
+                                        obj_op.DisableControls(IG01110);
+                                        obj_op.DisableControls(IG01210);
+                                        obj_op.DisableControls(IG01310);
+                                        obj_op.DisableControls(IG01410);
+                                        obj_op.DisableControls(IG01510);
+
+                                        obj_op.DisableControls(IG160110);
+                                        obj_op.DisableControls(IG160210);
+                                        obj_op.DisableControls(IG160310);
+                                        obj_op.DisableControls(IG160410);
+                                        obj_op.DisableControls(IG160510);
+                                        obj_op.DisableControls(IG160610);
+                                        obj_op.DisableControls(IG160710);
+                                        obj_op.DisableControls(IG160810);
+                                        obj_op.DisableControls(IG160910);
+                                        obj_op.DisableControls(IG1601010);
+                                        obj_op.DisableControls(IG1601110);
+                                        obj_op.DisableControls(IG1601210);
+
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0409"].ToString() == null)
@@ -36433,13 +41056,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0909.Text == "0")
+                                    if (chkMember9.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01009);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01009);
+                                        if (IG0909.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01009);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01009);
+                                        }
                                     }
                                 }
                             }
@@ -36451,6 +41077,23 @@ namespace iNCK
                             else
                             {
                                 IG01009.Text = ds.Tables[0].Rows[0]["IG01009"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember9.Text == "1")
+                                    {
+                                        if (IG01009.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01109);
+                                            obj_op.DisableControls(IG01209);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01109);
+                                            obj_op.EnableControls(IG01209);
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["chkMember10"].ToString() == null)
@@ -36460,6 +41103,107 @@ namespace iNCK
                             else
                             {
                                 chkMember10.Text = ds.Tables[0].Rows[0]["chkMember10"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember10.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0410);
+                                        obj_op.EnableControls(IG0510);
+                                        obj_op.EnableControls(IG060110);
+                                        obj_op.EnableControls(IG060210);
+                                        obj_op.EnableControls(IG060310);
+                                        obj_op.EnableControls(IG060410);
+                                        obj_op.EnableControls(IG060510);
+
+                                        obj_op.EnableControls(IG070110);
+                                        obj_op.EnableControls(IG070210);
+                                        obj_op.EnableControls(IG070310);
+                                        obj_op.EnableControls(IG070410);
+                                        obj_op.EnableControls(IG070510);
+                                        obj_op.EnableControls(IG070610);
+                                        obj_op.EnableControls(IG070710);
+                                        obj_op.EnableControls(IG070810);
+                                        obj_op.EnableControls(IG070910);
+                                        obj_op.EnableControls(IG0701010);
+                                        obj_op.EnableControls(IG0701110);
+                                        obj_op.EnableControls(IG0701210);
+                                        obj_op.EnableControls(IG0701310);
+
+                                        obj_op.EnableControls(IG0810);
+                                        obj_op.EnableControls(IG0910);
+                                        obj_op.EnableControls(IG01010);
+
+                                        obj_op.EnableControls(IG01110);
+                                        obj_op.EnableControls(IG01210);
+                                        obj_op.EnableControls(IG01310);
+                                        obj_op.EnableControls(IG01410);
+                                        obj_op.EnableControls(IG01510);
+
+                                        obj_op.EnableControls(IG160110);
+                                        obj_op.EnableControls(IG160210);
+                                        obj_op.EnableControls(IG160310);
+                                        obj_op.EnableControls(IG160410);
+                                        obj_op.EnableControls(IG160510);
+                                        obj_op.EnableControls(IG160610);
+                                        obj_op.EnableControls(IG160710);
+                                        obj_op.EnableControls(IG160810);
+                                        obj_op.EnableControls(IG160910);
+                                        obj_op.EnableControls(IG1601010);
+                                        obj_op.EnableControls(IG1601110);
+                                        obj_op.EnableControls(IG1601210);
+
+                                    }
+                                    else
+                                    {
+
+                                        obj_op.DisableControls(IG0410);
+                                        obj_op.DisableControls(IG0510);
+                                        obj_op.DisableControls(IG060110);
+                                        obj_op.DisableControls(IG060210);
+                                        obj_op.DisableControls(IG060310);
+                                        obj_op.DisableControls(IG060410);
+                                        obj_op.DisableControls(IG060510);
+
+                                        obj_op.DisableControls(IG070110);
+                                        obj_op.DisableControls(IG070210);
+                                        obj_op.DisableControls(IG070310);
+                                        obj_op.DisableControls(IG070410);
+                                        obj_op.DisableControls(IG070510);
+                                        obj_op.DisableControls(IG070610);
+                                        obj_op.DisableControls(IG070710);
+                                        obj_op.DisableControls(IG070810);
+                                        obj_op.DisableControls(IG070910);
+                                        obj_op.DisableControls(IG0701010);
+                                        obj_op.DisableControls(IG0701110);
+                                        obj_op.DisableControls(IG0701210);
+                                        obj_op.DisableControls(IG0701310);
+
+                                        obj_op.DisableControls(IG0810);
+                                        obj_op.DisableControls(IG0910);
+                                        obj_op.DisableControls(IG01010);
+
+                                        obj_op.DisableControls(IG01110);
+                                        obj_op.DisableControls(IG01210);
+                                        obj_op.DisableControls(IG01310);
+                                        obj_op.DisableControls(IG01410);
+                                        obj_op.DisableControls(IG01510);
+
+                                        obj_op.DisableControls(IG160110);
+                                        obj_op.DisableControls(IG160210);
+                                        obj_op.DisableControls(IG160310);
+                                        obj_op.DisableControls(IG160410);
+                                        obj_op.DisableControls(IG160510);
+                                        obj_op.DisableControls(IG160610);
+                                        obj_op.DisableControls(IG160710);
+                                        obj_op.DisableControls(IG160810);
+                                        obj_op.DisableControls(IG160910);
+                                        obj_op.DisableControls(IG1601010);
+                                        obj_op.DisableControls(IG1601110);
+                                        obj_op.DisableControls(IG1601210);
+
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0410"].ToString() == null)
@@ -36661,13 +41405,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0910.Text == "0")
+                                    if (chkMember10.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01010);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01010);
+                                        if (IG0910.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01010);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01010);
+                                        }
                                     }
                                 }
                             }
@@ -36679,6 +41426,23 @@ namespace iNCK
                             else
                             {
                                 IG01010.Text = ds.Tables[0].Rows[0]["IG01010"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember10.Text == "1")
+                                    {
+                                        if (IG01010.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01110);
+                                            obj_op.DisableControls(IG01210);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01110);
+                                            obj_op.EnableControls(IG01210);
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG01106"].ToString() == null)
@@ -36698,6 +41462,8 @@ namespace iNCK
                             {
                                 IG01206.Text = ds.Tables[0].Rows[0]["IG01206"].ToString();
                             }
+
+
 
                             if (ds.Tables[0].Rows[0]["IG01306"].ToString() == null)
                             {
@@ -36733,6 +41499,7 @@ namespace iNCK
                             else
                             {
                                 IG01107.Text = ds.Tables[0].Rows[0]["IG01107"].ToString();
+
 
                                 if (IB05.Text == "1")
                                 {
@@ -37502,6 +42269,301 @@ namespace iNCK
                             else
                             {
                                 chkMember11.Text = ds.Tables[0].Rows[0]["chkMember11"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember11.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0411);
+                                        obj_op.EnableControls(IG0511);
+                                        obj_op.EnableControls(IG060111);
+                                        obj_op.EnableControls(IG060211);
+                                        obj_op.EnableControls(IG060311);
+                                        obj_op.EnableControls(IG060411);
+                                        obj_op.EnableControls(IG060511);
+
+                                        obj_op.EnableControls(IG070111);
+                                        obj_op.EnableControls(IG070211);
+                                        obj_op.EnableControls(IG070311);
+                                        obj_op.EnableControls(IG070411);
+                                        obj_op.EnableControls(IG070511);
+                                        obj_op.EnableControls(IG070611);
+                                        obj_op.EnableControls(IG070711);
+                                        obj_op.EnableControls(IG070811);
+                                        obj_op.EnableControls(IG070911);
+                                        obj_op.EnableControls(IG0701011);
+                                        obj_op.EnableControls(IG0701111);
+                                        obj_op.EnableControls(IG0701211);
+                                        obj_op.EnableControls(IG0701311);
+
+
+                                        obj_op.EnableControls(IG0811);
+                                        obj_op.EnableControls(IG0911);
+                                        obj_op.EnableControls(IG01011);
+                                        obj_op.EnableControls(IG01111);
+                                        obj_op.EnableControls(IG01211);
+                                        obj_op.EnableControls(IG01311);
+                                        obj_op.EnableControls(IG01411);
+                                        obj_op.EnableControls(IG01511);
+
+                                        obj_op.EnableControls(IG160111);
+                                        obj_op.EnableControls(IG160211);
+                                        obj_op.EnableControls(IG160311);
+                                        obj_op.EnableControls(IG160411);
+                                        obj_op.EnableControls(IG160511);
+                                        obj_op.EnableControls(IG160611);
+                                        obj_op.EnableControls(IG160711);
+                                        obj_op.EnableControls(IG160811);
+                                        obj_op.EnableControls(IG160911);
+                                        obj_op.EnableControls(IG1601011);
+                                        obj_op.EnableControls(IG1601111);
+                                        obj_op.EnableControls(IG1601211);
+
+
+                                    }
+                                    else
+                                    {
+
+                                        obj_op.DisableControls(IG0411);
+                                        obj_op.DisableControls(IG0511);
+                                        obj_op.DisableControls(IG060111);
+                                        obj_op.DisableControls(IG060211);
+                                        obj_op.DisableControls(IG060311);
+                                        obj_op.DisableControls(IG060411);
+                                        obj_op.DisableControls(IG060511);
+
+                                        obj_op.DisableControls(IG070111);
+                                        obj_op.DisableControls(IG070211);
+                                        obj_op.DisableControls(IG070311);
+                                        obj_op.DisableControls(IG070411);
+                                        obj_op.DisableControls(IG070511);
+                                        obj_op.DisableControls(IG070611);
+                                        obj_op.DisableControls(IG070711);
+                                        obj_op.DisableControls(IG070811);
+                                        obj_op.DisableControls(IG070911);
+                                        obj_op.DisableControls(IG0701011);
+                                        obj_op.DisableControls(IG0701111);
+                                        obj_op.DisableControls(IG0701211);
+                                        obj_op.DisableControls(IG0701311);
+
+
+                                        obj_op.DisableControls(IG0811);
+                                        obj_op.DisableControls(IG0911);
+                                        obj_op.DisableControls(IG01011);
+                                        obj_op.DisableControls(IG01111);
+                                        obj_op.DisableControls(IG01211);
+                                        obj_op.DisableControls(IG01311);
+                                        obj_op.DisableControls(IG01411);
+                                        obj_op.DisableControls(IG01511);
+
+                                        obj_op.DisableControls(IG160111);
+                                        obj_op.DisableControls(IG160211);
+                                        obj_op.DisableControls(IG160311);
+                                        obj_op.DisableControls(IG160411);
+                                        obj_op.DisableControls(IG160511);
+                                        obj_op.DisableControls(IG160611);
+                                        obj_op.DisableControls(IG160711);
+                                        obj_op.DisableControls(IG160811);
+                                        obj_op.DisableControls(IG160911);
+                                        obj_op.DisableControls(IG1601011);
+                                        obj_op.DisableControls(IG1601111);
+                                        obj_op.DisableControls(IG1601211);
+
+
+
+
+
+                                        obj_op.DisableControls(IG0412);
+                                        obj_op.DisableControls(IG0512);
+                                        obj_op.DisableControls(IG060112);
+                                        obj_op.DisableControls(IG060212);
+                                        obj_op.DisableControls(IG060312);
+                                        obj_op.DisableControls(IG060412);
+                                        obj_op.DisableControls(IG060512);
+
+                                        obj_op.DisableControls(IG070112);
+                                        obj_op.DisableControls(IG070212);
+                                        obj_op.DisableControls(IG070312);
+                                        obj_op.DisableControls(IG070412);
+                                        obj_op.DisableControls(IG070512);
+                                        obj_op.DisableControls(IG070612);
+                                        obj_op.DisableControls(IG070712);
+                                        obj_op.DisableControls(IG070812);
+                                        obj_op.DisableControls(IG070912);
+                                        obj_op.DisableControls(IG0701012);
+                                        obj_op.DisableControls(IG0701112);
+                                        obj_op.DisableControls(IG0701212);
+                                        obj_op.DisableControls(IG0701312);
+
+
+                                        obj_op.DisableControls(IG0812);
+                                        obj_op.DisableControls(IG0912);
+                                        obj_op.DisableControls(IG01012);
+                                        obj_op.DisableControls(IG01112);
+                                        obj_op.DisableControls(IG01212);
+                                        obj_op.DisableControls(IG01312);
+                                        obj_op.DisableControls(IG01412);
+                                        obj_op.DisableControls(IG01512);
+
+                                        obj_op.DisableControls(IG160112);
+                                        obj_op.DisableControls(IG160212);
+                                        obj_op.DisableControls(IG160312);
+                                        obj_op.DisableControls(IG160412);
+                                        obj_op.DisableControls(IG160512);
+                                        obj_op.DisableControls(IG160612);
+                                        obj_op.DisableControls(IG160712);
+                                        obj_op.DisableControls(IG160812);
+                                        obj_op.DisableControls(IG160912);
+                                        obj_op.DisableControls(IG1601012);
+                                        obj_op.DisableControls(IG1601112);
+                                        obj_op.DisableControls(IG1601212);
+
+
+
+
+                                        obj_op.DisableControls(IG0413);
+                                        obj_op.DisableControls(IG0513);
+                                        obj_op.DisableControls(IG060113);
+                                        obj_op.DisableControls(IG060213);
+                                        obj_op.DisableControls(IG060313);
+                                        obj_op.DisableControls(IG060413);
+                                        obj_op.DisableControls(IG060513);
+
+                                        obj_op.DisableControls(IG070113);
+                                        obj_op.DisableControls(IG070213);
+                                        obj_op.DisableControls(IG070313);
+                                        obj_op.DisableControls(IG070413);
+                                        obj_op.DisableControls(IG070513);
+                                        obj_op.DisableControls(IG070613);
+                                        obj_op.DisableControls(IG070713);
+                                        obj_op.DisableControls(IG070813);
+                                        obj_op.DisableControls(IG070913);
+                                        obj_op.DisableControls(IG0701013);
+                                        obj_op.DisableControls(IG0701113);
+                                        obj_op.DisableControls(IG0701213);
+                                        obj_op.DisableControls(IG0701313);
+
+
+                                        obj_op.DisableControls(IG0813);
+                                        obj_op.DisableControls(IG0913);
+                                        obj_op.DisableControls(IG01013);
+                                        obj_op.DisableControls(IG01113);
+                                        obj_op.DisableControls(IG01213);
+                                        obj_op.DisableControls(IG01313);
+                                        obj_op.DisableControls(IG01413);
+                                        obj_op.DisableControls(IG01513);
+
+                                        obj_op.DisableControls(IG160113);
+                                        obj_op.DisableControls(IG160213);
+                                        obj_op.DisableControls(IG160313);
+                                        obj_op.DisableControls(IG160413);
+                                        obj_op.DisableControls(IG160513);
+                                        obj_op.DisableControls(IG160613);
+                                        obj_op.DisableControls(IG160713);
+                                        obj_op.DisableControls(IG160813);
+                                        obj_op.DisableControls(IG160913);
+                                        obj_op.DisableControls(IG1601013);
+                                        obj_op.DisableControls(IG1601113);
+                                        obj_op.DisableControls(IG1601213);
+
+
+
+                                        obj_op.DisableControls(IG0414);
+                                        obj_op.DisableControls(IG0514);
+                                        obj_op.DisableControls(IG060114);
+                                        obj_op.DisableControls(IG060214);
+                                        obj_op.DisableControls(IG060314);
+                                        obj_op.DisableControls(IG060414);
+                                        obj_op.DisableControls(IG060514);
+
+                                        obj_op.DisableControls(IG070114);
+                                        obj_op.DisableControls(IG070214);
+                                        obj_op.DisableControls(IG070314);
+                                        obj_op.DisableControls(IG070414);
+                                        obj_op.DisableControls(IG070514);
+                                        obj_op.DisableControls(IG070614);
+                                        obj_op.DisableControls(IG070714);
+                                        obj_op.DisableControls(IG070814);
+                                        obj_op.DisableControls(IG070914);
+                                        obj_op.DisableControls(IG0701014);
+                                        obj_op.DisableControls(IG0701114);
+                                        obj_op.DisableControls(IG0701214);
+                                        obj_op.DisableControls(IG0701314);
+
+
+                                        obj_op.DisableControls(IG0814);
+                                        obj_op.DisableControls(IG0914);
+                                        obj_op.DisableControls(IG01014);
+                                        obj_op.DisableControls(IG01114);
+                                        obj_op.DisableControls(IG01214);
+                                        obj_op.DisableControls(IG01314);
+                                        obj_op.DisableControls(IG01414);
+                                        obj_op.DisableControls(IG01514);
+
+                                        obj_op.DisableControls(IG160114);
+                                        obj_op.DisableControls(IG160214);
+                                        obj_op.DisableControls(IG160314);
+                                        obj_op.DisableControls(IG160414);
+                                        obj_op.DisableControls(IG160514);
+                                        obj_op.DisableControls(IG160614);
+                                        obj_op.DisableControls(IG160714);
+                                        obj_op.DisableControls(IG160814);
+                                        obj_op.DisableControls(IG160914);
+                                        obj_op.DisableControls(IG1601014);
+                                        obj_op.DisableControls(IG1601114);
+                                        obj_op.DisableControls(IG1601214);
+
+
+
+
+                                        obj_op.DisableControls(IG0415);
+                                        obj_op.DisableControls(IG0515);
+                                        obj_op.DisableControls(IG060115);
+                                        obj_op.DisableControls(IG060215);
+                                        obj_op.DisableControls(IG060315);
+                                        obj_op.DisableControls(IG060415);
+                                        obj_op.DisableControls(IG060515);
+
+                                        obj_op.DisableControls(IG070115);
+                                        obj_op.DisableControls(IG070215);
+                                        obj_op.DisableControls(IG070315);
+                                        obj_op.DisableControls(IG070415);
+                                        obj_op.DisableControls(IG070515);
+                                        obj_op.DisableControls(IG070615);
+                                        obj_op.DisableControls(IG070715);
+                                        obj_op.DisableControls(IG070815);
+                                        obj_op.DisableControls(IG070915);
+                                        obj_op.DisableControls(IG0701015);
+                                        obj_op.DisableControls(IG0701115);
+                                        obj_op.DisableControls(IG0701215);
+                                        obj_op.DisableControls(IG0701315);
+
+
+                                        obj_op.DisableControls(IG0815);
+                                        obj_op.DisableControls(IG0915);
+                                        obj_op.DisableControls(IG01015);
+                                        obj_op.DisableControls(IG01115);
+                                        obj_op.DisableControls(IG01215);
+                                        obj_op.DisableControls(IG01315);
+                                        obj_op.DisableControls(IG01415);
+                                        obj_op.DisableControls(IG01515);
+
+                                        obj_op.DisableControls(IG160115);
+                                        obj_op.DisableControls(IG160215);
+                                        obj_op.DisableControls(IG160315);
+                                        obj_op.DisableControls(IG160415);
+                                        obj_op.DisableControls(IG160515);
+                                        obj_op.DisableControls(IG160615);
+                                        obj_op.DisableControls(IG160715);
+                                        obj_op.DisableControls(IG160815);
+                                        obj_op.DisableControls(IG160915);
+                                        obj_op.DisableControls(IG1601015);
+                                        obj_op.DisableControls(IG1601115);
+                                        obj_op.DisableControls(IG1601215);
+                                    }
+
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0411"].ToString() == null)
@@ -37574,6 +42636,252 @@ namespace iNCK
                             else
                             {
                                 chkMember12.Text = ds.Tables[0].Rows[0]["chkMember12"].ToString();
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember12.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0412);
+                                        obj_op.EnableControls(IG0512);
+                                        obj_op.EnableControls(IG060112);
+                                        obj_op.EnableControls(IG060212);
+                                        obj_op.EnableControls(IG060312);
+                                        obj_op.EnableControls(IG060412);
+                                        obj_op.EnableControls(IG060512);
+
+                                        obj_op.EnableControls(IG070112);
+                                        obj_op.EnableControls(IG070212);
+                                        obj_op.EnableControls(IG070312);
+                                        obj_op.EnableControls(IG070412);
+                                        obj_op.EnableControls(IG070512);
+                                        obj_op.EnableControls(IG070612);
+                                        obj_op.EnableControls(IG070712);
+                                        obj_op.EnableControls(IG070812);
+                                        obj_op.EnableControls(IG070912);
+                                        obj_op.EnableControls(IG0701012);
+                                        obj_op.EnableControls(IG0701112);
+                                        obj_op.EnableControls(IG0701212);
+                                        obj_op.EnableControls(IG0701312);
+
+
+                                        obj_op.EnableControls(IG0812);
+                                        obj_op.EnableControls(IG0912);
+                                        obj_op.EnableControls(IG01012);
+                                        obj_op.EnableControls(IG01112);
+                                        obj_op.EnableControls(IG01212);
+                                        obj_op.EnableControls(IG01312);
+                                        obj_op.EnableControls(IG01412);
+                                        obj_op.EnableControls(IG01512);
+
+
+                                        obj_op.EnableControls(IG160112);
+                                        obj_op.EnableControls(IG160212);
+                                        obj_op.EnableControls(IG160312);
+                                        obj_op.EnableControls(IG160412);
+                                        obj_op.EnableControls(IG160512);
+                                        obj_op.EnableControls(IG160612);
+                                        obj_op.EnableControls(IG160712);
+                                        obj_op.EnableControls(IG160812);
+                                        obj_op.EnableControls(IG160912);
+                                        obj_op.EnableControls(IG1601012);
+                                        obj_op.EnableControls(IG1601112);
+                                        obj_op.EnableControls(IG1601212);
+
+                                    }
+                                    else
+                                    {
+
+
+                                        obj_op.DisableControls(IG0412);
+                                        obj_op.DisableControls(IG0512);
+                                        obj_op.DisableControls(IG060112);
+                                        obj_op.DisableControls(IG060212);
+                                        obj_op.DisableControls(IG060312);
+                                        obj_op.DisableControls(IG060412);
+                                        obj_op.DisableControls(IG060512);
+
+                                        obj_op.DisableControls(IG070112);
+                                        obj_op.DisableControls(IG070212);
+                                        obj_op.DisableControls(IG070312);
+                                        obj_op.DisableControls(IG070412);
+                                        obj_op.DisableControls(IG070512);
+                                        obj_op.DisableControls(IG070612);
+                                        obj_op.DisableControls(IG070712);
+                                        obj_op.DisableControls(IG070812);
+                                        obj_op.DisableControls(IG070912);
+                                        obj_op.DisableControls(IG0701012);
+                                        obj_op.DisableControls(IG0701112);
+                                        obj_op.DisableControls(IG0701212);
+                                        obj_op.DisableControls(IG0701312);
+
+
+                                        obj_op.DisableControls(IG0812);
+                                        obj_op.DisableControls(IG0912);
+                                        obj_op.DisableControls(IG01012);
+                                        obj_op.DisableControls(IG01112);
+                                        obj_op.DisableControls(IG01212);
+                                        obj_op.DisableControls(IG01312);
+                                        obj_op.DisableControls(IG01412);
+                                        obj_op.DisableControls(IG01512);
+
+                                        obj_op.DisableControls(IG160112);
+                                        obj_op.DisableControls(IG160212);
+                                        obj_op.DisableControls(IG160312);
+                                        obj_op.DisableControls(IG160412);
+                                        obj_op.DisableControls(IG160512);
+                                        obj_op.DisableControls(IG160612);
+                                        obj_op.DisableControls(IG160712);
+                                        obj_op.DisableControls(IG160812);
+                                        obj_op.DisableControls(IG160912);
+                                        obj_op.DisableControls(IG1601012);
+                                        obj_op.DisableControls(IG1601112);
+                                        obj_op.DisableControls(IG1601212);
+
+
+
+
+                                        obj_op.DisableControls(IG0413);
+                                        obj_op.DisableControls(IG0513);
+                                        obj_op.DisableControls(IG060113);
+                                        obj_op.DisableControls(IG060213);
+                                        obj_op.DisableControls(IG060313);
+                                        obj_op.DisableControls(IG060413);
+                                        obj_op.DisableControls(IG060513);
+
+                                        obj_op.DisableControls(IG070113);
+                                        obj_op.DisableControls(IG070213);
+                                        obj_op.DisableControls(IG070313);
+                                        obj_op.DisableControls(IG070413);
+                                        obj_op.DisableControls(IG070513);
+                                        obj_op.DisableControls(IG070613);
+                                        obj_op.DisableControls(IG070713);
+                                        obj_op.DisableControls(IG070813);
+                                        obj_op.DisableControls(IG070913);
+                                        obj_op.DisableControls(IG0701013);
+                                        obj_op.DisableControls(IG0701113);
+                                        obj_op.DisableControls(IG0701213);
+                                        obj_op.DisableControls(IG0701313);
+
+
+                                        obj_op.DisableControls(IG0813);
+                                        obj_op.DisableControls(IG0913);
+                                        obj_op.DisableControls(IG01013);
+                                        obj_op.DisableControls(IG01113);
+                                        obj_op.DisableControls(IG01213);
+                                        obj_op.DisableControls(IG01313);
+                                        obj_op.DisableControls(IG01413);
+                                        obj_op.DisableControls(IG01513);
+
+                                        obj_op.DisableControls(IG160113);
+                                        obj_op.DisableControls(IG160213);
+                                        obj_op.DisableControls(IG160313);
+                                        obj_op.DisableControls(IG160413);
+                                        obj_op.DisableControls(IG160513);
+                                        obj_op.DisableControls(IG160613);
+                                        obj_op.DisableControls(IG160713);
+                                        obj_op.DisableControls(IG160813);
+                                        obj_op.DisableControls(IG160913);
+                                        obj_op.DisableControls(IG1601013);
+                                        obj_op.DisableControls(IG1601113);
+                                        obj_op.DisableControls(IG1601213);
+
+
+
+                                        obj_op.DisableControls(IG0414);
+                                        obj_op.DisableControls(IG0514);
+                                        obj_op.DisableControls(IG060114);
+                                        obj_op.DisableControls(IG060214);
+                                        obj_op.DisableControls(IG060314);
+                                        obj_op.DisableControls(IG060414);
+                                        obj_op.DisableControls(IG060514);
+
+                                        obj_op.DisableControls(IG070114);
+                                        obj_op.DisableControls(IG070214);
+                                        obj_op.DisableControls(IG070314);
+                                        obj_op.DisableControls(IG070414);
+                                        obj_op.DisableControls(IG070514);
+                                        obj_op.DisableControls(IG070614);
+                                        obj_op.DisableControls(IG070714);
+                                        obj_op.DisableControls(IG070814);
+                                        obj_op.DisableControls(IG070914);
+                                        obj_op.DisableControls(IG0701014);
+                                        obj_op.DisableControls(IG0701114);
+                                        obj_op.DisableControls(IG0701214);
+                                        obj_op.DisableControls(IG0701314);
+
+
+                                        obj_op.DisableControls(IG0814);
+                                        obj_op.DisableControls(IG0914);
+                                        obj_op.DisableControls(IG01014);
+                                        obj_op.DisableControls(IG01114);
+                                        obj_op.DisableControls(IG01214);
+                                        obj_op.DisableControls(IG01314);
+                                        obj_op.DisableControls(IG01414);
+                                        obj_op.DisableControls(IG01514);
+
+                                        obj_op.DisableControls(IG160114);
+                                        obj_op.DisableControls(IG160214);
+                                        obj_op.DisableControls(IG160314);
+                                        obj_op.DisableControls(IG160414);
+                                        obj_op.DisableControls(IG160514);
+                                        obj_op.DisableControls(IG160614);
+                                        obj_op.DisableControls(IG160714);
+                                        obj_op.DisableControls(IG160814);
+                                        obj_op.DisableControls(IG160914);
+                                        obj_op.DisableControls(IG1601014);
+                                        obj_op.DisableControls(IG1601114);
+                                        obj_op.DisableControls(IG1601214);
+
+
+
+
+                                        obj_op.DisableControls(IG0415);
+                                        obj_op.DisableControls(IG0515);
+                                        obj_op.DisableControls(IG060115);
+                                        obj_op.DisableControls(IG060215);
+                                        obj_op.DisableControls(IG060315);
+                                        obj_op.DisableControls(IG060415);
+                                        obj_op.DisableControls(IG060515);
+
+                                        obj_op.DisableControls(IG070115);
+                                        obj_op.DisableControls(IG070215);
+                                        obj_op.DisableControls(IG070315);
+                                        obj_op.DisableControls(IG070415);
+                                        obj_op.DisableControls(IG070515);
+                                        obj_op.DisableControls(IG070615);
+                                        obj_op.DisableControls(IG070715);
+                                        obj_op.DisableControls(IG070815);
+                                        obj_op.DisableControls(IG070915);
+                                        obj_op.DisableControls(IG0701015);
+                                        obj_op.DisableControls(IG0701115);
+                                        obj_op.DisableControls(IG0701215);
+                                        obj_op.DisableControls(IG0701315);
+
+
+                                        obj_op.DisableControls(IG0815);
+                                        obj_op.DisableControls(IG0915);
+                                        obj_op.DisableControls(IG01015);
+                                        obj_op.DisableControls(IG01115);
+                                        obj_op.DisableControls(IG01215);
+                                        obj_op.DisableControls(IG01315);
+                                        obj_op.DisableControls(IG01415);
+                                        obj_op.DisableControls(IG01515);
+
+                                        obj_op.DisableControls(IG160115);
+                                        obj_op.DisableControls(IG160215);
+                                        obj_op.DisableControls(IG160315);
+                                        obj_op.DisableControls(IG160415);
+                                        obj_op.DisableControls(IG160515);
+                                        obj_op.DisableControls(IG160615);
+                                        obj_op.DisableControls(IG160715);
+                                        obj_op.DisableControls(IG160815);
+                                        obj_op.DisableControls(IG160915);
+                                        obj_op.DisableControls(IG1601015);
+                                        obj_op.DisableControls(IG1601115);
+                                        obj_op.DisableControls(IG1601215);
+
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0412"].ToString() == null)
@@ -37646,6 +42954,207 @@ namespace iNCK
                             else
                             {
                                 chkMember13.Text = ds.Tables[0].Rows[0]["chkMember13"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember13.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0413);
+                                        obj_op.EnableControls(IG0513);
+                                        obj_op.EnableControls(IG060113);
+                                        obj_op.EnableControls(IG060213);
+                                        obj_op.EnableControls(IG060313);
+                                        obj_op.EnableControls(IG060413);
+                                        obj_op.EnableControls(IG060513);
+
+                                        obj_op.EnableControls(IG070113);
+                                        obj_op.EnableControls(IG070213);
+                                        obj_op.EnableControls(IG070313);
+                                        obj_op.EnableControls(IG070413);
+                                        obj_op.EnableControls(IG070513);
+                                        obj_op.EnableControls(IG070613);
+                                        obj_op.EnableControls(IG070713);
+                                        obj_op.EnableControls(IG070813);
+                                        obj_op.EnableControls(IG070913);
+                                        obj_op.EnableControls(IG0701013);
+                                        obj_op.EnableControls(IG0701113);
+                                        obj_op.EnableControls(IG0701213);
+                                        obj_op.EnableControls(IG0701313);
+
+
+                                        obj_op.EnableControls(IG0813);
+                                        obj_op.EnableControls(IG0913);
+                                        obj_op.EnableControls(IG01013);
+                                        obj_op.EnableControls(IG01113);
+                                        obj_op.EnableControls(IG01213);
+                                        obj_op.EnableControls(IG01313);
+                                        obj_op.EnableControls(IG01413);
+                                        obj_op.EnableControls(IG01513);
+
+
+                                        obj_op.EnableControls(IG160113);
+                                        obj_op.EnableControls(IG160213);
+                                        obj_op.EnableControls(IG160313);
+                                        obj_op.EnableControls(IG160413);
+                                        obj_op.EnableControls(IG160513);
+                                        obj_op.EnableControls(IG160613);
+                                        obj_op.EnableControls(IG160713);
+                                        obj_op.EnableControls(IG160813);
+                                        obj_op.EnableControls(IG160913);
+                                        obj_op.EnableControls(IG1601013);
+                                        obj_op.EnableControls(IG1601113);
+                                        obj_op.EnableControls(IG1601213);
+
+
+                                    }
+                                    else
+                                    {
+
+
+                                        obj_op.DisableControls(IG0413);
+                                        obj_op.DisableControls(IG0513);
+                                        obj_op.DisableControls(IG060113);
+                                        obj_op.DisableControls(IG060213);
+                                        obj_op.DisableControls(IG060313);
+                                        obj_op.DisableControls(IG060413);
+                                        obj_op.DisableControls(IG060513);
+
+                                        obj_op.DisableControls(IG070113);
+                                        obj_op.DisableControls(IG070213);
+                                        obj_op.DisableControls(IG070313);
+                                        obj_op.DisableControls(IG070413);
+                                        obj_op.DisableControls(IG070513);
+                                        obj_op.DisableControls(IG070613);
+                                        obj_op.DisableControls(IG070713);
+                                        obj_op.DisableControls(IG070813);
+                                        obj_op.DisableControls(IG070913);
+                                        obj_op.DisableControls(IG0701013);
+                                        obj_op.DisableControls(IG0701113);
+                                        obj_op.DisableControls(IG0701213);
+                                        obj_op.DisableControls(IG0701313);
+
+
+                                        obj_op.DisableControls(IG0813);
+                                        obj_op.DisableControls(IG0913);
+                                        obj_op.DisableControls(IG01013);
+                                        obj_op.DisableControls(IG01113);
+                                        obj_op.DisableControls(IG01213);
+                                        obj_op.DisableControls(IG01313);
+                                        obj_op.DisableControls(IG01413);
+                                        obj_op.DisableControls(IG01513);
+
+                                        obj_op.DisableControls(IG160113);
+                                        obj_op.DisableControls(IG160213);
+                                        obj_op.DisableControls(IG160313);
+                                        obj_op.DisableControls(IG160413);
+                                        obj_op.DisableControls(IG160513);
+                                        obj_op.DisableControls(IG160613);
+                                        obj_op.DisableControls(IG160713);
+                                        obj_op.DisableControls(IG160813);
+                                        obj_op.DisableControls(IG160913);
+                                        obj_op.DisableControls(IG1601013);
+                                        obj_op.DisableControls(IG1601113);
+                                        obj_op.DisableControls(IG1601213);
+
+
+
+                                        obj_op.DisableControls(IG0414);
+                                        obj_op.DisableControls(IG0514);
+                                        obj_op.DisableControls(IG060114);
+                                        obj_op.DisableControls(IG060214);
+                                        obj_op.DisableControls(IG060314);
+                                        obj_op.DisableControls(IG060414);
+                                        obj_op.DisableControls(IG060514);
+
+                                        obj_op.DisableControls(IG070114);
+                                        obj_op.DisableControls(IG070214);
+                                        obj_op.DisableControls(IG070314);
+                                        obj_op.DisableControls(IG070414);
+                                        obj_op.DisableControls(IG070514);
+                                        obj_op.DisableControls(IG070614);
+                                        obj_op.DisableControls(IG070714);
+                                        obj_op.DisableControls(IG070814);
+                                        obj_op.DisableControls(IG070914);
+                                        obj_op.DisableControls(IG0701014);
+                                        obj_op.DisableControls(IG0701114);
+                                        obj_op.DisableControls(IG0701214);
+                                        obj_op.DisableControls(IG0701314);
+
+
+                                        obj_op.DisableControls(IG0814);
+                                        obj_op.DisableControls(IG0914);
+                                        obj_op.DisableControls(IG01014);
+                                        obj_op.DisableControls(IG01114);
+                                        obj_op.DisableControls(IG01214);
+                                        obj_op.DisableControls(IG01314);
+                                        obj_op.DisableControls(IG01414);
+                                        obj_op.DisableControls(IG01514);
+
+                                        obj_op.DisableControls(IG160114);
+                                        obj_op.DisableControls(IG160214);
+                                        obj_op.DisableControls(IG160314);
+                                        obj_op.DisableControls(IG160414);
+                                        obj_op.DisableControls(IG160514);
+                                        obj_op.DisableControls(IG160614);
+                                        obj_op.DisableControls(IG160714);
+                                        obj_op.DisableControls(IG160814);
+                                        obj_op.DisableControls(IG160914);
+                                        obj_op.DisableControls(IG1601014);
+                                        obj_op.DisableControls(IG1601114);
+                                        obj_op.DisableControls(IG1601214);
+
+
+
+
+                                        obj_op.DisableControls(IG0415);
+                                        obj_op.DisableControls(IG0515);
+                                        obj_op.DisableControls(IG060115);
+                                        obj_op.DisableControls(IG060215);
+                                        obj_op.DisableControls(IG060315);
+                                        obj_op.DisableControls(IG060415);
+                                        obj_op.DisableControls(IG060515);
+
+                                        obj_op.DisableControls(IG070115);
+                                        obj_op.DisableControls(IG070215);
+                                        obj_op.DisableControls(IG070315);
+                                        obj_op.DisableControls(IG070415);
+                                        obj_op.DisableControls(IG070515);
+                                        obj_op.DisableControls(IG070615);
+                                        obj_op.DisableControls(IG070715);
+                                        obj_op.DisableControls(IG070815);
+                                        obj_op.DisableControls(IG070915);
+                                        obj_op.DisableControls(IG0701015);
+                                        obj_op.DisableControls(IG0701115);
+                                        obj_op.DisableControls(IG0701215);
+                                        obj_op.DisableControls(IG0701315);
+
+
+                                        obj_op.DisableControls(IG0815);
+                                        obj_op.DisableControls(IG0915);
+                                        obj_op.DisableControls(IG01015);
+                                        obj_op.DisableControls(IG01115);
+                                        obj_op.DisableControls(IG01215);
+                                        obj_op.DisableControls(IG01315);
+                                        obj_op.DisableControls(IG01415);
+                                        obj_op.DisableControls(IG01515);
+
+                                        obj_op.DisableControls(IG160115);
+                                        obj_op.DisableControls(IG160215);
+                                        obj_op.DisableControls(IG160315);
+                                        obj_op.DisableControls(IG160415);
+                                        obj_op.DisableControls(IG160515);
+                                        obj_op.DisableControls(IG160615);
+                                        obj_op.DisableControls(IG160715);
+                                        obj_op.DisableControls(IG160815);
+                                        obj_op.DisableControls(IG160915);
+                                        obj_op.DisableControls(IG1601015);
+                                        obj_op.DisableControls(IG1601115);
+                                        obj_op.DisableControls(IG1601215);
+
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0413"].ToString() == null)
@@ -37718,6 +43227,160 @@ namespace iNCK
                             else
                             {
                                 chkMember14.Text = ds.Tables[0].Rows[0]["chkMember14"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember14.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0414);
+                                        obj_op.EnableControls(IG0514);
+                                        obj_op.EnableControls(IG060114);
+                                        obj_op.EnableControls(IG060214);
+                                        obj_op.EnableControls(IG060314);
+                                        obj_op.EnableControls(IG060414);
+                                        obj_op.EnableControls(IG060514);
+
+                                        obj_op.EnableControls(IG070114);
+                                        obj_op.EnableControls(IG070214);
+                                        obj_op.EnableControls(IG070314);
+                                        obj_op.EnableControls(IG070414);
+                                        obj_op.EnableControls(IG070514);
+                                        obj_op.EnableControls(IG070614);
+                                        obj_op.EnableControls(IG070714);
+                                        obj_op.EnableControls(IG070814);
+                                        obj_op.EnableControls(IG070914);
+                                        obj_op.EnableControls(IG0701014);
+                                        obj_op.EnableControls(IG0701114);
+                                        obj_op.EnableControls(IG0701214);
+                                        obj_op.EnableControls(IG0701314);
+
+
+                                        obj_op.EnableControls(IG0814);
+                                        obj_op.EnableControls(IG0914);
+                                        obj_op.EnableControls(IG01014);
+                                        obj_op.EnableControls(IG01114);
+                                        obj_op.EnableControls(IG01214);
+                                        obj_op.EnableControls(IG01314);
+                                        obj_op.EnableControls(IG01414);
+                                        obj_op.EnableControls(IG01514);
+
+
+                                        obj_op.EnableControls(IG160114);
+                                        obj_op.EnableControls(IG160214);
+                                        obj_op.EnableControls(IG160314);
+                                        obj_op.EnableControls(IG160414);
+                                        obj_op.EnableControls(IG160514);
+                                        obj_op.EnableControls(IG160614);
+                                        obj_op.EnableControls(IG160714);
+                                        obj_op.EnableControls(IG160814);
+                                        obj_op.EnableControls(IG160914);
+                                        obj_op.EnableControls(IG1601014);
+                                        obj_op.EnableControls(IG1601114);
+                                        obj_op.EnableControls(IG1601214);
+
+                                    }
+                                    else
+                                    {
+
+
+                                        obj_op.DisableControls(IG0414);
+                                        obj_op.DisableControls(IG0514);
+                                        obj_op.DisableControls(IG060114);
+                                        obj_op.DisableControls(IG060214);
+                                        obj_op.DisableControls(IG060314);
+                                        obj_op.DisableControls(IG060414);
+                                        obj_op.DisableControls(IG060514);
+
+                                        obj_op.DisableControls(IG070114);
+                                        obj_op.DisableControls(IG070214);
+                                        obj_op.DisableControls(IG070314);
+                                        obj_op.DisableControls(IG070414);
+                                        obj_op.DisableControls(IG070514);
+                                        obj_op.DisableControls(IG070614);
+                                        obj_op.DisableControls(IG070714);
+                                        obj_op.DisableControls(IG070814);
+                                        obj_op.DisableControls(IG070914);
+                                        obj_op.DisableControls(IG0701014);
+                                        obj_op.DisableControls(IG0701114);
+                                        obj_op.DisableControls(IG0701214);
+                                        obj_op.DisableControls(IG0701314);
+
+
+                                        obj_op.DisableControls(IG0814);
+                                        obj_op.DisableControls(IG0914);
+                                        obj_op.DisableControls(IG01014);
+                                        obj_op.DisableControls(IG01114);
+                                        obj_op.DisableControls(IG01214);
+                                        obj_op.DisableControls(IG01314);
+                                        obj_op.DisableControls(IG01414);
+                                        obj_op.DisableControls(IG01514);
+
+                                        obj_op.DisableControls(IG160114);
+                                        obj_op.DisableControls(IG160214);
+                                        obj_op.DisableControls(IG160314);
+                                        obj_op.DisableControls(IG160414);
+                                        obj_op.DisableControls(IG160514);
+                                        obj_op.DisableControls(IG160614);
+                                        obj_op.DisableControls(IG160714);
+                                        obj_op.DisableControls(IG160814);
+                                        obj_op.DisableControls(IG160914);
+                                        obj_op.DisableControls(IG1601014);
+                                        obj_op.DisableControls(IG1601114);
+                                        obj_op.DisableControls(IG1601214);
+
+
+
+
+                                        obj_op.DisableControls(IG0415);
+                                        obj_op.DisableControls(IG0515);
+                                        obj_op.DisableControls(IG060115);
+                                        obj_op.DisableControls(IG060215);
+                                        obj_op.DisableControls(IG060315);
+                                        obj_op.DisableControls(IG060415);
+                                        obj_op.DisableControls(IG060515);
+
+                                        obj_op.DisableControls(IG070115);
+                                        obj_op.DisableControls(IG070215);
+                                        obj_op.DisableControls(IG070315);
+                                        obj_op.DisableControls(IG070415);
+                                        obj_op.DisableControls(IG070515);
+                                        obj_op.DisableControls(IG070615);
+                                        obj_op.DisableControls(IG070715);
+                                        obj_op.DisableControls(IG070815);
+                                        obj_op.DisableControls(IG070915);
+                                        obj_op.DisableControls(IG0701015);
+                                        obj_op.DisableControls(IG0701115);
+                                        obj_op.DisableControls(IG0701215);
+                                        obj_op.DisableControls(IG0701315);
+
+
+                                        obj_op.DisableControls(IG0815);
+                                        obj_op.DisableControls(IG0915);
+                                        obj_op.DisableControls(IG01015);
+                                        obj_op.DisableControls(IG01115);
+                                        obj_op.DisableControls(IG01215);
+                                        obj_op.DisableControls(IG01315);
+                                        obj_op.DisableControls(IG01415);
+                                        obj_op.DisableControls(IG01515);
+
+                                        obj_op.DisableControls(IG160115);
+                                        obj_op.DisableControls(IG160215);
+                                        obj_op.DisableControls(IG160315);
+                                        obj_op.DisableControls(IG160415);
+                                        obj_op.DisableControls(IG160515);
+                                        obj_op.DisableControls(IG160615);
+                                        obj_op.DisableControls(IG160715);
+                                        obj_op.DisableControls(IG160815);
+                                        obj_op.DisableControls(IG160915);
+                                        obj_op.DisableControls(IG1601015);
+                                        obj_op.DisableControls(IG1601115);
+                                        obj_op.DisableControls(IG1601215);
+
+                                    }
+
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0414"].ToString() == null)
@@ -37790,6 +43453,112 @@ namespace iNCK
                             else
                             {
                                 chkMember15.Text = ds.Tables[0].Rows[0]["chkMember15"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember15.Text == "1")
+                                    {
+                                        obj_op.EnableControls(IG0415);
+                                        obj_op.EnableControls(IG0515);
+                                        obj_op.EnableControls(IG060115);
+                                        obj_op.EnableControls(IG060215);
+                                        obj_op.EnableControls(IG060315);
+                                        obj_op.EnableControls(IG060415);
+                                        obj_op.EnableControls(IG060515);
+
+                                        obj_op.EnableControls(IG070115);
+                                        obj_op.EnableControls(IG070215);
+                                        obj_op.EnableControls(IG070315);
+                                        obj_op.EnableControls(IG070415);
+                                        obj_op.EnableControls(IG070515);
+                                        obj_op.EnableControls(IG070615);
+                                        obj_op.EnableControls(IG070715);
+                                        obj_op.EnableControls(IG070815);
+                                        obj_op.EnableControls(IG070915);
+                                        obj_op.EnableControls(IG0701015);
+                                        obj_op.EnableControls(IG0701115);
+                                        obj_op.EnableControls(IG0701215);
+                                        obj_op.EnableControls(IG0701315);
+
+
+                                        obj_op.EnableControls(IG0815);
+                                        obj_op.EnableControls(IG0915);
+                                        obj_op.EnableControls(IG01015);
+                                        obj_op.EnableControls(IG01115);
+                                        obj_op.EnableControls(IG01215);
+                                        obj_op.EnableControls(IG01315);
+                                        obj_op.EnableControls(IG01415);
+                                        obj_op.EnableControls(IG01515);
+
+
+                                        obj_op.EnableControls(IG160115);
+                                        obj_op.EnableControls(IG160215);
+                                        obj_op.EnableControls(IG160315);
+                                        obj_op.EnableControls(IG160415);
+                                        obj_op.EnableControls(IG160515);
+                                        obj_op.EnableControls(IG160615);
+                                        obj_op.EnableControls(IG160715);
+                                        obj_op.EnableControls(IG160815);
+                                        obj_op.EnableControls(IG160915);
+                                        obj_op.EnableControls(IG1601015);
+                                        obj_op.EnableControls(IG1601115);
+                                        obj_op.EnableControls(IG1601215);
+
+                                    }
+                                    else
+                                    {
+
+
+
+                                        obj_op.DisableControls(IG0415);
+                                        obj_op.DisableControls(IG0515);
+                                        obj_op.DisableControls(IG060115);
+                                        obj_op.DisableControls(IG060215);
+                                        obj_op.DisableControls(IG060315);
+                                        obj_op.DisableControls(IG060415);
+                                        obj_op.DisableControls(IG060515);
+
+                                        obj_op.DisableControls(IG070115);
+                                        obj_op.DisableControls(IG070215);
+                                        obj_op.DisableControls(IG070315);
+                                        obj_op.DisableControls(IG070415);
+                                        obj_op.DisableControls(IG070515);
+                                        obj_op.DisableControls(IG070615);
+                                        obj_op.DisableControls(IG070715);
+                                        obj_op.DisableControls(IG070815);
+                                        obj_op.DisableControls(IG070915);
+                                        obj_op.DisableControls(IG0701015);
+                                        obj_op.DisableControls(IG0701115);
+                                        obj_op.DisableControls(IG0701215);
+                                        obj_op.DisableControls(IG0701315);
+
+
+                                        obj_op.DisableControls(IG0815);
+                                        obj_op.DisableControls(IG0915);
+                                        obj_op.DisableControls(IG01015);
+                                        obj_op.DisableControls(IG01115);
+                                        obj_op.DisableControls(IG01215);
+                                        obj_op.DisableControls(IG01315);
+                                        obj_op.DisableControls(IG01415);
+                                        obj_op.DisableControls(IG01515);
+
+                                        obj_op.DisableControls(IG160115);
+                                        obj_op.DisableControls(IG160215);
+                                        obj_op.DisableControls(IG160315);
+                                        obj_op.DisableControls(IG160415);
+                                        obj_op.DisableControls(IG160515);
+                                        obj_op.DisableControls(IG160615);
+                                        obj_op.DisableControls(IG160715);
+                                        obj_op.DisableControls(IG160815);
+                                        obj_op.DisableControls(IG160915);
+                                        obj_op.DisableControls(IG1601015);
+                                        obj_op.DisableControls(IG1601115);
+                                        obj_op.DisableControls(IG1601215);
+
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0415"].ToString() == null)
@@ -37991,13 +43760,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0911.Text == "0")
+                                    if (chkMember11.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01011);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01011);
+                                        if (IG0911.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01011);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01011);
+                                        }
                                     }
                                 }
                             }
@@ -38012,15 +43784,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01011.Text == "1")
+                                    if (chkMember11.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01111);
-                                        obj_op.DisableControls(IG01211);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01111);
-                                        obj_op.EnableControls(IG01211);
+                                        if (IG01011.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01111);
+                                            obj_op.DisableControls(IG01211);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01111);
+                                            obj_op.EnableControls(IG01211);
+                                        }
                                     }
                                 }
                             }
@@ -38035,13 +43810,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01111.Text == "1")
+                                    if (chkMember11.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01211);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01211);
+                                        if (IG01111.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01211);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01211);
+                                        }
                                     }
                                 }
                             }
@@ -38218,13 +43996,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0912.Text == "0")
+                                    if (chkMember12.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01012);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01012);
+                                        if (IG0912.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01012);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01012);
+                                        }
                                     }
                                 }
                             }
@@ -38239,15 +44020,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01012.Text == "1")
+                                    if (chkMember12.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01112);
-                                        obj_op.DisableControls(IG01212);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01112);
-                                        obj_op.EnableControls(IG01212);
+                                        if (IG01012.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01112);
+                                            obj_op.DisableControls(IG01212);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01112);
+                                            obj_op.EnableControls(IG01212);
+                                        }
                                     }
                                 }
                             }
@@ -38262,13 +44046,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01112.Text == "1")
+                                    if (chkMember12.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01212);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01212);
+                                        if (IG01112.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01212);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01212);
+                                        }
                                     }
                                 }
                             }
@@ -38445,13 +44232,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0913.Text == "0")
+                                    if (chkMember13.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01013);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01013);
+                                        if (IG0913.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01013);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01013);
+                                        }
                                     }
                                 }
                             }
@@ -38466,15 +44256,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01013.Text == "1")
+                                    if (chkMember13.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01113);
-                                        obj_op.DisableControls(IG01213);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01113);
-                                        obj_op.EnableControls(IG01213);
+                                        if (IG01013.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01113);
+                                            obj_op.DisableControls(IG01213);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01113);
+                                            obj_op.EnableControls(IG01213);
+                                        }
                                     }
                                 }
 
@@ -38490,13 +44283,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01113.Text == "1")
+                                    if (chkMember13.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01213);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01213);
+                                        if (IG01113.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01213);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01213);
+                                        }
                                     }
                                 }
                             }
@@ -38673,13 +44469,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0914.Text == "0")
+                                    if (chkMember14.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01014);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01014);
+                                        if (IG0914.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01014);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01014);
+                                        }
                                     }
                                 }
                             }
@@ -38694,15 +44493,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01014.Text == "1")
+                                    if (chkMember14.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01114);
-                                        obj_op.DisableControls(IG01214);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01114);
-                                        obj_op.EnableControls(IG01214);
+                                        if (IG01014.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01114);
+                                            obj_op.DisableControls(IG01214);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01114);
+                                            obj_op.EnableControls(IG01214);
+                                        }
                                     }
                                 }
                             }
@@ -38717,13 +44519,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01114.Text == "1")
+                                    if (chkMember14.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01214);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01214);
+                                        if (IG01114.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01214);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01214);
+                                        }
                                     }
                                 }
                             }
@@ -38900,13 +44705,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG0915.Text == "0")
+                                    if (chkMember15.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01015);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01015);
+                                        if (IG0915.Text == "0")
+                                        {
+                                            obj_op.DisableControls(IG01015);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01015);
+                                        }
                                     }
                                 }
                             }
@@ -38921,15 +44729,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01015.Text == "1")
+                                    if (chkMember15.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01115);
-                                        obj_op.DisableControls(IG01215);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01115);
-                                        obj_op.EnableControls(IG01215);
+                                        if (IG01015.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01115);
+                                            obj_op.DisableControls(IG01215);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01115);
+                                            obj_op.EnableControls(IG01215);
+                                        }
                                     }
                                 }
                             }
@@ -38944,13 +44755,16 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01115.Text == "1")
+                                    if (chkMember15.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01215);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01215);
+                                        if (IG01115.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01215);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01215);
+                                        }
                                     }
                                 }
                             }
@@ -40574,1551 +46388,1553 @@ namespace iNCK
 
 
                 string qry = "INSERT INTO " + tblname + " (" + "form_id," +
-"IA01," +
-"IA02," +
-"IA03," +
-"IA04," +
-"IA05," +
-"IB01," +
-"IB02," +
-"IB03," +
-"IB04," +
-"IB05," +
-"IB06," +
-"IB07," +
-"IB08," +
-"IB0901," +
-"IB0902," +
-"IB0903," +
-"IB0996," +
-"IB010," +
-"IB011," +
-"IC01," +
-"IC02," +
-"IC03," +
-"IC04," +
-"IC05," +
-"chkBaby1," +
-"IC0601," +
-"IC0701," +
-"IC0801," +
-"IC0901," +
-"IC01001," +
-"IC01101," +
-"chkBaby2," +
-"IC0602," +
-"IC0702," +
-"IC0802," +
-"IC0902," +
-"IC01002," +
-"IC01102," +
-"chkBaby3," +
-"IC0603," +
-"IC0703," +
-"IC0803," +
-"IC0903," +
-"IC01003," +
-"IC01103," +
-"chkBaby4," +
-"IC0604," +
-"IC0704," +
-"IC0804," +
-"IC0904," +
-"IC01004," +
-"IC01104," +
-"ID01," +
-"ID02," +
-"ID03," +
-"ID04," +
-"IE01," +
-"IE02," +
-"IE03," +
-"IE04," +
-"chkHHMem1," +
-"IE0701," +
-"chkHHMem2," +
-"IE0702," +
-"chkHHMem3," +
-"IE0703," +
-"chkHHMem4," +
-"IE0704," +
-"IE0801," +
-"IE0901," +
-"IE0802," +
-"IE0902," +
-"IE0803," +
-"IE0903," +
-"IE0804," +
-"IE0904," +
-"IF01," +
-"IF02," +
-"IF03," +
-"IF04," +
-"chkPW1," +
-"IF0601," +
-"chkPW2," +
-"IF0602," +
-"chkPW3," +
-"IF0603," +
-"chkPW4," +
-"IF0604," +
-"IG01," +
-"IG02," +
-"IG0301," +
-"IG0302," +
-"IG0303," +
-"IG0304," +
-"IG0305," +
-"IG0306," +
-"IG0307," +
-"IG0308," +
-"IG0309," +
-"IG03010," +
-"chkMember1," +
-"IG0401," +
-"IG0501," +
-"IG060101," +
-"IG060201," +
-"IG060301," +
-"IG060401," +
-"IG060501," +
-"IG070101," +
-"IG070201," +
-"IG070301," +
-"IG070401," +
-"chkMember2," +
-"IG0402," +
-"IG0502," +
-"IG060102," +
-"IG060202," +
-"IG060302," +
-"IG060402," +
-"IG060502," +
-"IG070102," +
-"IG070202," +
-"IG070302," +
-"IG070402," +
-"chkMember3," +
-"IG0403," +
-"IG0503," +
-"IG060103," +
-"IG060203," +
-"IG060303," +
-"IG060403," +
-"IG060503," +
-"IG070103," +
-"IG070203," +
-"IG070303," +
-"IG070403," +
-"chkMember4," +
-"IG0404," +
-"IG0504," +
-"IG060104," +
-"IG060204," +
-"IG060304," +
-"IG060404," +
-"IG060504," +
-"IG070104," +
-"IG070204," +
-"IG070304," +
-"IG070404," +
-"chkMember5," +
-"IG0405," +
-"IG0505," +
-"IG060105," +
-"IG060205," +
-"IG060305," +
-"IG060405," +
-"IG060505," +
-"IG070105," +
-"IG070205," +
-"IG070305," +
-"IG070405," +
-"IG070501," +
-"IG070601," +
-"IG070701," +
-"IG070801," +
-"IG070901," +
-"IG0701001," +
-"IG0701101," +
-"IG0701201," +
-"IG0701301," +
-"IG0801," +
-"IG0901," +
-"IG01001," +
-"IG01101," +
-"IG01201," +
-"IG01301," +
-"IG01401," +
-"IG01501," +
-"IG160101," +
-"IG160201," +
-"IG160301," +
-"IG160401," +
-"IG160501," +
-"IG160601," +
-"IG160701," +
-"IG160801," +
-"IG160901," +
-"IG1601001," +
-"IG1601101," +
-"IG1601201," +
-"IG070502," +
-"IG070602," +
-"IG070702," +
-"IG070802," +
-"IG070902," +
-"IG0701002," +
-"IG0701102," +
-"IG0701202," +
-"IG0701302," +
-"IG0802," +
-"IG0902," +
-"IG01002," +
-"IG01102," +
-"IG01202," +
-"IG01302," +
-"IG01402," +
-"IG01502," +
-"IG160102," +
-"IG160202," +
-"IG160302," +
-"IG160402," +
-"IG160502," +
-"IG160602," +
-"IG160702," +
-"IG160802," +
-"IG160902," +
-"IG1601002," +
-"IG1601102," +
-"IG1601202," +
-"IG070503," +
-"IG070603," +
-"IG070703," +
-"IG070803," +
-"IG070903," +
-"IG0701003," +
-"IG0701103," +
-"IG0701203," +
-"IG0701303," +
-"IG0803," +
-"IG0903," +
-"IG01003," +
-"IG01103," +
-"IG01203," +
-"IG01303," +
-"IG01403," +
-"IG01503," +
-"IG160103," +
-"IG160203," +
-"IG160303," +
-"IG160403," +
-"IG160503," +
-"IG160603," +
-"IG160703," +
-"IG160803," +
-"IG160903," +
-"IG1601003," +
-"IG1601103," +
-"IG1601203," +
-"IG070504," +
-"IG070604," +
-"IG070704," +
-"IG070804," +
-"IG070904," +
-"IG0701004," +
-"IG0701104," +
-"IG0701204," +
-"IG0701304," +
-"IG0804," +
-"IG0904," +
-"IG01004," +
-"IG01104," +
-"IG01204," +
-"IG01304," +
-"IG01404," +
-"IG01504," +
-"IG160104," +
-"IG160204," +
-"IG160304," +
-"IG160404," +
-"IG160504," +
-"IG160604," +
-"IG160704," +
-"IG160804," +
-"IG160904," +
-"IG1601004," +
-"IG1601104," +
-"IG1601204," +
-"IG070505," +
-"IG070605," +
-"IG070705," +
-"IG070805," +
-"IG070905," +
-"IG0701005," +
-"IG0701105," +
-"IG0701205," +
-"IG0701305," +
-"IG0805," +
-"IG0905," +
-"IG01005," +
-"IG01105," +
-"IG01205," +
-"IG01305," +
-"IG01405," +
-"IG01505," +
-"IG160105," +
-"IG160205," +
-"IG160305," +
-"IG160405," +
-"IG160505," +
-"IG160605," +
-"IG160705," +
-"IG160805," +
-"IG160905," +
-"IG1601005," +
-"IG1601105," +
-"IG1601205," +
-"QCFUP02," +
-"QCFUP03," +
-"QCFUP04," +
-"QCFUP05," +
-"QCFUP06," +
-"QCFUP07," +
-"chkBaby5," +
-"IC0605," +
-"IC0705," +
-"IC0805," +
-"IC0905," +
-"IC01005," +
-"IC01105," +
-"chkBaby6," +
-"IC0606," +
-"IC0706," +
-"IC0806," +
-"IC0906," +
-"IC01006," +
-"IC01106," +
-"chkBaby7," +
-"IC0607," +
-"IC0707," +
-"IC0807," +
-"IC0907," +
-"IC01007," +
-"IC01107," +
-"chkBaby8," +
-"IC0608," +
-"IC0708," +
-"IC0808," +
-"IC0908," +
-"IC01008," +
-"IC01108," +
-"chkBaby9," +
-"IC0609," +
-"IC0709," +
-"IC0809," +
-"IC0909," +
-"IC01009," +
-"IC01109," +
-"chkBaby10," +
-"IC06010," +
-"IC07010," +
-"IC08010," +
-"IC09010," +
-"IC01010," +
-"IC01110," +
-"chkBaby11," +
-"IC06011," +
-"IC07011," +
-"IC08011," +
-"IC09011," +
-"IC01011," +
-"IC01111," +
-"chkMember6," +
-"IG0406," +
-"IG0506," +
-"IG060106," +
-"IG060206," +
-"IG060306," +
-"IG060406," +
-"IG060506," +
-"IG070106," +
-"IG070206," +
-"IG070306," +
-"IG070406," +
-"IG070506," +
-"IG070606," +
-"IG070706," +
-"IG070806," +
-"IG070906," +
-"IG0701006," +
-"IG0701106," +
-"IG0701206," +
-"IG0701306," +
-"IG0806," +
-"IG0906," +
-"IG01006," +
-"chkMember7," +
-"IG0407," +
-"IG0507," +
-"IG060107," +
-"IG060207," +
-"IG060307," +
-"IG060407," +
-"IG060507," +
-"IG070107," +
-"IG070207," +
-"IG070307," +
-"IG070407," +
-"IG070507," +
-"IG070607," +
-"IG070707," +
-"IG070807," +
-"IG070907," +
-"IG0701007," +
-"IG0701107," +
-"IG0701207," +
-"IG0701307," +
-"IG0807," +
-"IG0907," +
-"IG01007," +
-"chkMember8," +
-"IG0408," +
-"IG0508," +
-"IG060108," +
-"IG060208," +
-"IG060308," +
-"IG060408," +
-"IG060508," +
-"IG070108," +
-"IG070208," +
-"IG070308," +
-"IG070408," +
-"IG070508," +
-"IG070608," +
-"IG070708," +
-"IG070808," +
-"IG070908," +
-"IG0701008," +
-"IG0701108," +
-"IG0701208," +
-"IG0701308," +
-"IG0808," +
-"IG0908," +
-"IG01008," +
-"chkMember9," +
-"IG0409," +
-"IG0509," +
-"IG060109," +
-"IG060209," +
-"IG060309," +
-"IG060409," +
-"IG060509," +
-"IG070109," +
-"IG070209," +
-"IG070309," +
-"IG070409," +
-"IG070509," +
-"IG070609," +
-"IG070709," +
-"IG070809," +
-"IG070909," +
-"IG0701009," +
-"IG0701109," +
-"IG0701209," +
-"IG0701309," +
-"IG0809," +
-"IG0909," +
-"IG01009," +
-"chkMember10," +
-"IG0410," +
-"IG0510," +
-"IG060110," +
-"IG060210," +
-"IG060310," +
-"IG060410," +
-"IG060510," +
-"IG070110," +
-"IG070210," +
-"IG070310," +
-"IG070410," +
-"IG070510," +
-"IG070610," +
-"IG070710," +
-"IG070810," +
-"IG070910," +
-"IG0701010," +
-"IG0701110," +
-"IG0701210," +
-"IG0701310," +
-"IG0810," +
-"IG0910," +
-"IG01010," +
-"IG01106," +
-"IG01206," +
-"IG01306," +
-"IG01406," +
-"IG01506," +
-"IG01107," +
-"IG01207," +
-"IG01307," +
-"IG01407," +
-"IG01507," +
-"IG01108," +
-"IG01208," +
-"IG01308," +
-"IG01408," +
-"IG01508," +
-"IG01109," +
-"IG01209," +
-"IG01309," +
-"IG01409," +
-"IG01509," +
-"IG01110," +
-"IG01210," +
-"IG01310," +
-"IG01410," +
-"IG01510," +
-"IG160106," +
-"IG160206," +
-"IG160306," +
-"IG160406," +
-"IG160506," +
-"IG160606," +
-"IG160706," +
-"IG160806," +
-"IG160906," +
-"IG1601006," +
-"IG1601106," +
-"IG1601206," +
-"IG160107," +
-"IG160207," +
-"IG160307," +
-"IG160407," +
-"IG160507," +
-"IG160607," +
-"IG160707," +
-"IG160807," +
-"IG160907," +
-"IG1601007," +
-"IG1601107," +
-"IG1601207," +
-"IG160108," +
-"IG160208," +
-"IG160308," +
-"IG160408," +
-"IG160508," +
-"IG160608," +
-"IG160708," +
-"IG160808," +
-"IG160908," +
-"IG1601008," +
-"IG1601108," +
-"IG1601208," +
-"IG160109," +
-"IG160209," +
-"IG160309," +
-"IG160409," +
-"IG160509," +
-"IG160609," +
-"IG160709," +
-"IG160809," +
-"IG160909," +
-"IG1601009," +
-"IG1601109," +
-"IG1601209," +
-"IG160110," +
-"IG160210," +
-"IG160310," +
-"IG160410," +
-"IG160510," +
-"IG160610," +
-"IG160710," +
-"IG160810," +
-"IG160910," +
-"IG1601010," +
-"IG1601110," +
-"IG1601210," +
-"chkMember11," +
-"IG0411," +
-"IG0511," +
-"IG060111," +
-"IG060211," +
-"IG060311," +
-"IG060411," +
-"IG060511," +
-"chkMember12," +
-"IG0412," +
-"IG0512," +
-"IG060112," +
-"IG060212," +
-"IG060312," +
-"IG060412," +
-"IG060512," +
-"chkMember13," +
-"IG0413," +
-"IG0513," +
-"IG060113," +
-"IG060213," +
-"IG060313," +
-"IG060413," +
-"IG060513," +
-"chkMember14," +
-"IG0414," +
-"IG0514," +
-"IG060114," +
-"IG060214," +
-"IG060314," +
-"IG060414," +
-"IG060514," +
-"chkMember15," +
-"IG0415," +
-"IG0515," +
-"IG060115," +
-"IG060215," +
-"IG060315," +
-"IG060415," +
-"IG060515," +
-"IG070111," +
-"IG070211," +
-"IG070311," +
-"IG070411," +
-"IG070511," +
-"IG070611," +
-"IG070711," +
-"IG070811," +
-"IG070911," +
-"IG0701011," +
-"IG0701111," +
-"IG0701211," +
-"IG0701311," +
-"IG0811," +
-"IG0911," +
-"IG01011," +
-"IG01111," +
-"IG01211," +
-"IG01311," +
-"IG01411," +
-"IG01511," +
-"IG070112," +
-"IG070212," +
-"IG070312," +
-"IG070412," +
-"IG070512," +
-"IG070612," +
-"IG070712," +
-"IG070812," +
-"IG070912," +
-"IG0701012," +
-"IG0701112," +
-"IG0701212," +
-"IG0701312," +
-"IG0812," +
-"IG0912," +
-"IG01012," +
-"IG01112," +
-"IG01212," +
-"IG01312," +
-"IG01412," +
-"IG01512," +
-"IG070113," +
-"IG070213," +
-"IG070313," +
-"IG070413," +
-"IG070513," +
-"IG070613," +
-"IG070713," +
-"IG070813," +
-"IG070913," +
-"IG0701013," +
-"IG0701113," +
-"IG0701213," +
-"IG0701313," +
-"IG0813," +
-"IG0913," +
-"IG01013," +
-"IG01113," +
-"IG01213," +
-"IG01313," +
-"IG01413," +
-"IG01513," +
-"IG070114," +
-"IG070214," +
-"IG070314," +
-"IG070414," +
-"IG070514," +
-"IG070614," +
-"IG070714," +
-"IG070814," +
-"IG070914," +
-"IG0701014," +
-"IG0701114," +
-"IG0701214," +
-"IG0701314," +
-"IG0814," +
-"IG0914," +
-"IG01014," +
-"IG01114," +
-"IG01214," +
-"IG01314," +
-"IG01414," +
-"IG01514," +
-"IG070115," +
-"IG070215," +
-"IG070315," +
-"IG070415," +
-"IG070515," +
-"IG070615," +
-"IG070715," +
-"IG070815," +
-"IG070915," +
-"IG0701015," +
-"IG0701115," +
-"IG0701215," +
-"IG0701315," +
-"IG0815," +
-"IG0915," +
-"IG01015," +
-"IG01115," +
-"IG01215," +
-"IG01315," +
-"IG01415," +
-"IG01515," +
-"IG160111," +
-"IG160211," +
-"IG160311," +
-"IG160411," +
-"IG160511," +
-"IG160611," +
-"IG160711," +
-"IG160811," +
-"IG160911," +
-"IG1601011," +
-"IG1601111," +
-"IG1601211," +
-"IG160112," +
-"IG160212," +
-"IG160312," +
-"IG160412," +
-"IG160512," +
-"IG160612," +
-"IG160712," +
-"IG160812," +
-"IG160912," +
-"IG1601012," +
-"IG1601112," +
-"IG1601212," +
-"IG160113," +
-"IG160213," +
-"IG160313," +
-"IG160413," +
-"IG160513," +
-"IG160613," +
-"IG160713," +
-"IG160813," +
-"IG160913," +
-"IG1601013," +
-"IG1601113," +
-"IG1601213," +
-"IG160114," +
-"IG160214," +
-"IG160314," +
-"IG160414," +
-"IG160514," +
-"IG160614," +
-"IG160714," +
-"IG160814," +
-"IG160914," +
-"IG1601014," +
-"IG1601114," +
-"IG1601214," +
-"IG160115," +
-"IG160215," +
-"IG160315," +
-"IG160415," +
-"IG160515," +
-"IG160615," +
-"IG160715," +
-"IG160815," +
-"IG160915," +
-"IG1601015," +
-"IG1601115," +
-"IG1601215," +
-"entrydate," +
-"userid" +
-") values ('" + FORM_ID.Text + "', '" +
-IA01.Text + "', '" +
-IA02.Text + "', '" +
-IA03.Text + "', '" +
-IA04.Text + "', '" +
-IA05.Text + "', '" +
-IB01.Text + "', '" +
-IB02.Text + "', '" +
-IB03.Text + "', '" +
-IB04.Text + "', '" +
-IB05.Text + "', '" +
-IB06.Text + "', '" +
-IB07.Text + "', '" +
-IB08.Text + "', '" +
-IB0901.Text + "', '" +
-IB0902.Text + "', '" +
-IB0903.Text + "', '" +
-IB0996.Text + "', '" +
-IB010.Text + "', '" +
-IB011.Text + "', '" +
-IC01.Text + "', '" +
-IC02.Text + "', '" +
-IC03.Text + "', '" +
-IC04.Text + "', '" +
-IC05.Text + "', '" +
-chkBaby1.Text + "', '" +
-IC0601.Text + "', '" +
-IC0701.Text + "', '" +
-IC0801.Text + "', '" +
-IC0901.Text + "', '" +
-IC01001.Text + "', '" +
-IC01101.Text + "', '" +
-chkBaby2.Text + "', '" +
-IC0602.Text + "', '" +
-IC0702.Text + "', '" +
-IC0802.Text + "', '" +
-IC0902.Text + "', '" +
-IC01002.Text + "', '" +
-IC01102.Text + "', '" +
-chkBaby3.Text + "', '" +
-IC0603.Text + "', '" +
-IC0703.Text + "', '" +
-IC0803.Text + "', '" +
-IC0903.Text + "', '" +
-IC01003.Text + "', '" +
-IC01103.Text + "', '" +
-chkBaby4.Text + "', '" +
-IC0604.Text + "', '" +
-IC0704.Text + "', '" +
-IC0804.Text + "', '" +
-IC0904.Text + "', '" +
-IC01004.Text + "', '" +
-IC01104.Text + "', '" +
-ID01.Text + "', '" +
-ID02.Text + "', '" +
-ID03.Text + "', '" +
-ID04.Text + "', '" +
-IE01.Text + "', '" +
-IE02.Text + "', '" +
-IE03.Text + "', '" +
-IE04.Text + "', '" +
-chkHHMem1.Text + "', '" +
-IE0701.Text + "', '" +
-chkHHMem2.Text + "', '" +
-IE0702.Text + "', '" +
-chkHHMem3.Text + "', '" +
-IE0703.Text + "', '" +
-chkHHMem4.Text + "', '" +
-IE0704.Text + "', '" +
-IE0801.Text + "', '" +
-IE0901.Text + "', '" +
-IE0802.Text + "', '" +
-IE0902.Text + "', '" +
-IE0803.Text + "', '" +
-IE0903.Text + "', '" +
-IE0804.Text + "', '" +
-IE0904.Text + "', '" +
-IF01.Text + "', '" +
-IF02.Text + "', '" +
-IF03.Text + "', '" +
-IF04.Text + "', '" +
-chkPW1.Text + "', '" +
-IF0601.Text + "', '" +
-chkPW2.Text + "', '" +
-IF0602.Text + "', '" +
-chkPW3.Text + "', '" +
-IF0603.Text + "', '" +
-chkPW4.Text + "', '" +
-IF0604.Text + "', '" +
-IG01.Text + "', '" +
-IG02.Text + "', '" +
-IG0301.Text + "', '" +
-IG0302.Text + "', '" +
-IG0303.Text + "', '" +
-IG0304.Text + "', '" +
-IG0305.Text + "', '" +
-IG0306.Text + "', '" +
-IG0307.Text + "', '" +
-IG0308.Text + "', '" +
-IG0309.Text + "', '" +
-IG03010.Text + "', '" +
-chkMember1.Text + "', '" +
-IG0401.Text + "', '" +
-IG0501.Text + "', '" +
-IG060101.Text + "', '" +
-IG060201.Text + "', '" +
-IG060301.Text + "', '" +
-IG060401.Text + "', '" +
-IG060501.Text + "', '" +
-IG070101.Text + "', '" +
-IG070201.Text + "', '" +
-IG070301.Text + "', '" +
-IG070401.Text + "', '" +
-chkMember2.Text + "', '" +
-IG0402.Text + "', '" +
-IG0502.Text + "', '" +
-IG060102.Text + "', '" +
-IG060202.Text + "', '" +
-IG060302.Text + "', '" +
-IG060402.Text + "', '" +
-IG060502.Text + "', '" +
-IG070102.Text + "', '" +
-IG070202.Text + "', '" +
-IG070302.Text + "', '" +
-IG070402.Text + "', '" +
-chkMember3.Text + "', '" +
-IG0403.Text + "', '" +
-IG0503.Text + "', '" +
-IG060103.Text + "', '" +
-IG060203.Text + "', '" +
-IG060303.Text + "', '" +
-IG060403.Text + "', '" +
-IG060503.Text + "', '" +
-IG070103.Text + "', '" +
-IG070203.Text + "', '" +
-IG070303.Text + "', '" +
-IG070403.Text + "', '" +
-chkMember4.Text + "', '" +
-IG0404.Text + "', '" +
-IG0504.Text + "', '" +
-IG060104.Text + "', '" +
-IG060204.Text + "', '" +
-IG060304.Text + "', '" +
-IG060404.Text + "', '" +
-IG060504.Text + "', '" +
-IG070104.Text + "', '" +
-IG070204.Text + "', '" +
-IG070304.Text + "', '" +
-IG070404.Text + "', '" +
-chkMember5.Text + "', '" +
-IG0405.Text + "', '" +
-IG0505.Text + "', '" +
-IG060105.Text + "', '" +
-IG060205.Text + "', '" +
-IG060305.Text + "', '" +
-IG060405.Text + "', '" +
-IG060505.Text + "', '" +
-IG070105.Text + "', '" +
-IG070205.Text + "', '" +
-IG070305.Text + "', '" +
-IG070405.Text + "', '" +
-IG070501.Text + "', '" +
-IG070601.Text + "', '" +
-IG070701.Text + "', '" +
-IG070801.Text + "', '" +
-IG070901.Text + "', '" +
-IG0701001.Text + "', '" +
-IG0701101.Text + "', '" +
-IG0701201.Text + "', '" +
-IG0701301.Text + "', '" +
-IG0801.Text + "', '" +
-IG0901.Text + "', '" +
-IG01001.Text + "', '" +
-IG01101.Text + "', '" +
-IG01201.Text + "', '" +
-IG01301.Text + "', '" +
-IG01401.Text + "', '" +
-IG01501.Text + "', '" +
-IG160101.Text + "', '" +
-IG160201.Text + "', '" +
-IG160301.Text + "', '" +
-IG160401.Text + "', '" +
-IG160501.Text + "', '" +
-IG160601.Text + "', '" +
-IG160701.Text + "', '" +
-IG160801.Text + "', '" +
-IG160901.Text + "', '" +
-IG1601001.Text + "', '" +
-IG1601101.Text + "', '" +
-IG1601201.Text + "', '" +
-IG070502.Text + "', '" +
-IG070602.Text + "', '" +
-IG070702.Text + "', '" +
-IG070802.Text + "', '" +
-IG070902.Text + "', '" +
-IG0701002.Text + "', '" +
-IG0701102.Text + "', '" +
-IG0701202.Text + "', '" +
-IG0701302.Text + "', '" +
-IG0802.Text + "', '" +
-IG0902.Text + "', '" +
-IG01002.Text + "', '" +
-IG01102.Text + "', '" +
-IG01202.Text + "', '" +
-IG01302.Text + "', '" +
-IG01402.Text + "', '" +
-IG01502.Text + "', '" +
-IG160102.Text + "', '" +
-IG160202.Text + "', '" +
-IG160302.Text + "', '" +
-IG160402.Text + "', '" +
-IG160502.Text + "', '" +
-IG160602.Text + "', '" +
-IG160702.Text + "', '" +
-IG160802.Text + "', '" +
-IG160902.Text + "', '" +
-IG1601002.Text + "', '" +
-IG1601102.Text + "', '" +
-IG1601202.Text + "', '" +
-IG070503.Text + "', '" +
-IG070603.Text + "', '" +
-IG070703.Text + "', '" +
-IG070803.Text + "', '" +
-IG070903.Text + "', '" +
-IG0701003.Text + "', '" +
-IG0701103.Text + "', '" +
-IG0701203.Text + "', '" +
-IG0701303.Text + "', '" +
-IG0803.Text + "', '" +
-IG0903.Text + "', '" +
-IG01003.Text + "', '" +
-IG01103.Text + "', '" +
-IG01203.Text + "', '" +
-IG01303.Text + "', '" +
-IG01403.Text + "', '" +
-IG01503.Text + "', '" +
-IG160103.Text + "', '" +
-IG160203.Text + "', '" +
-IG160303.Text + "', '" +
-IG160403.Text + "', '" +
-IG160503.Text + "', '" +
-IG160603.Text + "', '" +
-IG160703.Text + "', '" +
-IG160803.Text + "', '" +
-IG160903.Text + "', '" +
-IG1601003.Text + "', '" +
-IG1601103.Text + "', '" +
-IG1601203.Text + "', '" +
-IG070504.Text + "', '" +
-IG070604.Text + "', '" +
-IG070704.Text + "', '" +
-IG070804.Text + "', '" +
-IG070904.Text + "', '" +
-IG0701004.Text + "', '" +
-IG0701104.Text + "', '" +
-IG0701204.Text + "', '" +
-IG0701304.Text + "', '" +
-IG0804.Text + "', '" +
-IG0904.Text + "', '" +
-IG01004.Text + "', '" +
-IG01104.Text + "', '" +
-IG01204.Text + "', '" +
-IG01304.Text + "', '" +
-IG01404.Text + "', '" +
-IG01504.Text + "', '" +
-IG160104.Text + "', '" +
-IG160204.Text + "', '" +
-IG160304.Text + "', '" +
-IG160404.Text + "', '" +
-IG160504.Text + "', '" +
-IG160604.Text + "', '" +
-IG160704.Text + "', '" +
-IG160804.Text + "', '" +
-IG160904.Text + "', '" +
-IG1601004.Text + "', '" +
-IG1601104.Text + "', '" +
-IG1601204.Text + "', '" +
-IG070505.Text + "', '" +
-IG070605.Text + "', '" +
-IG070705.Text + "', '" +
-IG070805.Text + "', '" +
-IG070905.Text + "', '" +
-IG0701005.Text + "', '" +
-IG0701105.Text + "', '" +
-IG0701205.Text + "', '" +
-IG0701305.Text + "', '" +
-IG0805.Text + "', '" +
-IG0905.Text + "', '" +
-IG01005.Text + "', '" +
-IG01105.Text + "', '" +
-IG01205.Text + "', '" +
-IG01305.Text + "', '" +
-IG01405.Text + "', '" +
-IG01505.Text + "', '" +
-IG160105.Text + "', '" +
-IG160205.Text + "', '" +
-IG160305.Text + "', '" +
-IG160405.Text + "', '" +
-IG160505.Text + "', '" +
-IG160605.Text + "', '" +
-IG160705.Text + "', '" +
-IG160805.Text + "', '" +
-IG160905.Text + "', '" +
-IG1601005.Text + "', '" +
-IG1601105.Text + "', '" +
-IG1601205.Text + "', '" +
-QCFUP02.Text + "', '" +
-QCFUP03.Text + "', '" +
-QCFUP04.Text + "', '" +
-QCFUP05.Text + "', '" +
-QCFUP06.Text + "', '" +
-QCFUP07.Text + "', '" +
-chkBaby5.Text + "', '" +
-IC0605.Text + "', '" +
-IC0705.Text + "', '" +
-IC0805.Text + "', '" +
-IC0905.Text + "', '" +
-IC01005.Text + "', '" +
-IC01105.Text + "', '" +
-chkBaby6.Text + "', '" +
-IC0606.Text + "', '" +
-IC0706.Text + "', '" +
-IC0806.Text + "', '" +
-IC0906.Text + "', '" +
-IC01006.Text + "', '" +
-IC01106.Text + "', '" +
-chkBaby7.Text + "', '" +
-IC0607.Text + "', '" +
-IC0707.Text + "', '" +
-IC0807.Text + "', '" +
-IC0907.Text + "', '" +
-IC01007.Text + "', '" +
-IC01107.Text + "', '" +
-chkBaby8.Text + "', '" +
-IC0608.Text + "', '" +
-IC0708.Text + "', '" +
-IC0808.Text + "', '" +
-IC0908.Text + "', '" +
-IC01008.Text + "', '" +
-IC01108.Text + "', '" +
-chkBaby9.Text + "', '" +
-IC0609.Text + "', '" +
-IC0709.Text + "', '" +
-IC0809.Text + "', '" +
-IC0909.Text + "', '" +
-IC01009.Text + "', '" +
-IC01109.Text + "', '" +
-chkBaby10.Text + "', '" +
-IC06010.Text + "', '" +
-IC07010.Text + "', '" +
-IC08010.Text + "', '" +
-IC09010.Text + "', '" +
-IC01010.Text + "', '" +
-IC01110.Text + "', '" +
-chkBaby11.Text + "', '" +
-IC06011.Text + "', '" +
-IC07011.Text + "', '" +
-IC08011.Text + "', '" +
-IC09011.Text + "', '" +
-IC01011.Text + "', '" +
-IC01111.Text + "', '" +
-chkMember6.Text + "', '" +
-IG0406.Text + "', '" +
-IG0506.Text + "', '" +
-IG060106.Text + "', '" +
-IG060206.Text + "', '" +
-IG060306.Text + "', '" +
-IG060406.Text + "', '" +
-IG060506.Text + "', '" +
-IG070106.Text + "', '" +
-IG070206.Text + "', '" +
-IG070306.Text + "', '" +
-IG070406.Text + "', '" +
-IG070506.Text + "', '" +
-IG070606.Text + "', '" +
-IG070706.Text + "', '" +
-IG070806.Text + "', '" +
-IG070906.Text + "', '" +
-IG0701006.Text + "', '" +
-IG0701106.Text + "', '" +
-IG0701206.Text + "', '" +
-IG0701306.Text + "', '" +
-IG0806.Text + "', '" +
-IG0906.Text + "', '" +
-IG01006.Text + "', '" +
-chkMember7.Text + "', '" +
-IG0407.Text + "', '" +
-IG0507.Text + "', '" +
-IG060107.Text + "', '" +
-IG060207.Text + "', '" +
-IG060307.Text + "', '" +
-IG060407.Text + "', '" +
-IG060507.Text + "', '" +
-IG070107.Text + "', '" +
-IG070207.Text + "', '" +
-IG070307.Text + "', '" +
-IG070407.Text + "', '" +
-IG070507.Text + "', '" +
-IG070607.Text + "', '" +
-IG070707.Text + "', '" +
-IG070807.Text + "', '" +
-IG070907.Text + "', '" +
-IG0701007.Text + "', '" +
-IG0701107.Text + "', '" +
-IG0701207.Text + "', '" +
-IG0701307.Text + "', '" +
-IG0807.Text + "', '" +
-IG0907.Text + "', '" +
-IG01007.Text + "', '" +
-chkMember8.Text + "', '" +
-IG0408.Text + "', '" +
-IG0508.Text + "', '" +
-IG060108.Text + "', '" +
-IG060208.Text + "', '" +
-IG060308.Text + "', '" +
-IG060408.Text + "', '" +
-IG060508.Text + "', '" +
-IG070108.Text + "', '" +
-IG070208.Text + "', '" +
-IG070308.Text + "', '" +
-IG070408.Text + "', '" +
-IG070508.Text + "', '" +
-IG070608.Text + "', '" +
-IG070708.Text + "', '" +
-IG070808.Text + "', '" +
-IG070908.Text + "', '" +
-IG0701008.Text + "', '" +
-IG0701108.Text + "', '" +
-IG0701208.Text + "', '" +
-IG0701308.Text + "', '" +
-IG0808.Text + "', '" +
-IG0908.Text + "', '" +
-IG01008.Text + "', '" +
-chkMember9.Text + "', '" +
-IG0409.Text + "', '" +
-IG0509.Text + "', '" +
-IG060109.Text + "', '" +
-IG060209.Text + "', '" +
-IG060309.Text + "', '" +
-IG060409.Text + "', '" +
-IG060509.Text + "', '" +
-IG070109.Text + "', '" +
-IG070209.Text + "', '" +
-IG070309.Text + "', '" +
-IG070409.Text + "', '" +
-IG070509.Text + "', '" +
-IG070609.Text + "', '" +
-IG070709.Text + "', '" +
-IG070809.Text + "', '" +
-IG070909.Text + "', '" +
-IG0701009.Text + "', '" +
-IG0701109.Text + "', '" +
-IG0701209.Text + "', '" +
-IG0701309.Text + "', '" +
-IG0809.Text + "', '" +
-IG0909.Text + "', '" +
-IG01009.Text + "', '" +
-chkMember10.Text + "', '" +
-IG0410.Text + "', '" +
-IG0510.Text + "', '" +
-IG060110.Text + "', '" +
-IG060210.Text + "', '" +
-IG060310.Text + "', '" +
-IG060410.Text + "', '" +
-IG060510.Text + "', '" +
-IG070110.Text + "', '" +
-IG070210.Text + "', '" +
-IG070310.Text + "', '" +
-IG070410.Text + "', '" +
-IG070510.Text + "', '" +
-IG070610.Text + "', '" +
-IG070710.Text + "', '" +
-IG070810.Text + "', '" +
-IG070910.Text + "', '" +
-IG0701010.Text + "', '" +
-IG0701110.Text + "', '" +
-IG0701210.Text + "', '" +
-IG0701310.Text + "', '" +
-IG0810.Text + "', '" +
-IG0910.Text + "', '" +
-IG01010.Text + "', '" +
-IG01106.Text + "', '" +
-IG01206.Text + "', '" +
-IG01306.Text + "', '" +
-IG01406.Text + "', '" +
-IG01506.Text + "', '" +
-IG01107.Text + "', '" +
-IG01207.Text + "', '" +
-IG01307.Text + "', '" +
-IG01407.Text + "', '" +
-IG01507.Text + "', '" +
-IG01108.Text + "', '" +
-IG01208.Text + "', '" +
-IG01308.Text + "', '" +
-IG01408.Text + "', '" +
-IG01508.Text + "', '" +
-IG01109.Text + "', '" +
-IG01209.Text + "', '" +
-IG01309.Text + "', '" +
-IG01409.Text + "', '" +
-IG01509.Text + "', '" +
-IG01110.Text + "', '" +
-IG01210.Text + "', '" +
-IG01310.Text + "', '" +
-IG01410.Text + "', '" +
-IG01510.Text + "', '" +
-IG160106.Text + "', '" +
-IG160206.Text + "', '" +
-IG160306.Text + "', '" +
-IG160406.Text + "', '" +
-IG160506.Text + "', '" +
-IG160606.Text + "', '" +
-IG160706.Text + "', '" +
-IG160806.Text + "', '" +
-IG160906.Text + "', '" +
-IG1601006.Text + "', '" +
-IG1601106.Text + "', '" +
-IG1601206.Text + "', '" +
-IG160107.Text + "', '" +
-IG160207.Text + "', '" +
-IG160307.Text + "', '" +
-IG160407.Text + "', '" +
-IG160507.Text + "', '" +
-IG160607.Text + "', '" +
-IG160707.Text + "', '" +
-IG160807.Text + "', '" +
-IG160907.Text + "', '" +
-IG1601007.Text + "', '" +
-IG1601107.Text + "', '" +
-IG1601207.Text + "', '" +
-IG160108.Text + "', '" +
-IG160208.Text + "', '" +
-IG160308.Text + "', '" +
-IG160408.Text + "', '" +
-IG160508.Text + "', '" +
-IG160608.Text + "', '" +
-IG160708.Text + "', '" +
-IG160808.Text + "', '" +
-IG160908.Text + "', '" +
-IG1601008.Text + "', '" +
-IG1601108.Text + "', '" +
-IG1601208.Text + "', '" +
-IG160109.Text + "', '" +
-IG160209.Text + "', '" +
-IG160309.Text + "', '" +
-IG160409.Text + "', '" +
-IG160509.Text + "', '" +
-IG160609.Text + "', '" +
-IG160709.Text + "', '" +
-IG160809.Text + "', '" +
-IG160909.Text + "', '" +
-IG1601009.Text + "', '" +
-IG1601109.Text + "', '" +
-IG1601209.Text + "', '" +
-IG160110.Text + "', '" +
-IG160210.Text + "', '" +
-IG160310.Text + "', '" +
-IG160410.Text + "', '" +
-IG160510.Text + "', '" +
-IG160610.Text + "', '" +
-IG160710.Text + "', '" +
-IG160810.Text + "', '" +
-IG160910.Text + "', '" +
-IG1601010.Text + "', '" +
-IG1601110.Text + "', '" +
-IG1601210.Text + "', '" +
-chkMember11.Text + "', '" +
-IG0411.Text + "', '" +
-IG0511.Text + "', '" +
-IG060111.Text + "', '" +
-IG060211.Text + "', '" +
-IG060311.Text + "', '" +
-IG060411.Text + "', '" +
-IG060511.Text + "', '" +
-chkMember12.Text + "', '" +
-IG0412.Text + "', '" +
-IG0512.Text + "', '" +
-IG060112.Text + "', '" +
-IG060212.Text + "', '" +
-IG060312.Text + "', '" +
-IG060412.Text + "', '" +
-IG060512.Text + "', '" +
-chkMember13.Text + "', '" +
-IG0413.Text + "', '" +
-IG0513.Text + "', '" +
-IG060113.Text + "', '" +
-IG060213.Text + "', '" +
-IG060313.Text + "', '" +
-IG060413.Text + "', '" +
-IG060513.Text + "', '" +
-chkMember14.Text + "', '" +
-IG0414.Text + "', '" +
-IG0514.Text + "', '" +
-IG060114.Text + "', '" +
-IG060214.Text + "', '" +
-IG060314.Text + "', '" +
-IG060414.Text + "', '" +
-IG060514.Text + "', '" +
-chkMember15.Text + "', '" +
-IG0415.Text + "', '" +
-IG0515.Text + "', '" +
-IG060115.Text + "', '" +
-IG060215.Text + "', '" +
-IG060315.Text + "', '" +
-IG060415.Text + "', '" +
-IG060515.Text + "', '" +
-IG070111.Text + "', '" +
-IG070211.Text + "', '" +
-IG070311.Text + "', '" +
-IG070411.Text + "', '" +
-IG070511.Text + "', '" +
-IG070611.Text + "', '" +
-IG070711.Text + "', '" +
-IG070811.Text + "', '" +
-IG070911.Text + "', '" +
-IG0701011.Text + "', '" +
-IG0701111.Text + "', '" +
-IG0701211.Text + "', '" +
-IG0701311.Text + "', '" +
-IG0811.Text + "', '" +
-IG0911.Text + "', '" +
-IG01011.Text + "', '" +
-IG01111.Text + "', '" +
-IG01211.Text + "', '" +
-IG01311.Text + "', '" +
-IG01411.Text + "', '" +
-IG01511.Text + "', '" +
-IG070112.Text + "', '" +
-IG070212.Text + "', '" +
-IG070312.Text + "', '" +
-IG070412.Text + "', '" +
-IG070512.Text + "', '" +
-IG070612.Text + "', '" +
-IG070712.Text + "', '" +
-IG070812.Text + "', '" +
-IG070912.Text + "', '" +
-IG0701012.Text + "', '" +
-IG0701112.Text + "', '" +
-IG0701212.Text + "', '" +
-IG0701312.Text + "', '" +
-IG0812.Text + "', '" +
-IG0912.Text + "', '" +
-IG01012.Text + "', '" +
-IG01112.Text + "', '" +
-IG01212.Text + "', '" +
-IG01312.Text + "', '" +
-IG01412.Text + "', '" +
-IG01512.Text + "', '" +
-IG070113.Text + "', '" +
-IG070213.Text + "', '" +
-IG070313.Text + "', '" +
-IG070413.Text + "', '" +
-IG070513.Text + "', '" +
-IG070613.Text + "', '" +
-IG070713.Text + "', '" +
-IG070813.Text + "', '" +
-IG070913.Text + "', '" +
-IG0701013.Text + "', '" +
-IG0701113.Text + "', '" +
-IG0701213.Text + "', '" +
-IG0701313.Text + "', '" +
-IG0813.Text + "', '" +
-IG0913.Text + "', '" +
-IG01013.Text + "', '" +
-IG01113.Text + "', '" +
-IG01213.Text + "', '" +
-IG01313.Text + "', '" +
-IG01413.Text + "', '" +
-IG01513.Text + "', '" +
-IG070114.Text + "', '" +
-IG070214.Text + "', '" +
-IG070314.Text + "', '" +
-IG070414.Text + "', '" +
-IG070514.Text + "', '" +
-IG070614.Text + "', '" +
-IG070714.Text + "', '" +
-IG070814.Text + "', '" +
-IG070914.Text + "', '" +
-IG0701014.Text + "', '" +
-IG0701114.Text + "', '" +
-IG0701214.Text + "', '" +
-IG0701314.Text + "', '" +
-IG0814.Text + "', '" +
-IG0914.Text + "', '" +
-IG01014.Text + "', '" +
-IG01114.Text + "', '" +
-IG01214.Text + "', '" +
-IG01314.Text + "', '" +
-IG01414.Text + "', '" +
-IG01514.Text + "', '" +
-IG070115.Text + "', '" +
-IG070215.Text + "', '" +
-IG070315.Text + "', '" +
-IG070415.Text + "', '" +
-IG070515.Text + "', '" +
-IG070615.Text + "', '" +
-IG070715.Text + "', '" +
-IG070815.Text + "', '" +
-IG070915.Text + "', '" +
-IG0701015.Text + "', '" +
-IG0701115.Text + "', '" +
-IG0701215.Text + "', '" +
-IG0701315.Text + "', '" +
-IG0815.Text + "', '" +
-IG0915.Text + "', '" +
-IG01015.Text + "', '" +
-IG01115.Text + "', '" +
-IG01215.Text + "', '" +
-IG01315.Text + "', '" +
-IG01415.Text + "', '" +
-IG01515.Text + "', '" +
-IG160111.Text + "', '" +
-IG160211.Text + "', '" +
-IG160311.Text + "', '" +
-IG160411.Text + "', '" +
-IG160511.Text + "', '" +
-IG160611.Text + "', '" +
-IG160711.Text + "', '" +
-IG160811.Text + "', '" +
-IG160911.Text + "', '" +
-IG1601011.Text + "', '" +
-IG1601111.Text + "', '" +
-IG1601211.Text + "', '" +
-IG160112.Text + "', '" +
-IG160212.Text + "', '" +
-IG160312.Text + "', '" +
-IG160412.Text + "', '" +
-IG160512.Text + "', '" +
-IG160612.Text + "', '" +
-IG160712.Text + "', '" +
-IG160812.Text + "', '" +
-IG160912.Text + "', '" +
-IG1601012.Text + "', '" +
-IG1601112.Text + "', '" +
-IG1601212.Text + "', '" +
-IG160113.Text + "', '" +
-IG160213.Text + "', '" +
-IG160313.Text + "', '" +
-IG160413.Text + "', '" +
-IG160513.Text + "', '" +
-IG160613.Text + "', '" +
-IG160713.Text + "', '" +
-IG160813.Text + "', '" +
-IG160913.Text + "', '" +
-IG1601013.Text + "', '" +
-IG1601113.Text + "', '" +
-IG1601213.Text + "', '" +
-IG160114.Text + "', '" +
-IG160214.Text + "', '" +
-IG160314.Text + "', '" +
-IG160414.Text + "', '" +
-IG160514.Text + "', '" +
-IG160614.Text + "', '" +
-IG160714.Text + "', '" +
-IG160814.Text + "', '" +
-IG160914.Text + "', '" +
-IG1601014.Text + "', '" +
-IG1601114.Text + "', '" +
-IG1601214.Text + "', '" +
-IG160115.Text + "', '" +
-IG160215.Text + "', '" +
-IG160315.Text + "', '" +
-IG160415.Text + "', '" +
-IG160515.Text + "', '" +
-IG160615.Text + "', '" +
-IG160715.Text + "', '" +
-IG160815.Text + "', '" +
-IG160915.Text + "', '" +
-IG1601015.Text + "', '" +
-IG1601115.Text + "', '" +
-IG1601215.Text + "', '" +
-EntryDate.ToShortDateString() + "', '" +
-CVariables.UserName + "')";
+        "IA01," +
+        "IA02," +
+        "IA03," +
+        "IA04," +
+        "IA05," +
+        "IB01," +
+        "IB02," +
+        "IB03," +
+        "IB04," +
+        "IB04a," +
+        "IB05," +
+        "IB06," +
+        "IB07," +
+        "IB08," +
+        "IB0901," +
+        "IB0902," +
+        "IB0903," +
+        "IB0996," +
+        "IB010," +
+        "IB011," +
+        "IC01," +
+        "IC02," +
+        "IC03," +
+        "IC04," +
+        "IC05," +
+        "chkBaby1," +
+        "IC0601," +
+        "IC0701," +
+        "IC0801," +
+        "IC0901," +
+        "IC01001," +
+        "IC01101," +
+        "chkBaby2," +
+        "IC0602," +
+        "IC0702," +
+        "IC0802," +
+        "IC0902," +
+        "IC01002," +
+        "IC01102," +
+        "chkBaby3," +
+        "IC0603," +
+        "IC0703," +
+        "IC0803," +
+        "IC0903," +
+        "IC01003," +
+        "IC01103," +
+        "chkBaby4," +
+        "IC0604," +
+        "IC0704," +
+        "IC0804," +
+        "IC0904," +
+        "IC01004," +
+        "IC01104," +
+        "ID01," +
+        "ID02," +
+        "ID03," +
+        "ID04," +
+        "IE01," +
+        "IE02," +
+        "IE03," +
+        "IE04," +
+        "chkHHMem1," +
+        "IE0701," +
+        "chkHHMem2," +
+        "IE0702," +
+        "chkHHMem3," +
+        "IE0703," +
+        "chkHHMem4," +
+        "IE0704," +
+        "IE0801," +
+        "IE0901," +
+        "IE0802," +
+        "IE0902," +
+        "IE0803," +
+        "IE0903," +
+        "IE0804," +
+        "IE0904," +
+        "IF01," +
+        "IF02," +
+        "IF03," +
+        "IF04," +
+        "chkPW1," +
+        "IF0601," +
+        "chkPW2," +
+        "IF0602," +
+        "chkPW3," +
+        "IF0603," +
+        "chkPW4," +
+        "IF0604," +
+        "IG01," +
+        "IG02," +
+        "IG0301," +
+        "IG0302," +
+        "IG0303," +
+        "IG0304," +
+        "IG0305," +
+        "IG0306," +
+        "IG0307," +
+        "IG0308," +
+        "IG0309," +
+        "IG03010," +
+        "chkMember1," +
+        "IG0401," +
+        "IG0501," +
+        "IG060101," +
+        "IG060201," +
+        "IG060301," +
+        "IG060401," +
+        "IG060501," +
+        "IG070101," +
+        "IG070201," +
+        "IG070301," +
+        "IG070401," +
+        "chkMember2," +
+        "IG0402," +
+        "IG0502," +
+        "IG060102," +
+        "IG060202," +
+        "IG060302," +
+        "IG060402," +
+        "IG060502," +
+        "IG070102," +
+        "IG070202," +
+        "IG070302," +
+        "IG070402," +
+        "chkMember3," +
+        "IG0403," +
+        "IG0503," +
+        "IG060103," +
+        "IG060203," +
+        "IG060303," +
+        "IG060403," +
+        "IG060503," +
+        "IG070103," +
+        "IG070203," +
+        "IG070303," +
+        "IG070403," +
+        "chkMember4," +
+        "IG0404," +
+        "IG0504," +
+        "IG060104," +
+        "IG060204," +
+        "IG060304," +
+        "IG060404," +
+        "IG060504," +
+        "IG070104," +
+        "IG070204," +
+        "IG070304," +
+        "IG070404," +
+        "chkMember5," +
+        "IG0405," +
+        "IG0505," +
+        "IG060105," +
+        "IG060205," +
+        "IG060305," +
+        "IG060405," +
+        "IG060505," +
+        "IG070105," +
+        "IG070205," +
+        "IG070305," +
+        "IG070405," +
+        "IG070501," +
+        "IG070601," +
+        "IG070701," +
+        "IG070801," +
+        "IG070901," +
+        "IG0701001," +
+        "IG0701101," +
+        "IG0701201," +
+        "IG0701301," +
+        "IG0801," +
+        "IG0901," +
+        "IG01001," +
+        "IG01101," +
+        "IG01201," +
+        "IG01301," +
+        "IG01401," +
+        "IG01501," +
+        "IG160101," +
+        "IG160201," +
+        "IG160301," +
+        "IG160401," +
+        "IG160501," +
+        "IG160601," +
+        "IG160701," +
+        "IG160801," +
+        "IG160901," +
+        "IG1601001," +
+        "IG1601101," +
+        "IG1601201," +
+        "IG070502," +
+        "IG070602," +
+        "IG070702," +
+        "IG070802," +
+        "IG070902," +
+        "IG0701002," +
+        "IG0701102," +
+        "IG0701202," +
+        "IG0701302," +
+        "IG0802," +
+        "IG0902," +
+        "IG01002," +
+        "IG01102," +
+        "IG01202," +
+        "IG01302," +
+        "IG01402," +
+        "IG01502," +
+        "IG160102," +
+        "IG160202," +
+        "IG160302," +
+        "IG160402," +
+        "IG160502," +
+        "IG160602," +
+        "IG160702," +
+        "IG160802," +
+        "IG160902," +
+        "IG1601002," +
+        "IG1601102," +
+        "IG1601202," +
+        "IG070503," +
+        "IG070603," +
+        "IG070703," +
+        "IG070803," +
+        "IG070903," +
+        "IG0701003," +
+        "IG0701103," +
+        "IG0701203," +
+        "IG0701303," +
+        "IG0803," +
+        "IG0903," +
+        "IG01003," +
+        "IG01103," +
+        "IG01203," +
+        "IG01303," +
+        "IG01403," +
+        "IG01503," +
+        "IG160103," +
+        "IG160203," +
+        "IG160303," +
+        "IG160403," +
+        "IG160503," +
+        "IG160603," +
+        "IG160703," +
+        "IG160803," +
+        "IG160903," +
+        "IG1601003," +
+        "IG1601103," +
+        "IG1601203," +
+        "IG070504," +
+        "IG070604," +
+        "IG070704," +
+        "IG070804," +
+        "IG070904," +
+        "IG0701004," +
+        "IG0701104," +
+        "IG0701204," +
+        "IG0701304," +
+        "IG0804," +
+        "IG0904," +
+        "IG01004," +
+        "IG01104," +
+        "IG01204," +
+        "IG01304," +
+        "IG01404," +
+        "IG01504," +
+        "IG160104," +
+        "IG160204," +
+        "IG160304," +
+        "IG160404," +
+        "IG160504," +
+        "IG160604," +
+        "IG160704," +
+        "IG160804," +
+        "IG160904," +
+        "IG1601004," +
+        "IG1601104," +
+        "IG1601204," +
+        "IG070505," +
+        "IG070605," +
+        "IG070705," +
+        "IG070805," +
+        "IG070905," +
+        "IG0701005," +
+        "IG0701105," +
+        "IG0701205," +
+        "IG0701305," +
+        "IG0805," +
+        "IG0905," +
+        "IG01005," +
+        "IG01105," +
+        "IG01205," +
+        "IG01305," +
+        "IG01405," +
+        "IG01505," +
+        "IG160105," +
+        "IG160205," +
+        "IG160305," +
+        "IG160405," +
+        "IG160505," +
+        "IG160605," +
+        "IG160705," +
+        "IG160805," +
+        "IG160905," +
+        "IG1601005," +
+        "IG1601105," +
+        "IG1601205," +
+        "QCFUP02," +
+        "QCFUP03," +
+        "QCFUP04," +
+        "QCFUP05," +
+        "QCFUP06," +
+        "QCFUP07," +
+        "chkBaby5," +
+        "IC0605," +
+        "IC0705," +
+        "IC0805," +
+        "IC0905," +
+        "IC01005," +
+        "IC01105," +
+        "chkBaby6," +
+        "IC0606," +
+        "IC0706," +
+        "IC0806," +
+        "IC0906," +
+        "IC01006," +
+        "IC01106," +
+        "chkBaby7," +
+        "IC0607," +
+        "IC0707," +
+        "IC0807," +
+        "IC0907," +
+        "IC01007," +
+        "IC01107," +
+        "chkBaby8," +
+        "IC0608," +
+        "IC0708," +
+        "IC0808," +
+        "IC0908," +
+        "IC01008," +
+        "IC01108," +
+        "chkBaby9," +
+        "IC0609," +
+        "IC0709," +
+        "IC0809," +
+        "IC0909," +
+        "IC01009," +
+        "IC01109," +
+        "chkBaby10," +
+        "IC06010," +
+        "IC07010," +
+        "IC08010," +
+        "IC09010," +
+        "IC01010," +
+        "IC01110," +
+        "chkBaby11," +
+        "IC06011," +
+        "IC07011," +
+        "IC08011," +
+        "IC09011," +
+        "IC01011," +
+        "IC01111," +
+        "chkMember6," +
+        "IG0406," +
+        "IG0506," +
+        "IG060106," +
+        "IG060206," +
+        "IG060306," +
+        "IG060406," +
+        "IG060506," +
+        "IG070106," +
+        "IG070206," +
+        "IG070306," +
+        "IG070406," +
+        "IG070506," +
+        "IG070606," +
+        "IG070706," +
+        "IG070806," +
+        "IG070906," +
+        "IG0701006," +
+        "IG0701106," +
+        "IG0701206," +
+        "IG0701306," +
+        "IG0806," +
+        "IG0906," +
+        "IG01006," +
+        "chkMember7," +
+        "IG0407," +
+        "IG0507," +
+        "IG060107," +
+        "IG060207," +
+        "IG060307," +
+        "IG060407," +
+        "IG060507," +
+        "IG070107," +
+        "IG070207," +
+        "IG070307," +
+        "IG070407," +
+        "IG070507," +
+        "IG070607," +
+        "IG070707," +
+        "IG070807," +
+        "IG070907," +
+        "IG0701007," +
+        "IG0701107," +
+        "IG0701207," +
+        "IG0701307," +
+        "IG0807," +
+        "IG0907," +
+        "IG01007," +
+        "chkMember8," +
+        "IG0408," +
+        "IG0508," +
+        "IG060108," +
+        "IG060208," +
+        "IG060308," +
+        "IG060408," +
+        "IG060508," +
+        "IG070108," +
+        "IG070208," +
+        "IG070308," +
+        "IG070408," +
+        "IG070508," +
+        "IG070608," +
+        "IG070708," +
+        "IG070808," +
+        "IG070908," +
+        "IG0701008," +
+        "IG0701108," +
+        "IG0701208," +
+        "IG0701308," +
+        "IG0808," +
+        "IG0908," +
+        "IG01008," +
+        "chkMember9," +
+        "IG0409," +
+        "IG0509," +
+        "IG060109," +
+        "IG060209," +
+        "IG060309," +
+        "IG060409," +
+        "IG060509," +
+        "IG070109," +
+        "IG070209," +
+        "IG070309," +
+        "IG070409," +
+        "IG070509," +
+        "IG070609," +
+        "IG070709," +
+        "IG070809," +
+        "IG070909," +
+        "IG0701009," +
+        "IG0701109," +
+        "IG0701209," +
+        "IG0701309," +
+        "IG0809," +
+        "IG0909," +
+        "IG01009," +
+        "chkMember10," +
+        "IG0410," +
+        "IG0510," +
+        "IG060110," +
+        "IG060210," +
+        "IG060310," +
+        "IG060410," +
+        "IG060510," +
+        "IG070110," +
+        "IG070210," +
+        "IG070310," +
+        "IG070410," +
+        "IG070510," +
+        "IG070610," +
+        "IG070710," +
+        "IG070810," +
+        "IG070910," +
+        "IG0701010," +
+        "IG0701110," +
+        "IG0701210," +
+        "IG0701310," +
+        "IG0810," +
+        "IG0910," +
+        "IG01010," +
+        "IG01106," +
+        "IG01206," +
+        "IG01306," +
+        "IG01406," +
+        "IG01506," +
+        "IG01107," +
+        "IG01207," +
+        "IG01307," +
+        "IG01407," +
+        "IG01507," +
+        "IG01108," +
+        "IG01208," +
+        "IG01308," +
+        "IG01408," +
+        "IG01508," +
+        "IG01109," +
+        "IG01209," +
+        "IG01309," +
+        "IG01409," +
+        "IG01509," +
+        "IG01110," +
+        "IG01210," +
+        "IG01310," +
+        "IG01410," +
+        "IG01510," +
+        "IG160106," +
+        "IG160206," +
+        "IG160306," +
+        "IG160406," +
+        "IG160506," +
+        "IG160606," +
+        "IG160706," +
+        "IG160806," +
+        "IG160906," +
+        "IG1601006," +
+        "IG1601106," +
+        "IG1601206," +
+        "IG160107," +
+        "IG160207," +
+        "IG160307," +
+        "IG160407," +
+        "IG160507," +
+        "IG160607," +
+        "IG160707," +
+        "IG160807," +
+        "IG160907," +
+        "IG1601007," +
+        "IG1601107," +
+        "IG1601207," +
+        "IG160108," +
+        "IG160208," +
+        "IG160308," +
+        "IG160408," +
+        "IG160508," +
+        "IG160608," +
+        "IG160708," +
+        "IG160808," +
+        "IG160908," +
+        "IG1601008," +
+        "IG1601108," +
+        "IG1601208," +
+        "IG160109," +
+        "IG160209," +
+        "IG160309," +
+        "IG160409," +
+        "IG160509," +
+        "IG160609," +
+        "IG160709," +
+        "IG160809," +
+        "IG160909," +
+        "IG1601009," +
+        "IG1601109," +
+        "IG1601209," +
+        "IG160110," +
+        "IG160210," +
+        "IG160310," +
+        "IG160410," +
+        "IG160510," +
+        "IG160610," +
+        "IG160710," +
+        "IG160810," +
+        "IG160910," +
+        "IG1601010," +
+        "IG1601110," +
+        "IG1601210," +
+        "chkMember11," +
+        "IG0411," +
+        "IG0511," +
+        "IG060111," +
+        "IG060211," +
+        "IG060311," +
+        "IG060411," +
+        "IG060511," +
+        "chkMember12," +
+        "IG0412," +
+        "IG0512," +
+        "IG060112," +
+        "IG060212," +
+        "IG060312," +
+        "IG060412," +
+        "IG060512," +
+        "chkMember13," +
+        "IG0413," +
+        "IG0513," +
+        "IG060113," +
+        "IG060213," +
+        "IG060313," +
+        "IG060413," +
+        "IG060513," +
+        "chkMember14," +
+        "IG0414," +
+        "IG0514," +
+        "IG060114," +
+        "IG060214," +
+        "IG060314," +
+        "IG060414," +
+        "IG060514," +
+        "chkMember15," +
+        "IG0415," +
+        "IG0515," +
+        "IG060115," +
+        "IG060215," +
+        "IG060315," +
+        "IG060415," +
+        "IG060515," +
+        "IG070111," +
+        "IG070211," +
+        "IG070311," +
+        "IG070411," +
+        "IG070511," +
+        "IG070611," +
+        "IG070711," +
+        "IG070811," +
+        "IG070911," +
+        "IG0701011," +
+        "IG0701111," +
+        "IG0701211," +
+        "IG0701311," +
+        "IG0811," +
+        "IG0911," +
+        "IG01011," +
+        "IG01111," +
+        "IG01211," +
+        "IG01311," +
+        "IG01411," +
+        "IG01511," +
+        "IG070112," +
+        "IG070212," +
+        "IG070312," +
+        "IG070412," +
+        "IG070512," +
+        "IG070612," +
+        "IG070712," +
+        "IG070812," +
+        "IG070912," +
+        "IG0701012," +
+        "IG0701112," +
+        "IG0701212," +
+        "IG0701312," +
+        "IG0812," +
+        "IG0912," +
+        "IG01012," +
+        "IG01112," +
+        "IG01212," +
+        "IG01312," +
+        "IG01412," +
+        "IG01512," +
+        "IG070113," +
+        "IG070213," +
+        "IG070313," +
+        "IG070413," +
+        "IG070513," +
+        "IG070613," +
+        "IG070713," +
+        "IG070813," +
+        "IG070913," +
+        "IG0701013," +
+        "IG0701113," +
+        "IG0701213," +
+        "IG0701313," +
+        "IG0813," +
+        "IG0913," +
+        "IG01013," +
+        "IG01113," +
+        "IG01213," +
+        "IG01313," +
+        "IG01413," +
+        "IG01513," +
+        "IG070114," +
+        "IG070214," +
+        "IG070314," +
+        "IG070414," +
+        "IG070514," +
+        "IG070614," +
+        "IG070714," +
+        "IG070814," +
+        "IG070914," +
+        "IG0701014," +
+        "IG0701114," +
+        "IG0701214," +
+        "IG0701314," +
+        "IG0814," +
+        "IG0914," +
+        "IG01014," +
+        "IG01114," +
+        "IG01214," +
+        "IG01314," +
+        "IG01414," +
+        "IG01514," +
+        "IG070115," +
+        "IG070215," +
+        "IG070315," +
+        "IG070415," +
+        "IG070515," +
+        "IG070615," +
+        "IG070715," +
+        "IG070815," +
+        "IG070915," +
+        "IG0701015," +
+        "IG0701115," +
+        "IG0701215," +
+        "IG0701315," +
+        "IG0815," +
+        "IG0915," +
+        "IG01015," +
+        "IG01115," +
+        "IG01215," +
+        "IG01315," +
+        "IG01415," +
+        "IG01515," +
+        "IG160111," +
+        "IG160211," +
+        "IG160311," +
+        "IG160411," +
+        "IG160511," +
+        "IG160611," +
+        "IG160711," +
+        "IG160811," +
+        "IG160911," +
+        "IG1601011," +
+        "IG1601111," +
+        "IG1601211," +
+        "IG160112," +
+        "IG160212," +
+        "IG160312," +
+        "IG160412," +
+        "IG160512," +
+        "IG160612," +
+        "IG160712," +
+        "IG160812," +
+        "IG160912," +
+        "IG1601012," +
+        "IG1601112," +
+        "IG1601212," +
+        "IG160113," +
+        "IG160213," +
+        "IG160313," +
+        "IG160413," +
+        "IG160513," +
+        "IG160613," +
+        "IG160713," +
+        "IG160813," +
+        "IG160913," +
+        "IG1601013," +
+        "IG1601113," +
+        "IG1601213," +
+        "IG160114," +
+        "IG160214," +
+        "IG160314," +
+        "IG160414," +
+        "IG160514," +
+        "IG160614," +
+        "IG160714," +
+        "IG160814," +
+        "IG160914," +
+        "IG1601014," +
+        "IG1601114," +
+        "IG1601214," +
+        "IG160115," +
+        "IG160215," +
+        "IG160315," +
+        "IG160415," +
+        "IG160515," +
+        "IG160615," +
+        "IG160715," +
+        "IG160815," +
+        "IG160915," +
+        "IG1601015," +
+        "IG1601115," +
+        "IG1601215," +
+        "entrydate," +
+        "userid" +
+        ") values ('" + FORM_ID.Text + "', '" +
+        IA01.Text + "', '" +
+        IA02.Text + "', '" +
+        IA03.Text + "', '" +
+        IA04.Text + "', '" +
+        IA05.Text + "', '" +
+        IB01.Text + "', '" +
+        IB02.Text + "', '" +
+        IB03.Text + "', '" +
+        IB04.Text + "', '" +
+        IB04a.Text + "', '" +
+        IB05.Text + "', '" +
+        IB06.Text + "', '" +
+        IB07.Text + "', '" +
+        IB08.Text + "', '" +
+        IB0901.Text + "', '" +
+        IB0902.Text + "', '" +
+        IB0903.Text + "', '" +
+        IB0996.Text + "', '" +
+        IB010.Text + "', '" +
+        IB011.Text + "', '" +
+        IC01.Text + "', '" +
+        IC02.Text + "', '" +
+        IC03.Text + "', '" +
+        IC04.Text + "', '" +
+        IC05.Text + "', '" +
+        chkBaby1.Text + "', '" +
+        IC0601.Text + "', '" +
+        IC0701.Text + "', '" +
+        IC0801.Text + "', '" +
+        IC0901.Text + "', '" +
+        IC01001.Text + "', '" +
+        IC01101.Text + "', '" +
+        chkBaby2.Text + "', '" +
+        IC0602.Text + "', '" +
+        IC0702.Text + "', '" +
+        IC0802.Text + "', '" +
+        IC0902.Text + "', '" +
+        IC01002.Text + "', '" +
+        IC01102.Text + "', '" +
+        chkBaby3.Text + "', '" +
+        IC0603.Text + "', '" +
+        IC0703.Text + "', '" +
+        IC0803.Text + "', '" +
+        IC0903.Text + "', '" +
+        IC01003.Text + "', '" +
+        IC01103.Text + "', '" +
+        chkBaby4.Text + "', '" +
+        IC0604.Text + "', '" +
+        IC0704.Text + "', '" +
+        IC0804.Text + "', '" +
+        IC0904.Text + "', '" +
+        IC01004.Text + "', '" +
+        IC01104.Text + "', '" +
+        ID01.Text + "', '" +
+        ID02.Text + "', '" +
+        ID03.Text + "', '" +
+        ID04.Text + "', '" +
+        IE01.Text + "', '" +
+        IE02.Text + "', '" +
+        IE03.Text + "', '" +
+        IE04.Text + "', '" +
+        chkHHMem1.Text + "', '" +
+        IE0701.Text + "', '" +
+        chkHHMem2.Text + "', '" +
+        IE0702.Text + "', '" +
+        chkHHMem3.Text + "', '" +
+        IE0703.Text + "', '" +
+        chkHHMem4.Text + "', '" +
+        IE0704.Text + "', '" +
+        IE0801.Text + "', '" +
+        IE0901.Text + "', '" +
+        IE0802.Text + "', '" +
+        IE0902.Text + "', '" +
+        IE0803.Text + "', '" +
+        IE0903.Text + "', '" +
+        IE0804.Text + "', '" +
+        IE0904.Text + "', '" +
+        IF01.Text + "', '" +
+        IF02.Text + "', '" +
+        IF03.Text + "', '" +
+        IF04.Text + "', '" +
+        chkPW1.Text + "', '" +
+        IF0601.Text + "', '" +
+        chkPW2.Text + "', '" +
+        IF0602.Text + "', '" +
+        chkPW3.Text + "', '" +
+        IF0603.Text + "', '" +
+        chkPW4.Text + "', '" +
+        IF0604.Text + "', '" +
+        IG01.Text + "', '" +
+        IG02.Text + "', '" +
+        IG0301.Text + "', '" +
+        IG0302.Text + "', '" +
+        IG0303.Text + "', '" +
+        IG0304.Text + "', '" +
+        IG0305.Text + "', '" +
+        IG0306.Text + "', '" +
+        IG0307.Text + "', '" +
+        IG0308.Text + "', '" +
+        IG0309.Text + "', '" +
+        IG03010.Text + "', '" +
+        chkMember1.Text + "', '" +
+        IG0401.Text + "', '" +
+        IG0501.Text + "', '" +
+        IG060101.Text + "', '" +
+        IG060201.Text + "', '" +
+        IG060301.Text + "', '" +
+        IG060401.Text + "', '" +
+        IG060501.Text + "', '" +
+        IG070101.Text + "', '" +
+        IG070201.Text + "', '" +
+        IG070301.Text + "', '" +
+        IG070401.Text + "', '" +
+        chkMember2.Text + "', '" +
+        IG0402.Text + "', '" +
+        IG0502.Text + "', '" +
+        IG060102.Text + "', '" +
+        IG060202.Text + "', '" +
+        IG060302.Text + "', '" +
+        IG060402.Text + "', '" +
+        IG060502.Text + "', '" +
+        IG070102.Text + "', '" +
+        IG070202.Text + "', '" +
+        IG070302.Text + "', '" +
+        IG070402.Text + "', '" +
+        chkMember3.Text + "', '" +
+        IG0403.Text + "', '" +
+        IG0503.Text + "', '" +
+        IG060103.Text + "', '" +
+        IG060203.Text + "', '" +
+        IG060303.Text + "', '" +
+        IG060403.Text + "', '" +
+        IG060503.Text + "', '" +
+        IG070103.Text + "', '" +
+        IG070203.Text + "', '" +
+        IG070303.Text + "', '" +
+        IG070403.Text + "', '" +
+        chkMember4.Text + "', '" +
+        IG0404.Text + "', '" +
+        IG0504.Text + "', '" +
+        IG060104.Text + "', '" +
+        IG060204.Text + "', '" +
+        IG060304.Text + "', '" +
+        IG060404.Text + "', '" +
+        IG060504.Text + "', '" +
+        IG070104.Text + "', '" +
+        IG070204.Text + "', '" +
+        IG070304.Text + "', '" +
+        IG070404.Text + "', '" +
+        chkMember5.Text + "', '" +
+        IG0405.Text + "', '" +
+        IG0505.Text + "', '" +
+        IG060105.Text + "', '" +
+        IG060205.Text + "', '" +
+        IG060305.Text + "', '" +
+        IG060405.Text + "', '" +
+        IG060505.Text + "', '" +
+        IG070105.Text + "', '" +
+        IG070205.Text + "', '" +
+        IG070305.Text + "', '" +
+        IG070405.Text + "', '" +
+        IG070501.Text + "', '" +
+        IG070601.Text + "', '" +
+        IG070701.Text + "', '" +
+        IG070801.Text + "', '" +
+        IG070901.Text + "', '" +
+        IG0701001.Text + "', '" +
+        IG0701101.Text + "', '" +
+        IG0701201.Text + "', '" +
+        IG0701301.Text + "', '" +
+        IG0801.Text + "', '" +
+        IG0901.Text + "', '" +
+        IG01001.Text + "', '" +
+        IG01101.Text + "', '" +
+        IG01201.Text + "', '" +
+        IG01301.Text + "', '" +
+        IG01401.Text + "', '" +
+        IG01501.Text + "', '" +
+        IG160101.Text + "', '" +
+        IG160201.Text + "', '" +
+        IG160301.Text + "', '" +
+        IG160401.Text + "', '" +
+        IG160501.Text + "', '" +
+        IG160601.Text + "', '" +
+        IG160701.Text + "', '" +
+        IG160801.Text + "', '" +
+        IG160901.Text + "', '" +
+        IG1601001.Text + "', '" +
+        IG1601101.Text + "', '" +
+        IG1601201.Text + "', '" +
+        IG070502.Text + "', '" +
+        IG070602.Text + "', '" +
+        IG070702.Text + "', '" +
+        IG070802.Text + "', '" +
+        IG070902.Text + "', '" +
+        IG0701002.Text + "', '" +
+        IG0701102.Text + "', '" +
+        IG0701202.Text + "', '" +
+        IG0701302.Text + "', '" +
+        IG0802.Text + "', '" +
+        IG0902.Text + "', '" +
+        IG01002.Text + "', '" +
+        IG01102.Text + "', '" +
+        IG01202.Text + "', '" +
+        IG01302.Text + "', '" +
+        IG01402.Text + "', '" +
+        IG01502.Text + "', '" +
+        IG160102.Text + "', '" +
+        IG160202.Text + "', '" +
+        IG160302.Text + "', '" +
+        IG160402.Text + "', '" +
+        IG160502.Text + "', '" +
+        IG160602.Text + "', '" +
+        IG160702.Text + "', '" +
+        IG160802.Text + "', '" +
+        IG160902.Text + "', '" +
+        IG1601002.Text + "', '" +
+        IG1601102.Text + "', '" +
+        IG1601202.Text + "', '" +
+        IG070503.Text + "', '" +
+        IG070603.Text + "', '" +
+        IG070703.Text + "', '" +
+        IG070803.Text + "', '" +
+        IG070903.Text + "', '" +
+        IG0701003.Text + "', '" +
+        IG0701103.Text + "', '" +
+        IG0701203.Text + "', '" +
+        IG0701303.Text + "', '" +
+        IG0803.Text + "', '" +
+        IG0903.Text + "', '" +
+        IG01003.Text + "', '" +
+        IG01103.Text + "', '" +
+        IG01203.Text + "', '" +
+        IG01303.Text + "', '" +
+        IG01403.Text + "', '" +
+        IG01503.Text + "', '" +
+        IG160103.Text + "', '" +
+        IG160203.Text + "', '" +
+        IG160303.Text + "', '" +
+        IG160403.Text + "', '" +
+        IG160503.Text + "', '" +
+        IG160603.Text + "', '" +
+        IG160703.Text + "', '" +
+        IG160803.Text + "', '" +
+        IG160903.Text + "', '" +
+        IG1601003.Text + "', '" +
+        IG1601103.Text + "', '" +
+        IG1601203.Text + "', '" +
+        IG070504.Text + "', '" +
+        IG070604.Text + "', '" +
+        IG070704.Text + "', '" +
+        IG070804.Text + "', '" +
+        IG070904.Text + "', '" +
+        IG0701004.Text + "', '" +
+        IG0701104.Text + "', '" +
+        IG0701204.Text + "', '" +
+        IG0701304.Text + "', '" +
+        IG0804.Text + "', '" +
+        IG0904.Text + "', '" +
+        IG01004.Text + "', '" +
+        IG01104.Text + "', '" +
+        IG01204.Text + "', '" +
+        IG01304.Text + "', '" +
+        IG01404.Text + "', '" +
+        IG01504.Text + "', '" +
+        IG160104.Text + "', '" +
+        IG160204.Text + "', '" +
+        IG160304.Text + "', '" +
+        IG160404.Text + "', '" +
+        IG160504.Text + "', '" +
+        IG160604.Text + "', '" +
+        IG160704.Text + "', '" +
+        IG160804.Text + "', '" +
+        IG160904.Text + "', '" +
+        IG1601004.Text + "', '" +
+        IG1601104.Text + "', '" +
+        IG1601204.Text + "', '" +
+        IG070505.Text + "', '" +
+        IG070605.Text + "', '" +
+        IG070705.Text + "', '" +
+        IG070805.Text + "', '" +
+        IG070905.Text + "', '" +
+        IG0701005.Text + "', '" +
+        IG0701105.Text + "', '" +
+        IG0701205.Text + "', '" +
+        IG0701305.Text + "', '" +
+        IG0805.Text + "', '" +
+        IG0905.Text + "', '" +
+        IG01005.Text + "', '" +
+        IG01105.Text + "', '" +
+        IG01205.Text + "', '" +
+        IG01305.Text + "', '" +
+        IG01405.Text + "', '" +
+        IG01505.Text + "', '" +
+        IG160105.Text + "', '" +
+        IG160205.Text + "', '" +
+        IG160305.Text + "', '" +
+        IG160405.Text + "', '" +
+        IG160505.Text + "', '" +
+        IG160605.Text + "', '" +
+        IG160705.Text + "', '" +
+        IG160805.Text + "', '" +
+        IG160905.Text + "', '" +
+        IG1601005.Text + "', '" +
+        IG1601105.Text + "', '" +
+        IG1601205.Text + "', '" +
+        QCFUP02.Text + "', '" +
+        QCFUP03.Text + "', '" +
+        QCFUP04.Text + "', '" +
+        QCFUP05.Text + "', '" +
+        QCFUP06.Text + "', '" +
+        QCFUP07.Text + "', '" +
+        chkBaby5.Text + "', '" +
+        IC0605.Text + "', '" +
+        IC0705.Text + "', '" +
+        IC0805.Text + "', '" +
+        IC0905.Text + "', '" +
+        IC01005.Text + "', '" +
+        IC01105.Text + "', '" +
+        chkBaby6.Text + "', '" +
+        IC0606.Text + "', '" +
+        IC0706.Text + "', '" +
+        IC0806.Text + "', '" +
+        IC0906.Text + "', '" +
+        IC01006.Text + "', '" +
+        IC01106.Text + "', '" +
+        chkBaby7.Text + "', '" +
+        IC0607.Text + "', '" +
+        IC0707.Text + "', '" +
+        IC0807.Text + "', '" +
+        IC0907.Text + "', '" +
+        IC01007.Text + "', '" +
+        IC01107.Text + "', '" +
+        chkBaby8.Text + "', '" +
+        IC0608.Text + "', '" +
+        IC0708.Text + "', '" +
+        IC0808.Text + "', '" +
+        IC0908.Text + "', '" +
+        IC01008.Text + "', '" +
+        IC01108.Text + "', '" +
+        chkBaby9.Text + "', '" +
+        IC0609.Text + "', '" +
+        IC0709.Text + "', '" +
+        IC0809.Text + "', '" +
+        IC0909.Text + "', '" +
+        IC01009.Text + "', '" +
+        IC01109.Text + "', '" +
+        chkBaby10.Text + "', '" +
+        IC06010.Text + "', '" +
+        IC07010.Text + "', '" +
+        IC08010.Text + "', '" +
+        IC09010.Text + "', '" +
+        IC01010.Text + "', '" +
+        IC01110.Text + "', '" +
+        chkBaby11.Text + "', '" +
+        IC06011.Text + "', '" +
+        IC07011.Text + "', '" +
+        IC08011.Text + "', '" +
+        IC09011.Text + "', '" +
+        IC01011.Text + "', '" +
+        IC01111.Text + "', '" +
+        chkMember6.Text + "', '" +
+        IG0406.Text + "', '" +
+        IG0506.Text + "', '" +
+        IG060106.Text + "', '" +
+        IG060206.Text + "', '" +
+        IG060306.Text + "', '" +
+        IG060406.Text + "', '" +
+        IG060506.Text + "', '" +
+        IG070106.Text + "', '" +
+        IG070206.Text + "', '" +
+        IG070306.Text + "', '" +
+        IG070406.Text + "', '" +
+        IG070506.Text + "', '" +
+        IG070606.Text + "', '" +
+        IG070706.Text + "', '" +
+        IG070806.Text + "', '" +
+        IG070906.Text + "', '" +
+        IG0701006.Text + "', '" +
+        IG0701106.Text + "', '" +
+        IG0701206.Text + "', '" +
+        IG0701306.Text + "', '" +
+        IG0806.Text + "', '" +
+        IG0906.Text + "', '" +
+        IG01006.Text + "', '" +
+        chkMember7.Text + "', '" +
+        IG0407.Text + "', '" +
+        IG0507.Text + "', '" +
+        IG060107.Text + "', '" +
+        IG060207.Text + "', '" +
+        IG060307.Text + "', '" +
+        IG060407.Text + "', '" +
+        IG060507.Text + "', '" +
+        IG070107.Text + "', '" +
+        IG070207.Text + "', '" +
+        IG070307.Text + "', '" +
+        IG070407.Text + "', '" +
+        IG070507.Text + "', '" +
+        IG070607.Text + "', '" +
+        IG070707.Text + "', '" +
+        IG070807.Text + "', '" +
+        IG070907.Text + "', '" +
+        IG0701007.Text + "', '" +
+        IG0701107.Text + "', '" +
+        IG0701207.Text + "', '" +
+        IG0701307.Text + "', '" +
+        IG0807.Text + "', '" +
+        IG0907.Text + "', '" +
+        IG01007.Text + "', '" +
+        chkMember8.Text + "', '" +
+        IG0408.Text + "', '" +
+        IG0508.Text + "', '" +
+        IG060108.Text + "', '" +
+        IG060208.Text + "', '" +
+        IG060308.Text + "', '" +
+        IG060408.Text + "', '" +
+        IG060508.Text + "', '" +
+        IG070108.Text + "', '" +
+        IG070208.Text + "', '" +
+        IG070308.Text + "', '" +
+        IG070408.Text + "', '" +
+        IG070508.Text + "', '" +
+        IG070608.Text + "', '" +
+        IG070708.Text + "', '" +
+        IG070808.Text + "', '" +
+        IG070908.Text + "', '" +
+        IG0701008.Text + "', '" +
+        IG0701108.Text + "', '" +
+        IG0701208.Text + "', '" +
+        IG0701308.Text + "', '" +
+        IG0808.Text + "', '" +
+        IG0908.Text + "', '" +
+        IG01008.Text + "', '" +
+        chkMember9.Text + "', '" +
+        IG0409.Text + "', '" +
+        IG0509.Text + "', '" +
+        IG060109.Text + "', '" +
+        IG060209.Text + "', '" +
+        IG060309.Text + "', '" +
+        IG060409.Text + "', '" +
+        IG060509.Text + "', '" +
+        IG070109.Text + "', '" +
+        IG070209.Text + "', '" +
+        IG070309.Text + "', '" +
+        IG070409.Text + "', '" +
+        IG070509.Text + "', '" +
+        IG070609.Text + "', '" +
+        IG070709.Text + "', '" +
+        IG070809.Text + "', '" +
+        IG070909.Text + "', '" +
+        IG0701009.Text + "', '" +
+        IG0701109.Text + "', '" +
+        IG0701209.Text + "', '" +
+        IG0701309.Text + "', '" +
+        IG0809.Text + "', '" +
+        IG0909.Text + "', '" +
+        IG01009.Text + "', '" +
+        chkMember10.Text + "', '" +
+        IG0410.Text + "', '" +
+        IG0510.Text + "', '" +
+        IG060110.Text + "', '" +
+        IG060210.Text + "', '" +
+        IG060310.Text + "', '" +
+        IG060410.Text + "', '" +
+        IG060510.Text + "', '" +
+        IG070110.Text + "', '" +
+        IG070210.Text + "', '" +
+        IG070310.Text + "', '" +
+        IG070410.Text + "', '" +
+        IG070510.Text + "', '" +
+        IG070610.Text + "', '" +
+        IG070710.Text + "', '" +
+        IG070810.Text + "', '" +
+        IG070910.Text + "', '" +
+        IG0701010.Text + "', '" +
+        IG0701110.Text + "', '" +
+        IG0701210.Text + "', '" +
+        IG0701310.Text + "', '" +
+        IG0810.Text + "', '" +
+        IG0910.Text + "', '" +
+        IG01010.Text + "', '" +
+        IG01106.Text + "', '" +
+        IG01206.Text + "', '" +
+        IG01306.Text + "', '" +
+        IG01406.Text + "', '" +
+        IG01506.Text + "', '" +
+        IG01107.Text + "', '" +
+        IG01207.Text + "', '" +
+        IG01307.Text + "', '" +
+        IG01407.Text + "', '" +
+        IG01507.Text + "', '" +
+        IG01108.Text + "', '" +
+        IG01208.Text + "', '" +
+        IG01308.Text + "', '" +
+        IG01408.Text + "', '" +
+        IG01508.Text + "', '" +
+        IG01109.Text + "', '" +
+        IG01209.Text + "', '" +
+        IG01309.Text + "', '" +
+        IG01409.Text + "', '" +
+        IG01509.Text + "', '" +
+        IG01110.Text + "', '" +
+        IG01210.Text + "', '" +
+        IG01310.Text + "', '" +
+        IG01410.Text + "', '" +
+        IG01510.Text + "', '" +
+        IG160106.Text + "', '" +
+        IG160206.Text + "', '" +
+        IG160306.Text + "', '" +
+        IG160406.Text + "', '" +
+        IG160506.Text + "', '" +
+        IG160606.Text + "', '" +
+        IG160706.Text + "', '" +
+        IG160806.Text + "', '" +
+        IG160906.Text + "', '" +
+        IG1601006.Text + "', '" +
+        IG1601106.Text + "', '" +
+        IG1601206.Text + "', '" +
+        IG160107.Text + "', '" +
+        IG160207.Text + "', '" +
+        IG160307.Text + "', '" +
+        IG160407.Text + "', '" +
+        IG160507.Text + "', '" +
+        IG160607.Text + "', '" +
+        IG160707.Text + "', '" +
+        IG160807.Text + "', '" +
+        IG160907.Text + "', '" +
+        IG1601007.Text + "', '" +
+        IG1601107.Text + "', '" +
+        IG1601207.Text + "', '" +
+        IG160108.Text + "', '" +
+        IG160208.Text + "', '" +
+        IG160308.Text + "', '" +
+        IG160408.Text + "', '" +
+        IG160508.Text + "', '" +
+        IG160608.Text + "', '" +
+        IG160708.Text + "', '" +
+        IG160808.Text + "', '" +
+        IG160908.Text + "', '" +
+        IG1601008.Text + "', '" +
+        IG1601108.Text + "', '" +
+        IG1601208.Text + "', '" +
+        IG160109.Text + "', '" +
+        IG160209.Text + "', '" +
+        IG160309.Text + "', '" +
+        IG160409.Text + "', '" +
+        IG160509.Text + "', '" +
+        IG160609.Text + "', '" +
+        IG160709.Text + "', '" +
+        IG160809.Text + "', '" +
+        IG160909.Text + "', '" +
+        IG1601009.Text + "', '" +
+        IG1601109.Text + "', '" +
+        IG1601209.Text + "', '" +
+        IG160110.Text + "', '" +
+        IG160210.Text + "', '" +
+        IG160310.Text + "', '" +
+        IG160410.Text + "', '" +
+        IG160510.Text + "', '" +
+        IG160610.Text + "', '" +
+        IG160710.Text + "', '" +
+        IG160810.Text + "', '" +
+        IG160910.Text + "', '" +
+        IG1601010.Text + "', '" +
+        IG1601110.Text + "', '" +
+        IG1601210.Text + "', '" +
+        chkMember11.Text + "', '" +
+        IG0411.Text + "', '" +
+        IG0511.Text + "', '" +
+        IG060111.Text + "', '" +
+        IG060211.Text + "', '" +
+        IG060311.Text + "', '" +
+        IG060411.Text + "', '" +
+        IG060511.Text + "', '" +
+        chkMember12.Text + "', '" +
+        IG0412.Text + "', '" +
+        IG0512.Text + "', '" +
+        IG060112.Text + "', '" +
+        IG060212.Text + "', '" +
+        IG060312.Text + "', '" +
+        IG060412.Text + "', '" +
+        IG060512.Text + "', '" +
+        chkMember13.Text + "', '" +
+        IG0413.Text + "', '" +
+        IG0513.Text + "', '" +
+        IG060113.Text + "', '" +
+        IG060213.Text + "', '" +
+        IG060313.Text + "', '" +
+        IG060413.Text + "', '" +
+        IG060513.Text + "', '" +
+        chkMember14.Text + "', '" +
+        IG0414.Text + "', '" +
+        IG0514.Text + "', '" +
+        IG060114.Text + "', '" +
+        IG060214.Text + "', '" +
+        IG060314.Text + "', '" +
+        IG060414.Text + "', '" +
+        IG060514.Text + "', '" +
+        chkMember15.Text + "', '" +
+        IG0415.Text + "', '" +
+        IG0515.Text + "', '" +
+        IG060115.Text + "', '" +
+        IG060215.Text + "', '" +
+        IG060315.Text + "', '" +
+        IG060415.Text + "', '" +
+        IG060515.Text + "', '" +
+        IG070111.Text + "', '" +
+        IG070211.Text + "', '" +
+        IG070311.Text + "', '" +
+        IG070411.Text + "', '" +
+        IG070511.Text + "', '" +
+        IG070611.Text + "', '" +
+        IG070711.Text + "', '" +
+        IG070811.Text + "', '" +
+        IG070911.Text + "', '" +
+        IG0701011.Text + "', '" +
+        IG0701111.Text + "', '" +
+        IG0701211.Text + "', '" +
+        IG0701311.Text + "', '" +
+        IG0811.Text + "', '" +
+        IG0911.Text + "', '" +
+        IG01011.Text + "', '" +
+        IG01111.Text + "', '" +
+        IG01211.Text + "', '" +
+        IG01311.Text + "', '" +
+        IG01411.Text + "', '" +
+        IG01511.Text + "', '" +
+        IG070112.Text + "', '" +
+        IG070212.Text + "', '" +
+        IG070312.Text + "', '" +
+        IG070412.Text + "', '" +
+        IG070512.Text + "', '" +
+        IG070612.Text + "', '" +
+        IG070712.Text + "', '" +
+        IG070812.Text + "', '" +
+        IG070912.Text + "', '" +
+        IG0701012.Text + "', '" +
+        IG0701112.Text + "', '" +
+        IG0701212.Text + "', '" +
+        IG0701312.Text + "', '" +
+        IG0812.Text + "', '" +
+        IG0912.Text + "', '" +
+        IG01012.Text + "', '" +
+        IG01112.Text + "', '" +
+        IG01212.Text + "', '" +
+        IG01312.Text + "', '" +
+        IG01412.Text + "', '" +
+        IG01512.Text + "', '" +
+        IG070113.Text + "', '" +
+        IG070213.Text + "', '" +
+        IG070313.Text + "', '" +
+        IG070413.Text + "', '" +
+        IG070513.Text + "', '" +
+        IG070613.Text + "', '" +
+        IG070713.Text + "', '" +
+        IG070813.Text + "', '" +
+        IG070913.Text + "', '" +
+        IG0701013.Text + "', '" +
+        IG0701113.Text + "', '" +
+        IG0701213.Text + "', '" +
+        IG0701313.Text + "', '" +
+        IG0813.Text + "', '" +
+        IG0913.Text + "', '" +
+        IG01013.Text + "', '" +
+        IG01113.Text + "', '" +
+        IG01213.Text + "', '" +
+        IG01313.Text + "', '" +
+        IG01413.Text + "', '" +
+        IG01513.Text + "', '" +
+        IG070114.Text + "', '" +
+        IG070214.Text + "', '" +
+        IG070314.Text + "', '" +
+        IG070414.Text + "', '" +
+        IG070514.Text + "', '" +
+        IG070614.Text + "', '" +
+        IG070714.Text + "', '" +
+        IG070814.Text + "', '" +
+        IG070914.Text + "', '" +
+        IG0701014.Text + "', '" +
+        IG0701114.Text + "', '" +
+        IG0701214.Text + "', '" +
+        IG0701314.Text + "', '" +
+        IG0814.Text + "', '" +
+        IG0914.Text + "', '" +
+        IG01014.Text + "', '" +
+        IG01114.Text + "', '" +
+        IG01214.Text + "', '" +
+        IG01314.Text + "', '" +
+        IG01414.Text + "', '" +
+        IG01514.Text + "', '" +
+        IG070115.Text + "', '" +
+        IG070215.Text + "', '" +
+        IG070315.Text + "', '" +
+        IG070415.Text + "', '" +
+        IG070515.Text + "', '" +
+        IG070615.Text + "', '" +
+        IG070715.Text + "', '" +
+        IG070815.Text + "', '" +
+        IG070915.Text + "', '" +
+        IG0701015.Text + "', '" +
+        IG0701115.Text + "', '" +
+        IG0701215.Text + "', '" +
+        IG0701315.Text + "', '" +
+        IG0815.Text + "', '" +
+        IG0915.Text + "', '" +
+        IG01015.Text + "', '" +
+        IG01115.Text + "', '" +
+        IG01215.Text + "', '" +
+        IG01315.Text + "', '" +
+        IG01415.Text + "', '" +
+        IG01515.Text + "', '" +
+        IG160111.Text + "', '" +
+        IG160211.Text + "', '" +
+        IG160311.Text + "', '" +
+        IG160411.Text + "', '" +
+        IG160511.Text + "', '" +
+        IG160611.Text + "', '" +
+        IG160711.Text + "', '" +
+        IG160811.Text + "', '" +
+        IG160911.Text + "', '" +
+        IG1601011.Text + "', '" +
+        IG1601111.Text + "', '" +
+        IG1601211.Text + "', '" +
+        IG160112.Text + "', '" +
+        IG160212.Text + "', '" +
+        IG160312.Text + "', '" +
+        IG160412.Text + "', '" +
+        IG160512.Text + "', '" +
+        IG160612.Text + "', '" +
+        IG160712.Text + "', '" +
+        IG160812.Text + "', '" +
+        IG160912.Text + "', '" +
+        IG1601012.Text + "', '" +
+        IG1601112.Text + "', '" +
+        IG1601212.Text + "', '" +
+        IG160113.Text + "', '" +
+        IG160213.Text + "', '" +
+        IG160313.Text + "', '" +
+        IG160413.Text + "', '" +
+        IG160513.Text + "', '" +
+        IG160613.Text + "', '" +
+        IG160713.Text + "', '" +
+        IG160813.Text + "', '" +
+        IG160913.Text + "', '" +
+        IG1601013.Text + "', '" +
+        IG1601113.Text + "', '" +
+        IG1601213.Text + "', '" +
+        IG160114.Text + "', '" +
+        IG160214.Text + "', '" +
+        IG160314.Text + "', '" +
+        IG160414.Text + "', '" +
+        IG160514.Text + "', '" +
+        IG160614.Text + "', '" +
+        IG160714.Text + "', '" +
+        IG160814.Text + "', '" +
+        IG160914.Text + "', '" +
+        IG1601014.Text + "', '" +
+        IG1601114.Text + "', '" +
+        IG1601214.Text + "', '" +
+        IG160115.Text + "', '" +
+        IG160215.Text + "', '" +
+        IG160315.Text + "', '" +
+        IG160415.Text + "', '" +
+        IG160515.Text + "', '" +
+        IG160615.Text + "', '" +
+        IG160715.Text + "', '" +
+        IG160815.Text + "', '" +
+        IG160915.Text + "', '" +
+        IG1601015.Text + "', '" +
+        IG1601115.Text + "', '" +
+        IG1601215.Text + "', '" +
+        EntryDate.ToShortDateString() + "', '" +
+        CVariables.UserName + "')";
 
 
                 obj_op = new CDBOperations();
@@ -42198,776 +48014,777 @@ CVariables.UserName + "')";
 
 
                 string qry = "UPDATE " + tblname + " set " +
-"IA01 = '" + IA01.Text + "', " +
-"IA02 = '" + IA02.Text + "', " +
-"IA03 = '" + IA03.Text + "', " +
-"IA04 = '" + IA04.Text + "', " +
-"IA05 = '" + IA05.Text + "', " +
-"IB01 = '" + IB01.Text + "', " +
-"IB02 = '" + IB02.Text + "', " +
-"IB03 = '" + IB03.Text + "', " +
-"IB04 = '" + IB04.Text + "', " +
-"IB05 = '" + IB05.Text + "', " +
-"IB06 = '" + IB06.Text + "', " +
-"IB07 = '" + IB07.Text + "', " +
-"IB08 = '" + IB08.Text + "', " +
-"IB0901 = '" + IB0901.Text + "', " +
-"IB0902 = '" + IB0902.Text + "', " +
-"IB0903 = '" + IB0903.Text + "', " +
-"IB0996 = '" + IB0996.Text + "', " +
-"IB010 = '" + IB010.Text + "', " +
-"IB011 = '" + IB011.Text + "', " +
-"IC01 = '" + IC01.Text + "', " +
-"IC02 = '" + IC02.Text + "', " +
-"IC03 = '" + IC03.Text + "', " +
-"IC04 = '" + IC04.Text + "', " +
-"IC05 = '" + IC05.Text + "', " +
-"chkBaby1 = '" + chkBaby1.Text + "', " +
-"IC0601 = '" + IC0601.Text + "', " +
-"IC0701 = '" + IC0701.Text + "', " +
-"IC0801 = '" + IC0801.Text + "', " +
-"IC0901 = '" + IC0901.Text + "', " +
-"IC01001 = '" + IC01001.Text + "', " +
-"IC01101 = '" + IC01101.Text + "', " +
-"chkBaby2 = '" + chkBaby2.Text + "', " +
-"IC0602 = '" + IC0602.Text + "', " +
-"IC0702 = '" + IC0702.Text + "', " +
-"IC0802 = '" + IC0802.Text + "', " +
-"IC0902 = '" + IC0902.Text + "', " +
-"IC01002 = '" + IC01002.Text + "', " +
-"IC01102 = '" + IC01102.Text + "', " +
-"chkBaby3 = '" + chkBaby3.Text + "', " +
-"IC0603 = '" + IC0603.Text + "', " +
-"IC0703 = '" + IC0703.Text + "', " +
-"IC0803 = '" + IC0803.Text + "', " +
-"IC0903 = '" + IC0903.Text + "', " +
-"IC01003 = '" + IC01003.Text + "', " +
-"IC01103 = '" + IC01103.Text + "', " +
-"chkBaby4 = '" + chkBaby4.Text + "', " +
-"IC0604 = '" + IC0604.Text + "', " +
-"IC0704 = '" + IC0704.Text + "', " +
-"IC0804 = '" + IC0804.Text + "', " +
-"IC0904 = '" + IC0904.Text + "', " +
-"IC01004 = '" + IC01004.Text + "', " +
-"IC01104 = '" + IC01104.Text + "', " +
-"ID01 = '" + ID01.Text + "', " +
-"ID02 = '" + ID02.Text + "', " +
-"ID03 = '" + ID03.Text + "', " +
-"ID04 = '" + ID04.Text + "', " +
-"IE01 = '" + IE01.Text + "', " +
-"IE02 = '" + IE02.Text + "', " +
-"IE03 = '" + IE03.Text + "', " +
-"IE04 = '" + IE04.Text + "', " +
-"chkHHMem1 = '" + chkHHMem1.Text + "', " +
-"IE0701 = '" + IE0701.Text + "', " +
-"chkHHMem2 = '" + chkHHMem2.Text + "', " +
-"IE0702 = '" + IE0702.Text + "', " +
-"chkHHMem3 = '" + chkHHMem3.Text + "', " +
-"IE0703 = '" + IE0703.Text + "', " +
-"chkHHMem4 = '" + chkHHMem4.Text + "', " +
-"IE0704 = '" + IE0704.Text + "', " +
-"IE0801 = '" + IE0801.Text + "', " +
-"IE0901 = '" + IE0901.Text + "', " +
-"IE0802 = '" + IE0802.Text + "', " +
-"IE0902 = '" + IE0902.Text + "', " +
-"IE0803 = '" + IE0803.Text + "', " +
-"IE0903 = '" + IE0903.Text + "', " +
-"IE0804 = '" + IE0804.Text + "', " +
-"IE0904 = '" + IE0904.Text + "', " +
-"IF01 = '" + IF01.Text + "', " +
-"IF02 = '" + IF02.Text + "', " +
-"IF03 = '" + IF03.Text + "', " +
-"IF04 = '" + IF04.Text + "', " +
-"chkPW1 = '" + chkPW1.Text + "', " +
-"IF0601 = '" + IF0601.Text + "', " +
-"chkPW2 = '" + chkPW2.Text + "', " +
-"IF0602 = '" + IF0602.Text + "', " +
-"chkPW3 = '" + chkPW3.Text + "', " +
-"IF0603 = '" + IF0603.Text + "', " +
-"chkPW4 = '" + chkPW4.Text + "', " +
-"IF0604 = '" + IF0604.Text + "', " +
-"IG01 = '" + IG01.Text + "', " +
-"IG02 = '" + IG02.Text + "', " +
-"IG0301 = '" + IG0301.Text + "', " +
-"IG0302 = '" + IG0302.Text + "', " +
-"IG0303 = '" + IG0303.Text + "', " +
-"IG0304 = '" + IG0304.Text + "', " +
-"IG0305 = '" + IG0305.Text + "', " +
-"IG0306 = '" + IG0306.Text + "', " +
-"IG0307 = '" + IG0307.Text + "', " +
-"IG0308 = '" + IG0308.Text + "', " +
-"IG0309 = '" + IG0309.Text + "', " +
-"IG03010 = '" + IG03010.Text + "', " +
-"chkMember1 = '" + chkMember1.Text + "', " +
-"IG0401 = '" + IG0401.Text + "', " +
-"IG0501 = '" + IG0501.Text + "', " +
-"IG060101 = '" + IG060101.Text + "', " +
-"IG060201 = '" + IG060201.Text + "', " +
-"IG060301 = '" + IG060301.Text + "', " +
-"IG060401 = '" + IG060401.Text + "', " +
-"IG060501 = '" + IG060501.Text + "', " +
-"IG070101 = '" + IG070101.Text + "', " +
-"IG070201 = '" + IG070201.Text + "', " +
-"IG070301 = '" + IG070301.Text + "', " +
-"IG070401 = '" + IG070401.Text + "', " +
-"chkMember2 = '" + chkMember2.Text + "', " +
-"IG0402 = '" + IG0402.Text + "', " +
-"IG0502 = '" + IG0502.Text + "', " +
-"IG060102 = '" + IG060102.Text + "', " +
-"IG060202 = '" + IG060202.Text + "', " +
-"IG060302 = '" + IG060302.Text + "', " +
-"IG060402 = '" + IG060402.Text + "', " +
-"IG060502 = '" + IG060502.Text + "', " +
-"IG070102 = '" + IG070102.Text + "', " +
-"IG070202 = '" + IG070202.Text + "', " +
-"IG070302 = '" + IG070302.Text + "', " +
-"IG070402 = '" + IG070402.Text + "', " +
-"chkMember3 = '" + chkMember3.Text + "', " +
-"IG0403 = '" + IG0403.Text + "', " +
-"IG0503 = '" + IG0503.Text + "', " +
-"IG060103 = '" + IG060103.Text + "', " +
-"IG060203 = '" + IG060203.Text + "', " +
-"IG060303 = '" + IG060303.Text + "', " +
-"IG060403 = '" + IG060403.Text + "', " +
-"IG060503 = '" + IG060503.Text + "', " +
-"IG070103 = '" + IG070103.Text + "', " +
-"IG070203 = '" + IG070203.Text + "', " +
-"IG070303 = '" + IG070303.Text + "', " +
-"IG070403 = '" + IG070403.Text + "', " +
-"chkMember4 = '" + chkMember4.Text + "', " +
-"IG0404 = '" + IG0404.Text + "', " +
-"IG0504 = '" + IG0504.Text + "', " +
-"IG060104 = '" + IG060104.Text + "', " +
-"IG060204 = '" + IG060204.Text + "', " +
-"IG060304 = '" + IG060304.Text + "', " +
-"IG060404 = '" + IG060404.Text + "', " +
-"IG060504 = '" + IG060504.Text + "', " +
-"IG070104 = '" + IG070104.Text + "', " +
-"IG070204 = '" + IG070204.Text + "', " +
-"IG070304 = '" + IG070304.Text + "', " +
-"IG070404 = '" + IG070404.Text + "', " +
-"chkMember5 = '" + chkMember5.Text + "', " +
-"IG0405 = '" + IG0405.Text + "', " +
-"IG0505 = '" + IG0505.Text + "', " +
-"IG060105 = '" + IG060105.Text + "', " +
-"IG060205 = '" + IG060205.Text + "', " +
-"IG060305 = '" + IG060305.Text + "', " +
-"IG060405 = '" + IG060405.Text + "', " +
-"IG060505 = '" + IG060505.Text + "', " +
-"IG070105 = '" + IG070105.Text + "', " +
-"IG070205 = '" + IG070205.Text + "', " +
-"IG070305 = '" + IG070305.Text + "', " +
-"IG070405 = '" + IG070405.Text + "', " +
-"IG070501 = '" + IG070501.Text + "', " +
-"IG070601 = '" + IG070601.Text + "', " +
-"IG070701 = '" + IG070701.Text + "', " +
-"IG070801 = '" + IG070801.Text + "', " +
-"IG070901 = '" + IG070901.Text + "', " +
-"IG0701001 = '" + IG0701001.Text + "', " +
-"IG0701101 = '" + IG0701101.Text + "', " +
-"IG0701201 = '" + IG0701201.Text + "', " +
-"IG0701301 = '" + IG0701301.Text + "', " +
-"IG0801 = '" + IG0801.Text + "', " +
-"IG0901 = '" + IG0901.Text + "', " +
-"IG01001 = '" + IG01001.Text + "', " +
-"IG01101 = '" + IG01101.Text + "', " +
-"IG01201 = '" + IG01201.Text + "', " +
-"IG01301 = '" + IG01301.Text + "', " +
-"IG01401 = '" + IG01401.Text + "', " +
-"IG01501 = '" + IG01501.Text + "', " +
-"IG160101 = '" + IG160101.Text + "', " +
-"IG160201 = '" + IG160201.Text + "', " +
-"IG160301 = '" + IG160301.Text + "', " +
-"IG160401 = '" + IG160401.Text + "', " +
-"IG160501 = '" + IG160501.Text + "', " +
-"IG160601 = '" + IG160601.Text + "', " +
-"IG160701 = '" + IG160701.Text + "', " +
-"IG160801 = '" + IG160801.Text + "', " +
-"IG160901 = '" + IG160901.Text + "', " +
-"IG1601001 = '" + IG1601001.Text + "', " +
-"IG1601101 = '" + IG1601101.Text + "', " +
-"IG1601201 = '" + IG1601201.Text + "', " +
-"IG070502 = '" + IG070502.Text + "', " +
-"IG070602 = '" + IG070602.Text + "', " +
-"IG070702 = '" + IG070702.Text + "', " +
-"IG070802 = '" + IG070802.Text + "', " +
-"IG070902 = '" + IG070902.Text + "', " +
-"IG0701002 = '" + IG0701002.Text + "', " +
-"IG0701102 = '" + IG0701102.Text + "', " +
-"IG0701202 = '" + IG0701202.Text + "', " +
-"IG0701302 = '" + IG0701302.Text + "', " +
-"IG0802 = '" + IG0802.Text + "', " +
-"IG0902 = '" + IG0902.Text + "', " +
-"IG01002 = '" + IG01002.Text + "', " +
-"IG01102 = '" + IG01102.Text + "', " +
-"IG01202 = '" + IG01202.Text + "', " +
-"IG01302 = '" + IG01302.Text + "', " +
-"IG01402 = '" + IG01402.Text + "', " +
-"IG01502 = '" + IG01502.Text + "', " +
-"IG160102 = '" + IG160102.Text + "', " +
-"IG160202 = '" + IG160202.Text + "', " +
-"IG160302 = '" + IG160302.Text + "', " +
-"IG160402 = '" + IG160402.Text + "', " +
-"IG160502 = '" + IG160502.Text + "', " +
-"IG160602 = '" + IG160602.Text + "', " +
-"IG160702 = '" + IG160702.Text + "', " +
-"IG160802 = '" + IG160802.Text + "', " +
-"IG160902 = '" + IG160902.Text + "', " +
-"IG1601002 = '" + IG1601002.Text + "', " +
-"IG1601102 = '" + IG1601102.Text + "', " +
-"IG1601202 = '" + IG1601202.Text + "', " +
-"IG070503 = '" + IG070503.Text + "', " +
-"IG070603 = '" + IG070603.Text + "', " +
-"IG070703 = '" + IG070703.Text + "', " +
-"IG070803 = '" + IG070803.Text + "', " +
-"IG070903 = '" + IG070903.Text + "', " +
-"IG0701003 = '" + IG0701003.Text + "', " +
-"IG0701103 = '" + IG0701103.Text + "', " +
-"IG0701203 = '" + IG0701203.Text + "', " +
-"IG0701303 = '" + IG0701303.Text + "', " +
-"IG0803 = '" + IG0803.Text + "', " +
-"IG0903 = '" + IG0903.Text + "', " +
-"IG01003 = '" + IG01003.Text + "', " +
-"IG01103 = '" + IG01103.Text + "', " +
-"IG01203 = '" + IG01203.Text + "', " +
-"IG01303 = '" + IG01303.Text + "', " +
-"IG01403 = '" + IG01403.Text + "', " +
-"IG01503 = '" + IG01503.Text + "', " +
-"IG160103 = '" + IG160103.Text + "', " +
-"IG160203 = '" + IG160203.Text + "', " +
-"IG160303 = '" + IG160303.Text + "', " +
-"IG160403 = '" + IG160403.Text + "', " +
-"IG160503 = '" + IG160503.Text + "', " +
-"IG160603 = '" + IG160603.Text + "', " +
-"IG160703 = '" + IG160703.Text + "', " +
-"IG160803 = '" + IG160803.Text + "', " +
-"IG160903 = '" + IG160903.Text + "', " +
-"IG1601003 = '" + IG1601003.Text + "', " +
-"IG1601103 = '" + IG1601103.Text + "', " +
-"IG1601203 = '" + IG1601203.Text + "', " +
-"IG070504 = '" + IG070504.Text + "', " +
-"IG070604 = '" + IG070604.Text + "', " +
-"IG070704 = '" + IG070704.Text + "', " +
-"IG070804 = '" + IG070804.Text + "', " +
-"IG070904 = '" + IG070904.Text + "', " +
-"IG0701004 = '" + IG0701004.Text + "', " +
-"IG0701104 = '" + IG0701104.Text + "', " +
-"IG0701204 = '" + IG0701204.Text + "', " +
-"IG0701304 = '" + IG0701304.Text + "', " +
-"IG0804 = '" + IG0804.Text + "', " +
-"IG0904 = '" + IG0904.Text + "', " +
-"IG01004 = '" + IG01004.Text + "', " +
-"IG01104 = '" + IG01104.Text + "', " +
-"IG01204 = '" + IG01204.Text + "', " +
-"IG01304 = '" + IG01304.Text + "', " +
-"IG01404 = '" + IG01404.Text + "', " +
-"IG01504 = '" + IG01504.Text + "', " +
-"IG160104 = '" + IG160104.Text + "', " +
-"IG160204 = '" + IG160204.Text + "', " +
-"IG160304 = '" + IG160304.Text + "', " +
-"IG160404 = '" + IG160404.Text + "', " +
-"IG160504 = '" + IG160504.Text + "', " +
-"IG160604 = '" + IG160604.Text + "', " +
-"IG160704 = '" + IG160704.Text + "', " +
-"IG160804 = '" + IG160804.Text + "', " +
-"IG160904 = '" + IG160904.Text + "', " +
-"IG1601004 = '" + IG1601004.Text + "', " +
-"IG1601104 = '" + IG1601104.Text + "', " +
-"IG1601204 = '" + IG1601204.Text + "', " +
-"IG070505 = '" + IG070505.Text + "', " +
-"IG070605 = '" + IG070605.Text + "', " +
-"IG070705 = '" + IG070705.Text + "', " +
-"IG070805 = '" + IG070805.Text + "', " +
-"IG070905 = '" + IG070905.Text + "', " +
-"IG0701005 = '" + IG0701005.Text + "', " +
-"IG0701105 = '" + IG0701105.Text + "', " +
-"IG0701205 = '" + IG0701205.Text + "', " +
-"IG0701305 = '" + IG0701305.Text + "', " +
-"IG0805 = '" + IG0805.Text + "', " +
-"IG0905 = '" + IG0905.Text + "', " +
-"IG01005 = '" + IG01005.Text + "', " +
-"IG01105 = '" + IG01105.Text + "', " +
-"IG01205 = '" + IG01205.Text + "', " +
-"IG01305 = '" + IG01305.Text + "', " +
-"IG01405 = '" + IG01405.Text + "', " +
-"IG01505 = '" + IG01505.Text + "', " +
-"IG160105 = '" + IG160105.Text + "', " +
-"IG160205 = '" + IG160205.Text + "', " +
-"IG160305 = '" + IG160305.Text + "', " +
-"IG160405 = '" + IG160405.Text + "', " +
-"IG160505 = '" + IG160505.Text + "', " +
-"IG160605 = '" + IG160605.Text + "', " +
-"IG160705 = '" + IG160705.Text + "', " +
-"IG160805 = '" + IG160805.Text + "', " +
-"IG160905 = '" + IG160905.Text + "', " +
-"IG1601005 = '" + IG1601005.Text + "', " +
-"IG1601105 = '" + IG1601105.Text + "', " +
-"IG1601205 = '" + IG1601205.Text + "', " +
-"QCFUP02 = '" + QCFUP02.Text + "', " +
-"QCFUP03 = '" + QCFUP03.Text + "', " +
-"QCFUP04 = '" + QCFUP04.Text + "', " +
-"QCFUP05 = '" + QCFUP05.Text + "', " +
-"QCFUP06 = '" + QCFUP06.Text + "', " +
-"QCFUP07 = '" + QCFUP07.Text + "', " +
-"chkBaby5 = '" + chkBaby5.Text + "', " +
-"IC0605 = '" + IC0605.Text + "', " +
-"IC0705 = '" + IC0705.Text + "', " +
-"IC0805 = '" + IC0805.Text + "', " +
-"IC0905 = '" + IC0905.Text + "', " +
-"IC01005 = '" + IC01005.Text + "', " +
-"IC01105 = '" + IC01105.Text + "', " +
-"chkBaby6 = '" + chkBaby6.Text + "', " +
-"IC0606 = '" + IC0606.Text + "', " +
-"IC0706 = '" + IC0706.Text + "', " +
-"IC0806 = '" + IC0806.Text + "', " +
-"IC0906 = '" + IC0906.Text + "', " +
-"IC01006 = '" + IC01006.Text + "', " +
-"IC01106 = '" + IC01106.Text + "', " +
-"chkBaby7 = '" + chkBaby7.Text + "', " +
-"IC0607 = '" + IC0607.Text + "', " +
-"IC0707 = '" + IC0707.Text + "', " +
-"IC0807 = '" + IC0807.Text + "', " +
-"IC0907 = '" + IC0907.Text + "', " +
-"IC01007 = '" + IC01007.Text + "', " +
-"IC01107 = '" + IC01107.Text + "', " +
-"chkBaby8 = '" + chkBaby8.Text + "', " +
-"IC0608 = '" + IC0608.Text + "', " +
-"IC0708 = '" + IC0708.Text + "', " +
-"IC0808 = '" + IC0808.Text + "', " +
-"IC0908 = '" + IC0908.Text + "', " +
-"IC01008 = '" + IC01008.Text + "', " +
-"IC01108 = '" + IC01108.Text + "', " +
-"chkBaby9 = '" + chkBaby9.Text + "', " +
-"IC0609 = '" + IC0609.Text + "', " +
-"IC0709 = '" + IC0709.Text + "', " +
-"IC0809 = '" + IC0809.Text + "', " +
-"IC0909 = '" + IC0909.Text + "', " +
-"IC01009 = '" + IC01009.Text + "', " +
-"IC01109 = '" + IC01109.Text + "', " +
-"chkBaby10 = '" + chkBaby10.Text + "', " +
-"IC06010 = '" + IC06010.Text + "', " +
-"IC07010 = '" + IC07010.Text + "', " +
-"IC08010 = '" + IC08010.Text + "', " +
-"IC09010 = '" + IC09010.Text + "', " +
-"IC01010 = '" + IC01010.Text + "', " +
-"IC01110 = '" + IC01110.Text + "', " +
-"chkBaby11 = '" + chkBaby11.Text + "', " +
-"IC06011 = '" + IC06011.Text + "', " +
-"IC07011 = '" + IC07011.Text + "', " +
-"IC08011 = '" + IC08011.Text + "', " +
-"IC09011 = '" + IC09011.Text + "', " +
-"IC01011 = '" + IC01011.Text + "', " +
-"IC01111 = '" + IC01111.Text + "', " +
-"chkMember6 = '" + chkMember6.Text + "', " +
-"IG0406 = '" + IG0406.Text + "', " +
-"IG0506 = '" + IG0506.Text + "', " +
-"IG060106 = '" + IG060106.Text + "', " +
-"IG060206 = '" + IG060206.Text + "', " +
-"IG060306 = '" + IG060306.Text + "', " +
-"IG060406 = '" + IG060406.Text + "', " +
-"IG060506 = '" + IG060506.Text + "', " +
-"IG070106 = '" + IG070106.Text + "', " +
-"IG070206 = '" + IG070206.Text + "', " +
-"IG070306 = '" + IG070306.Text + "', " +
-"IG070406 = '" + IG070406.Text + "', " +
-"IG070506 = '" + IG070506.Text + "', " +
-"IG070606 = '" + IG070606.Text + "', " +
-"IG070706 = '" + IG070706.Text + "', " +
-"IG070806 = '" + IG070806.Text + "', " +
-"IG070906 = '" + IG070906.Text + "', " +
-"IG0701006 = '" + IG0701006.Text + "', " +
-"IG0701106 = '" + IG0701106.Text + "', " +
-"IG0701206 = '" + IG0701206.Text + "', " +
-"IG0701306 = '" + IG0701306.Text + "', " +
-"IG0806 = '" + IG0806.Text + "', " +
-"IG0906 = '" + IG0906.Text + "', " +
-"IG01006 = '" + IG01006.Text + "', " +
-"chkMember7 = '" + chkMember7.Text + "', " +
-"IG0407 = '" + IG0407.Text + "', " +
-"IG0507 = '" + IG0507.Text + "', " +
-"IG060107 = '" + IG060107.Text + "', " +
-"IG060207 = '" + IG060207.Text + "', " +
-"IG060307 = '" + IG060307.Text + "', " +
-"IG060407 = '" + IG060407.Text + "', " +
-"IG060507 = '" + IG060507.Text + "', " +
-"IG070107 = '" + IG070107.Text + "', " +
-"IG070207 = '" + IG070207.Text + "', " +
-"IG070307 = '" + IG070307.Text + "', " +
-"IG070407 = '" + IG070407.Text + "', " +
-"IG070507 = '" + IG070507.Text + "', " +
-"IG070607 = '" + IG070607.Text + "', " +
-"IG070707 = '" + IG070707.Text + "', " +
-"IG070807 = '" + IG070807.Text + "', " +
-"IG070907 = '" + IG070907.Text + "', " +
-"IG0701007 = '" + IG0701007.Text + "', " +
-"IG0701107 = '" + IG0701107.Text + "', " +
-"IG0701207 = '" + IG0701207.Text + "', " +
-"IG0701307 = '" + IG0701307.Text + "', " +
-"IG0807 = '" + IG0807.Text + "', " +
-"IG0907 = '" + IG0907.Text + "', " +
-"IG01007 = '" + IG01007.Text + "', " +
-"chkMember8 = '" + chkMember8.Text + "', " +
-"IG0408 = '" + IG0408.Text + "', " +
-"IG0508 = '" + IG0508.Text + "', " +
-"IG060108 = '" + IG060108.Text + "', " +
-"IG060208 = '" + IG060208.Text + "', " +
-"IG060308 = '" + IG060308.Text + "', " +
-"IG060408 = '" + IG060408.Text + "', " +
-"IG060508 = '" + IG060508.Text + "', " +
-"IG070108 = '" + IG070108.Text + "', " +
-"IG070208 = '" + IG070208.Text + "', " +
-"IG070308 = '" + IG070308.Text + "', " +
-"IG070408 = '" + IG070408.Text + "', " +
-"IG070508 = '" + IG070508.Text + "', " +
-"IG070608 = '" + IG070608.Text + "', " +
-"IG070708 = '" + IG070708.Text + "', " +
-"IG070808 = '" + IG070808.Text + "', " +
-"IG070908 = '" + IG070908.Text + "', " +
-"IG0701008 = '" + IG0701008.Text + "', " +
-"IG0701108 = '" + IG0701108.Text + "', " +
-"IG0701208 = '" + IG0701208.Text + "', " +
-"IG0701308 = '" + IG0701308.Text + "', " +
-"IG0808 = '" + IG0808.Text + "', " +
-"IG0908 = '" + IG0908.Text + "', " +
-"IG01008 = '" + IG01008.Text + "', " +
-"chkMember9 = '" + chkMember9.Text + "', " +
-"IG0409 = '" + IG0409.Text + "', " +
-"IG0509 = '" + IG0509.Text + "', " +
-"IG060109 = '" + IG060109.Text + "', " +
-"IG060209 = '" + IG060209.Text + "', " +
-"IG060309 = '" + IG060309.Text + "', " +
-"IG060409 = '" + IG060409.Text + "', " +
-"IG060509 = '" + IG060509.Text + "', " +
-"IG070109 = '" + IG070109.Text + "', " +
-"IG070209 = '" + IG070209.Text + "', " +
-"IG070309 = '" + IG070309.Text + "', " +
-"IG070409 = '" + IG070409.Text + "', " +
-"IG070509 = '" + IG070509.Text + "', " +
-"IG070609 = '" + IG070609.Text + "', " +
-"IG070709 = '" + IG070709.Text + "', " +
-"IG070809 = '" + IG070809.Text + "', " +
-"IG070909 = '" + IG070909.Text + "', " +
-"IG0701009 = '" + IG0701009.Text + "', " +
-"IG0701109 = '" + IG0701109.Text + "', " +
-"IG0701209 = '" + IG0701209.Text + "', " +
-"IG0701309 = '" + IG0701309.Text + "', " +
-"IG0809 = '" + IG0809.Text + "', " +
-"IG0909 = '" + IG0909.Text + "', " +
-"IG01009 = '" + IG01009.Text + "', " +
-"chkMember10 = '" + chkMember10.Text + "', " +
-"IG0410 = '" + IG0410.Text + "', " +
-"IG0510 = '" + IG0510.Text + "', " +
-"IG060110 = '" + IG060110.Text + "', " +
-"IG060210 = '" + IG060210.Text + "', " +
-"IG060310 = '" + IG060310.Text + "', " +
-"IG060410 = '" + IG060410.Text + "', " +
-"IG060510 = '" + IG060510.Text + "', " +
-"IG070110 = '" + IG070110.Text + "', " +
-"IG070210 = '" + IG070210.Text + "', " +
-"IG070310 = '" + IG070310.Text + "', " +
-"IG070410 = '" + IG070410.Text + "', " +
-"IG070510 = '" + IG070510.Text + "', " +
-"IG070610 = '" + IG070610.Text + "', " +
-"IG070710 = '" + IG070710.Text + "', " +
-"IG070810 = '" + IG070810.Text + "', " +
-"IG070910 = '" + IG070910.Text + "', " +
-"IG0701010 = '" + IG0701010.Text + "', " +
-"IG0701110 = '" + IG0701110.Text + "', " +
-"IG0701210 = '" + IG0701210.Text + "', " +
-"IG0701310 = '" + IG0701310.Text + "', " +
-"IG0810 = '" + IG0810.Text + "', " +
-"IG0910 = '" + IG0910.Text + "', " +
-"IG01010 = '" + IG01010.Text + "', " +
-"IG01106 = '" + IG01106.Text + "', " +
-"IG01206 = '" + IG01206.Text + "', " +
-"IG01306 = '" + IG01306.Text + "', " +
-"IG01406 = '" + IG01406.Text + "', " +
-"IG01506 = '" + IG01506.Text + "', " +
-"IG01107 = '" + IG01107.Text + "', " +
-"IG01207 = '" + IG01207.Text + "', " +
-"IG01307 = '" + IG01307.Text + "', " +
-"IG01407 = '" + IG01407.Text + "', " +
-"IG01507 = '" + IG01507.Text + "', " +
-"IG01108 = '" + IG01108.Text + "', " +
-"IG01208 = '" + IG01208.Text + "', " +
-"IG01308 = '" + IG01308.Text + "', " +
-"IG01408 = '" + IG01408.Text + "', " +
-"IG01508 = '" + IG01508.Text + "', " +
-"IG01109 = '" + IG01109.Text + "', " +
-"IG01209 = '" + IG01209.Text + "', " +
-"IG01309 = '" + IG01309.Text + "', " +
-"IG01409 = '" + IG01409.Text + "', " +
-"IG01509 = '" + IG01509.Text + "', " +
-"IG01110 = '" + IG01110.Text + "', " +
-"IG01210 = '" + IG01210.Text + "', " +
-"IG01310 = '" + IG01310.Text + "', " +
-"IG01410 = '" + IG01410.Text + "', " +
-"IG01510 = '" + IG01510.Text + "', " +
-"IG160106 = '" + IG160106.Text + "', " +
-"IG160206 = '" + IG160206.Text + "', " +
-"IG160306 = '" + IG160306.Text + "', " +
-"IG160406 = '" + IG160406.Text + "', " +
-"IG160506 = '" + IG160506.Text + "', " +
-"IG160606 = '" + IG160606.Text + "', " +
-"IG160706 = '" + IG160706.Text + "', " +
-"IG160806 = '" + IG160806.Text + "', " +
-"IG160906 = '" + IG160906.Text + "', " +
-"IG1601006 = '" + IG1601006.Text + "', " +
-"IG1601106 = '" + IG1601106.Text + "', " +
-"IG1601206 = '" + IG1601206.Text + "', " +
-"IG160107 = '" + IG160107.Text + "', " +
-"IG160207 = '" + IG160207.Text + "', " +
-"IG160307 = '" + IG160307.Text + "', " +
-"IG160407 = '" + IG160407.Text + "', " +
-"IG160507 = '" + IG160507.Text + "', " +
-"IG160607 = '" + IG160607.Text + "', " +
-"IG160707 = '" + IG160707.Text + "', " +
-"IG160807 = '" + IG160807.Text + "', " +
-"IG160907 = '" + IG160907.Text + "', " +
-"IG1601007 = '" + IG1601007.Text + "', " +
-"IG1601107 = '" + IG1601107.Text + "', " +
-"IG1601207 = '" + IG1601207.Text + "', " +
-"IG160108 = '" + IG160108.Text + "', " +
-"IG160208 = '" + IG160208.Text + "', " +
-"IG160308 = '" + IG160308.Text + "', " +
-"IG160408 = '" + IG160408.Text + "', " +
-"IG160508 = '" + IG160508.Text + "', " +
-"IG160608 = '" + IG160608.Text + "', " +
-"IG160708 = '" + IG160708.Text + "', " +
-"IG160808 = '" + IG160808.Text + "', " +
-"IG160908 = '" + IG160908.Text + "', " +
-"IG1601008 = '" + IG1601008.Text + "', " +
-"IG1601108 = '" + IG1601108.Text + "', " +
-"IG1601208 = '" + IG1601208.Text + "', " +
-"IG160109 = '" + IG160109.Text + "', " +
-"IG160209 = '" + IG160209.Text + "', " +
-"IG160309 = '" + IG160309.Text + "', " +
-"IG160409 = '" + IG160409.Text + "', " +
-"IG160509 = '" + IG160509.Text + "', " +
-"IG160609 = '" + IG160609.Text + "', " +
-"IG160709 = '" + IG160709.Text + "', " +
-"IG160809 = '" + IG160809.Text + "', " +
-"IG160909 = '" + IG160909.Text + "', " +
-"IG1601009 = '" + IG1601009.Text + "', " +
-"IG1601109 = '" + IG1601109.Text + "', " +
-"IG1601209 = '" + IG1601209.Text + "', " +
-"IG160110 = '" + IG160110.Text + "', " +
-"IG160210 = '" + IG160210.Text + "', " +
-"IG160310 = '" + IG160310.Text + "', " +
-"IG160410 = '" + IG160410.Text + "', " +
-"IG160510 = '" + IG160510.Text + "', " +
-"IG160610 = '" + IG160610.Text + "', " +
-"IG160710 = '" + IG160710.Text + "', " +
-"IG160810 = '" + IG160810.Text + "', " +
-"IG160910 = '" + IG160910.Text + "', " +
-"IG1601010 = '" + IG1601010.Text + "', " +
-"IG1601110 = '" + IG1601110.Text + "', " +
-"IG1601210 = '" + IG1601210.Text + "', " +
-"chkMember11 = '" + chkMember11.Text + "', " +
-"IG0411 = '" + IG0411.Text + "', " +
-"IG0511 = '" + IG0511.Text + "', " +
-"IG060111 = '" + IG060111.Text + "', " +
-"IG060211 = '" + IG060211.Text + "', " +
-"IG060311 = '" + IG060311.Text + "', " +
-"IG060411 = '" + IG060411.Text + "', " +
-"IG060511 = '" + IG060511.Text + "', " +
-"chkMember12 = '" + chkMember12.Text + "', " +
-"IG0412 = '" + IG0412.Text + "', " +
-"IG0512 = '" + IG0512.Text + "', " +
-"IG060112 = '" + IG060112.Text + "', " +
-"IG060212 = '" + IG060212.Text + "', " +
-"IG060312 = '" + IG060312.Text + "', " +
-"IG060412 = '" + IG060412.Text + "', " +
-"IG060512 = '" + IG060512.Text + "', " +
-"chkMember13 = '" + chkMember13.Text + "', " +
-"IG0413 = '" + IG0413.Text + "', " +
-"IG0513 = '" + IG0513.Text + "', " +
-"IG060113 = '" + IG060113.Text + "', " +
-"IG060213 = '" + IG060213.Text + "', " +
-"IG060313 = '" + IG060313.Text + "', " +
-"IG060413 = '" + IG060413.Text + "', " +
-"IG060513 = '" + IG060513.Text + "', " +
-"chkMember14 = '" + chkMember14.Text + "', " +
-"IG0414 = '" + IG0414.Text + "', " +
-"IG0514 = '" + IG0514.Text + "', " +
-"IG060114 = '" + IG060114.Text + "', " +
-"IG060214 = '" + IG060214.Text + "', " +
-"IG060314 = '" + IG060314.Text + "', " +
-"IG060414 = '" + IG060414.Text + "', " +
-"IG060514 = '" + IG060514.Text + "', " +
-"chkMember15 = '" + chkMember15.Text + "', " +
-"IG0415 = '" + IG0415.Text + "', " +
-"IG0515 = '" + IG0515.Text + "', " +
-"IG060115 = '" + IG060115.Text + "', " +
-"IG060215 = '" + IG060215.Text + "', " +
-"IG060315 = '" + IG060315.Text + "', " +
-"IG060415 = '" + IG060415.Text + "', " +
-"IG060515 = '" + IG060515.Text + "', " +
-"IG070111 = '" + IG070111.Text + "', " +
-"IG070211 = '" + IG070211.Text + "', " +
-"IG070311 = '" + IG070311.Text + "', " +
-"IG070411 = '" + IG070411.Text + "', " +
-"IG070511 = '" + IG070511.Text + "', " +
-"IG070611 = '" + IG070611.Text + "', " +
-"IG070711 = '" + IG070711.Text + "', " +
-"IG070811 = '" + IG070811.Text + "', " +
-"IG070911 = '" + IG070911.Text + "', " +
-"IG0701011 = '" + IG0701011.Text + "', " +
-"IG0701111 = '" + IG0701111.Text + "', " +
-"IG0701211 = '" + IG0701211.Text + "', " +
-"IG0701311 = '" + IG0701311.Text + "', " +
-"IG0811 = '" + IG0811.Text + "', " +
-"IG0911 = '" + IG0911.Text + "', " +
-"IG01011 = '" + IG01011.Text + "', " +
-"IG01111 = '" + IG01111.Text + "', " +
-"IG01211 = '" + IG01211.Text + "', " +
-"IG01311 = '" + IG01311.Text + "', " +
-"IG01411 = '" + IG01411.Text + "', " +
-"IG01511 = '" + IG01511.Text + "', " +
-"IG070112 = '" + IG070112.Text + "', " +
-"IG070212 = '" + IG070212.Text + "', " +
-"IG070312 = '" + IG070312.Text + "', " +
-"IG070412 = '" + IG070412.Text + "', " +
-"IG070512 = '" + IG070512.Text + "', " +
-"IG070612 = '" + IG070612.Text + "', " +
-"IG070712 = '" + IG070712.Text + "', " +
-"IG070812 = '" + IG070812.Text + "', " +
-"IG070912 = '" + IG070912.Text + "', " +
-"IG0701012 = '" + IG0701012.Text + "', " +
-"IG0701112 = '" + IG0701112.Text + "', " +
-"IG0701212 = '" + IG0701212.Text + "', " +
-"IG0701312 = '" + IG0701312.Text + "', " +
-"IG0812 = '" + IG0812.Text + "', " +
-"IG0912 = '" + IG0912.Text + "', " +
-"IG01012 = '" + IG01012.Text + "', " +
-"IG01112 = '" + IG01112.Text + "', " +
-"IG01212 = '" + IG01212.Text + "', " +
-"IG01312 = '" + IG01312.Text + "', " +
-"IG01412 = '" + IG01412.Text + "', " +
-"IG01512 = '" + IG01512.Text + "', " +
-"IG070113 = '" + IG070113.Text + "', " +
-"IG070213 = '" + IG070213.Text + "', " +
-"IG070313 = '" + IG070313.Text + "', " +
-"IG070413 = '" + IG070413.Text + "', " +
-"IG070513 = '" + IG070513.Text + "', " +
-"IG070613 = '" + IG070613.Text + "', " +
-"IG070713 = '" + IG070713.Text + "', " +
-"IG070813 = '" + IG070813.Text + "', " +
-"IG070913 = '" + IG070913.Text + "', " +
-"IG0701013 = '" + IG0701013.Text + "', " +
-"IG0701113 = '" + IG0701113.Text + "', " +
-"IG0701213 = '" + IG0701213.Text + "', " +
-"IG0701313 = '" + IG0701313.Text + "', " +
-"IG0813 = '" + IG0813.Text + "', " +
-"IG0913 = '" + IG0913.Text + "', " +
-"IG01013 = '" + IG01013.Text + "', " +
-"IG01113 = '" + IG01113.Text + "', " +
-"IG01213 = '" + IG01213.Text + "', " +
-"IG01313 = '" + IG01313.Text + "', " +
-"IG01413 = '" + IG01413.Text + "', " +
-"IG01513 = '" + IG01513.Text + "', " +
-"IG070114 = '" + IG070114.Text + "', " +
-"IG070214 = '" + IG070214.Text + "', " +
-"IG070314 = '" + IG070314.Text + "', " +
-"IG070414 = '" + IG070414.Text + "', " +
-"IG070514 = '" + IG070514.Text + "', " +
-"IG070614 = '" + IG070614.Text + "', " +
-"IG070714 = '" + IG070714.Text + "', " +
-"IG070814 = '" + IG070814.Text + "', " +
-"IG070914 = '" + IG070914.Text + "', " +
-"IG0701014 = '" + IG0701014.Text + "', " +
-"IG0701114 = '" + IG0701114.Text + "', " +
-"IG0701214 = '" + IG0701214.Text + "', " +
-"IG0701314 = '" + IG0701314.Text + "', " +
-"IG0814 = '" + IG0814.Text + "', " +
-"IG0914 = '" + IG0914.Text + "', " +
-"IG01014 = '" + IG01014.Text + "', " +
-"IG01114 = '" + IG01114.Text + "', " +
-"IG01214 = '" + IG01214.Text + "', " +
-"IG01314 = '" + IG01314.Text + "', " +
-"IG01414 = '" + IG01414.Text + "', " +
-"IG01514 = '" + IG01514.Text + "', " +
-"IG070115 = '" + IG070115.Text + "', " +
-"IG070215 = '" + IG070215.Text + "', " +
-"IG070315 = '" + IG070315.Text + "', " +
-"IG070415 = '" + IG070415.Text + "', " +
-"IG070515 = '" + IG070515.Text + "', " +
-"IG070615 = '" + IG070615.Text + "', " +
-"IG070715 = '" + IG070715.Text + "', " +
-"IG070815 = '" + IG070815.Text + "', " +
-"IG070915 = '" + IG070915.Text + "', " +
-"IG0701015 = '" + IG0701015.Text + "', " +
-"IG0701115 = '" + IG0701115.Text + "', " +
-"IG0701215 = '" + IG0701215.Text + "', " +
-"IG0701315 = '" + IG0701315.Text + "', " +
-"IG0815 = '" + IG0815.Text + "', " +
-"IG0915 = '" + IG0915.Text + "', " +
-"IG01015 = '" + IG01015.Text + "', " +
-"IG01115 = '" + IG01115.Text + "', " +
-"IG01215 = '" + IG01215.Text + "', " +
-"IG01315 = '" + IG01315.Text + "', " +
-"IG01415 = '" + IG01415.Text + "', " +
-"IG01515 = '" + IG01515.Text + "', " +
-"IG160111 = '" + IG160111.Text + "', " +
-"IG160211 = '" + IG160211.Text + "', " +
-"IG160311 = '" + IG160311.Text + "', " +
-"IG160411 = '" + IG160411.Text + "', " +
-"IG160511 = '" + IG160511.Text + "', " +
-"IG160611 = '" + IG160611.Text + "', " +
-"IG160711 = '" + IG160711.Text + "', " +
-"IG160811 = '" + IG160811.Text + "', " +
-"IG160911 = '" + IG160911.Text + "', " +
-"IG1601011 = '" + IG1601011.Text + "', " +
-"IG1601111 = '" + IG1601111.Text + "', " +
-"IG1601211 = '" + IG1601211.Text + "', " +
-"IG160112 = '" + IG160112.Text + "', " +
-"IG160212 = '" + IG160212.Text + "', " +
-"IG160312 = '" + IG160312.Text + "', " +
-"IG160412 = '" + IG160412.Text + "', " +
-"IG160512 = '" + IG160512.Text + "', " +
-"IG160612 = '" + IG160612.Text + "', " +
-"IG160712 = '" + IG160712.Text + "', " +
-"IG160812 = '" + IG160812.Text + "', " +
-"IG160912 = '" + IG160912.Text + "', " +
-"IG1601012 = '" + IG1601012.Text + "', " +
-"IG1601112 = '" + IG1601112.Text + "', " +
-"IG1601212 = '" + IG1601212.Text + "', " +
-"IG160113 = '" + IG160113.Text + "', " +
-"IG160213 = '" + IG160213.Text + "', " +
-"IG160313 = '" + IG160313.Text + "', " +
-"IG160413 = '" + IG160413.Text + "', " +
-"IG160513 = '" + IG160513.Text + "', " +
-"IG160613 = '" + IG160613.Text + "', " +
-"IG160713 = '" + IG160713.Text + "', " +
-"IG160813 = '" + IG160813.Text + "', " +
-"IG160913 = '" + IG160913.Text + "', " +
-"IG1601013 = '" + IG1601013.Text + "', " +
-"IG1601113 = '" + IG1601113.Text + "', " +
-"IG1601213 = '" + IG1601213.Text + "', " +
-"IG160114 = '" + IG160114.Text + "', " +
-"IG160214 = '" + IG160214.Text + "', " +
-"IG160314 = '" + IG160314.Text + "', " +
-"IG160414 = '" + IG160414.Text + "', " +
-"IG160514 = '" + IG160514.Text + "', " +
-"IG160614 = '" + IG160614.Text + "', " +
-"IG160714 = '" + IG160714.Text + "', " +
-"IG160814 = '" + IG160814.Text + "', " +
-"IG160914 = '" + IG160914.Text + "', " +
-"IG1601014 = '" + IG1601014.Text + "', " +
-"IG1601114 = '" + IG1601114.Text + "', " +
-"IG1601214 = '" + IG1601214.Text + "', " +
-"IG160115 = '" + IG160115.Text + "', " +
-"IG160215 = '" + IG160215.Text + "', " +
-"IG160315 = '" + IG160315.Text + "', " +
-"IG160415 = '" + IG160415.Text + "', " +
-"IG160515 = '" + IG160515.Text + "', " +
-"IG160615 = '" + IG160615.Text + "', " +
-"IG160715 = '" + IG160715.Text + "', " +
-"IG160815 = '" + IG160815.Text + "', " +
-"IG160915 = '" + IG160915.Text + "', " +
-"IG1601015 = '" + IG1601015.Text + "', " +
-"IG1601115 = '" + IG1601115.Text + "', " +
-"IG1601215 = '" + IG1601215.Text + "' WHERE form_id ='" + FORM_ID.Text + "'";
+        "IA01 = '" + IA01.Text + "', " +
+        "IA02 = '" + IA02.Text + "', " +
+        "IA03 = '" + IA03.Text + "', " +
+        "IA04 = '" + IA04.Text + "', " +
+        "IA05 = '" + IA05.Text + "', " +
+        "IB01 = '" + IB01.Text + "', " +
+        "IB02 = '" + IB02.Text + "', " +
+        "IB03 = '" + IB03.Text + "', " +
+        "IB04 = '" + IB04.Text + "', " +
+        "IB04a = '" + IB04a.Text + "', " +
+        "IB05 = '" + IB05.Text + "', " +
+        "IB06 = '" + IB06.Text + "', " +
+        "IB07 = '" + IB07.Text + "', " +
+        "IB08 = '" + IB08.Text + "', " +
+        "IB0901 = '" + IB0901.Text + "', " +
+        "IB0902 = '" + IB0902.Text + "', " +
+        "IB0903 = '" + IB0903.Text + "', " +
+        "IB0996 = '" + IB0996.Text + "', " +
+        "IB010 = '" + IB010.Text + "', " +
+        "IB011 = '" + IB011.Text + "', " +
+        "IC01 = '" + IC01.Text + "', " +
+        "IC02 = '" + IC02.Text + "', " +
+        "IC03 = '" + IC03.Text + "', " +
+        "IC04 = '" + IC04.Text + "', " +
+        "IC05 = '" + IC05.Text + "', " +
+        "chkBaby1 = '" + chkBaby1.Text + "', " +
+        "IC0601 = '" + IC0601.Text + "', " +
+        "IC0701 = '" + IC0701.Text + "', " +
+        "IC0801 = '" + IC0801.Text + "', " +
+        "IC0901 = '" + IC0901.Text + "', " +
+        "IC01001 = '" + IC01001.Text + "', " +
+        "IC01101 = '" + IC01101.Text + "', " +
+        "chkBaby2 = '" + chkBaby2.Text + "', " +
+        "IC0602 = '" + IC0602.Text + "', " +
+        "IC0702 = '" + IC0702.Text + "', " +
+        "IC0802 = '" + IC0802.Text + "', " +
+        "IC0902 = '" + IC0902.Text + "', " +
+        "IC01002 = '" + IC01002.Text + "', " +
+        "IC01102 = '" + IC01102.Text + "', " +
+        "chkBaby3 = '" + chkBaby3.Text + "', " +
+        "IC0603 = '" + IC0603.Text + "', " +
+        "IC0703 = '" + IC0703.Text + "', " +
+        "IC0803 = '" + IC0803.Text + "', " +
+        "IC0903 = '" + IC0903.Text + "', " +
+        "IC01003 = '" + IC01003.Text + "', " +
+        "IC01103 = '" + IC01103.Text + "', " +
+        "chkBaby4 = '" + chkBaby4.Text + "', " +
+        "IC0604 = '" + IC0604.Text + "', " +
+        "IC0704 = '" + IC0704.Text + "', " +
+        "IC0804 = '" + IC0804.Text + "', " +
+        "IC0904 = '" + IC0904.Text + "', " +
+        "IC01004 = '" + IC01004.Text + "', " +
+        "IC01104 = '" + IC01104.Text + "', " +
+        "ID01 = '" + ID01.Text + "', " +
+        "ID02 = '" + ID02.Text + "', " +
+        "ID03 = '" + ID03.Text + "', " +
+        "ID04 = '" + ID04.Text + "', " +
+        "IE01 = '" + IE01.Text + "', " +
+        "IE02 = '" + IE02.Text + "', " +
+        "IE03 = '" + IE03.Text + "', " +
+        "IE04 = '" + IE04.Text + "', " +
+        "chkHHMem1 = '" + chkHHMem1.Text + "', " +
+        "IE0701 = '" + IE0701.Text + "', " +
+        "chkHHMem2 = '" + chkHHMem2.Text + "', " +
+        "IE0702 = '" + IE0702.Text + "', " +
+        "chkHHMem3 = '" + chkHHMem3.Text + "', " +
+        "IE0703 = '" + IE0703.Text + "', " +
+        "chkHHMem4 = '" + chkHHMem4.Text + "', " +
+        "IE0704 = '" + IE0704.Text + "', " +
+        "IE0801 = '" + IE0801.Text + "', " +
+        "IE0901 = '" + IE0901.Text + "', " +
+        "IE0802 = '" + IE0802.Text + "', " +
+        "IE0902 = '" + IE0902.Text + "', " +
+        "IE0803 = '" + IE0803.Text + "', " +
+        "IE0903 = '" + IE0903.Text + "', " +
+        "IE0804 = '" + IE0804.Text + "', " +
+        "IE0904 = '" + IE0904.Text + "', " +
+        "IF01 = '" + IF01.Text + "', " +
+        "IF02 = '" + IF02.Text + "', " +
+        "IF03 = '" + IF03.Text + "', " +
+        "IF04 = '" + IF04.Text + "', " +
+        "chkPW1 = '" + chkPW1.Text + "', " +
+        "IF0601 = '" + IF0601.Text + "', " +
+        "chkPW2 = '" + chkPW2.Text + "', " +
+        "IF0602 = '" + IF0602.Text + "', " +
+        "chkPW3 = '" + chkPW3.Text + "', " +
+        "IF0603 = '" + IF0603.Text + "', " +
+        "chkPW4 = '" + chkPW4.Text + "', " +
+        "IF0604 = '" + IF0604.Text + "', " +
+        "IG01 = '" + IG01.Text + "', " +
+        "IG02 = '" + IG02.Text + "', " +
+        "IG0301 = '" + IG0301.Text + "', " +
+        "IG0302 = '" + IG0302.Text + "', " +
+        "IG0303 = '" + IG0303.Text + "', " +
+        "IG0304 = '" + IG0304.Text + "', " +
+        "IG0305 = '" + IG0305.Text + "', " +
+        "IG0306 = '" + IG0306.Text + "', " +
+        "IG0307 = '" + IG0307.Text + "', " +
+        "IG0308 = '" + IG0308.Text + "', " +
+        "IG0309 = '" + IG0309.Text + "', " +
+        "IG03010 = '" + IG03010.Text + "', " +
+        "chkMember1 = '" + chkMember1.Text + "', " +
+        "IG0401 = '" + IG0401.Text + "', " +
+        "IG0501 = '" + IG0501.Text + "', " +
+        "IG060101 = '" + IG060101.Text + "', " +
+        "IG060201 = '" + IG060201.Text + "', " +
+        "IG060301 = '" + IG060301.Text + "', " +
+        "IG060401 = '" + IG060401.Text + "', " +
+        "IG060501 = '" + IG060501.Text + "', " +
+        "IG070101 = '" + IG070101.Text + "', " +
+        "IG070201 = '" + IG070201.Text + "', " +
+        "IG070301 = '" + IG070301.Text + "', " +
+        "IG070401 = '" + IG070401.Text + "', " +
+        "chkMember2 = '" + chkMember2.Text + "', " +
+        "IG0402 = '" + IG0402.Text + "', " +
+        "IG0502 = '" + IG0502.Text + "', " +
+        "IG060102 = '" + IG060102.Text + "', " +
+        "IG060202 = '" + IG060202.Text + "', " +
+        "IG060302 = '" + IG060302.Text + "', " +
+        "IG060402 = '" + IG060402.Text + "', " +
+        "IG060502 = '" + IG060502.Text + "', " +
+        "IG070102 = '" + IG070102.Text + "', " +
+        "IG070202 = '" + IG070202.Text + "', " +
+        "IG070302 = '" + IG070302.Text + "', " +
+        "IG070402 = '" + IG070402.Text + "', " +
+        "chkMember3 = '" + chkMember3.Text + "', " +
+        "IG0403 = '" + IG0403.Text + "', " +
+        "IG0503 = '" + IG0503.Text + "', " +
+        "IG060103 = '" + IG060103.Text + "', " +
+        "IG060203 = '" + IG060203.Text + "', " +
+        "IG060303 = '" + IG060303.Text + "', " +
+        "IG060403 = '" + IG060403.Text + "', " +
+        "IG060503 = '" + IG060503.Text + "', " +
+        "IG070103 = '" + IG070103.Text + "', " +
+        "IG070203 = '" + IG070203.Text + "', " +
+        "IG070303 = '" + IG070303.Text + "', " +
+        "IG070403 = '" + IG070403.Text + "', " +
+        "chkMember4 = '" + chkMember4.Text + "', " +
+        "IG0404 = '" + IG0404.Text + "', " +
+        "IG0504 = '" + IG0504.Text + "', " +
+        "IG060104 = '" + IG060104.Text + "', " +
+        "IG060204 = '" + IG060204.Text + "', " +
+        "IG060304 = '" + IG060304.Text + "', " +
+        "IG060404 = '" + IG060404.Text + "', " +
+        "IG060504 = '" + IG060504.Text + "', " +
+        "IG070104 = '" + IG070104.Text + "', " +
+        "IG070204 = '" + IG070204.Text + "', " +
+        "IG070304 = '" + IG070304.Text + "', " +
+        "IG070404 = '" + IG070404.Text + "', " +
+        "chkMember5 = '" + chkMember5.Text + "', " +
+        "IG0405 = '" + IG0405.Text + "', " +
+        "IG0505 = '" + IG0505.Text + "', " +
+        "IG060105 = '" + IG060105.Text + "', " +
+        "IG060205 = '" + IG060205.Text + "', " +
+        "IG060305 = '" + IG060305.Text + "', " +
+        "IG060405 = '" + IG060405.Text + "', " +
+        "IG060505 = '" + IG060505.Text + "', " +
+        "IG070105 = '" + IG070105.Text + "', " +
+        "IG070205 = '" + IG070205.Text + "', " +
+        "IG070305 = '" + IG070305.Text + "', " +
+        "IG070405 = '" + IG070405.Text + "', " +
+        "IG070501 = '" + IG070501.Text + "', " +
+        "IG070601 = '" + IG070601.Text + "', " +
+        "IG070701 = '" + IG070701.Text + "', " +
+        "IG070801 = '" + IG070801.Text + "', " +
+        "IG070901 = '" + IG070901.Text + "', " +
+        "IG0701001 = '" + IG0701001.Text + "', " +
+        "IG0701101 = '" + IG0701101.Text + "', " +
+        "IG0701201 = '" + IG0701201.Text + "', " +
+        "IG0701301 = '" + IG0701301.Text + "', " +
+        "IG0801 = '" + IG0801.Text + "', " +
+        "IG0901 = '" + IG0901.Text + "', " +
+        "IG01001 = '" + IG01001.Text + "', " +
+        "IG01101 = '" + IG01101.Text + "', " +
+        "IG01201 = '" + IG01201.Text + "', " +
+        "IG01301 = '" + IG01301.Text + "', " +
+        "IG01401 = '" + IG01401.Text + "', " +
+        "IG01501 = '" + IG01501.Text + "', " +
+        "IG160101 = '" + IG160101.Text + "', " +
+        "IG160201 = '" + IG160201.Text + "', " +
+        "IG160301 = '" + IG160301.Text + "', " +
+        "IG160401 = '" + IG160401.Text + "', " +
+        "IG160501 = '" + IG160501.Text + "', " +
+        "IG160601 = '" + IG160601.Text + "', " +
+        "IG160701 = '" + IG160701.Text + "', " +
+        "IG160801 = '" + IG160801.Text + "', " +
+        "IG160901 = '" + IG160901.Text + "', " +
+        "IG1601001 = '" + IG1601001.Text + "', " +
+        "IG1601101 = '" + IG1601101.Text + "', " +
+        "IG1601201 = '" + IG1601201.Text + "', " +
+        "IG070502 = '" + IG070502.Text + "', " +
+        "IG070602 = '" + IG070602.Text + "', " +
+        "IG070702 = '" + IG070702.Text + "', " +
+        "IG070802 = '" + IG070802.Text + "', " +
+        "IG070902 = '" + IG070902.Text + "', " +
+        "IG0701002 = '" + IG0701002.Text + "', " +
+        "IG0701102 = '" + IG0701102.Text + "', " +
+        "IG0701202 = '" + IG0701202.Text + "', " +
+        "IG0701302 = '" + IG0701302.Text + "', " +
+        "IG0802 = '" + IG0802.Text + "', " +
+        "IG0902 = '" + IG0902.Text + "', " +
+        "IG01002 = '" + IG01002.Text + "', " +
+        "IG01102 = '" + IG01102.Text + "', " +
+        "IG01202 = '" + IG01202.Text + "', " +
+        "IG01302 = '" + IG01302.Text + "', " +
+        "IG01402 = '" + IG01402.Text + "', " +
+        "IG01502 = '" + IG01502.Text + "', " +
+        "IG160102 = '" + IG160102.Text + "', " +
+        "IG160202 = '" + IG160202.Text + "', " +
+        "IG160302 = '" + IG160302.Text + "', " +
+        "IG160402 = '" + IG160402.Text + "', " +
+        "IG160502 = '" + IG160502.Text + "', " +
+        "IG160602 = '" + IG160602.Text + "', " +
+        "IG160702 = '" + IG160702.Text + "', " +
+        "IG160802 = '" + IG160802.Text + "', " +
+        "IG160902 = '" + IG160902.Text + "', " +
+        "IG1601002 = '" + IG1601002.Text + "', " +
+        "IG1601102 = '" + IG1601102.Text + "', " +
+        "IG1601202 = '" + IG1601202.Text + "', " +
+        "IG070503 = '" + IG070503.Text + "', " +
+        "IG070603 = '" + IG070603.Text + "', " +
+        "IG070703 = '" + IG070703.Text + "', " +
+        "IG070803 = '" + IG070803.Text + "', " +
+        "IG070903 = '" + IG070903.Text + "', " +
+        "IG0701003 = '" + IG0701003.Text + "', " +
+        "IG0701103 = '" + IG0701103.Text + "', " +
+        "IG0701203 = '" + IG0701203.Text + "', " +
+        "IG0701303 = '" + IG0701303.Text + "', " +
+        "IG0803 = '" + IG0803.Text + "', " +
+        "IG0903 = '" + IG0903.Text + "', " +
+        "IG01003 = '" + IG01003.Text + "', " +
+        "IG01103 = '" + IG01103.Text + "', " +
+        "IG01203 = '" + IG01203.Text + "', " +
+        "IG01303 = '" + IG01303.Text + "', " +
+        "IG01403 = '" + IG01403.Text + "', " +
+        "IG01503 = '" + IG01503.Text + "', " +
+        "IG160103 = '" + IG160103.Text + "', " +
+        "IG160203 = '" + IG160203.Text + "', " +
+        "IG160303 = '" + IG160303.Text + "', " +
+        "IG160403 = '" + IG160403.Text + "', " +
+        "IG160503 = '" + IG160503.Text + "', " +
+        "IG160603 = '" + IG160603.Text + "', " +
+        "IG160703 = '" + IG160703.Text + "', " +
+        "IG160803 = '" + IG160803.Text + "', " +
+        "IG160903 = '" + IG160903.Text + "', " +
+        "IG1601003 = '" + IG1601003.Text + "', " +
+        "IG1601103 = '" + IG1601103.Text + "', " +
+        "IG1601203 = '" + IG1601203.Text + "', " +
+        "IG070504 = '" + IG070504.Text + "', " +
+        "IG070604 = '" + IG070604.Text + "', " +
+        "IG070704 = '" + IG070704.Text + "', " +
+        "IG070804 = '" + IG070804.Text + "', " +
+        "IG070904 = '" + IG070904.Text + "', " +
+        "IG0701004 = '" + IG0701004.Text + "', " +
+        "IG0701104 = '" + IG0701104.Text + "', " +
+        "IG0701204 = '" + IG0701204.Text + "', " +
+        "IG0701304 = '" + IG0701304.Text + "', " +
+        "IG0804 = '" + IG0804.Text + "', " +
+        "IG0904 = '" + IG0904.Text + "', " +
+        "IG01004 = '" + IG01004.Text + "', " +
+        "IG01104 = '" + IG01104.Text + "', " +
+        "IG01204 = '" + IG01204.Text + "', " +
+        "IG01304 = '" + IG01304.Text + "', " +
+        "IG01404 = '" + IG01404.Text + "', " +
+        "IG01504 = '" + IG01504.Text + "', " +
+        "IG160104 = '" + IG160104.Text + "', " +
+        "IG160204 = '" + IG160204.Text + "', " +
+        "IG160304 = '" + IG160304.Text + "', " +
+        "IG160404 = '" + IG160404.Text + "', " +
+        "IG160504 = '" + IG160504.Text + "', " +
+        "IG160604 = '" + IG160604.Text + "', " +
+        "IG160704 = '" + IG160704.Text + "', " +
+        "IG160804 = '" + IG160804.Text + "', " +
+        "IG160904 = '" + IG160904.Text + "', " +
+        "IG1601004 = '" + IG1601004.Text + "', " +
+        "IG1601104 = '" + IG1601104.Text + "', " +
+        "IG1601204 = '" + IG1601204.Text + "', " +
+        "IG070505 = '" + IG070505.Text + "', " +
+        "IG070605 = '" + IG070605.Text + "', " +
+        "IG070705 = '" + IG070705.Text + "', " +
+        "IG070805 = '" + IG070805.Text + "', " +
+        "IG070905 = '" + IG070905.Text + "', " +
+        "IG0701005 = '" + IG0701005.Text + "', " +
+        "IG0701105 = '" + IG0701105.Text + "', " +
+        "IG0701205 = '" + IG0701205.Text + "', " +
+        "IG0701305 = '" + IG0701305.Text + "', " +
+        "IG0805 = '" + IG0805.Text + "', " +
+        "IG0905 = '" + IG0905.Text + "', " +
+        "IG01005 = '" + IG01005.Text + "', " +
+        "IG01105 = '" + IG01105.Text + "', " +
+        "IG01205 = '" + IG01205.Text + "', " +
+        "IG01305 = '" + IG01305.Text + "', " +
+        "IG01405 = '" + IG01405.Text + "', " +
+        "IG01505 = '" + IG01505.Text + "', " +
+        "IG160105 = '" + IG160105.Text + "', " +
+        "IG160205 = '" + IG160205.Text + "', " +
+        "IG160305 = '" + IG160305.Text + "', " +
+        "IG160405 = '" + IG160405.Text + "', " +
+        "IG160505 = '" + IG160505.Text + "', " +
+        "IG160605 = '" + IG160605.Text + "', " +
+        "IG160705 = '" + IG160705.Text + "', " +
+        "IG160805 = '" + IG160805.Text + "', " +
+        "IG160905 = '" + IG160905.Text + "', " +
+        "IG1601005 = '" + IG1601005.Text + "', " +
+        "IG1601105 = '" + IG1601105.Text + "', " +
+        "IG1601205 = '" + IG1601205.Text + "', " +
+        "QCFUP02 = '" + QCFUP02.Text + "', " +
+        "QCFUP03 = '" + QCFUP03.Text + "', " +
+        "QCFUP04 = '" + QCFUP04.Text + "', " +
+        "QCFUP05 = '" + QCFUP05.Text + "', " +
+        "QCFUP06 = '" + QCFUP06.Text + "', " +
+        "QCFUP07 = '" + QCFUP07.Text + "', " +
+        "chkBaby5 = '" + chkBaby5.Text + "', " +
+        "IC0605 = '" + IC0605.Text + "', " +
+        "IC0705 = '" + IC0705.Text + "', " +
+        "IC0805 = '" + IC0805.Text + "', " +
+        "IC0905 = '" + IC0905.Text + "', " +
+        "IC01005 = '" + IC01005.Text + "', " +
+        "IC01105 = '" + IC01105.Text + "', " +
+        "chkBaby6 = '" + chkBaby6.Text + "', " +
+        "IC0606 = '" + IC0606.Text + "', " +
+        "IC0706 = '" + IC0706.Text + "', " +
+        "IC0806 = '" + IC0806.Text + "', " +
+        "IC0906 = '" + IC0906.Text + "', " +
+        "IC01006 = '" + IC01006.Text + "', " +
+        "IC01106 = '" + IC01106.Text + "', " +
+        "chkBaby7 = '" + chkBaby7.Text + "', " +
+        "IC0607 = '" + IC0607.Text + "', " +
+        "IC0707 = '" + IC0707.Text + "', " +
+        "IC0807 = '" + IC0807.Text + "', " +
+        "IC0907 = '" + IC0907.Text + "', " +
+        "IC01007 = '" + IC01007.Text + "', " +
+        "IC01107 = '" + IC01107.Text + "', " +
+        "chkBaby8 = '" + chkBaby8.Text + "', " +
+        "IC0608 = '" + IC0608.Text + "', " +
+        "IC0708 = '" + IC0708.Text + "', " +
+        "IC0808 = '" + IC0808.Text + "', " +
+        "IC0908 = '" + IC0908.Text + "', " +
+        "IC01008 = '" + IC01008.Text + "', " +
+        "IC01108 = '" + IC01108.Text + "', " +
+        "chkBaby9 = '" + chkBaby9.Text + "', " +
+        "IC0609 = '" + IC0609.Text + "', " +
+        "IC0709 = '" + IC0709.Text + "', " +
+        "IC0809 = '" + IC0809.Text + "', " +
+        "IC0909 = '" + IC0909.Text + "', " +
+        "IC01009 = '" + IC01009.Text + "', " +
+        "IC01109 = '" + IC01109.Text + "', " +
+        "chkBaby10 = '" + chkBaby10.Text + "', " +
+        "IC06010 = '" + IC06010.Text + "', " +
+        "IC07010 = '" + IC07010.Text + "', " +
+        "IC08010 = '" + IC08010.Text + "', " +
+        "IC09010 = '" + IC09010.Text + "', " +
+        "IC01010 = '" + IC01010.Text + "', " +
+        "IC01110 = '" + IC01110.Text + "', " +
+        "chkBaby11 = '" + chkBaby11.Text + "', " +
+        "IC06011 = '" + IC06011.Text + "', " +
+        "IC07011 = '" + IC07011.Text + "', " +
+        "IC08011 = '" + IC08011.Text + "', " +
+        "IC09011 = '" + IC09011.Text + "', " +
+        "IC01011 = '" + IC01011.Text + "', " +
+        "IC01111 = '" + IC01111.Text + "', " +
+        "chkMember6 = '" + chkMember6.Text + "', " +
+        "IG0406 = '" + IG0406.Text + "', " +
+        "IG0506 = '" + IG0506.Text + "', " +
+        "IG060106 = '" + IG060106.Text + "', " +
+        "IG060206 = '" + IG060206.Text + "', " +
+        "IG060306 = '" + IG060306.Text + "', " +
+        "IG060406 = '" + IG060406.Text + "', " +
+        "IG060506 = '" + IG060506.Text + "', " +
+        "IG070106 = '" + IG070106.Text + "', " +
+        "IG070206 = '" + IG070206.Text + "', " +
+        "IG070306 = '" + IG070306.Text + "', " +
+        "IG070406 = '" + IG070406.Text + "', " +
+        "IG070506 = '" + IG070506.Text + "', " +
+        "IG070606 = '" + IG070606.Text + "', " +
+        "IG070706 = '" + IG070706.Text + "', " +
+        "IG070806 = '" + IG070806.Text + "', " +
+        "IG070906 = '" + IG070906.Text + "', " +
+        "IG0701006 = '" + IG0701006.Text + "', " +
+        "IG0701106 = '" + IG0701106.Text + "', " +
+        "IG0701206 = '" + IG0701206.Text + "', " +
+        "IG0701306 = '" + IG0701306.Text + "', " +
+        "IG0806 = '" + IG0806.Text + "', " +
+        "IG0906 = '" + IG0906.Text + "', " +
+        "IG01006 = '" + IG01006.Text + "', " +
+        "chkMember7 = '" + chkMember7.Text + "', " +
+        "IG0407 = '" + IG0407.Text + "', " +
+        "IG0507 = '" + IG0507.Text + "', " +
+        "IG060107 = '" + IG060107.Text + "', " +
+        "IG060207 = '" + IG060207.Text + "', " +
+        "IG060307 = '" + IG060307.Text + "', " +
+        "IG060407 = '" + IG060407.Text + "', " +
+        "IG060507 = '" + IG060507.Text + "', " +
+        "IG070107 = '" + IG070107.Text + "', " +
+        "IG070207 = '" + IG070207.Text + "', " +
+        "IG070307 = '" + IG070307.Text + "', " +
+        "IG070407 = '" + IG070407.Text + "', " +
+        "IG070507 = '" + IG070507.Text + "', " +
+        "IG070607 = '" + IG070607.Text + "', " +
+        "IG070707 = '" + IG070707.Text + "', " +
+        "IG070807 = '" + IG070807.Text + "', " +
+        "IG070907 = '" + IG070907.Text + "', " +
+        "IG0701007 = '" + IG0701007.Text + "', " +
+        "IG0701107 = '" + IG0701107.Text + "', " +
+        "IG0701207 = '" + IG0701207.Text + "', " +
+        "IG0701307 = '" + IG0701307.Text + "', " +
+        "IG0807 = '" + IG0807.Text + "', " +
+        "IG0907 = '" + IG0907.Text + "', " +
+        "IG01007 = '" + IG01007.Text + "', " +
+        "chkMember8 = '" + chkMember8.Text + "', " +
+        "IG0408 = '" + IG0408.Text + "', " +
+        "IG0508 = '" + IG0508.Text + "', " +
+        "IG060108 = '" + IG060108.Text + "', " +
+        "IG060208 = '" + IG060208.Text + "', " +
+        "IG060308 = '" + IG060308.Text + "', " +
+        "IG060408 = '" + IG060408.Text + "', " +
+        "IG060508 = '" + IG060508.Text + "', " +
+        "IG070108 = '" + IG070108.Text + "', " +
+        "IG070208 = '" + IG070208.Text + "', " +
+        "IG070308 = '" + IG070308.Text + "', " +
+        "IG070408 = '" + IG070408.Text + "', " +
+        "IG070508 = '" + IG070508.Text + "', " +
+        "IG070608 = '" + IG070608.Text + "', " +
+        "IG070708 = '" + IG070708.Text + "', " +
+        "IG070808 = '" + IG070808.Text + "', " +
+        "IG070908 = '" + IG070908.Text + "', " +
+        "IG0701008 = '" + IG0701008.Text + "', " +
+        "IG0701108 = '" + IG0701108.Text + "', " +
+        "IG0701208 = '" + IG0701208.Text + "', " +
+        "IG0701308 = '" + IG0701308.Text + "', " +
+        "IG0808 = '" + IG0808.Text + "', " +
+        "IG0908 = '" + IG0908.Text + "', " +
+        "IG01008 = '" + IG01008.Text + "', " +
+        "chkMember9 = '" + chkMember9.Text + "', " +
+        "IG0409 = '" + IG0409.Text + "', " +
+        "IG0509 = '" + IG0509.Text + "', " +
+        "IG060109 = '" + IG060109.Text + "', " +
+        "IG060209 = '" + IG060209.Text + "', " +
+        "IG060309 = '" + IG060309.Text + "', " +
+        "IG060409 = '" + IG060409.Text + "', " +
+        "IG060509 = '" + IG060509.Text + "', " +
+        "IG070109 = '" + IG070109.Text + "', " +
+        "IG070209 = '" + IG070209.Text + "', " +
+        "IG070309 = '" + IG070309.Text + "', " +
+        "IG070409 = '" + IG070409.Text + "', " +
+        "IG070509 = '" + IG070509.Text + "', " +
+        "IG070609 = '" + IG070609.Text + "', " +
+        "IG070709 = '" + IG070709.Text + "', " +
+        "IG070809 = '" + IG070809.Text + "', " +
+        "IG070909 = '" + IG070909.Text + "', " +
+        "IG0701009 = '" + IG0701009.Text + "', " +
+        "IG0701109 = '" + IG0701109.Text + "', " +
+        "IG0701209 = '" + IG0701209.Text + "', " +
+        "IG0701309 = '" + IG0701309.Text + "', " +
+        "IG0809 = '" + IG0809.Text + "', " +
+        "IG0909 = '" + IG0909.Text + "', " +
+        "IG01009 = '" + IG01009.Text + "', " +
+        "chkMember10 = '" + chkMember10.Text + "', " +
+        "IG0410 = '" + IG0410.Text + "', " +
+        "IG0510 = '" + IG0510.Text + "', " +
+        "IG060110 = '" + IG060110.Text + "', " +
+        "IG060210 = '" + IG060210.Text + "', " +
+        "IG060310 = '" + IG060310.Text + "', " +
+        "IG060410 = '" + IG060410.Text + "', " +
+        "IG060510 = '" + IG060510.Text + "', " +
+        "IG070110 = '" + IG070110.Text + "', " +
+        "IG070210 = '" + IG070210.Text + "', " +
+        "IG070310 = '" + IG070310.Text + "', " +
+        "IG070410 = '" + IG070410.Text + "', " +
+        "IG070510 = '" + IG070510.Text + "', " +
+        "IG070610 = '" + IG070610.Text + "', " +
+        "IG070710 = '" + IG070710.Text + "', " +
+        "IG070810 = '" + IG070810.Text + "', " +
+        "IG070910 = '" + IG070910.Text + "', " +
+        "IG0701010 = '" + IG0701010.Text + "', " +
+        "IG0701110 = '" + IG0701110.Text + "', " +
+        "IG0701210 = '" + IG0701210.Text + "', " +
+        "IG0701310 = '" + IG0701310.Text + "', " +
+        "IG0810 = '" + IG0810.Text + "', " +
+        "IG0910 = '" + IG0910.Text + "', " +
+        "IG01010 = '" + IG01010.Text + "', " +
+        "IG01106 = '" + IG01106.Text + "', " +
+        "IG01206 = '" + IG01206.Text + "', " +
+        "IG01306 = '" + IG01306.Text + "', " +
+        "IG01406 = '" + IG01406.Text + "', " +
+        "IG01506 = '" + IG01506.Text + "', " +
+        "IG01107 = '" + IG01107.Text + "', " +
+        "IG01207 = '" + IG01207.Text + "', " +
+        "IG01307 = '" + IG01307.Text + "', " +
+        "IG01407 = '" + IG01407.Text + "', " +
+        "IG01507 = '" + IG01507.Text + "', " +
+        "IG01108 = '" + IG01108.Text + "', " +
+        "IG01208 = '" + IG01208.Text + "', " +
+        "IG01308 = '" + IG01308.Text + "', " +
+        "IG01408 = '" + IG01408.Text + "', " +
+        "IG01508 = '" + IG01508.Text + "', " +
+        "IG01109 = '" + IG01109.Text + "', " +
+        "IG01209 = '" + IG01209.Text + "', " +
+        "IG01309 = '" + IG01309.Text + "', " +
+        "IG01409 = '" + IG01409.Text + "', " +
+        "IG01509 = '" + IG01509.Text + "', " +
+        "IG01110 = '" + IG01110.Text + "', " +
+        "IG01210 = '" + IG01210.Text + "', " +
+        "IG01310 = '" + IG01310.Text + "', " +
+        "IG01410 = '" + IG01410.Text + "', " +
+        "IG01510 = '" + IG01510.Text + "', " +
+        "IG160106 = '" + IG160106.Text + "', " +
+        "IG160206 = '" + IG160206.Text + "', " +
+        "IG160306 = '" + IG160306.Text + "', " +
+        "IG160406 = '" + IG160406.Text + "', " +
+        "IG160506 = '" + IG160506.Text + "', " +
+        "IG160606 = '" + IG160606.Text + "', " +
+        "IG160706 = '" + IG160706.Text + "', " +
+        "IG160806 = '" + IG160806.Text + "', " +
+        "IG160906 = '" + IG160906.Text + "', " +
+        "IG1601006 = '" + IG1601006.Text + "', " +
+        "IG1601106 = '" + IG1601106.Text + "', " +
+        "IG1601206 = '" + IG1601206.Text + "', " +
+        "IG160107 = '" + IG160107.Text + "', " +
+        "IG160207 = '" + IG160207.Text + "', " +
+        "IG160307 = '" + IG160307.Text + "', " +
+        "IG160407 = '" + IG160407.Text + "', " +
+        "IG160507 = '" + IG160507.Text + "', " +
+        "IG160607 = '" + IG160607.Text + "', " +
+        "IG160707 = '" + IG160707.Text + "', " +
+        "IG160807 = '" + IG160807.Text + "', " +
+        "IG160907 = '" + IG160907.Text + "', " +
+        "IG1601007 = '" + IG1601007.Text + "', " +
+        "IG1601107 = '" + IG1601107.Text + "', " +
+        "IG1601207 = '" + IG1601207.Text + "', " +
+        "IG160108 = '" + IG160108.Text + "', " +
+        "IG160208 = '" + IG160208.Text + "', " +
+        "IG160308 = '" + IG160308.Text + "', " +
+        "IG160408 = '" + IG160408.Text + "', " +
+        "IG160508 = '" + IG160508.Text + "', " +
+        "IG160608 = '" + IG160608.Text + "', " +
+        "IG160708 = '" + IG160708.Text + "', " +
+        "IG160808 = '" + IG160808.Text + "', " +
+        "IG160908 = '" + IG160908.Text + "', " +
+        "IG1601008 = '" + IG1601008.Text + "', " +
+        "IG1601108 = '" + IG1601108.Text + "', " +
+        "IG1601208 = '" + IG1601208.Text + "', " +
+        "IG160109 = '" + IG160109.Text + "', " +
+        "IG160209 = '" + IG160209.Text + "', " +
+        "IG160309 = '" + IG160309.Text + "', " +
+        "IG160409 = '" + IG160409.Text + "', " +
+        "IG160509 = '" + IG160509.Text + "', " +
+        "IG160609 = '" + IG160609.Text + "', " +
+        "IG160709 = '" + IG160709.Text + "', " +
+        "IG160809 = '" + IG160809.Text + "', " +
+        "IG160909 = '" + IG160909.Text + "', " +
+        "IG1601009 = '" + IG1601009.Text + "', " +
+        "IG1601109 = '" + IG1601109.Text + "', " +
+        "IG1601209 = '" + IG1601209.Text + "', " +
+        "IG160110 = '" + IG160110.Text + "', " +
+        "IG160210 = '" + IG160210.Text + "', " +
+        "IG160310 = '" + IG160310.Text + "', " +
+        "IG160410 = '" + IG160410.Text + "', " +
+        "IG160510 = '" + IG160510.Text + "', " +
+        "IG160610 = '" + IG160610.Text + "', " +
+        "IG160710 = '" + IG160710.Text + "', " +
+        "IG160810 = '" + IG160810.Text + "', " +
+        "IG160910 = '" + IG160910.Text + "', " +
+        "IG1601010 = '" + IG1601010.Text + "', " +
+        "IG1601110 = '" + IG1601110.Text + "', " +
+        "IG1601210 = '" + IG1601210.Text + "', " +
+        "chkMember11 = '" + chkMember11.Text + "', " +
+        "IG0411 = '" + IG0411.Text + "', " +
+        "IG0511 = '" + IG0511.Text + "', " +
+        "IG060111 = '" + IG060111.Text + "', " +
+        "IG060211 = '" + IG060211.Text + "', " +
+        "IG060311 = '" + IG060311.Text + "', " +
+        "IG060411 = '" + IG060411.Text + "', " +
+        "IG060511 = '" + IG060511.Text + "', " +
+        "chkMember12 = '" + chkMember12.Text + "', " +
+        "IG0412 = '" + IG0412.Text + "', " +
+        "IG0512 = '" + IG0512.Text + "', " +
+        "IG060112 = '" + IG060112.Text + "', " +
+        "IG060212 = '" + IG060212.Text + "', " +
+        "IG060312 = '" + IG060312.Text + "', " +
+        "IG060412 = '" + IG060412.Text + "', " +
+        "IG060512 = '" + IG060512.Text + "', " +
+        "chkMember13 = '" + chkMember13.Text + "', " +
+        "IG0413 = '" + IG0413.Text + "', " +
+        "IG0513 = '" + IG0513.Text + "', " +
+        "IG060113 = '" + IG060113.Text + "', " +
+        "IG060213 = '" + IG060213.Text + "', " +
+        "IG060313 = '" + IG060313.Text + "', " +
+        "IG060413 = '" + IG060413.Text + "', " +
+        "IG060513 = '" + IG060513.Text + "', " +
+        "chkMember14 = '" + chkMember14.Text + "', " +
+        "IG0414 = '" + IG0414.Text + "', " +
+        "IG0514 = '" + IG0514.Text + "', " +
+        "IG060114 = '" + IG060114.Text + "', " +
+        "IG060214 = '" + IG060214.Text + "', " +
+        "IG060314 = '" + IG060314.Text + "', " +
+        "IG060414 = '" + IG060414.Text + "', " +
+        "IG060514 = '" + IG060514.Text + "', " +
+        "chkMember15 = '" + chkMember15.Text + "', " +
+        "IG0415 = '" + IG0415.Text + "', " +
+        "IG0515 = '" + IG0515.Text + "', " +
+        "IG060115 = '" + IG060115.Text + "', " +
+        "IG060215 = '" + IG060215.Text + "', " +
+        "IG060315 = '" + IG060315.Text + "', " +
+        "IG060415 = '" + IG060415.Text + "', " +
+        "IG060515 = '" + IG060515.Text + "', " +
+        "IG070111 = '" + IG070111.Text + "', " +
+        "IG070211 = '" + IG070211.Text + "', " +
+        "IG070311 = '" + IG070311.Text + "', " +
+        "IG070411 = '" + IG070411.Text + "', " +
+        "IG070511 = '" + IG070511.Text + "', " +
+        "IG070611 = '" + IG070611.Text + "', " +
+        "IG070711 = '" + IG070711.Text + "', " +
+        "IG070811 = '" + IG070811.Text + "', " +
+        "IG070911 = '" + IG070911.Text + "', " +
+        "IG0701011 = '" + IG0701011.Text + "', " +
+        "IG0701111 = '" + IG0701111.Text + "', " +
+        "IG0701211 = '" + IG0701211.Text + "', " +
+        "IG0701311 = '" + IG0701311.Text + "', " +
+        "IG0811 = '" + IG0811.Text + "', " +
+        "IG0911 = '" + IG0911.Text + "', " +
+        "IG01011 = '" + IG01011.Text + "', " +
+        "IG01111 = '" + IG01111.Text + "', " +
+        "IG01211 = '" + IG01211.Text + "', " +
+        "IG01311 = '" + IG01311.Text + "', " +
+        "IG01411 = '" + IG01411.Text + "', " +
+        "IG01511 = '" + IG01511.Text + "', " +
+        "IG070112 = '" + IG070112.Text + "', " +
+        "IG070212 = '" + IG070212.Text + "', " +
+        "IG070312 = '" + IG070312.Text + "', " +
+        "IG070412 = '" + IG070412.Text + "', " +
+        "IG070512 = '" + IG070512.Text + "', " +
+        "IG070612 = '" + IG070612.Text + "', " +
+        "IG070712 = '" + IG070712.Text + "', " +
+        "IG070812 = '" + IG070812.Text + "', " +
+        "IG070912 = '" + IG070912.Text + "', " +
+        "IG0701012 = '" + IG0701012.Text + "', " +
+        "IG0701112 = '" + IG0701112.Text + "', " +
+        "IG0701212 = '" + IG0701212.Text + "', " +
+        "IG0701312 = '" + IG0701312.Text + "', " +
+        "IG0812 = '" + IG0812.Text + "', " +
+        "IG0912 = '" + IG0912.Text + "', " +
+        "IG01012 = '" + IG01012.Text + "', " +
+        "IG01112 = '" + IG01112.Text + "', " +
+        "IG01212 = '" + IG01212.Text + "', " +
+        "IG01312 = '" + IG01312.Text + "', " +
+        "IG01412 = '" + IG01412.Text + "', " +
+        "IG01512 = '" + IG01512.Text + "', " +
+        "IG070113 = '" + IG070113.Text + "', " +
+        "IG070213 = '" + IG070213.Text + "', " +
+        "IG070313 = '" + IG070313.Text + "', " +
+        "IG070413 = '" + IG070413.Text + "', " +
+        "IG070513 = '" + IG070513.Text + "', " +
+        "IG070613 = '" + IG070613.Text + "', " +
+        "IG070713 = '" + IG070713.Text + "', " +
+        "IG070813 = '" + IG070813.Text + "', " +
+        "IG070913 = '" + IG070913.Text + "', " +
+        "IG0701013 = '" + IG0701013.Text + "', " +
+        "IG0701113 = '" + IG0701113.Text + "', " +
+        "IG0701213 = '" + IG0701213.Text + "', " +
+        "IG0701313 = '" + IG0701313.Text + "', " +
+        "IG0813 = '" + IG0813.Text + "', " +
+        "IG0913 = '" + IG0913.Text + "', " +
+        "IG01013 = '" + IG01013.Text + "', " +
+        "IG01113 = '" + IG01113.Text + "', " +
+        "IG01213 = '" + IG01213.Text + "', " +
+        "IG01313 = '" + IG01313.Text + "', " +
+        "IG01413 = '" + IG01413.Text + "', " +
+        "IG01513 = '" + IG01513.Text + "', " +
+        "IG070114 = '" + IG070114.Text + "', " +
+        "IG070214 = '" + IG070214.Text + "', " +
+        "IG070314 = '" + IG070314.Text + "', " +
+        "IG070414 = '" + IG070414.Text + "', " +
+        "IG070514 = '" + IG070514.Text + "', " +
+        "IG070614 = '" + IG070614.Text + "', " +
+        "IG070714 = '" + IG070714.Text + "', " +
+        "IG070814 = '" + IG070814.Text + "', " +
+        "IG070914 = '" + IG070914.Text + "', " +
+        "IG0701014 = '" + IG0701014.Text + "', " +
+        "IG0701114 = '" + IG0701114.Text + "', " +
+        "IG0701214 = '" + IG0701214.Text + "', " +
+        "IG0701314 = '" + IG0701314.Text + "', " +
+        "IG0814 = '" + IG0814.Text + "', " +
+        "IG0914 = '" + IG0914.Text + "', " +
+        "IG01014 = '" + IG01014.Text + "', " +
+        "IG01114 = '" + IG01114.Text + "', " +
+        "IG01214 = '" + IG01214.Text + "', " +
+        "IG01314 = '" + IG01314.Text + "', " +
+        "IG01414 = '" + IG01414.Text + "', " +
+        "IG01514 = '" + IG01514.Text + "', " +
+        "IG070115 = '" + IG070115.Text + "', " +
+        "IG070215 = '" + IG070215.Text + "', " +
+        "IG070315 = '" + IG070315.Text + "', " +
+        "IG070415 = '" + IG070415.Text + "', " +
+        "IG070515 = '" + IG070515.Text + "', " +
+        "IG070615 = '" + IG070615.Text + "', " +
+        "IG070715 = '" + IG070715.Text + "', " +
+        "IG070815 = '" + IG070815.Text + "', " +
+        "IG070915 = '" + IG070915.Text + "', " +
+        "IG0701015 = '" + IG0701015.Text + "', " +
+        "IG0701115 = '" + IG0701115.Text + "', " +
+        "IG0701215 = '" + IG0701215.Text + "', " +
+        "IG0701315 = '" + IG0701315.Text + "', " +
+        "IG0815 = '" + IG0815.Text + "', " +
+        "IG0915 = '" + IG0915.Text + "', " +
+        "IG01015 = '" + IG01015.Text + "', " +
+        "IG01115 = '" + IG01115.Text + "', " +
+        "IG01215 = '" + IG01215.Text + "', " +
+        "IG01315 = '" + IG01315.Text + "', " +
+        "IG01415 = '" + IG01415.Text + "', " +
+        "IG01515 = '" + IG01515.Text + "', " +
+        "IG160111 = '" + IG160111.Text + "', " +
+        "IG160211 = '" + IG160211.Text + "', " +
+        "IG160311 = '" + IG160311.Text + "', " +
+        "IG160411 = '" + IG160411.Text + "', " +
+        "IG160511 = '" + IG160511.Text + "', " +
+        "IG160611 = '" + IG160611.Text + "', " +
+        "IG160711 = '" + IG160711.Text + "', " +
+        "IG160811 = '" + IG160811.Text + "', " +
+        "IG160911 = '" + IG160911.Text + "', " +
+        "IG1601011 = '" + IG1601011.Text + "', " +
+        "IG1601111 = '" + IG1601111.Text + "', " +
+        "IG1601211 = '" + IG1601211.Text + "', " +
+        "IG160112 = '" + IG160112.Text + "', " +
+        "IG160212 = '" + IG160212.Text + "', " +
+        "IG160312 = '" + IG160312.Text + "', " +
+        "IG160412 = '" + IG160412.Text + "', " +
+        "IG160512 = '" + IG160512.Text + "', " +
+        "IG160612 = '" + IG160612.Text + "', " +
+        "IG160712 = '" + IG160712.Text + "', " +
+        "IG160812 = '" + IG160812.Text + "', " +
+        "IG160912 = '" + IG160912.Text + "', " +
+        "IG1601012 = '" + IG1601012.Text + "', " +
+        "IG1601112 = '" + IG1601112.Text + "', " +
+        "IG1601212 = '" + IG1601212.Text + "', " +
+        "IG160113 = '" + IG160113.Text + "', " +
+        "IG160213 = '" + IG160213.Text + "', " +
+        "IG160313 = '" + IG160313.Text + "', " +
+        "IG160413 = '" + IG160413.Text + "', " +
+        "IG160513 = '" + IG160513.Text + "', " +
+        "IG160613 = '" + IG160613.Text + "', " +
+        "IG160713 = '" + IG160713.Text + "', " +
+        "IG160813 = '" + IG160813.Text + "', " +
+        "IG160913 = '" + IG160913.Text + "', " +
+        "IG1601013 = '" + IG1601013.Text + "', " +
+        "IG1601113 = '" + IG1601113.Text + "', " +
+        "IG1601213 = '" + IG1601213.Text + "', " +
+        "IG160114 = '" + IG160114.Text + "', " +
+        "IG160214 = '" + IG160214.Text + "', " +
+        "IG160314 = '" + IG160314.Text + "', " +
+        "IG160414 = '" + IG160414.Text + "', " +
+        "IG160514 = '" + IG160514.Text + "', " +
+        "IG160614 = '" + IG160614.Text + "', " +
+        "IG160714 = '" + IG160714.Text + "', " +
+        "IG160814 = '" + IG160814.Text + "', " +
+        "IG160914 = '" + IG160914.Text + "', " +
+        "IG1601014 = '" + IG1601014.Text + "', " +
+        "IG1601114 = '" + IG1601114.Text + "', " +
+        "IG1601214 = '" + IG1601214.Text + "', " +
+        "IG160115 = '" + IG160115.Text + "', " +
+        "IG160215 = '" + IG160215.Text + "', " +
+        "IG160315 = '" + IG160315.Text + "', " +
+        "IG160415 = '" + IG160415.Text + "', " +
+        "IG160515 = '" + IG160515.Text + "', " +
+        "IG160615 = '" + IG160615.Text + "', " +
+        "IG160715 = '" + IG160715.Text + "', " +
+        "IG160815 = '" + IG160815.Text + "', " +
+        "IG160915 = '" + IG160915.Text + "', " +
+        "IG1601015 = '" + IG1601015.Text + "', " +
+        "IG1601115 = '" + IG1601115.Text + "', " +
+        "IG1601215 = '" + IG1601215.Text + "' WHERE form_id ='" + FORM_ID.Text + "'";
 
 
                 obj_op = new CDBOperations();
@@ -43120,7 +48937,80 @@ CVariables.UserName + "')";
             for (int b = 0; b <= ds_new.Tables[0].Rows.Count - 1; b++)
             {
 
-                if (ds_new.Tables[0].Rows[b]["var_id"].ToString() != "form_id" && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "QCFUP01")
+                if (ds_new.Tables[0].Rows[b]["var_id"].ToString() != "form_id" && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "QCFUP01"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060102"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060103"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060104"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060105"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060201"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060202"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060203"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060204"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060205"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060301"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060302"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060303"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060304"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060305"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060401"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060402"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060403"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060404"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060405"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060501"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060502"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060503"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060504"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060505"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060107"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060108"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060109"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060110"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060206"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060207"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060208"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060209"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060210"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060306"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060307"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060308"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060309"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060310"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060406"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060407"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060408"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060409"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060410"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060506"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060507"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060508"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060509"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060510"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060112"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060113"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060114"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060115"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060211"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060212"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060213"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060214"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060215"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060311"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060312"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060313"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060314"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060315"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060411"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060412"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060413"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060414"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060415"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060511"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060512"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060513"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060514"
+                    && ds_new.Tables[0].Rows[b]["var_id"].ToString() != "IG060515"
+                    )
                 {
                     if (tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"])].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB05")
                     {
@@ -51545,765 +57435,765 @@ CVariables.UserName + "')";
 
                             if (
 
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB06" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB07" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB08" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0901" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0902" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0903" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0996" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC02" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC03" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC04" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC05" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby1" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0601" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0701" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0801" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0901" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01001" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby2" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0602" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0702" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0802" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0902" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01002" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby3" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0603" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0703" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0803" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0903" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01003" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby4" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0604" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0704" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0804" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0904" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01004" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID01" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID02" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID03" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID04" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE01" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE02" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE03" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE04" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem1" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0701" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem2" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0702" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem3" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0703" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem4" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0704" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0801" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0901" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0802" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0902" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0803" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0903" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0804" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0904" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF01" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF02" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF03" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF04" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW1" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0601" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW2" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0602" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW3" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0603" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW4" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0604" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG02" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0301" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0302" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0303" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0304" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0305" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0306" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0307" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0308" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0309" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG03010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember1" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0401" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0501" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060201" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060301" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060401" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060501" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070201" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070301" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070401" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember2" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0402" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0502" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060202" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060302" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060402" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060502" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070202" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070302" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070402" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember3" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0403" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0503" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060203" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060303" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060403" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060503" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070203" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070303" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070403" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember4" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0404" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0504" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060204" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060304" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060404" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060504" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070204" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070304" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070404" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember5" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0405" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0505" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060205" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060305" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060405" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060505" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070205" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070305" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070405" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070501" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070601" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070701" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070801" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070901" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701001" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701201" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701301" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0801" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0901" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01001" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01201" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01301" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01401" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01501" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160201" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160301" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160401" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160501" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160601" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160701" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160801" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160901" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601001" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601101" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601201" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070502" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070602" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070702" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070802" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070902" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701002" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701202" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701302" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0802" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0902" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01002" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01202" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01302" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01402" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01502" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160202" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160302" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160402" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160502" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160602" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160702" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160802" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160902" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601002" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601102" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601202" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070503" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070603" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070703" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070803" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070903" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701003" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701203" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701303" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0803" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0903" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01003" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01203" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01303" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01403" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01503" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160203" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160303" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160403" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160503" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160603" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160703" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160803" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160903" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601003" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601103" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601203" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070504" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070604" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070704" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070804" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070904" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701004" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701204" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701304" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0804" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0904" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01004" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01204" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01304" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01404" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01504" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160204" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160304" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160404" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160504" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160604" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160704" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160804" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160904" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601004" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601104" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601204" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070505" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070605" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070705" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070805" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070905" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701005" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701205" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701305" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0805" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0905" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01005" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01205" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01305" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01405" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01505" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160205" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160305" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160405" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160505" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160605" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160705" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160805" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160905" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601005" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601205" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP01" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP02" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP03" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP04" ||
-//tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP05" ||
-//tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP06" ||
-//tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP07" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby5" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0605" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0705" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0805" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0905" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01005" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01105" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby6" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0606" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0706" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0806" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0906" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01006" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby7" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0607" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0707" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0807" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0907" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01007" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby8" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0608" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0708" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0808" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0908" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01008" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby9" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0609" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0709" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0809" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0909" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01009" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby10" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC06010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC07010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC08010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC09010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby11" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC06011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC07011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC08011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC09011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember6" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0406" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0506" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060206" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060306" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060406" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060506" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070206" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070306" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070406" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070506" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070606" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070706" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070806" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070906" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701006" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701206" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701306" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0806" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0906" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01006" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember7" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0407" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0507" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060207" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060307" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060407" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060507" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070207" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070307" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070407" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070507" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070607" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070707" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070807" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070907" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701007" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701207" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701307" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0807" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0907" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01007" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember8" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0408" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0508" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060208" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060308" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060408" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060508" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070208" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070308" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070408" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070508" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070608" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070708" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070808" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070908" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701008" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701208" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701308" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0808" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0908" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01008" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember9" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0409" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0509" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060209" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060309" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060409" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060509" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070209" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070309" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070409" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070509" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070609" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070709" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070809" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070909" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701009" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701209" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701309" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0809" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0909" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01009" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember10" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0410" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0510" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060210" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060310" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060410" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060510" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070210" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070310" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070410" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070510" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070610" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070710" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070810" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070910" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701210" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701310" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0810" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0910" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01206" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01306" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01406" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01506" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01207" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01307" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01407" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01507" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01208" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01308" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01408" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01508" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01209" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01309" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01409" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01509" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01210" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01310" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01410" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01510" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160206" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160306" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160406" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160506" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160606" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160706" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160806" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160906" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601006" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601106" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601206" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160207" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160307" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160407" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160507" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160607" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160707" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160807" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160907" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601007" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601107" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601207" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160208" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160308" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160408" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160508" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160608" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160708" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160808" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160908" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601008" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601108" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601208" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160209" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160309" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160409" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160509" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160609" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160709" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160809" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160909" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601009" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601109" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601209" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160210" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160310" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160410" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160510" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160610" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160710" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160810" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160910" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601010" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601110" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601210" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember11" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0411" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0511" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060211" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060311" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060411" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060511" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember12" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0412" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0512" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060112" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060212" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060312" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060412" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060512" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember13" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0413" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0513" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060113" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060213" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060313" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060413" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060513" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember14" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0414" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0514" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060114" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060214" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060314" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060414" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060514" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember15" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0415" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0515" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060115" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060215" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060315" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060415" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060515" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070211" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070311" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070411" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070511" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070611" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070711" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070811" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070911" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701211" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701311" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0811" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0911" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01211" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01311" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01411" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01511" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070112" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070212" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070312" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070412" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070512" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070612" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070712" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070812" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070912" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701012" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701112" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701212" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701312" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0812" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0912" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01012" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01112" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01212" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01312" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01412" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01512" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070113" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070213" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070313" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070413" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070513" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070613" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070713" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070813" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070913" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701013" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701113" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701213" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701313" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0813" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0913" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01013" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01113" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01213" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01313" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01413" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01513" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070114" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070214" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070314" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070414" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070514" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070614" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070714" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070814" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070914" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701014" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701114" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701214" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701314" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0814" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0914" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01014" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01114" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01214" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01314" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01414" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01514" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070115" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070215" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070315" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070415" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070515" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070615" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070715" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070815" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070915" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701015" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701115" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701215" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701315" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0815" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0915" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01015" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01115" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01215" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01315" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01415" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01515" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160211" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160311" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160411" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160511" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160611" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160711" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160811" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160911" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601011" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601111" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601211" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160112" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160212" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160312" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160412" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160512" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160612" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160712" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160812" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160912" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601012" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601112" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601212" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160113" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160213" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160313" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160413" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160513" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160613" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160713" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160813" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160913" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601013" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601113" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601213" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160114" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160214" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160314" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160414" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160514" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160614" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160714" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160814" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160914" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601014" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601114" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601214" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160115" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160215" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160315" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160415" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160515" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160615" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160715" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160815" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160915" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601015" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601115" ||
-tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601215"
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB06" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB07" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB08" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0901" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0902" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0903" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IB0996" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC02" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC03" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC04" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC05" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby1" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0601" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0701" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0801" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0901" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01001" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby2" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0602" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0702" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0802" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0902" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01002" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby3" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0603" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0703" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0803" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0903" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01003" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby4" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0604" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0704" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0804" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0904" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01004" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID01" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID02" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID03" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "ID04" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE01" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE02" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE03" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE04" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem1" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0701" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem2" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0702" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem3" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0703" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkHHMem4" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0704" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0801" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0901" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0802" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0902" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0803" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0903" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0804" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IE0904" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF01" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF02" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF03" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF04" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW1" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0601" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW2" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0602" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW3" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0603" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkPW4" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IF0604" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG02" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0301" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0302" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0303" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0304" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0305" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0306" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0307" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0308" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0309" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG03010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember1" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0401" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0501" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060201" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060301" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060401" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060501" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070201" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070301" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070401" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember2" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0402" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0502" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060202" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060302" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060402" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060502" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070202" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070302" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070402" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember3" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0403" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0503" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060203" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060303" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060403" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060503" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070203" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070303" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070403" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember4" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0404" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0504" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060204" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060304" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060404" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060504" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070204" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070304" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070404" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember5" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0405" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0505" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060205" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060305" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060405" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060505" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070205" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070305" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070405" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070501" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070601" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070701" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070801" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070901" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701001" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701201" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701301" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0801" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0901" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01001" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01201" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01301" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01401" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01501" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160201" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160301" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160401" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160501" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160601" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160701" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160801" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160901" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601001" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601101" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601201" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070502" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070602" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070702" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070802" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070902" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701002" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701202" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701302" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0802" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0902" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01002" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01202" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01302" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01402" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01502" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160202" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160302" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160402" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160502" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160602" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160702" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160802" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160902" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601002" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601102" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601202" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070503" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070603" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070703" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070803" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070903" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701003" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701203" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701303" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0803" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0903" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01003" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01203" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01303" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01403" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01503" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160203" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160303" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160403" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160503" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160603" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160703" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160803" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160903" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601003" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601103" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601203" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070504" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070604" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070704" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070804" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070904" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701004" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701204" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701304" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0804" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0904" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01004" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01204" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01304" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01404" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01504" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160204" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160304" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160404" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160504" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160604" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160704" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160804" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160904" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601004" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601104" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601204" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070505" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070605" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070705" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070805" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070905" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701005" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701205" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701305" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0805" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0905" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01005" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01205" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01305" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01405" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01505" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160205" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160305" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160405" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160505" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160605" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160705" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160805" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160905" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601005" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601205" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP01" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP02" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP03" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP04" ||
+        //tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP05" ||
+        //tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP06" ||
+        //tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "QCFUP07" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby5" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0605" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0705" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0805" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0905" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01005" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01105" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby6" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0606" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0706" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0806" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0906" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01006" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby7" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0607" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0707" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0807" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0907" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01007" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby8" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0608" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0708" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0808" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0908" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01008" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby9" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0609" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0709" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0809" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC0909" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01009" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby10" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC06010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC07010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC08010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC09010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkBaby11" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC06011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC07011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC08011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC09011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IC01111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember6" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0406" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0506" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060206" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060306" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060406" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060506" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070206" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070306" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070406" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070506" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070606" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070706" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070806" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070906" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701006" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701206" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701306" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0806" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0906" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01006" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember7" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0407" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0507" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060207" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060307" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060407" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060507" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070207" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070307" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070407" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070507" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070607" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070707" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070807" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070907" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701007" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701207" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701307" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0807" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0907" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01007" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember8" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0408" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0508" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060208" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060308" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060408" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060508" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070208" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070308" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070408" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070508" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070608" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070708" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070808" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070908" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701008" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701208" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701308" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0808" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0908" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01008" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember9" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0409" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0509" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060209" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060309" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060409" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060509" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070209" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070309" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070409" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070509" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070609" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070709" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070809" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070909" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701009" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701209" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701309" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0809" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0909" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01009" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember10" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0410" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0510" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060210" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060310" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060410" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060510" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070210" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070310" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070410" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070510" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070610" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070710" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070810" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070910" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701210" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701310" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0810" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0910" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01206" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01306" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01406" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01506" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01207" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01307" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01407" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01507" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01208" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01308" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01408" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01508" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01209" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01309" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01409" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01509" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01210" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01310" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01410" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01510" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160206" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160306" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160406" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160506" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160606" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160706" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160806" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160906" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601006" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601106" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601206" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160207" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160307" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160407" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160507" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160607" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160707" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160807" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160907" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601007" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601107" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601207" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160208" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160308" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160408" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160508" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160608" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160708" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160808" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160908" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601008" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601108" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601208" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160209" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160309" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160409" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160509" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160609" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160709" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160809" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160909" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601009" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601109" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601209" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160210" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160310" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160410" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160510" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160610" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160710" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160810" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160910" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601010" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601110" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601210" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember11" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0411" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0511" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060211" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060311" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060411" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060511" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember12" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0412" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0512" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060112" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060212" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060312" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060412" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060512" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember13" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0413" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0513" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060113" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060213" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060313" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060413" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060513" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember14" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0414" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0514" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060114" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060214" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060314" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060414" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060514" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "chkMember15" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0415" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0515" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060115" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060215" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060315" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060415" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG060515" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070211" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070311" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070411" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070511" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070611" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070711" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070811" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070911" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701211" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701311" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0811" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0911" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01211" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01311" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01411" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01511" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070112" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070212" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070312" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070412" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070512" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070612" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070712" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070812" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070912" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701012" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701112" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701212" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701312" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0812" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0912" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01012" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01112" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01212" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01312" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01412" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01512" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070113" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070213" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070313" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070413" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070513" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070613" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070713" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070813" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070913" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701013" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701113" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701213" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701313" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0813" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0913" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01013" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01113" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01213" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01313" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01413" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01513" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070114" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070214" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070314" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070414" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070514" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070614" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070714" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070814" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070914" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701014" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701114" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701214" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701314" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0814" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0914" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01014" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01114" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01214" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01314" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01414" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01514" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070115" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070215" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070315" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070415" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070515" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070615" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070715" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070815" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG070915" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701015" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701115" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701215" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0701315" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0815" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG0915" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01015" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01115" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01215" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01315" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01415" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG01515" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160211" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160311" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160411" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160511" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160611" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160711" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160811" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160911" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601011" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601111" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601211" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160112" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160212" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160312" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160412" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160512" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160612" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160712" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160812" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160912" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601012" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601112" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601212" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160113" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160213" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160313" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160413" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160513" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160613" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160713" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160813" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160913" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601013" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601113" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601213" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160114" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160214" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160314" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160414" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160514" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160614" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160714" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160814" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160914" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601014" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601114" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601214" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160115" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160215" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160315" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160415" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160515" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160615" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160715" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160815" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG160915" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601015" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601115" ||
+        tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToString())].Controls[ds_new.Tables[0].Rows[b]["var_id"].ToString()].Name == "IG1601215"
 
                                 )
                             {
@@ -52906,7 +58796,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                     }
                     else
                     {
-                        tabControl1.SelectedIndex = 8;
+                        tabControl1.SelectedIndex = 9;
                         QCFUP02.Focus();
                     }
 
@@ -52950,7 +58840,6 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IB0902);
                         obj_op.DisableControls(IB0903);
                         obj_op.DisableControls(IB0996);
-                        obj_op.EnableControls(IB011);
 
                         IB011.Focus();
                     }
@@ -52960,7 +58849,6 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.EnableControls(IB0902);
                         obj_op.EnableControls(IB0903);
                         obj_op.EnableControls(IB0996);
-                        obj_op.DisableControls(IB011);
 
                         IB0901.Focus();
                     }
@@ -52970,7 +58858,6 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IB0902);
                         obj_op.DisableControls(IB0903);
                         obj_op.DisableControls(IB0996);
-                        obj_op.DisableControls(IB011);
 
                         tabControl1.SelectedIndex = 1;
                         IC01.Focus();
@@ -52981,7 +58868,6 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.EnableControls(IB0902);
                         obj_op.EnableControls(IB0903);
                         obj_op.EnableControls(IB0996);
-                        obj_op.EnableControls(IB011);
 
                         IB0901.Focus();
                     }
@@ -53089,22 +58975,17 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
 
             try
             {
-                if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IB0996'", IB0996.Text) == true)
+
+                if (IB011.Enabled == true)
                 {
-                    IB0996.Focus();
+                    IB011.Focus();
                 }
                 else
                 {
-                    if (IB011.Enabled == true)
-                    {
-                        IB011.Focus();
-                    }
-                    else
-                    {
-                        tabControl1.SelectedIndex = 1;
-                        IC01.Focus();
-                    }
+                    tabControl1.SelectedIndex = 1;
+                    IC01.Focus();
                 }
+
 
             }
             catch (Exception ex)
@@ -53187,11 +59068,19 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     if (!string.IsNullOrEmpty(IE01.Text) && !string.IsNullOrEmpty(IE02.Text) && !string.IsNullOrEmpty(IE03.Text))
                     {
-                        if (Convert.ToInt32(IE04.Text) < Convert.ToInt32(IE01.Text) + Convert.ToInt32(IE02.Text) + Convert.ToInt32(IE03.Text))
+                        if (Convert.ToInt32(IE01.Text) < Convert.ToInt32(IE02.Text) + Convert.ToInt32(IE03.Text) + Convert.ToInt32(IE04.Text))
                         {
-                            MessageBox.Show("QNo.34 cannot be greater than sum of QNo.31, QNo.32, QNo.33 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("QNo.32 cannot be less than sum of QNo.33, QNo.34, QNo.35 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            tabControl1.SelectedIndex = 3;
                             IE01.Focus();
-                            return;
+                        }
+                        else
+                        {
+                            if (Convert.ToInt32(IE04.Text) > Convert.ToInt32(IE02.Text))
+                            {
+                                MessageBox.Show("QNo.34 cannot be greater than Q35 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                IE04.Focus();
+                            }
                         }
                     }
                 }
@@ -53279,6 +59168,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkHHMem1.Text == "2" && chkHHMem2.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 1st memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkHHMem2.Focus();
+                        return;
+                    }
+
+
+
                     if (chkHHMem2.Text == "1")
                     {
                         obj_op.EnableControls(IE0702);
@@ -53332,6 +59231,17 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+
+                    if (chkHHMem2.Text == "2" && chkHHMem3.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 2nd memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkHHMem3.Focus();
+                        return;
+                    }
+
+
+
                     if (chkHHMem3.Text == "1")
                     {
                         obj_op.EnableControls(IE0703);
@@ -53381,6 +59291,15 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkHHMem3.Text == "2" && chkHHMem4.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 3rd memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkHHMem4.Focus();
+                        return;
+                    }
+
+
                     if (chkHHMem4.Text == "1")
                     {
                         obj_op.EnableControls(IE0704);
@@ -53407,6 +59326,11 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         else if (IE0703.Enabled == true)
                         {
                             IE0703.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 5;
+                            IF01.Focus();
                         }
 
                     }
@@ -53465,7 +59389,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IF0603);
                         obj_op.DisableControls(IF0604);
 
-                        tabControl1.SelectedIndex = 5;
+                        tabControl1.SelectedIndex = 6;
 
                         IG01.Focus();
                     }
@@ -53554,7 +59478,7 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IF0603);
                         obj_op.DisableControls(IF0604);
 
-                        tabControl1.SelectedIndex = 5;
+                        tabControl1.SelectedIndex = 6;
 
                         IG01.Focus();
                     }
@@ -53601,13 +59525,20 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
-                    if (!string.IsNullOrEmpty(IF02.Text) && !string.IsNullOrEmpty(IF03.Text) && !string.IsNullOrEmpty(IF04.Text))
+                    if (!string.IsNullOrEmpty(IF01.Text) && !string.IsNullOrEmpty(IF02.Text) && !string.IsNullOrEmpty(IF03.Text))
                     {
                         if (Convert.ToInt32(IF01.Text) < Convert.ToInt32(IF02.Text) + Convert.ToInt32(IF03.Text) + Convert.ToInt32(IF04.Text))
                         {
                             MessageBox.Show("QNo.39 cannot be less than sum of QNo.40, QNo.41, QNo.42 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             IF04.Focus();
-                            return;
+                        }
+                        else
+                        {
+                            if (Convert.ToInt32(IF04.Text) > Convert.ToInt32(IF03.Text))
+                            {
+                                MessageBox.Show("QNo.42 cannot be greater than Q41 ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                IF04.Focus();
+                            }
                         }
                     }
                 }
@@ -53857,6 +59788,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkPW1.Text == "2" && chkPW2.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 1st memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkPW2.Focus();
+                        return;
+                    }
+
+
+
                     if (chkPW2.Text == "1")
                     {
                         obj_op.EnableControls(IF0602);
@@ -53898,6 +59839,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkPW2.Text == "2" && chkPW3.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 2nd memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkPW3.Focus();
+                        return;
+                    }
+
+
+
                     if (chkPW3.Text == "1")
                     {
                         obj_op.EnableControls(IF0603);
@@ -53939,6 +59890,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkPW3.Text == "2" && chkPW4.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 3rd memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkPW4.Focus();
+                        return;
+                    }
+
+
+
                     if (chkPW4.Text == "1")
                     {
                         obj_op.EnableControls(IF0604);
@@ -54632,7 +60593,6 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
 
 
-
             }
             catch (Exception ex)
             {
@@ -54794,7 +60754,6 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
 
 
-
             }
             catch (Exception ex)
             {
@@ -54819,7 +60778,22 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0308.Focus();
                 }
-
+                else
+                {
+                    if (IG0301.Text == "1" &&
+                        IG0302.Text == "1" &&
+                        IG0303.Text == "1" &&
+                        IG0304.Text == "1" &&
+                        IG0305.Text == "1" &&
+                        IG0306.Text == "1" &&
+                        IG0307.Text == "1" &&
+                        IG0308.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if any of the above option is 1 - Yes then I was not aware of lockdown cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0308.Focus();
+                    }
+                }
 
 
             }
@@ -54846,8 +60820,23 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0309.Focus();
                 }
+                else
+                {
+                    if (IG0301.Text == "1" &&
+                        IG0302.Text == "1" &&
+                        IG0303.Text == "1" &&
+                        IG0304.Text == "1" &&
+                        IG0305.Text == "1" &&
+                        IG0306.Text == "1" &&
+                        IG0307.Text == "1" &&
+                        IG0309.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if any of the above option is 1 - Yes then none of the above cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0309.Focus();
+                    }
 
-
+                }
 
             }
             catch (Exception ex)
@@ -54873,7 +60862,22 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG03010.Focus();
                 }
-
+                else
+                {
+                    if (IG0301.Text == "1" &&
+                        IG0302.Text == "1" &&
+                        IG0303.Text == "1" &&
+                        IG0304.Text == "1" &&
+                        IG0305.Text == "1" &&
+                        IG0306.Text == "1" &&
+                        IG0307.Text == "1" &&
+                        IG03010.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("if any of the above option is 1 - Yes then Dont Know cannot be 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG03010.Focus();
+                    }
+                }
 
 
             }
@@ -55024,6 +61028,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkMember1.Text == "2" && chkMember2.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 1st memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember2.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember2.Text == "1")
                     {
                         obj_op.EnableControls(IG0402);
@@ -55145,6 +61159,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkMember2.Text == "2" && chkMember3.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 2nd memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember3.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember3.Text == "1")
                     {
                         obj_op.EnableControls(IG0403);
@@ -55270,6 +61294,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkMember3.Text == "2" && chkMember4.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 3rd memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember4.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember4.Text == "1")
                     {
                         obj_op.EnableControls(IG0404);
@@ -55391,6 +61425,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkMember4.Text == "2" && chkMember5.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 4th memmber first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkMember5.Focus();
+                        return;
+                    }
+
+
+
                     if (chkMember5.Text == "1")
                     {
                         obj_op.EnableControls(IG0405);
@@ -55482,31 +61526,30 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                         obj_op.DisableControls(IG1601205);
 
 
-
-                        if (IG070501.Enabled == true)
+                        if (IG060101.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 6;
-                            IG070501.Focus();
+                            IG060101.Focus();
                         }
-                        else if (IG070502.Enabled == true)
+                        else if (IG060102.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 6;
-                            IG070502.Focus();
+                            IG060102.Focus();
                         }
-                        else if (IG070503.Enabled == true)
+                        else if (IG060103.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 6;
-                            IG070503.Focus();
+                            IG060103.Focus();
                         }
-                        else if (IG070504.Enabled == true)
+                        else if (IG060104.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 6;
-                            IG070504.Focus();
+                            IG060104.Focus();
                         }
-                        else if (IG070505.Enabled == true)
+                        else if (IG060105.Enabled == true)
                         {
-                            tabControl1.SelectedIndex = 6;
-                            IG070505.Focus();
+                            IG060105.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 9;
+                            QCFUP02.Focus();
                         }
 
                     }
@@ -56828,20 +62871,42 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
-                    if (IG0701201.Text == "0")
-                    {
-                        obj_op.DisableControls(IG0701301);
-                        obj_op.DisableControls(IG0801);
 
-                        IG0901.Focus();
+                    if (IG070101.Text == "1" &&
+                        IG070201.Text == "1" &&
+                        IG070301.Text == "1" &&
+                        IG070401.Text == "1" &&
+                        IG070501.Text == "1" &&
+                        IG070601.Text == "1" &&
+                        IG070701.Text == "1" &&
+                        IG070801.Text == "1" &&
+                        IG070901.Text == "1" &&
+                        IG0701001.Text == "1" &&
+                        IG0701101.Text == "1" &&
+                        IG0701201.Text == "1"
+                        )
+                    {
+                        MessageBox.Show("Dont know cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701201.Focus();
                     }
                     else
                     {
-                        obj_op.EnableControls(IG0701301);
-                        obj_op.EnableControls(IG0801);
+                        if (IG0701201.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701301);
+                            obj_op.DisableControls(IG0801);
 
-                        IG0701301.Focus();
+                            IG0901.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701301);
+                            obj_op.EnableControls(IG0801);
+
+                            IG0701301.Focus();
+                        }
                     }
+
                 }
 
 
@@ -56869,8 +62934,39 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0701301.Focus();
                 }
-
-
+                else
+                {
+                    if (IG070101.Text == "1" &&
+                       IG070201.Text == "1" &&
+                       IG070301.Text == "1" &&
+                       IG070401.Text == "1" &&
+                       IG070501.Text == "1" &&
+                       IG070601.Text == "1" &&
+                       IG070701.Text == "1" &&
+                       IG070801.Text == "1" &&
+                       IG070901.Text == "1" &&
+                       IG0701001.Text == "1" &&
+                       IG0701101.Text == "1" &&
+                       IG0701301.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("None of the above cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701301.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701301.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0801);
+                            IG0901.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0801);
+                            IG0801.Focus();
+                        }
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -57191,7 +63287,44 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0701202.Focus();
                 }
+                else
+                {
+                    if (IG070102.Text == "1" &&
+                       IG070202.Text == "1" &&
+                       IG070302.Text == "1" &&
+                       IG070402.Text == "1" &&
+                       IG070502.Text == "1" &&
+                       IG070602.Text == "1" &&
+                       IG070702.Text == "1" &&
+                       IG070802.Text == "1" &&
+                       IG070902.Text == "1" &&
+                       IG0701002.Text == "1" &&
+                       IG0701102.Text == "1" &&
+                       IG0701202.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("Dont know cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701202.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701202.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701302);
+                            obj_op.DisableControls(IG0802);
 
+                            IG0902.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701302);
+                            obj_op.EnableControls(IG0802);
+
+                            IG0701302.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -57217,6 +63350,41 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 if (obj_op.Validate_Dictionary("0", "select * from tbldict ", " where tabname = 'Form1BL' and var_id = 'IG0701302'", IG0701302.Text) == true)
                 {
                     IG0701302.Focus();
+                }
+                else
+                {
+
+                    if (IG070102.Text == "1" &&
+                       IG070202.Text == "1" &&
+                       IG070302.Text == "1" &&
+                       IG070402.Text == "1" &&
+                       IG070502.Text == "1" &&
+                       IG070602.Text == "1" &&
+                       IG070702.Text == "1" &&
+                       IG070802.Text == "1" &&
+                       IG070902.Text == "1" &&
+                       IG0701002.Text == "1" &&
+                       IG0701102.Text == "1" &&
+                       IG0701302.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("None of the above cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701302.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701302.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0802);
+                            IG0902.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0802);
+                            IG0802.Focus();
+                        }
+                    }
+
                 }
 
             }
@@ -57540,7 +63708,45 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0701203.Focus();
                 }
+                else
+                {
 
+                    if (IG070103.Text == "1" &&
+                       IG070203.Text == "1" &&
+                       IG070303.Text == "1" &&
+                       IG070403.Text == "1" &&
+                       IG070503.Text == "1" &&
+                       IG070603.Text == "1" &&
+                       IG070703.Text == "1" &&
+                       IG070803.Text == "1" &&
+                       IG070903.Text == "1" &&
+                       IG0701003.Text == "1" &&
+                       IG0701103.Text == "1" &&
+                       IG0701203.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("Dont know cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701203.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701203.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0701203);
+                            obj_op.DisableControls(IG0803);
+
+                            IG0903.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0701203);
+                            obj_op.EnableControls(IG0803);
+
+                            IG0701203.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -57567,7 +63773,41 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 {
                     IG0701303.Focus();
                 }
+                else
+                {
 
+                    if (IG070103.Text == "1" &&
+                       IG070203.Text == "1" &&
+                       IG070303.Text == "1" &&
+                       IG070403.Text == "1" &&
+                       IG070503.Text == "1" &&
+                       IG070603.Text == "1" &&
+                       IG070703.Text == "1" &&
+                       IG070803.Text == "1" &&
+                       IG070903.Text == "1" &&
+                       IG0701003.Text == "1" &&
+                       IG0701103.Text == "1" &&
+                       IG0701303.Text == "1"
+                       )
+                    {
+                        MessageBox.Show("None of the above cannot be 1 - Yes if all of the above symptoms is 1 - Yes ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IG0701303.Focus();
+                    }
+                    else
+                    {
+                        if (IG0701303.Text == "1")
+                        {
+                            obj_op.DisableControls(IG0803);
+                            IG0903.Focus();
+                        }
+                        else
+                        {
+                            obj_op.EnableControls(IG0803);
+                            IG0803.Focus();
+                        }
+                    }
+
+                }
 
 
             }
@@ -57690,6 +63930,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkBaby5.Text == "2" && chkBaby6.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 5th Baby first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby6.Focus();
+                        return;
+                    }
+
+
+
                     if (chkBaby6.Text == "1")
                     {
                         obj_op.EnableControls(IC0606);
@@ -57780,6 +64030,17 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+
+                    if (chkBaby6.Text == "2" && chkBaby7.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 6th Baby first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby7.Focus();
+                        return;
+                    }
+
+
+
                     if (chkBaby7.Text == "1")
                     {
                         obj_op.EnableControls(IC0607);
@@ -57861,6 +64122,15 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkBaby7.Text == "2" && chkBaby8.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 7th Baby first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby8.Focus();
+                        return;
+                    }
+
+
                     if (chkBaby8.Text == "1")
                     {
                         obj_op.EnableControls(IC0608);
@@ -57935,6 +64205,15 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkBaby8.Text == "2" && chkBaby9.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 8th Baby first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby9.Focus();
+                        return;
+                    }
+
+
                     if (chkBaby9.Text == "1")
                     {
                         obj_op.EnableControls(IC0609);
@@ -58002,6 +64281,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkBaby9.Text == "2" && chkBaby10.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 9th Baby first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby10.Focus();
+                        return;
+                    }
+
+
+
                     if (chkBaby10.Text == "1")
                     {
                         obj_op.EnableControls(IC06010);
@@ -58061,6 +64350,16 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
                 }
                 else
                 {
+
+                    if (chkBaby10.Text == "2" && chkBaby11.Text == "1")
+                    {
+                        MessageBox.Show("You have to add 10th Baby first ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        chkBaby11.Focus();
+                        return;
+                    }
+
+
+
                     if (chkBaby11.Text == "1")
                     {
                         obj_op.EnableControls(IC06011);
@@ -58103,19 +64402,75 @@ tabControl1.TabPages[Convert.ToInt32(ds_new.Tables[0].Rows[b]["TabPageNo"].ToStr
             ChangeColorLabel(0, lbl_ckkBaby11);
         }
 
-        private void tabPage14_Click(object sender, EventArgs e)
+        private void IB04a_Leave(object sender, EventArgs e)
         {
+            CDBOperations obj_op = new CDBOperations();
 
-        }
 
-        private void tabPage6_Click(object sender, EventArgs e)
-        {
+            try
+            {
+                DateTime dt = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                dt = Convert.ToDateTime(IB04a.Text);
 
-        }
 
-        private void IG160315_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
+                DateTime dt1 = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                dt1 = Convert.ToDateTime(IB04.Text);
 
+
+                DateTime study_dt = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                study_dt = Convert.ToDateTime("01/06/2021");
+
+
+                if (dt > DateTime.Now.Date)
+                {
+                    MessageBox.Show("Date cannot be greater than todays's date ", "Date Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    IB04a.Focus();
+                }
+                else
+                {
+                    if (dt < study_dt)
+                    {
+                        MessageBox.Show("Date cannot be less than study starting date  ", "Date Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        IB04a.Focus();
+                    }
+                    else
+                    {
+                        if (dt != dt1)
+                        {
+                            MessageBox.Show("Dates are different in both format ", "Date Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            IB04a.Focus();
+                        }
+                    }
+                }
+
+
+
+            }
+
+            catch (Exception ex)
+            {
+                if (ex.Message == "String was not recognized as a valid DateTime.")
+                {
+                    MessageBox.Show("Invalid Date format. Date must be entered in dd/mm/yyyy format ", "Date Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    IB04a.Focus();
+                }
+                else
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    IB04a.Focus();
+                }
+            }
+
+            finally
+            {
+                obj_op = null;
+            }
+
+
+            IB04a.BackColor = Color.Bisque;
         }
     }
 }
