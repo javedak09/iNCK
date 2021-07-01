@@ -360,7 +360,9 @@ namespace iNCK
                 {
                     if (IB05.Text == "1")
                     {
-                        Consent_Yes();
+                        //Consent_Yes();
+
+                        SearchRecord();
                         IB06.Focus();
                     }
                     else
@@ -411,7 +413,6 @@ namespace iNCK
                 obj_op.DisableControls(IB0902);
                 obj_op.DisableControls(IB0903);
                 obj_op.DisableControls(IB0996);
-                obj_op.EnableControls(IB010);
             }
             else if (IB08.Text == "4")
             {
@@ -419,7 +420,6 @@ namespace iNCK
                 obj_op.DisableControls(IB0902);
                 obj_op.DisableControls(IB0903);
                 obj_op.DisableControls(IB0996);
-                obj_op.DisableControls(IB010);
             }
             else
             {
@@ -526,7 +526,6 @@ namespace iNCK
 
                 obj_op.EnableControls(ID01);
 
-
             }
             else
             {
@@ -584,7 +583,6 @@ namespace iNCK
                 obj_op.DisableControls(IC04);
                 obj_op.DisableControls(IC05);
 
-
                 obj_op.DisableControls(chkBaby1);
                 obj_op.DisableControls(IC0601);
                 obj_op.DisableControls(IC0701);
@@ -621,7 +619,6 @@ namespace iNCK
                 obj_op.DisableControls(IC01104);
 
                 obj_op.DisableControls(ID01);
-
 
             }
             else if (IC02.Text == "99")
@@ -672,6 +669,7 @@ namespace iNCK
             }
             else
             {
+
                 obj_op.EnableControls(IC03);
                 obj_op.EnableControls(IC04);
                 obj_op.EnableControls(IC05);
@@ -684,6 +682,7 @@ namespace iNCK
                 obj_op.EnableControls(IC01001);
                 obj_op.EnableControls(IC01101);
 
+
                 obj_op.EnableControls(chkBaby2);
                 obj_op.EnableControls(IC0602);
                 obj_op.EnableControls(IC0702);
@@ -692,6 +691,7 @@ namespace iNCK
                 obj_op.EnableControls(IC01002);
                 obj_op.EnableControls(IC01102);
 
+
                 obj_op.EnableControls(chkBaby3);
                 obj_op.EnableControls(IC0603);
                 obj_op.EnableControls(IC0703);
@@ -699,6 +699,7 @@ namespace iNCK
                 obj_op.EnableControls(IC0903);
                 obj_op.EnableControls(IC01003);
                 obj_op.EnableControls(IC01103);
+
 
                 obj_op.EnableControls(chkBaby4);
                 obj_op.EnableControls(IC0604);
@@ -711,7 +712,6 @@ namespace iNCK
                 obj_op.EnableControls(ID01);
 
             }
-
 
 
 
@@ -758,6 +758,7 @@ namespace iNCK
             }
             else if (!string.IsNullOrEmpty(IC05.Text))
             {
+
                 if (Convert.ToInt32(IC05.Text) > 1 && Convert.ToInt32(IC05.Text) < 4)
                 {
 
@@ -847,6 +848,7 @@ namespace iNCK
                 }
                 else if (Convert.ToInt32(IC05.Text) > 5)
                 {
+
                     obj_op.EnableControls(chkBaby1);
                     obj_op.EnableControls(IC0601);
                     obj_op.EnableControls(IC0701);
@@ -856,7 +858,7 @@ namespace iNCK
                     obj_op.EnableControls(IC01101);
 
 
-                    obj_op.EnableControls(chkBaby3);
+                    obj_op.EnableControls(chkBaby2);
                     obj_op.EnableControls(IC0602);
                     obj_op.EnableControls(IC0702);
                     obj_op.EnableControls(IC0802);
@@ -933,43 +935,99 @@ namespace iNCK
                     obj_op.EnableControls(IC01011);
                     obj_op.EnableControls(IC01111);
 
-                }
 
+                }
 
             }
             else
             {
-                obj_op.EnableControls(chkBaby1);
+                if (IC01.Text != "0")
+                {
+                    if (IC02.Text != "0")
+                    {
+
+                        obj_op.EnableControls(chkBaby1);
+                        obj_op.EnableControls(IC0601);
+                        obj_op.EnableControls(IC0701);
+                        obj_op.EnableControls(IC0801);
+                        obj_op.EnableControls(IC0901);
+                        obj_op.EnableControls(IC01001);
+                        obj_op.EnableControls(IC01101);
+
+                        obj_op.EnableControls(chkBaby2);
+                        obj_op.EnableControls(IC0602);
+                        obj_op.EnableControls(IC0702);
+                        obj_op.EnableControls(IC0802);
+                        obj_op.EnableControls(IC0902);
+                        obj_op.EnableControls(IC01002);
+                        obj_op.EnableControls(IC01102);
+
+                        obj_op.EnableControls(chkBaby3);
+                        obj_op.EnableControls(IC0603);
+                        obj_op.EnableControls(IC0703);
+                        obj_op.EnableControls(IC0803);
+                        obj_op.EnableControls(IC0903);
+                        obj_op.EnableControls(IC01003);
+                        obj_op.EnableControls(IC01103);
+
+                        obj_op.EnableControls(chkBaby4);
+                        obj_op.EnableControls(IC0604);
+                        obj_op.EnableControls(IC0704);
+                        obj_op.EnableControls(IC0804);
+                        obj_op.EnableControls(IC0904);
+                        obj_op.EnableControls(IC01004);
+                        obj_op.EnableControls(IC01104);
+
+                    }
+
+                }
+
+
+            }
+
+
+
+            if (chkBaby1.Text == "1")
+            {
                 obj_op.EnableControls(IC0601);
                 obj_op.EnableControls(IC0701);
                 obj_op.EnableControls(IC0801);
                 obj_op.EnableControls(IC0901);
                 obj_op.EnableControls(IC01001);
                 obj_op.EnableControls(IC01101);
+            }
+            else
+            {
+                obj_op.DisableControls(IC0601);
+                obj_op.DisableControls(IC0701);
+                obj_op.DisableControls(IC0801);
+                obj_op.DisableControls(IC0901);
+                obj_op.DisableControls(IC01001);
+                obj_op.DisableControls(IC01101);
 
-                obj_op.EnableControls(chkBaby2);
-                obj_op.EnableControls(IC0602);
-                obj_op.EnableControls(IC0702);
-                obj_op.EnableControls(IC0802);
-                obj_op.EnableControls(IC0902);
-                obj_op.EnableControls(IC01002);
-                obj_op.EnableControls(IC01102);
 
-                obj_op.EnableControls(chkBaby3);
-                obj_op.EnableControls(IC0603);
-                obj_op.EnableControls(IC0703);
-                obj_op.EnableControls(IC0803);
-                obj_op.EnableControls(IC0903);
-                obj_op.EnableControls(IC01003);
-                obj_op.EnableControls(IC01103);
+                obj_op.DisableControls(IC0602);
+                obj_op.DisableControls(IC0702);
+                obj_op.DisableControls(IC0802);
+                obj_op.DisableControls(IC0902);
+                obj_op.DisableControls(IC01002);
+                obj_op.DisableControls(IC01102);
 
-                obj_op.EnableControls(chkBaby4);
-                obj_op.EnableControls(IC0604);
-                obj_op.EnableControls(IC0704);
-                obj_op.EnableControls(IC0804);
-                obj_op.EnableControls(IC0904);
-                obj_op.EnableControls(IC01004);
-                obj_op.EnableControls(IC01104);
+
+                obj_op.DisableControls(IC0603);
+                obj_op.DisableControls(IC0703);
+                obj_op.DisableControls(IC0803);
+                obj_op.DisableControls(IC0903);
+                obj_op.DisableControls(IC01003);
+                obj_op.DisableControls(IC01103);
+
+
+                obj_op.DisableControls(IC0604);
+                obj_op.DisableControls(IC0704);
+                obj_op.DisableControls(IC0804);
+                obj_op.DisableControls(IC0904);
+                obj_op.DisableControls(IC01004);
+                obj_op.DisableControls(IC01104);
 
             }
 
@@ -1682,6 +1740,8 @@ namespace iNCK
             obj_op.EnableControls(IC01011);
             obj_op.EnableControls(IC01111);
             obj_op.EnableControls(chkMember6);
+
+
             obj_op.EnableControls(IG0406);
             obj_op.EnableControls(IG0506);
             obj_op.EnableControls(IG060106);
@@ -4564,10 +4624,8 @@ namespace iNCK
                         obj_op.DisableControls(IC01004);
                         obj_op.DisableControls(IC01104);
 
-
-                        tabControl1.SelectedIndex = 3;
-
-                        ID01.Focus();
+                        tabControl1.SelectedIndex = 10;
+                        chkBaby5.Focus();
                     }
                 }
 
@@ -6143,34 +6201,6 @@ namespace iNCK
                     {
                         IG070505.Focus();
                     }
-                    else
-                    {
-                        if (IG160601.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160601.Focus();
-                        }
-                        else if (IG160602.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160602.Focus();
-                        }
-                        else if (IG160603.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160603.Focus();
-                        }
-                        else if (IG160604.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160604.Focus();
-                        }
-                        else if (IG160605.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160605.Focus();
-                        }
-                    }
                 }
 
             }
@@ -6658,7 +6688,17 @@ namespace iNCK
                 {
                     IG01202.Focus();
                 }
-
+                else
+                {
+                    if (IG01301.Enabled == true && string.IsNullOrEmpty(IG01301.Text))
+                    {
+                        IG01301.Focus();
+                    }
+                    else
+                    {
+                        IG01302.Focus();
+                    }
+                }
 
 
             }
@@ -6895,34 +6935,6 @@ namespace iNCK
                     else if (IG070505.Enabled == true)
                     {
                         IG070505.Focus();
-                    }
-                    else
-                    {
-                        if (IG160601.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160601.Focus();
-                        }
-                        else if (IG160602.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160602.Focus();
-                        }
-                        else if (IG160603.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160603.Focus();
-                        }
-                        else if (IG160604.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160604.Focus();
-                        }
-                        else if (IG160605.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160605.Focus();
-                        }
                     }
                 }
 
@@ -7400,8 +7412,17 @@ namespace iNCK
                 {
                     IG01203.Focus();
                 }
-
-
+                else
+                {
+                    if (IG01302.Enabled == true && string.IsNullOrEmpty(IG01302.Text))
+                    {
+                        IG01302.Focus();
+                    }
+                    else
+                    {
+                        IG01303.Focus();
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -7633,34 +7654,6 @@ namespace iNCK
                     else if (IG070505.Enabled == true)
                     {
                         IG070505.Focus();
-                    }
-                    else
-                    {
-                        if (IG160601.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160601.Focus();
-                        }
-                        else if (IG160602.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160602.Focus();
-                        }
-                        else if (IG160603.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160603.Focus();
-                        }
-                        else if (IG160604.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160604.Focus();
-                        }
-                        else if (IG160605.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160605.Focus();
-                        }
                     }
                 }
 
@@ -8176,17 +8169,17 @@ namespace iNCK
                     {
                         if (IG0701204.Text == "1")
                         {
-                            obj_op.DisableControls(IG0701204);
+                            obj_op.DisableControls(IG0701304);
                             obj_op.DisableControls(IG0804);
 
                             IG0904.Focus();
                         }
                         else
                         {
-                            obj_op.EnableControls(IG0701204);
+                            obj_op.EnableControls(IG0701304);
                             obj_op.EnableControls(IG0804);
 
-                            IG0701204.Focus();
+                            IG0701304.Focus();
                         }
                     }
 
@@ -8445,8 +8438,17 @@ namespace iNCK
                 {
                     IG01204.Focus();
                 }
-
-
+                else
+                {
+                    if (IG01303.Enabled == true && string.IsNullOrEmpty(IG01303.Text))
+                    {
+                        IG01303.Focus();
+                    }
+                    else
+                    {
+                        IG01304.Focus();
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -8674,34 +8676,6 @@ namespace iNCK
                     if (IG070505.Enabled == true)
                     {
                         IG070505.Focus();
-                    }
-                    else
-                    {
-                        if (IG160601.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160601.Focus();
-                        }
-                        else if (IG160602.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160602.Focus();
-                        }
-                        else if (IG160603.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160603.Focus();
-                        }
-                        else if (IG160604.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160604.Focus();
-                        }
-                        else if (IG160605.Enabled == true)
-                        {
-                            tabControl1.SelectedIndex = 7;
-                            IG160605.Focus();
-                        }
                     }
                 }
 
@@ -9489,8 +9463,17 @@ namespace iNCK
                 {
                     IG01205.Focus();
                 }
-
-
+                else
+                {
+                    if (IG01304.Enabled == true && string.IsNullOrEmpty(IG01304.Text))
+                    {
+                        IG01304.Focus();
+                    }
+                    else
+                    {
+                        IG01305.Focus();
+                    }
+                }
 
             }
             catch (Exception ex)
@@ -10375,9 +10358,7 @@ namespace iNCK
                     if (IC0905.Text == "1")
                     {
                         obj_op.DisableControls(IC01005);
-
-                        tabControl1.SelectedIndex = 11;
-                        IC01105.Focus();
+                        chkBaby6.Focus();
                     }
                     else
                     {
@@ -10591,9 +10572,7 @@ namespace iNCK
                     if (IC0906.Text == "1")
                     {
                         obj_op.DisableControls(IC01006);
-
-                        tabControl1.SelectedIndex = 11;
-                        IC01106.Focus();
+                        chkBaby7.Focus();
                     }
                     else
                     {
@@ -10803,9 +10782,7 @@ namespace iNCK
                     if (IC0907.Text == "1")
                     {
                         obj_op.DisableControls(IC01007);
-
-                        tabControl1.SelectedIndex = 11;
-                        IC01107.Focus();
+                        chkBaby8.Focus();
                     }
                     else
                     {
@@ -11012,9 +10989,7 @@ namespace iNCK
                     if (IC0908.Text == "1")
                     {
                         obj_op.DisableControls(IC01008);
-
-                        tabControl1.SelectedIndex = 11;
-                        IC01108.Focus();
+                        chkBaby9.Focus();
                     }
                     else
                     {
@@ -11217,9 +11192,7 @@ namespace iNCK
                     if (IC0909.Text == "1")
                     {
                         obj_op.DisableControls(IC01009);
-
-                        tabControl1.SelectedIndex = 11;
-                        IC01109.Focus();
+                        chkBaby10.Focus();
                     }
                     else
                     {
@@ -11418,9 +11391,7 @@ namespace iNCK
                     if (IC09010.Text == "1")
                     {
                         obj_op.DisableControls(IC01010);
-
-                        tabControl1.SelectedIndex = 11;
-                        IC01110.Focus();
+                        chkBaby11.Focus();
                     }
                     else
                     {
@@ -11616,7 +11587,7 @@ namespace iNCK
                         obj_op.DisableControls(IC01011);
 
                         tabControl1.SelectedIndex = 11;
-                        IC01110.Focus();
+                        IC01105.Focus();
                     }
                     else
                     {
@@ -12091,7 +12062,31 @@ namespace iNCK
                 }
                 else
                 {
-
+                    if (IG070106.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 13;
+                        IG070106.Focus();
+                    }
+                    else if (IG070107.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 13;
+                        IG070107.Focus();
+                    }
+                    else if (IG070108.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 13;
+                        IG070108.Focus();
+                    }
+                    else if (IG070109.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 13;
+                        IG070109.Focus();
+                    }
+                    else if (IG070110.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 13;
+                        IG070110.Focus();
+                    }
                 }
 
 
@@ -12785,7 +12780,11 @@ namespace iNCK
                     {
                         IG070110.Focus();
                     }
-
+                    else
+                    {
+                        tabControl1.SelectedIndex = 14;
+                        IG01106.Focus();
+                    }
 
                 }
 
@@ -14656,17 +14655,17 @@ namespace iNCK
                     {
                         if (IG0701208.Text == "1")
                         {
-                            obj_op.DisableControls(IG0701208);
+                            obj_op.DisableControls(IG0701308);
                             obj_op.DisableControls(IG0808);
 
                             IG0908.Focus();
                         }
                         else
                         {
-                            obj_op.EnableControls(IG0701208);
+                            obj_op.EnableControls(IG0701308);
                             obj_op.EnableControls(IG0808);
 
-                            IG0701208.Focus();
+                            IG0701308.Focus();
                         }
                     }
 
@@ -15619,17 +15618,17 @@ namespace iNCK
                     {
                         if (IG0701209.Text == "1")
                         {
-                            obj_op.DisableControls(IG0701209);
+                            obj_op.DisableControls(IG0701309);
                             obj_op.DisableControls(IG0809);
 
                             IG0909.Focus();
                         }
                         else
                         {
-                            obj_op.EnableControls(IG0701209);
+                            obj_op.EnableControls(IG0701309);
                             obj_op.EnableControls(IG0809);
 
-                            IG0701209.Focus();
+                            IG0701309.Focus();
                         }
                     }
 
@@ -15964,16 +15963,7 @@ namespace iNCK
                         obj_op.DisableControls(IG1601210);
 
 
-                        if (chkMember6.Text == "1")
-                        {
-                            tabControl1.SelectedIndex = 11;
-                            IG01106.Focus();
-                        }
-                        else
-                        {
-                            tabControl1.SelectedIndex = 12;
-                            chkMember11.Focus();
-                        }
+                        IG060106.Focus();
 
                     }
 
@@ -16537,17 +16527,17 @@ namespace iNCK
                     {
                         if (IG0701210.Text == "1")
                         {
-                            obj_op.DisableControls(IG0701210);
+                            obj_op.DisableControls(IG0701310);
                             obj_op.DisableControls(IG0810);
 
                             IG0910.Focus();
                         }
                         else
                         {
-                            obj_op.EnableControls(IG0701210);
+                            obj_op.EnableControls(IG0701310);
                             obj_op.EnableControls(IG0810);
 
-                            IG0701210.Focus();
+                            IG0701310.Focus();
                         }
                     }
 
@@ -16964,6 +16954,42 @@ namespace iNCK
                     else if (IG01110.Enabled == true)
                     {
                         IG01110.Focus();
+                    }
+                    else if (IG01206.Enabled == true)
+                    {
+                        IG01206.Focus();
+                    }
+                    else if (IG01207.Enabled == true)
+                    {
+                        IG01207.Focus();
+                    }
+                    else if (IG01208.Enabled == true)
+                    {
+                        IG01208.Focus();
+                    }
+                    else if (IG01209.Enabled == true)
+                    {
+                        IG01209.Focus();
+                    }
+                    else if (IG01210.Enabled == true)
+                    {
+                        IG01210.Focus();
+                    }
+                    else if (IG01307.Enabled == true)
+                    {
+                        IG01307.Focus();
+                    }
+                    else if (IG01308.Enabled == true)
+                    {
+                        IG01308.Focus();
+                    }
+                    else if (IG01309.Enabled == true)
+                    {
+                        IG01309.Focus();
+                    }
+                    else if (IG01310.Enabled == true)
+                    {
+                        IG01310.Focus();
                     }
                     else
                     {
@@ -17623,7 +17649,7 @@ namespace iNCK
                 }
                 else
                 {
-                    tabControl1.SelectedIndex = 14;
+                    tabControl1.SelectedIndex = 15;
                     IG160106.Focus();
                 }
 
@@ -18017,6 +18043,11 @@ namespace iNCK
                         else if (IG160110.Enabled == true)
                         {
                             IG160110.Focus();
+                        }
+                        else
+                        {
+                            tabControl1.SelectedIndex = 16;
+                            chkMember11.Focus();
                         }
 
                     }
@@ -19978,7 +20009,34 @@ namespace iNCK
                 {
                     IG060111.Focus();
                 }
-
+                else
+                {
+                    if (IG070111.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 17;
+                        IG070111.Focus();
+                    }
+                    else if (IG070112.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 17;
+                        IG070112.Focus();
+                    }
+                    else if (IG070113.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 17;
+                        IG070113.Focus();
+                    }
+                    else if (IG070114.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 17;
+                        IG070114.Focus();
+                    }
+                    else if (IG070115.Enabled == true)
+                    {
+                        tabControl1.SelectedIndex = 17;
+                        IG070115.Focus();
+                    }
+                }
 
 
             }
@@ -21541,8 +21599,7 @@ namespace iNCK
                         obj_op.DisableControls(IG1601215);
 
 
-                        tabControl1.SelectedIndex = 9;
-                        QCFUP02.Focus();
+                        IG060111.Focus();
                     }
 
                 }
@@ -22340,6 +22397,11 @@ namespace iNCK
                     {
                         IG070115.Focus();
                     }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
 
 
                 }
@@ -22401,6 +22463,11 @@ namespace iNCK
                     else if (IG070115.Enabled == true)
                     {
                         IG070115.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
                     }
 
                 }
@@ -23100,7 +23167,11 @@ namespace iNCK
                     {
                         IG070115.Focus();
                     }
-
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
 
                 }
 
@@ -23157,6 +23228,11 @@ namespace iNCK
                     else if (IG070115.Enabled == true)
                     {
                         IG070115.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
                     }
 
                 }
@@ -23846,6 +23922,11 @@ namespace iNCK
                     {
                         IG070115.Focus();
                     }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
 
 
                 }
@@ -23896,6 +23977,11 @@ namespace iNCK
                     else if (IG070115.Enabled == true)
                     {
                         IG070115.Focus();
+                    }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
                     }
 
                 }
@@ -24577,6 +24663,11 @@ namespace iNCK
                     {
                         IG070115.Focus();
                     }
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
 
 
                 }
@@ -24623,7 +24714,11 @@ namespace iNCK
                     {
                         IG070115.Focus();
                     }
-
+                    else
+                    {
+                        tabControl1.SelectedIndex = 18;
+                        IG01211.Focus();
+                    }
 
                 }
 
@@ -32991,6 +33086,15 @@ namespace iNCK
 
 
 
+                            if (ds.Tables[0].Rows[0]["IB04a"].ToString() == null)
+                            {
+                                IB04a.Text = "";
+                            }
+                            else
+                            {
+                                IB04a.Text = ds.Tables[0].Rows[0]["IB04a"].ToString();
+                            }
+
 
 
 
@@ -33846,18 +33950,20 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-
-                                    if (IC0901.Text == "1")
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.DisableControls(IC01001);
-                                    }
-                                    else
-                                    {
-                                        if (IC01.Text != "0")
+                                        if (IC02.Text != "0")
                                         {
-                                            if (IC02.Text != "0")
+                                            if (chkBaby1.Text == "1")
                                             {
-                                                obj_op.EnableControls(IC01001);
+                                                if (IC0901.Text == "1")
+                                                {
+                                                    obj_op.DisableControls(IC01001);
+                                                }
+                                                else
+                                                {
+                                                    obj_op.EnableControls(IC01001);
+                                                }
                                             }
                                         }
                                     }
@@ -33980,17 +34086,20 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC0902.Text == "1")
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.DisableControls(IC01002);
-                                    }
-                                    else
-                                    {
-                                        if (IC01.Text != "0")
+                                        if (IC02.Text != "0")
                                         {
-                                            if (IC02.Text != "0")
+                                            if (chkBaby2.Text == "1")
                                             {
-                                                obj_op.EnableControls(IC01002);
+                                                if (IC0902.Text == "1")
+                                                {
+                                                    obj_op.DisableControls(IC01002);
+                                                }
+                                                else
+                                                {
+                                                    obj_op.EnableControls(IC01002);
+                                                }
                                             }
                                         }
                                     }
@@ -34107,17 +34216,20 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC0903.Text == "1")
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.DisableControls(IC01003);
-                                    }
-                                    else
-                                    {
-                                        if (IC01.Text != "0")
+                                        if (IC02.Text != "0")
                                         {
-                                            if (IC02.Text != "0")
+                                            if (chkBaby3.Text == "1")
                                             {
-                                                obj_op.EnableControls(IC01003);
+                                                if (IC0903.Text == "1")
+                                                {
+                                                    obj_op.DisableControls(IC01003);
+                                                }
+                                                else
+                                                {
+                                                    obj_op.EnableControls(IC01003);
+                                                }
                                             }
                                         }
                                     }
@@ -34221,22 +34333,23 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IC0904.Text == "1")
+                                    if (IC01.Text != "0")
                                     {
-                                        obj_op.DisableControls(IC01004);
-                                    }
-                                    else
-                                    {
-                                        if (IC01.Text != "0")
+                                        if (IC02.Text != "0")
                                         {
-                                            if (IC02.Text != "0")
+                                            if (chkBaby4.Text == "1")
                                             {
-                                                obj_op.EnableControls(IC01004);
+                                                if (IC0904.Text == "1")
+                                                {
+                                                    obj_op.DisableControls(IC01004);
+                                                }
+                                                else
+                                                {
+                                                    obj_op.EnableControls(IC01004);
+                                                }
                                             }
                                         }
-
                                     }
-
                                 }
                             }
 
@@ -35812,14 +35925,14 @@ namespace iNCK
                                 {
                                     if (chkMember1.Text == "1" && chkMember2.Text == "1" && chkMember3.Text == "1" && chkMember4.Text == "1")
                                     {
-                                        if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                                        {
-                                            Disabled_IG060101_Q47();
-                                        }
-                                        else
-                                        {
-                                            Enabled_IG060101_Q47();
-                                        }
+                                        //if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                                        //{
+                                        //    Disabled_IG060101_Q47();
+                                        //}
+                                        //else
+                                        //{
+                                        //    Enabled_IG060101_Q47();
+                                        //}
                                     }
                                 }
                             }
@@ -36770,7 +36883,7 @@ namespace iNCK
                                 {
                                     if (chkMember1.Text == "1")
                                     {
-                                        if (IG0701201.Text == "0")
+                                        if (IG0701201.Text == "1")
                                         {
                                             obj_op.DisableControls(IG0701301);
                                             obj_op.DisableControls(IG0801);
@@ -36791,6 +36904,28 @@ namespace iNCK
                             else
                             {
                                 IG0701301.Text = ds.Tables[0].Rows[0]["IG0701301"].ToString();
+
+
+                                //javed hai
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember1.Text == "1")
+                                    {
+                                        if (IG0701201.Text != "1")
+                                        {
+                                            if (IG0701301.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG0801);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG0801);
+                                            }
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0801"].ToString() == null)
@@ -36864,13 +36999,16 @@ namespace iNCK
                                 {
                                     if (chkMember1.Text == "1")
                                     {
-                                        if (IG01101.Text == "1")
+                                        if (IG01001.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01201);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01201);
+                                            if (IG01101.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01201);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01201);
+                                            }
                                         }
                                     }
                                 }
@@ -37091,6 +37229,24 @@ namespace iNCK
                             else
                             {
                                 IG0701202.Text = ds.Tables[0].Rows[0]["IG0701202"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember2.Text == "1")
+                                    {
+                                        if (IG0701202.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG0701302);
+                                            obj_op.DisableControls(IG0802);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0701302);
+                                            obj_op.EnableControls(IG0802);
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0701302"].ToString() == null)
@@ -37100,6 +37256,23 @@ namespace iNCK
                             else
                             {
                                 IG0701302.Text = ds.Tables[0].Rows[0]["IG0701302"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember2.Text == "1")
+                                    {
+                                        if (IG0701302.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG0802);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0802);
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0802"].ToString() == null)
@@ -37121,7 +37294,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember2.Text == "1")
                                     {
                                         if (IG0902.Text == "0")
                                         {
@@ -37146,7 +37319,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember2.Text == "1")
                                     {
                                         if (IG01002.Text == "1")
                                         {
@@ -37172,15 +37345,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember2.Text == "1")
                                     {
-                                        if (IG01102.Text == "1")
+                                        if (IG01002.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01202);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01202);
+                                            if (IG01102.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01202);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01202);
+                                            }
                                         }
                                     }
                                 }
@@ -37400,6 +37576,25 @@ namespace iNCK
                             else
                             {
                                 IG0701203.Text = ds.Tables[0].Rows[0]["IG0701203"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember3.Text == "1")
+                                    {
+                                        if (IG0701203.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG0701303);
+                                            obj_op.DisableControls(IG0803);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0701303);
+                                            obj_op.EnableControls(IG0803);
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0701303"].ToString() == null)
@@ -37409,6 +37604,23 @@ namespace iNCK
                             else
                             {
                                 IG0701303.Text = ds.Tables[0].Rows[0]["IG0701303"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember3.Text == "1")
+                                    {
+                                        if (IG0701303.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG0803);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0803);
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0803"].ToString() == null)
@@ -37430,7 +37642,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember3.Text == "1")
                                     {
                                         if (IG0903.Text == "0")
                                         {
@@ -37454,7 +37666,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember3.Text == "1")
                                     {
                                         if (IG01003.Text == "1")
                                         {
@@ -37480,15 +37692,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember3.Text == "1")
                                     {
-                                        if (IG01103.Text == "1")
+                                        if (IG01003.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01203);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01203);
+                                            if (IG01103.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01203);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01203);
+                                            }
                                         }
                                     }
                                 }
@@ -37717,6 +37932,23 @@ namespace iNCK
                             else
                             {
                                 IG0701304.Text = ds.Tables[0].Rows[0]["IG0701304"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember4.Text == "1")
+                                    {
+                                        if (IG0701304.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG0804);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0804);
+                                        }
+                                    }
+                                }
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0804"].ToString() == null)
@@ -37738,7 +37970,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember4.Text == "1")
                                     {
                                         if (IG0904.Text == "0")
                                         {
@@ -37762,7 +37994,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember4.Text == "1")
                                     {
                                         if (IG01004.Text == "1")
                                         {
@@ -37788,15 +38020,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember4.Text == "1")
                                     {
-                                        if (IG01104.Text == "1")
+                                        if (IG01004.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01204);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01204);
+                                            if (IG01104.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01204);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01204);
+                                            }
                                         }
                                     }
                                 }
@@ -38025,6 +38260,22 @@ namespace iNCK
                             else
                             {
                                 IG0701305.Text = ds.Tables[0].Rows[0]["IG0701305"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember4.Text == "1")
+                                    {
+                                        if (IG0701305.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG0805);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG0805);
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG0805"].ToString() == null)
@@ -38046,7 +38297,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember5.Text == "1")
                                     {
                                         if (IG0905.Text == "0")
                                         {
@@ -38071,7 +38322,7 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember5.Text == "1")
                                     {
                                         if (IG01005.Text == "1")
                                         {
@@ -38097,16 +38348,19 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (chkMember1.Text == "1")
+                                    if (chkMember5.Text == "1")
                                     {
-                                        if (IG01105.Text == "1")
+                                        if (IG01005.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01205);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01205);
-                                        }
+                                            if (IG01105.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01205);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01205);
+                                            }
+                                        }                                            
                                     }
                                 }
                             }
@@ -38127,6 +38381,7 @@ namespace iNCK
                             else
                             {
                                 IG01305.Text = ds.Tables[0].Rows[0]["IG01305"].ToString();
+
                             }
 
                             if (ds.Tables[0].Rows[0]["IG01405"].ToString() == null)
@@ -39731,6 +39986,8 @@ namespace iNCK
                             {
                                 IG01006.Text = ds.Tables[0].Rows[0]["IG01006"].ToString();
 
+                                //javed
+
                                 if (IB05.Text == "1")
                                 {
                                     if (chkMember6.Text == "1")
@@ -39748,6 +40005,7 @@ namespace iNCK
                                     }
                                 }
                             }
+
 
                             if (ds.Tables[0].Rows[0]["chkMember7"].ToString() == null)
                             {
@@ -40232,15 +40490,18 @@ namespace iNCK
                                 {
                                     if (chkMember7.Text == "1")
                                     {
-                                        if (IG01007.Text == "1")
+                                        if (IG0907.Text == "1")
                                         {
-                                            obj_op.DisableControls(IG01107);
-                                            obj_op.DisableControls(IG01207);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01107);
-                                            obj_op.EnableControls(IG01207);
+                                            if (IG01007.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01107);
+                                                obj_op.DisableControls(IG01207);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01107);
+                                                obj_op.EnableControls(IG01207);
+                                            }
                                         }
                                     }
                                 }
@@ -40680,15 +40941,18 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01008.Text == "1")
+                                    if (IG0908.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01108);
-                                        obj_op.DisableControls(IG01208);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01108);
-                                        obj_op.EnableControls(IG01208);
+                                        if (IG01008.Text == "1")
+                                        {
+                                            obj_op.DisableControls(IG01108);
+                                            obj_op.DisableControls(IG01208);
+                                        }
+                                        else
+                                        {
+                                            obj_op.EnableControls(IG01108);
+                                            obj_op.EnableControls(IG01208);
+                                        }
                                     }
                                 }
                             }
@@ -41082,15 +41346,18 @@ namespace iNCK
                                 {
                                     if (chkMember9.Text == "1")
                                     {
-                                        if (IG01009.Text == "1")
+                                        if (IG0909.Text == "1")
                                         {
-                                            obj_op.DisableControls(IG01109);
-                                            obj_op.DisableControls(IG01209);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01109);
-                                            obj_op.EnableControls(IG01209);
+                                            if (IG01009.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01109);
+                                                obj_op.DisableControls(IG01209);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01109);
+                                                obj_op.EnableControls(IG01209);
+                                            }
                                         }
                                     }
                                 }
@@ -41431,15 +41698,18 @@ namespace iNCK
                                 {
                                     if (chkMember10.Text == "1")
                                     {
-                                        if (IG01010.Text == "1")
+                                        if (IG0910.Text == "1")
                                         {
-                                            obj_op.DisableControls(IG01110);
-                                            obj_op.DisableControls(IG01210);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01110);
-                                            obj_op.EnableControls(IG01210);
+                                            if (IG01010.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01110);
+                                                obj_op.DisableControls(IG01210);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01110);
+                                                obj_op.EnableControls(IG01210);
+                                            }
                                         }
                                     }
                                 }
@@ -41452,6 +41722,25 @@ namespace iNCK
                             else
                             {
                                 IG01106.Text = ds.Tables[0].Rows[0]["IG01106"].ToString();
+
+
+                                if (IB05.Text == "1")
+                                {
+                                    if (chkMember6.Text == "1")
+                                    {
+                                        if (IG01006.Text != "1")
+                                        {
+                                            if (IG01106.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01206);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01206);
+                                            }
+                                        }
+                                    }
+                                }
                             }
 
                             if (ds.Tables[0].Rows[0]["IG01206"].ToString() == null)
@@ -41501,15 +41790,23 @@ namespace iNCK
                                 IG01107.Text = ds.Tables[0].Rows[0]["IG01107"].ToString();
 
 
+                                //javed1
+
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01107.Text == "1")
+                                    if (chkMember7.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01207);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01207);
+                                        if (IG01007.Text != "1")
+                                        {
+                                            if (IG01107.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01207);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01207);
+                                            }
+                                        }
                                     }
 
                                 }
@@ -41561,14 +41858,21 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01108.Text == "1")
+                                    if (chkMember8.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01208);
+                                        if (IG01008.Text != "1")
+                                        {
+                                            if (IG01108.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01208);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01208);
+                                            }
+                                        }
                                     }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01208);
-                                    }
+
                                 }
                             }
 
@@ -41618,13 +41922,19 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01109.Text == "1")
+                                    if (chkMember9.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01209);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01209);
+                                        if (IG01009.Text != "1")
+                                        {
+                                            if (IG01109.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01209);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01209);
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -41675,13 +41985,19 @@ namespace iNCK
 
                                 if (IB05.Text == "1")
                                 {
-                                    if (IG01110.Text == "1")
+                                    if (chkMember10.Text == "1")
                                     {
-                                        obj_op.DisableControls(IG01210);
-                                    }
-                                    else
-                                    {
-                                        obj_op.EnableControls(IG01210);
+                                        if (IG01010.Text != "1")
+                                        {
+                                            if (IG01110.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01210);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01210);
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -43782,6 +44098,10 @@ namespace iNCK
                             {
                                 IG01011.Text = ds.Tables[0].Rows[0]["IG01011"].ToString();
 
+
+                                //javed 333
+
+
                                 if (IB05.Text == "1")
                                 {
                                     if (chkMember11.Text == "1")
@@ -43808,17 +44128,21 @@ namespace iNCK
                             {
                                 IG01111.Text = ds.Tables[0].Rows[0]["IG01111"].ToString();
 
+
                                 if (IB05.Text == "1")
                                 {
                                     if (chkMember11.Text == "1")
                                     {
-                                        if (IG01111.Text == "1")
+                                        if (IG01011.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01211);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01211);
+                                            if (IG01111.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01211);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01211);
+                                            }
                                         }
                                     }
                                 }
@@ -44048,13 +44372,16 @@ namespace iNCK
                                 {
                                     if (chkMember12.Text == "1")
                                     {
-                                        if (IG01112.Text == "1")
+                                        if (IG01012.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01212);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01212);
+                                            if (IG01112.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01212);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01212);
+                                            }
                                         }
                                     }
                                 }
@@ -44285,13 +44612,16 @@ namespace iNCK
                                 {
                                     if (chkMember13.Text == "1")
                                     {
-                                        if (IG01113.Text == "1")
+                                        if (IG01013.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01213);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01213);
+                                            if (IG01113.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01213);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01213);
+                                            }
                                         }
                                     }
                                 }
@@ -44521,13 +44851,16 @@ namespace iNCK
                                 {
                                     if (chkMember14.Text == "1")
                                     {
-                                        if (IG01114.Text == "1")
+                                        if (IG01014.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01214);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01214);
+                                            if (IG01114.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01214);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01214);
+                                            }
                                         }
                                     }
                                 }
@@ -44757,13 +45090,16 @@ namespace iNCK
                                 {
                                     if (chkMember15.Text == "1")
                                     {
-                                        if (IG01115.Text == "1")
+                                        if (IG01015.Text != "1")
                                         {
-                                            obj_op.DisableControls(IG01215);
-                                        }
-                                        else
-                                        {
-                                            obj_op.EnableControls(IG01215);
+                                            if (IG01115.Text == "1")
+                                            {
+                                                obj_op.DisableControls(IG01215);
+                                            }
+                                            else
+                                            {
+                                                obj_op.EnableControls(IG01215);
+                                            }
                                         }
                                     }
                                 }
@@ -45568,6 +45904,7 @@ namespace iNCK
             IB02.Text = "";
             IB03.Text = "";
             IB04.Text = "";
+            IB04a.Text = "";
             IB05.Text = "";
             IB06.Text = "";
             IB07.Text = "";
@@ -45576,6 +45913,8 @@ namespace iNCK
             IB0902.Text = "";
             IB0903.Text = "";
             IB0996.Text = "";
+            IB010.Text = "";
+            IB011.Text = "";
             IC01.Text = "";
             IC02.Text = "";
             IC03.Text = "";
@@ -50031,50 +50370,50 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060201.Text == "" && IG060201.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060201", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060201"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060201"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060301.Text == "" && IG060301.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060301", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060301"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060301"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060401.Text == "" && IG060401.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060401", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060401"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060401"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060501.Text == "" && IG060501.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060501", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060501"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060501"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060201.Text == "" && IG060201.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060201", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060201"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060201"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060301.Text == "" && IG060301.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060301", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060301"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060301"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060401.Text == "" && IG060401.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060401", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060401"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060401"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060501.Text == "" && IG060501.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060501", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060501"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060501"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070101.Text == "" && IG070101.Enabled == true)
                             {
                                 IsError = true;
@@ -50152,61 +50491,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060102.Text == "" && IG060102.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060102", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060102"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060102"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060202.Text == "" && IG060202.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060202", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060202"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060202"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060302.Text == "" && IG060302.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060302", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060302"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060302"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060402.Text == "" && IG060402.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060402", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060402"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060402"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060502.Text == "" && IG060502.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060502", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060502"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060502"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060102.Text == "" && IG060102.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060102", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060102"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060102"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060202.Text == "" && IG060202.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060202", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060202"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060202"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060302.Text == "" && IG060302.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060302", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060302"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060302"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060402.Text == "" && IG060402.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060402", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060402"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060402"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060502.Text == "" && IG060502.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060502", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060502"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060502"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070102.Text == "" && IG070102.Enabled == true)
                             {
                                 IsError = true;
@@ -50284,61 +50623,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060103.Text == "" && IG060103.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060103", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060103"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060103"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060203.Text == "" && IG060203.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060203", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060203"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060203"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060303.Text == "" && IG060303.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060303", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060303"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060303"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060403.Text == "" && IG060403.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060403", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060403"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060403"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060503.Text == "" && IG060503.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060503", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060503"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060503"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060103.Text == "" && IG060103.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060103", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060103"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060103"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060203.Text == "" && IG060203.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060203", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060203"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060203"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060303.Text == "" && IG060303.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060303", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060303"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060303"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060403.Text == "" && IG060403.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060403", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060403"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060403"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060503.Text == "" && IG060503.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060503", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060503"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060503"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070103.Text == "" && IG070103.Enabled == true)
                             {
                                 IsError = true;
@@ -50416,61 +50755,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060104.Text == "" && IG060104.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060104", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060104"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060104"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060204.Text == "" && IG060204.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060204", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060204"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060204"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060304.Text == "" && IG060304.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060304", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060304"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060304"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060404.Text == "" && IG060404.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060404", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060404"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060404"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060504.Text == "" && IG060504.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060504", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060504"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060504"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060104.Text == "" && IG060104.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060104", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060104"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060104"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060204.Text == "" && IG060204.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060204", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060204"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060204"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060304.Text == "" && IG060304.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060304", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060304"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060304"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060404.Text == "" && IG060404.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060404", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060404"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060404"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060504.Text == "" && IG060504.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060504", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060504"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060504"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070104.Text == "" && IG070104.Enabled == true)
                             {
                                 IsError = true;
@@ -50548,61 +50887,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060105.Text == "" && IG060105.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060105", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060105"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060105"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060205.Text == "" && IG060205.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060205", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060205"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060205"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060305.Text == "" && IG060305.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060305", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060305"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060305"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060405.Text == "" && IG060405.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060405", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060405"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060405"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060505.Text == "" && IG060505.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060505", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060505"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060505"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060105.Text == "" && IG060105.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060105", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060105"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060105"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060205.Text == "" && IG060205.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060205", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060205"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060205"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060305.Text == "" && IG060305.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060305", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060305"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060305"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060405.Text == "" && IG060405.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060405", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060405"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060405"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060505.Text == "" && IG060505.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060505", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060505"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060505"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070105.Text == "" && IG070105.Enabled == true)
                             {
                                 IsError = true;
@@ -52902,50 +53241,50 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060206.Text == "" && IG060206.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060206", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060206"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060206"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060306.Text == "" && IG060306.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060306", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060306"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060306"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060406.Text == "" && IG060406.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060406", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060406"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060406"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060506.Text == "" && IG060506.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060506", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060506"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060506"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060206.Text == "" && IG060206.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060206", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060206"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060206"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060306.Text == "" && IG060306.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060306", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060306"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060306"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060406.Text == "" && IG060406.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060406", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060406"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060406"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060506.Text == "" && IG060506.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060506", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060506"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060506"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070106.Text == "" && IG070106.Enabled == true)
                             {
                                 IsError = true;
@@ -53155,61 +53494,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060107.Text == "" && IG060107.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060107", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060107"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060107"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060207.Text == "" && IG060207.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060207", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060207"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060207"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060307.Text == "" && IG060307.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060307", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060307"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060307"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060407.Text == "" && IG060407.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060407", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060407"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060407"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060507.Text == "" && IG060507.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060507", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060507"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060507"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060107.Text == "" && IG060107.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060107", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060107"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060107"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060207.Text == "" && IG060207.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060207", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060207"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060207"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060307.Text == "" && IG060307.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060307", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060307"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060307"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060407.Text == "" && IG060407.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060407", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060407"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060407"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060507.Text == "" && IG060507.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060507", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060507"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060507"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070107.Text == "" && IG070107.Enabled == true)
                             {
                                 IsError = true;
@@ -53419,61 +53758,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060108.Text == "" && IG060108.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060108", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060108"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060108"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060208.Text == "" && IG060208.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060208", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060208"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060208"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060308.Text == "" && IG060308.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060308", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060308"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060308"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060408.Text == "" && IG060408.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060408", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060408"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060408"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060508.Text == "" && IG060508.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060508", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060508"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060508"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060108.Text == "" && IG060108.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060108", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060108"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060108"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060208.Text == "" && IG060208.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060208", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060208"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060208"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060308.Text == "" && IG060308.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060308", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060308"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060308"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060408.Text == "" && IG060408.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060408", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060408"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060408"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060508.Text == "" && IG060508.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060508", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060508"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060508"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070108.Text == "" && IG070108.Enabled == true)
                             {
                                 IsError = true;
@@ -53683,61 +54022,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060109.Text == "" && IG060109.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060109", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060109"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060109"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060209.Text == "" && IG060209.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060209", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060209"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060209"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060309.Text == "" && IG060309.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060309", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060309"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060309"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060409.Text == "" && IG060409.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060409", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060409"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060409"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060509.Text == "" && IG060509.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060509", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060509"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060509"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060109.Text == "" && IG060109.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060109", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060109"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060109"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060209.Text == "" && IG060209.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060209", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060209"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060209"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060309.Text == "" && IG060309.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060309", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060309"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060309"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060409.Text == "" && IG060409.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060409", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060409"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060409"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060509.Text == "" && IG060509.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060509", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060509"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060509"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070109.Text == "" && IG070109.Enabled == true)
                             {
                                 IsError = true;
@@ -53947,61 +54286,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060110.Text == "" && IG060110.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060110", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060110"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060110"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060210.Text == "" && IG060210.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060210", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060210"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060210"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060310.Text == "" && IG060310.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060310", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060310"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060310"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060410.Text == "" && IG060410.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060410", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060410"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060410"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060510.Text == "" && IG060510.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060510", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060510"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060510"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060110.Text == "" && IG060110.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060110", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060110"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060110"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060210.Text == "" && IG060210.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060210", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060210"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060210"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060310.Text == "" && IG060310.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060310", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060310"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060310"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060410.Text == "" && IG060410.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060410", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060410"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060410"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060510.Text == "" && IG060510.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060510", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060510"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060510"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070110.Text == "" && IG070110.Enabled == true)
                             {
                                 IsError = true;
@@ -55157,50 +55496,50 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060211.Text == "" && IG060211.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060211", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060211"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060211"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060311.Text == "" && IG060311.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060311", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060311"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060311"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060411.Text == "" && IG060411.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060411", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060411"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060411"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060511.Text == "" && IG060511.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060511", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060511"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060511"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060211.Text == "" && IG060211.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060211", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060211"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060211"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060311.Text == "" && IG060311.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060311", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060311"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060311"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060411.Text == "" && IG060411.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060411", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060411"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060411"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060511.Text == "" && IG060511.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060511", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060511"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060511"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (chkMember12.Text == "" && chkMember12.Enabled == true)
                             {
                                 IsError = true;
@@ -55234,61 +55573,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060112.Text == "" && IG060112.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060112", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060112"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060112"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060212.Text == "" && IG060212.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060212", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060212"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060212"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060312.Text == "" && IG060312.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060312", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060312"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060312"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060412.Text == "" && IG060412.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060412", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060412"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060412"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060512.Text == "" && IG060512.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060512", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060512"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060512"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060112.Text == "" && IG060112.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060112", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060112"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060112"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060212.Text == "" && IG060212.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060212", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060212"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060212"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060312.Text == "" && IG060312.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060312", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060312"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060312"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060412.Text == "" && IG060412.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060412", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060412"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060412"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060512.Text == "" && IG060512.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060512", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060512"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060512"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (chkMember13.Text == "" && chkMember13.Enabled == true)
                             {
                                 IsError = true;
@@ -55322,61 +55661,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060113.Text == "" && IG060113.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060113", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060113"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060113"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060213.Text == "" && IG060213.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060213", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060213"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060213"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060313.Text == "" && IG060313.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060313", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060313"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060313"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060413.Text == "" && IG060413.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060413", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060413"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060413"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060513.Text == "" && IG060513.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060513", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060513"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060513"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060113.Text == "" && IG060113.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060113", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060113"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060113"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060213.Text == "" && IG060213.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060213", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060213"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060213"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060313.Text == "" && IG060313.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060313", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060313"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060313"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060413.Text == "" && IG060413.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060413", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060413"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060413"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060513.Text == "" && IG060513.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060513", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060513"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060513"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (chkMember14.Text == "" && chkMember14.Enabled == true)
                             {
                                 IsError = true;
@@ -55410,61 +55749,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060114.Text == "" && IG060114.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060114", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060114"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060114"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060214.Text == "" && IG060214.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060214", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060214"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060214"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060314.Text == "" && IG060314.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060314", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060314"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060314"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060414.Text == "" && IG060414.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060414", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060414"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060414"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060514.Text == "" && IG060514.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060514", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060514"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060514"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060114.Text == "" && IG060114.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060114", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060114"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060114"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060214.Text == "" && IG060214.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060214", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060214"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060214"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060314.Text == "" && IG060314.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060314", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060314"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060314"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060414.Text == "" && IG060414.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060414", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060414"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060414"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060514.Text == "" && IG060514.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060514", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060514"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060514"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (chkMember15.Text == "" && chkMember15.Enabled == true)
                             {
                                 IsError = true;
@@ -55498,61 +55837,61 @@ namespace iNCK
                                 IsError = true;
                                 return;
                             }
-                            else if (IG060115.Text == "" && IG060115.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060115", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060115"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060115"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060215.Text == "" && IG060215.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060215", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060215"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060215"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060315.Text == "" && IG060315.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060315", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060315"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060315"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060415.Text == "" && IG060415.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060415", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060415"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060415"].Focus();
-                                IsError = true;
-                                return;
-                            }
-                            else if (IG060515.Text == "" && IG060515.Enabled == true)
-                            {
-                                IsError = true;
-                                int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060515", "TabPageNo"));
-                                MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060515"].Name;
-                                tabControl1.SelectedIndex = tab_page_no;
-                                tabControl1.TabPages[tab_page_no].Controls["IG060515"].Focus();
-                                IsError = true;
-                                return;
-                            }
+                            //else if (IG060115.Text == "" && IG060115.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060115", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060115"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060115"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060215.Text == "" && IG060215.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060215", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060215"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060215"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060315.Text == "" && IG060315.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060315", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060315"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060315"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060415.Text == "" && IG060415.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060415", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060415"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060415"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
+                            //else if (IG060515.Text == "" && IG060515.Enabled == true)
+                            //{
+                            //    IsError = true;
+                            //    int tab_page_no = Convert.ToInt16(obj_op.Get_Dictionary_FieldValue("Form1BL", "IG060515", "TabPageNo"));
+                            //    MessageBox.Show("Data cannot save because you have left blank few fields ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //    error_fldName = tabControl1.TabPages[tab_page_no].Controls["IG060515"].Name;
+                            //    tabControl1.SelectedIndex = tab_page_no;
+                            //    tabControl1.TabPages[tab_page_no].Controls["IG060515"].Focus();
+                            //    IsError = true;
+                            //    return;
+                            //}
                             else if (IG070111.Text == "" && IG070111.Enabled == true)
                             {
                                 IsError = true;
@@ -58314,6 +58653,7 @@ namespace iNCK
             {
                 if (IsRecordExists())
                 {
+                    AuditTrials("");
                     UpdateRecord("form1bl");
                 }
                 else
@@ -58326,6 +58666,7 @@ namespace iNCK
             {
                 if (IsRecordExists())
                 {
+                    AuditTrials("sp_AddAuditTrialsx");
                     UpdateRecord("form1blx");
                 }
                 else
@@ -59315,11 +59656,7 @@ namespace iNCK
                         obj_op.DisableControls(IE0904);
 
 
-                        if (IE0701.Enabled == true)
-                        {
-                            IE0701.Focus();
-                        }
-                        else if (IE0702.Enabled == true)
+                        if (IE0702.Enabled == true)
                         {
                             IE0702.Focus();
                         }
@@ -59657,26 +59994,13 @@ namespace iNCK
                 else
                 {
 
-
-                    if (IE0801.Enabled == true)
+                    if (IE0804.Enabled == true)
                     {
-                        tabControl1.SelectedIndex = 4;
-                        IE0801.Focus();
-                    }
-                    else if (IE0802.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
-                        IE0802.Focus();
-                    }
-                    else if (IE0803.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
-                        IE0803.Focus();
-                    }
-                    else if (IE0804.Enabled == true)
-                    {
-                        tabControl1.SelectedIndex = 4;
                         IE0804.Focus();
+                    }
+                    else if (IE0904.Enabled == true)
+                    {
+                        IE0904.Focus();
                     }
                 }
 
@@ -60317,222 +60641,244 @@ namespace iNCK
                         obj_op.EnableControls(chkMember4);
                         obj_op.EnableControls(chkMember5);
 
-                        obj_op.EnableControls(IG0401);
-                        obj_op.EnableControls(IG0501);
-                        obj_op.EnableControls(IG060101);
-                        obj_op.EnableControls(IG060201);
-                        obj_op.EnableControls(IG060301);
-                        obj_op.EnableControls(IG060401);
-                        obj_op.EnableControls(IG060501);
+                        if (chkMember1.Text == "1")
+                        {
 
-                        obj_op.EnableControls(IG070101);
-                        obj_op.EnableControls(IG070201);
-                        obj_op.EnableControls(IG070301);
-                        obj_op.EnableControls(IG070401);
-                        obj_op.EnableControls(IG070501);
-                        obj_op.EnableControls(IG070601);
-                        obj_op.EnableControls(IG070701);
-                        obj_op.EnableControls(IG070801);
-                        obj_op.EnableControls(IG070901);
-                        obj_op.EnableControls(IG0701001);
-                        obj_op.EnableControls(IG0701101);
-                        obj_op.EnableControls(IG0701201);
-                        obj_op.EnableControls(IG0701301);
-                        obj_op.EnableControls(IG0801);
-                        obj_op.EnableControls(IG0901);
-                        obj_op.EnableControls(IG01001);
-                        obj_op.EnableControls(IG01101);
-                        obj_op.EnableControls(IG01201);
-                        obj_op.EnableControls(IG01301);
-                        obj_op.EnableControls(IG01401);
-                        obj_op.EnableControls(IG01501);
-                        obj_op.EnableControls(IG160101);
-                        obj_op.EnableControls(IG160201);
-                        obj_op.EnableControls(IG160301);
-                        obj_op.EnableControls(IG160401);
-                        obj_op.EnableControls(IG160501);
-                        obj_op.EnableControls(IG160601);
-                        obj_op.EnableControls(IG160701);
-                        obj_op.EnableControls(IG160801);
-                        obj_op.EnableControls(IG160901);
-                        obj_op.EnableControls(IG1601001);
-                        obj_op.EnableControls(IG1601101);
-                        obj_op.EnableControls(IG1601201);
+                            obj_op.EnableControls(IG0401);
+                            obj_op.EnableControls(IG0501);
+                            obj_op.EnableControls(IG060101);
+                            obj_op.EnableControls(IG060201);
+                            obj_op.EnableControls(IG060301);
+                            obj_op.EnableControls(IG060401);
+                            obj_op.EnableControls(IG060501);
 
-
-
-                        obj_op.EnableControls(IG0402);
-                        obj_op.EnableControls(IG0502);
-                        obj_op.EnableControls(IG060102);
-                        obj_op.EnableControls(IG060202);
-                        obj_op.EnableControls(IG060302);
-                        obj_op.EnableControls(IG060402);
-                        obj_op.EnableControls(IG060502);
-
-                        obj_op.EnableControls(IG070102);
-                        obj_op.EnableControls(IG070202);
-                        obj_op.EnableControls(IG070302);
-                        obj_op.EnableControls(IG070402);
-                        obj_op.EnableControls(IG070502);
-                        obj_op.EnableControls(IG070602);
-                        obj_op.EnableControls(IG070702);
-                        obj_op.EnableControls(IG070802);
-                        obj_op.EnableControls(IG070902);
-                        obj_op.EnableControls(IG0701002);
-                        obj_op.EnableControls(IG0701102);
-                        obj_op.EnableControls(IG0701202);
-                        obj_op.EnableControls(IG0701302);
-                        obj_op.EnableControls(IG0802);
-                        obj_op.EnableControls(IG0902);
-                        obj_op.EnableControls(IG01002);
-                        obj_op.EnableControls(IG01102);
-                        obj_op.EnableControls(IG01202);
-                        obj_op.EnableControls(IG01302);
-                        obj_op.EnableControls(IG01402);
-                        obj_op.EnableControls(IG01502);
-                        obj_op.EnableControls(IG160102);
-                        obj_op.EnableControls(IG160202);
-                        obj_op.EnableControls(IG160302);
-                        obj_op.EnableControls(IG160402);
-                        obj_op.EnableControls(IG160502);
-                        obj_op.EnableControls(IG160602);
-                        obj_op.EnableControls(IG160702);
-                        obj_op.EnableControls(IG160802);
-                        obj_op.EnableControls(IG160902);
-                        obj_op.EnableControls(IG1601002);
-                        obj_op.EnableControls(IG1601102);
-                        obj_op.EnableControls(IG1601202);
+                            obj_op.EnableControls(IG070101);
+                            obj_op.EnableControls(IG070201);
+                            obj_op.EnableControls(IG070301);
+                            obj_op.EnableControls(IG070401);
+                            obj_op.EnableControls(IG070501);
+                            obj_op.EnableControls(IG070601);
+                            obj_op.EnableControls(IG070701);
+                            obj_op.EnableControls(IG070801);
+                            obj_op.EnableControls(IG070901);
+                            obj_op.EnableControls(IG0701001);
+                            obj_op.EnableControls(IG0701101);
+                            obj_op.EnableControls(IG0701201);
+                            obj_op.EnableControls(IG0701301);
+                            obj_op.EnableControls(IG0801);
+                            obj_op.EnableControls(IG0901);
+                            obj_op.EnableControls(IG01001);
+                            obj_op.EnableControls(IG01101);
+                            obj_op.EnableControls(IG01201);
+                            obj_op.EnableControls(IG01301);
+                            obj_op.EnableControls(IG01401);
+                            obj_op.EnableControls(IG01501);
+                            obj_op.EnableControls(IG160101);
+                            obj_op.EnableControls(IG160201);
+                            obj_op.EnableControls(IG160301);
+                            obj_op.EnableControls(IG160401);
+                            obj_op.EnableControls(IG160501);
+                            obj_op.EnableControls(IG160601);
+                            obj_op.EnableControls(IG160701);
+                            obj_op.EnableControls(IG160801);
+                            obj_op.EnableControls(IG160901);
+                            obj_op.EnableControls(IG1601001);
+                            obj_op.EnableControls(IG1601101);
+                            obj_op.EnableControls(IG1601201);
+                        }
 
 
-                        obj_op.EnableControls(IG0403);
-                        obj_op.EnableControls(IG0503);
-                        obj_op.EnableControls(IG060103);
-                        obj_op.EnableControls(IG060203);
-                        obj_op.EnableControls(IG060303);
-                        obj_op.EnableControls(IG060403);
-                        obj_op.EnableControls(IG060503);
+                        if (chkMember1.Text == "1")
+                        {
 
-                        obj_op.EnableControls(IG070103);
-                        obj_op.EnableControls(IG070203);
-                        obj_op.EnableControls(IG070303);
-                        obj_op.EnableControls(IG070403);
-                        obj_op.EnableControls(IG070503);
-                        obj_op.EnableControls(IG070603);
-                        obj_op.EnableControls(IG070703);
-                        obj_op.EnableControls(IG070803);
-                        obj_op.EnableControls(IG070903);
-                        obj_op.EnableControls(IG0701003);
-                        obj_op.EnableControls(IG0701103);
-                        obj_op.EnableControls(IG0701203);
-                        obj_op.EnableControls(IG0701303);
-                        obj_op.EnableControls(IG0803);
-                        obj_op.EnableControls(IG0903);
-                        obj_op.EnableControls(IG01003);
-                        obj_op.EnableControls(IG01103);
-                        obj_op.EnableControls(IG01203);
-                        obj_op.EnableControls(IG01303);
-                        obj_op.EnableControls(IG01403);
-                        obj_op.EnableControls(IG01503);
-                        obj_op.EnableControls(IG160103);
-                        obj_op.EnableControls(IG160203);
-                        obj_op.EnableControls(IG160303);
-                        obj_op.EnableControls(IG160403);
-                        obj_op.EnableControls(IG160503);
-                        obj_op.EnableControls(IG160603);
-                        obj_op.EnableControls(IG160703);
-                        obj_op.EnableControls(IG160803);
-                        obj_op.EnableControls(IG160903);
-                        obj_op.EnableControls(IG1601003);
-                        obj_op.EnableControls(IG1601103);
-                        obj_op.EnableControls(IG1601203);
+                            obj_op.EnableControls(IG0402);
+                            obj_op.EnableControls(IG0502);
+                            obj_op.EnableControls(IG060102);
+                            obj_op.EnableControls(IG060202);
+                            obj_op.EnableControls(IG060302);
+                            obj_op.EnableControls(IG060402);
+                            obj_op.EnableControls(IG060502);
 
+                            obj_op.EnableControls(IG070102);
+                            obj_op.EnableControls(IG070202);
+                            obj_op.EnableControls(IG070302);
+                            obj_op.EnableControls(IG070402);
+                            obj_op.EnableControls(IG070502);
+                            obj_op.EnableControls(IG070602);
+                            obj_op.EnableControls(IG070702);
+                            obj_op.EnableControls(IG070802);
+                            obj_op.EnableControls(IG070902);
+                            obj_op.EnableControls(IG0701002);
+                            obj_op.EnableControls(IG0701102);
+                            obj_op.EnableControls(IG0701202);
+                            obj_op.EnableControls(IG0701302);
+                            obj_op.EnableControls(IG0802);
+                            obj_op.EnableControls(IG0902);
+                            obj_op.EnableControls(IG01002);
+                            obj_op.EnableControls(IG01102);
+                            obj_op.EnableControls(IG01202);
+                            obj_op.EnableControls(IG01302);
+                            obj_op.EnableControls(IG01402);
+                            obj_op.EnableControls(IG01502);
+                            obj_op.EnableControls(IG160102);
+                            obj_op.EnableControls(IG160202);
+                            obj_op.EnableControls(IG160302);
+                            obj_op.EnableControls(IG160402);
+                            obj_op.EnableControls(IG160502);
+                            obj_op.EnableControls(IG160602);
+                            obj_op.EnableControls(IG160702);
+                            obj_op.EnableControls(IG160802);
+                            obj_op.EnableControls(IG160902);
+                            obj_op.EnableControls(IG1601002);
+                            obj_op.EnableControls(IG1601102);
+                            obj_op.EnableControls(IG1601202);
 
-
-                        obj_op.EnableControls(IG0404);
-                        obj_op.EnableControls(IG0504);
-                        obj_op.EnableControls(IG060104);
-                        obj_op.EnableControls(IG060204);
-                        obj_op.EnableControls(IG060304);
-                        obj_op.EnableControls(IG060404);
-                        obj_op.EnableControls(IG060504);
-
-                        obj_op.EnableControls(IG070104);
-                        obj_op.EnableControls(IG070204);
-                        obj_op.EnableControls(IG070304);
-                        obj_op.EnableControls(IG070404);
-                        obj_op.EnableControls(IG070504);
-                        obj_op.EnableControls(IG070604);
-                        obj_op.EnableControls(IG070704);
-                        obj_op.EnableControls(IG070804);
-                        obj_op.EnableControls(IG070904);
-                        obj_op.EnableControls(IG0701004);
-                        obj_op.EnableControls(IG0701104);
-                        obj_op.EnableControls(IG0701204);
-                        obj_op.EnableControls(IG0701304);
-                        obj_op.EnableControls(IG0804);
-                        obj_op.EnableControls(IG0904);
-                        obj_op.EnableControls(IG01004);
-                        obj_op.EnableControls(IG01104);
-                        obj_op.EnableControls(IG01204);
-                        obj_op.EnableControls(IG01304);
-                        obj_op.EnableControls(IG01404);
-                        obj_op.EnableControls(IG01504);
-                        obj_op.EnableControls(IG160104);
-                        obj_op.EnableControls(IG160204);
-                        obj_op.EnableControls(IG160304);
-                        obj_op.EnableControls(IG160404);
-                        obj_op.EnableControls(IG160504);
-                        obj_op.EnableControls(IG160604);
-                        obj_op.EnableControls(IG160704);
-                        obj_op.EnableControls(IG160804);
-                        obj_op.EnableControls(IG160904);
-                        obj_op.EnableControls(IG1601004);
-                        obj_op.EnableControls(IG1601104);
-                        obj_op.EnableControls(IG1601204);
+                        }
 
 
+                        if (chkMember3.Text == "1")
+                        {
 
-                        obj_op.EnableControls(IG0405);
-                        obj_op.EnableControls(IG0505);
-                        obj_op.EnableControls(IG060105);
-                        obj_op.EnableControls(IG060205);
-                        obj_op.EnableControls(IG060305);
-                        obj_op.EnableControls(IG060405);
-                        obj_op.EnableControls(IG060505);
+                            obj_op.EnableControls(IG0403);
+                            obj_op.EnableControls(IG0503);
+                            obj_op.EnableControls(IG060103);
+                            obj_op.EnableControls(IG060203);
+                            obj_op.EnableControls(IG060303);
+                            obj_op.EnableControls(IG060403);
+                            obj_op.EnableControls(IG060503);
 
-                        obj_op.EnableControls(IG070105);
-                        obj_op.EnableControls(IG070205);
-                        obj_op.EnableControls(IG070305);
-                        obj_op.EnableControls(IG070405);
-                        obj_op.EnableControls(IG070505);
-                        obj_op.EnableControls(IG070605);
-                        obj_op.EnableControls(IG070705);
-                        obj_op.EnableControls(IG070805);
-                        obj_op.EnableControls(IG070905);
-                        obj_op.EnableControls(IG0701005);
-                        obj_op.EnableControls(IG0701105);
-                        obj_op.EnableControls(IG0701205);
-                        obj_op.EnableControls(IG0701305);
-                        obj_op.EnableControls(IG0805);
-                        obj_op.EnableControls(IG0905);
-                        obj_op.EnableControls(IG01005);
-                        obj_op.EnableControls(IG01105);
-                        obj_op.EnableControls(IG01205);
-                        obj_op.EnableControls(IG01305);
-                        obj_op.EnableControls(IG01405);
-                        obj_op.EnableControls(IG01505);
-                        obj_op.EnableControls(IG160105);
-                        obj_op.EnableControls(IG160205);
-                        obj_op.EnableControls(IG160305);
-                        obj_op.EnableControls(IG160405);
-                        obj_op.EnableControls(IG160505);
-                        obj_op.EnableControls(IG160605);
-                        obj_op.EnableControls(IG160705);
-                        obj_op.EnableControls(IG160805);
-                        obj_op.EnableControls(IG160905);
-                        obj_op.EnableControls(IG1601005);
-                        obj_op.EnableControls(IG1601105);
-                        obj_op.EnableControls(IG1601205);
+                            obj_op.EnableControls(IG070103);
+                            obj_op.EnableControls(IG070203);
+                            obj_op.EnableControls(IG070303);
+                            obj_op.EnableControls(IG070403);
+                            obj_op.EnableControls(IG070503);
+                            obj_op.EnableControls(IG070603);
+                            obj_op.EnableControls(IG070703);
+                            obj_op.EnableControls(IG070803);
+                            obj_op.EnableControls(IG070903);
+                            obj_op.EnableControls(IG0701003);
+                            obj_op.EnableControls(IG0701103);
+                            obj_op.EnableControls(IG0701203);
+                            obj_op.EnableControls(IG0701303);
+                            obj_op.EnableControls(IG0803);
+                            obj_op.EnableControls(IG0903);
+                            obj_op.EnableControls(IG01003);
+                            obj_op.EnableControls(IG01103);
+                            obj_op.EnableControls(IG01203);
+                            obj_op.EnableControls(IG01303);
+                            obj_op.EnableControls(IG01403);
+                            obj_op.EnableControls(IG01503);
+                            obj_op.EnableControls(IG160103);
+                            obj_op.EnableControls(IG160203);
+                            obj_op.EnableControls(IG160303);
+                            obj_op.EnableControls(IG160403);
+                            obj_op.EnableControls(IG160503);
+                            obj_op.EnableControls(IG160603);
+                            obj_op.EnableControls(IG160703);
+                            obj_op.EnableControls(IG160803);
+                            obj_op.EnableControls(IG160903);
+                            obj_op.EnableControls(IG1601003);
+                            obj_op.EnableControls(IG1601103);
+                            obj_op.EnableControls(IG1601203);
+
+                        }
+
+
+                        if (chkMember4.Text == "1")
+                        {
+
+                            obj_op.EnableControls(IG0404);
+                            obj_op.EnableControls(IG0504);
+                            obj_op.EnableControls(IG060104);
+                            obj_op.EnableControls(IG060204);
+                            obj_op.EnableControls(IG060304);
+                            obj_op.EnableControls(IG060404);
+                            obj_op.EnableControls(IG060504);
+
+                            obj_op.EnableControls(IG070104);
+                            obj_op.EnableControls(IG070204);
+                            obj_op.EnableControls(IG070304);
+                            obj_op.EnableControls(IG070404);
+                            obj_op.EnableControls(IG070504);
+                            obj_op.EnableControls(IG070604);
+                            obj_op.EnableControls(IG070704);
+                            obj_op.EnableControls(IG070804);
+                            obj_op.EnableControls(IG070904);
+                            obj_op.EnableControls(IG0701004);
+                            obj_op.EnableControls(IG0701104);
+                            obj_op.EnableControls(IG0701204);
+                            obj_op.EnableControls(IG0701304);
+                            obj_op.EnableControls(IG0804);
+                            obj_op.EnableControls(IG0904);
+                            obj_op.EnableControls(IG01004);
+                            obj_op.EnableControls(IG01104);
+                            obj_op.EnableControls(IG01204);
+                            obj_op.EnableControls(IG01304);
+                            obj_op.EnableControls(IG01404);
+                            obj_op.EnableControls(IG01504);
+                            obj_op.EnableControls(IG160104);
+                            obj_op.EnableControls(IG160204);
+                            obj_op.EnableControls(IG160304);
+                            obj_op.EnableControls(IG160404);
+                            obj_op.EnableControls(IG160504);
+                            obj_op.EnableControls(IG160604);
+                            obj_op.EnableControls(IG160704);
+                            obj_op.EnableControls(IG160804);
+                            obj_op.EnableControls(IG160904);
+                            obj_op.EnableControls(IG1601004);
+                            obj_op.EnableControls(IG1601104);
+                            obj_op.EnableControls(IG1601204);
+
+                        }
+
+
+
+                        if (chkMember5.Text == "1")
+                        {
+
+                            obj_op.EnableControls(IG0405);
+                            obj_op.EnableControls(IG0505);
+                            obj_op.EnableControls(IG060105);
+                            obj_op.EnableControls(IG060205);
+                            obj_op.EnableControls(IG060305);
+                            obj_op.EnableControls(IG060405);
+                            obj_op.EnableControls(IG060505);
+
+                            obj_op.EnableControls(IG070105);
+                            obj_op.EnableControls(IG070205);
+                            obj_op.EnableControls(IG070305);
+                            obj_op.EnableControls(IG070405);
+                            obj_op.EnableControls(IG070505);
+                            obj_op.EnableControls(IG070605);
+                            obj_op.EnableControls(IG070705);
+                            obj_op.EnableControls(IG070805);
+                            obj_op.EnableControls(IG070905);
+                            obj_op.EnableControls(IG0701005);
+                            obj_op.EnableControls(IG0701105);
+                            obj_op.EnableControls(IG0701205);
+                            obj_op.EnableControls(IG0701305);
+                            obj_op.EnableControls(IG0805);
+                            obj_op.EnableControls(IG0905);
+                            obj_op.EnableControls(IG01005);
+                            obj_op.EnableControls(IG01105);
+                            obj_op.EnableControls(IG01205);
+                            obj_op.EnableControls(IG01305);
+                            obj_op.EnableControls(IG01405);
+                            obj_op.EnableControls(IG01505);
+                            obj_op.EnableControls(IG160105);
+                            obj_op.EnableControls(IG160205);
+                            obj_op.EnableControls(IG160305);
+                            obj_op.EnableControls(IG160405);
+                            obj_op.EnableControls(IG160505);
+                            obj_op.EnableControls(IG160605);
+                            obj_op.EnableControls(IG160705);
+                            obj_op.EnableControls(IG160805);
+                            obj_op.EnableControls(IG160905);
+                            obj_op.EnableControls(IG1601005);
+                            obj_op.EnableControls(IG1601105);
+                            obj_op.EnableControls(IG1601205);
+
+                        }
 
                         IG02.Focus();
 
@@ -61528,22 +61874,27 @@ namespace iNCK
 
                         if (IG060101.Enabled == true)
                         {
+                            tabControl1.SelectedIndex = 7;
                             IG060101.Focus();
                         }
                         else if (IG060102.Enabled == true)
                         {
+                            tabControl1.SelectedIndex = 7;
                             IG060102.Focus();
                         }
                         else if (IG060103.Enabled == true)
                         {
+                            tabControl1.SelectedIndex = 7;
                             IG060103.Focus();
                         }
                         else if (IG060104.Enabled == true)
                         {
+                            tabControl1.SelectedIndex = 7;
                             IG060104.Focus();
                         }
                         else if (IG060105.Enabled == true)
                         {
+                            tabControl1.SelectedIndex = 7;
                             IG060105.Focus();
                         }
                         else
@@ -61855,14 +62206,14 @@ namespace iNCK
                 }
                 else
                 {
-                    if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
-                    {
-                        Disabled_IG060101_Q47();
-                    }
-                    else
-                    {
-                        Enabled_IG060101_Q47();
-                    }
+                    //if (IG060101.Text == "0" || IG060201.Text == "0" || IG060301.Text == "0" || IG060401.Text == "0" || IG060501.Text == "0")
+                    //{
+                    //    Disabled_IG060101_Q47();
+                    //}
+                    //else
+                    //{
+                    //    Enabled_IG060101_Q47();
+                    //}
                 }
 
 
@@ -63732,17 +64083,17 @@ namespace iNCK
                     {
                         if (IG0701203.Text == "1")
                         {
-                            obj_op.DisableControls(IG0701203);
+                            obj_op.DisableControls(IG0701303);
                             obj_op.DisableControls(IG0803);
 
                             IG0903.Focus();
                         }
                         else
                         {
-                            obj_op.EnableControls(IG0701203);
+                            obj_op.EnableControls(IG0701303);
                             obj_op.EnableControls(IG0803);
 
-                            IG0701203.Focus();
+                            IG0701303.Focus();
                         }
                     }
 
@@ -64471,6 +64822,295 @@ namespace iNCK
 
 
             IB04a.BackColor = Color.Bisque;
+        }
+
+
+
+        private void AuditTrials(string spName)
+        {
+            CDBOperations obj_op = null;
+            DataSet ds = null;
+            DataSet ds_dict = null;
+
+
+            try
+            {
+
+                if (CVariables.IsUserFirstOrSecond == "User1")
+                {
+                    obj_op = new CDBOperations();
+                    ds = obj_op.GetFormData("select * from form1bl where form_id='" + FORM_ID.Text + "'", "0", FORM_ID.Text);
+                }
+                else
+                {
+                    obj_op = new CDBOperations();
+                    ds = obj_op.GetFormData("select * from form1blx where form_id='" + FORM_ID.Text + "'", "0", FORM_ID.Text);
+                }
+
+
+                ds_dict = obj_op.GetFormData("select * from tbldict where tabname = 'Form1BL' order by var_seq", "0", "Form1BL");
+
+
+
+                for (int a = 0; a <= ds_dict.Tables[0].Rows.Count - 1; a++)
+                {
+
+                    for (int b = 0; b <= ds.Tables[0].Rows.Count - 1; b++)
+                    {
+
+                        //if (ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "ID" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "FORM_ID" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "COMP_ID" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "EntryDate" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "UserID" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "IsPilotPhase" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "RR1_DIFF" && ds_dict.Tables[0].Rows[a]["var_id"].ToString() != "RR2_DIFF")
+
+                        if (IsIncludedAudit("Form1BL", ds_dict.Tables[0].Rows[a]["var_id"].ToString()))
+                        {
+
+                            //if (ds.Tables[0].Rows[b][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString() != tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text)
+
+
+                            if (ds.Tables[0].Rows[b][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString() != tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text)
+                            {
+
+                                if (ds_dict.Tables[0].Rows[a]["var_id"].ToString() == "IB04"
+                                    || ds_dict.Tables[0].Rows[a]["var_id"].ToString() == "QCFUP05"
+                                    )
+                                {
+
+                                    if (ds.Tables[0].Rows[b][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString() == "" && tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text == "  /  /")
+                                    {
+
+                                    }
+                                    else
+                                    {
+                                        AddRecord(spName, ds.Tables[0].Rows[b]["Form_ID"].ToString(), "0", "", "Form1BL", "Update", ds_dict.Tables[0].Rows[a]["var_id"].ToString(), ds.Tables[0].Rows[0][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString(), tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, CVariables.dual_normal_update.ToString(), CVariables.dualisupdate.ToString());
+                                        AddRecord1("sp_Create_DualEntry", ds.Tables[0].Rows[b]["Form_ID"].ToString(), "0", "", "Form1BL", ds_dict.Tables[0].Rows[a]["var_id"].ToString(), tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, "2");
+                                    }
+
+                                }
+                                else if (ds_dict.Tables[0].Rows[a]["var_id"].ToString() == "IB06" ||
+                                    ds_dict.Tables[0].Rows[a]["var_id"].ToString() == "QCFUP02" ||
+                                    ds_dict.Tables[0].Rows[a]["var_id"].ToString() == "QCFUP06"
+                                    )
+                                {
+
+                                    if (ds.Tables[0].Rows[b][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString() == "" && tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text == "  :")
+                                    {
+
+                                    }
+                                    else
+                                    {
+                                        AddRecord(spName, ds.Tables[0].Rows[b]["Form_ID"].ToString(), "0", "", "Form1BL", "Update", ds_dict.Tables[0].Rows[a]["var_id"].ToString(), ds.Tables[0].Rows[0][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString(), tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, CVariables.dual_normal_update.ToString(), CVariables.dualisupdate.ToString());
+                                        AddRecord1("sp_Create_DualEntry", ds.Tables[0].Rows[b]["Form_ID"].ToString(), "0", "", "Form1BL", ds_dict.Tables[0].Rows[a]["var_id"].ToString(), tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, "2");
+                                    }
+
+                                }
+                                else
+                                {
+                                    AddRecord(spName, ds.Tables[0].Rows[b]["Form_ID"].ToString(), "0", "", "Form1BL", "Update", ds_dict.Tables[0].Rows[a]["var_id"].ToString(), ds.Tables[0].Rows[0][ds_dict.Tables[0].Rows[a]["var_id"].ToString()].ToString(), tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, CVariables.dual_normal_update.ToString(), CVariables.dualisupdate.ToString());
+                                    AddRecord1("sp_Create_DualEntry", ds.Tables[0].Rows[b]["Form_ID"].ToString(), "0", "", "Form1BL", ds_dict.Tables[0].Rows[a]["var_id"].ToString(), tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, tabControl1.TabPages[Convert.ToInt32(ds_dict.Tables[0].Rows[a]["TabPageNo"].ToString())].Controls[ds_dict.Tables[0].Rows[a]["var_id"].ToString()].Text, "2");
+                                }
+
+                            }
+
+
+                        }  //   if (ds.Tables[0].Rows[0][a].ToString() == tabControl1.TabPages[b].Controls[c].Name)
+
+
+
+                    }     //   for (int b = 0; b <= tabControl1.TabPages[b].Controls.Count - 1; c++)
+
+
+                }     //    for (int a = 0; a <= ds.Tables[0].Columns.Count - 1; a++)
+
+
+            }
+
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                obj_op = null;
+                ds = null;
+            }
+        }
+
+
+
+        private bool IsIncludedAudit(string tabname, string fieldname)
+        {
+            CDBOperations obj_op = new CDBOperations();
+            DataSet ds = null;
+
+            bool IsError = false;
+
+            try
+            {
+                string[] fldname = { "tabname", "var_name", "var_id", "var_nmae", "var_seq", "field_desc", "remarks", "data_type", "field_len", "field_decimal", "MinValue", "MaxValue", "value1", "value2", "value3", "value4", "value5", "taborder", "msg", "IsOthers", "Others_Value", "No_Options", "Isblank", "fldvalue" };
+                string[] fldvalue = { tabname, "", fieldname, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "8" };
+
+
+                string qry = "select * from tbldict where tabname = '" + tabname + "' and var_id  = '" + fieldname + "' and isaudit = 1";
+
+
+                ds = obj_op.GetFormData(qry, "", "");
+
+                if (ds != null)
+                {
+                    if (ds.Tables.Count > 0)
+                    {
+                        if (ds.Tables[0].Rows.Count > 0)
+                        {
+                            IsError = true;
+                        }
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                ds = null;
+                obj_op = null;
+            }
+
+            return IsError;
+        }
+
+
+
+
+
+        private void AddRecord(string spName, string ChildID, string VisitID, string formNo, string FormName, string ActionPerformed, string FieldName, string OldValue, string NewValue, string IsUpdateNormal, string IsDualUpdate)
+        {
+            CDBOperations obj_op = null;
+            string[] st_dt;
+
+            try
+            {
+                obj_op = new CDBOperations();
+
+                st_dt = DateTime.Now.ToShortDateString().Split('/');
+
+
+                DateTime start_dt = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                start_dt = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+
+                DateTime start_dt1 = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                start_dt1 = Convert.ToDateTime(DateTime.Now.ToShortTimeString());
+
+
+                //string[] fldname = { "FormID", "VisitID", "FormNo", "FormName", "ActionPerformed", "EntryDate", "EntryTime", "ComputerName", "WinUserName", "LoginUserName", "FieldName", "OldValue", "NewValue", "IsUpdateNormal", "IsDualUpdate" };
+                //string[] fldvalue = { ChildID, VisitID, formNo, FormName, ActionPerformed, start_dt.ToShortDateString(), start_dt1.ToShortTimeString(), comp_name, user_name, CVariables.UserID.ToString(), FieldName, OldValue, NewValue, IsUpdateNormal, IsDualUpdate };
+
+
+                string[] fldname = { };
+                string[] fldvalue = { };
+
+
+                string qry = "insert into tblAuditTrials (FormID, VisitID, FormNo, FormName, ActionPerformed, EntryDate, EntryTime, ComputerName, WinUserName, LoginUserName, FieldName, OldValue, NewValue, IsUpdateNormal, IsDualUpdate) values('" +
+                    ChildID + "', '" + VisitID + "', '" + formNo + "', '" + FormName + "', '" + ActionPerformed + "', '" + start_dt.ToShortDateString() + "', '" + start_dt1.ToShortTimeString() + "', '" + comp_name + "', '" + user_name + "', '" + CVariables.UserID.ToString() + "', '" + FieldName + "', '" + OldValue + "', '" + NewValue + "', '" + IsUpdateNormal + "', '" + IsDualUpdate + "')";
+
+
+                obj_op.ExecuteNonQuery(fldname, fldvalue, qry);
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                obj_op = null;
+            }
+        }
+
+
+
+
+        private void AddRecord1(string spName, string formid, string VisitID, string formNo, string FormName, string fieldname, string entry1, string entry2, string status)
+        {
+            CDBOperations obj_op = null;
+
+            try
+            {
+                obj_op = new CDBOperations();
+
+                DateTime start_dt = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                start_dt = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+
+                DateTime start_dt1 = new DateTime();
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-GB");
+                start_dt1 = Convert.ToDateTime(DateTime.Now.ToShortTimeString());
+
+
+                if (CVariables.dual_whichentry == "1st Entry")
+                {
+                    string[] fldname = { "formno", "compid", "fieldname", "entry1", "entry2", "serialno", "tcompid", "var_seq", "field_desc", "field_type", "field_len", "tabname", "taborder", "rep_val", "upd_by", "upd_date", "fldvalue", "status", "criteria", "whichentry" };
+                    string[] fldvalue = { formid, "", fieldname, entry1, entry2, VisitID, "0", "", "", "", "0", "", "", "", "", "", "2", "1", "", CVariables.dual_whichentry };
+
+
+                    string qry = "insert into tblDualEntry_Dict (formno, compid, fieldname, entry1, entry2, serialno, tcompid, var_seq, field_desc, field_type, field_len, tabname, taborder, rep_val, upd_by, upd_date, fldvalue, status, criteria, whichentry) values('" +
+                        formid + "', '" + "" + "', '" + fieldname + "', '" + entry1 + "', '" + entry2 + "', '" + VisitID + "', '" + "0" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "0" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "2" + "', '" + "1" + "', '" + "" + "', '" + CVariables.dual_whichentry + "')";
+
+
+                    obj_op.ExecuteNonQuery_Dual(fldname, fldvalue, qry);
+                }
+                else if (CVariables.dual_whichentry == "2nd Entry")
+                {
+                    string[] fldname = { "formno", "compid", "fieldname", "entry1", "entry2", "serialno", "tcompid", "var_seq", "field_desc", "field_type", "field_len", "tabname", "taborder", "rep_val", "upd_by", "upd_date", "fldvalue", "status", "criteria", "whichentry" };
+                    string[] fldvalue = { formid, "", fieldname, entry1, entry2, VisitID, "0", "", "", "", "0", "", "", "", "", "", "2", "1", "", CVariables.dual_whichentry };
+
+
+                    string qry = "insert into tblDualEntry_Dict (formno, compid, fieldname, entry1, entry2, serialno, tcompid, var_seq, field_desc, field_type, field_len, tabname, taborder, rep_val, upd_by, upd_date, fldvalue, status, criteria, whichentry) values('" +
+                        formid + "', '" + "" + "', '" + fieldname + "', '" + entry1 + "', '" + entry2 + "', '" + VisitID + "', '" + "0" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "0" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "2" + "', '" + "1" + "', '" + "" + "', '" + CVariables.dual_whichentry + "')";
+
+
+                    obj_op.ExecuteNonQuery_Dual(fldname, fldvalue, qry);
+                }
+                else if (CVariables.dual_whichentry == "3rd Entry")
+                {
+                    string[] fldname = { "formno", "compid", "fieldname", "entry1", "entry2", "serialno", "tcompid", "var_seq", "field_desc", "field_type", "field_len", "tabname", "taborder", "rep_val", "upd_by", "upd_date", "fldvalue", "status", "criteria", "whichentry" };
+                    string[] fldvalue = { formid, "", fieldname, entry1, entry2, VisitID, "0", "", "", "", "0", "", "", "", "", "", "2", "1", "", CVariables.dual_whichentry };
+
+
+                    string qry = "insert into tblDualEntry_Dict (formno, compid, fieldname, entry1, entry2, serialno, tcompid, var_seq, field_desc, field_type, field_len, tabname, taborder, rep_val, upd_by, upd_date, fldvalue, status, criteria, whichentry) values('" +
+                        formid + "', '" + "" + "', '" + fieldname + "', '" + entry1 + "', '" + entry2 + "', '" + VisitID + "', '" + "0" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "0" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "" + "', '" + "2" + "', '" + "1" + "', '" + "" + "', '" + CVariables.dual_whichentry + "')";
+
+
+                    obj_op.ExecuteNonQuery_Dual(fldname, fldvalue, qry);
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            finally
+            {
+                obj_op = null;
+            }
+        }
+
+        private void IG01202_TypeValidationCompleted(object sender, TypeValidationEventArgs e)
+        {
+
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

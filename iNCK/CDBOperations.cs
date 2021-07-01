@@ -205,6 +205,65 @@ namespace iNCK
 
 
 
+        public DataSet ExecuteNonQuery_Dual(string[] fieldName, string[] fieldValues, string spName)
+        {
+            SQLiteCommand cmd = null;
+            CConnection cn = null;
+            SQLiteDataAdapter da = null;
+            DataSet ds = null;
+            SqlTransaction trans = null;
+
+            string[] dt;
+
+
+            try
+            {
+                cn = new CConnection();
+
+                cmd = new SQLiteCommand();
+                cmd.Connection = cn.cn;
+                cmd.CommandText = spName;
+                cmd.CommandType = CommandType.Text;
+
+                for (int a = 0; a <= fieldName.Length - 1; a++)
+                {
+                    if (fieldValues[a] == " -" || fieldValues[a] == "  /  /" || fieldValues[a] == "  :" || fieldValues[a] == "" || fieldValues[a] == "  -   -  -      -  - -" || fieldValues[a] == "3-     -" || fieldValues[a] == "  ." || fieldValues[a] == "  -   -  -    -  - -")
+                    {
+                        cmd.Parameters.AddWithValue(fieldName[a], DBNull.Value);
+                    }
+                    else
+                    {
+                        if (fieldName[a] == "upd_date")
+                        {
+                            dt = fieldValues[a].Split('/');
+                            cmd.Parameters.AddWithValue(fieldName[a], dt[1] + "/" + dt[0] + "/" + dt[2]);
+                        }
+                        else
+                        {
+                            cmd.Parameters.AddWithValue(fieldName[a], fieldValues[a]);
+                        }
+                    }
+                }
+
+                cmd.ExecuteNonQuery();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            finally
+            {
+                cmd = null;
+                cn = null;
+            }
+
+            return ds;
+        }
+
+
+
         public DataSet ExecuteNonQuery_Vaccination(string[] fieldName, string[] fieldValues, string spName)
         {
             SQLiteCommand cmd = null;

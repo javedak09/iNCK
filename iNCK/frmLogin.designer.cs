@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmdUploadData = new System.Windows.Forms.Button();
+            this.cmdDownloadUsers = new System.Windows.Forms.Button();
             this.rdoUser2 = new System.Windows.Forms.RadioButton();
             this.rdoUser1 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
@@ -43,6 +45,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cmdUploadData);
+            this.groupBox1.Controls.Add(this.cmdDownloadUsers);
             this.groupBox1.Controls.Add(this.rdoUser2);
             this.groupBox1.Controls.Add(this.rdoUser1);
             this.groupBox1.Controls.Add(this.button2);
@@ -54,17 +58,38 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 20);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(282, 143);
+            this.groupBox1.Size = new System.Drawing.Size(393, 249);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login Window";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // cmdUploadData
+            // 
+            this.cmdUploadData.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdUploadData.Location = new System.Drawing.Point(117, 202);
+            this.cmdUploadData.Name = "cmdUploadData";
+            this.cmdUploadData.Size = new System.Drawing.Size(169, 32);
+            this.cmdUploadData.TabIndex = 9;
+            this.cmdUploadData.Text = "Upload Data";
+            this.cmdUploadData.UseVisualStyleBackColor = true;
+            // 
+            // cmdDownloadUsers
+            // 
+            this.cmdDownloadUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdDownloadUsers.Location = new System.Drawing.Point(117, 167);
+            this.cmdDownloadUsers.Name = "cmdDownloadUsers";
+            this.cmdDownloadUsers.Size = new System.Drawing.Size(169, 32);
+            this.cmdDownloadUsers.TabIndex = 8;
+            this.cmdDownloadUsers.Text = "Download Data";
+            this.cmdDownloadUsers.UseVisualStyleBackColor = true;
+            this.cmdDownloadUsers.Click += new System.EventHandler(this.cmdDownloadUsers_Click);
+            // 
             // rdoUser2
             // 
             this.rdoUser2.AutoSize = true;
             this.rdoUser2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoUser2.Location = new System.Drawing.Point(168, 88);
+            this.rdoUser2.Location = new System.Drawing.Point(230, 92);
             this.rdoUser2.Name = "rdoUser2";
             this.rdoUser2.Size = new System.Drawing.Size(53, 17);
             this.rdoUser2.TabIndex = 4;
@@ -78,7 +103,7 @@
             this.rdoUser1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoUser1.Image = ((System.Drawing.Image)(resources.GetObject("rdoUser1.Image")));
             this.rdoUser1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.rdoUser1.Location = new System.Drawing.Point(78, 89);
+            this.rdoUser1.Location = new System.Drawing.Point(140, 93);
             this.rdoUser1.Name = "rdoUser1";
             this.rdoUser1.Size = new System.Drawing.Size(69, 17);
             this.rdoUser1.TabIndex = 3;
@@ -93,9 +118,9 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(148, 112);
+            this.button2.Location = new System.Drawing.Point(211, 125);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 32);
             this.button2.TabIndex = 6;
             this.button2.Text = "&Cancel";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -108,9 +133,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(67, 112);
+            this.button1.Location = new System.Drawing.Point(117, 125);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 32);
             this.button1.TabIndex = 5;
             this.button1.Text = "&Login";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -125,7 +150,7 @@
             this.txtPassword.Location = new System.Drawing.Point(99, 56);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(134, 20);
+            this.txtPassword.Size = new System.Drawing.Size(229, 20);
             this.txtPassword.TabIndex = 1;
             // 
             // label2
@@ -144,7 +169,7 @@
             this.txtUserID.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserID.Location = new System.Drawing.Point(99, 30);
             this.txtUserID.Name = "txtUserID";
-            this.txtUserID.Size = new System.Drawing.Size(134, 20);
+            this.txtUserID.Size = new System.Drawing.Size(229, 20);
             this.txtUserID.TabIndex = 0;
             // 
             // label1
@@ -162,7 +187,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(304, 171);
+            this.ClientSize = new System.Drawing.Size(418, 281);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -191,7 +216,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUserID;
         private System.Windows.Forms.Label label1;
-
+        private System.Windows.Forms.Button cmdUploadData;
+        private System.Windows.Forms.Button cmdDownloadUsers;
     }
 }
 

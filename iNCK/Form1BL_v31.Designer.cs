@@ -34,6 +34,7 @@
             this.cmdSave = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage0 = new System.Windows.Forms.TabPage();
+            this.IB04a = new System.Windows.Forms.DateTimePicker();
             this.IB010 = new System.Windows.Forms.MaskedTextBox();
             this.FORM_ID = new System.Windows.Forms.MaskedTextBox();
             this.lbl_fld_FORM_ID = new System.Windows.Forms.Label();
@@ -830,7 +831,6 @@
             this.IG1601015 = new System.Windows.Forms.MaskedTextBox();
             this.IG1601115 = new System.Windows.Forms.MaskedTextBox();
             this.IG1601215 = new System.Windows.Forms.MaskedTextBox();
-            this.IB04a = new System.Windows.Forms.DateTimePicker();
             this.tabControl1.SuspendLayout();
             this.tabPage0.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -949,6 +949,17 @@
             this.tabPage0.TabIndex = 0;
             this.tabPage0.Text = " Page - 0";
             this.tabPage0.UseVisualStyleBackColor = true;
+            // 
+            // IB04a
+            // 
+            this.IB04a.CalendarMonthBackground = System.Drawing.Color.Bisque;
+            this.IB04a.CustomFormat = "MMMM d yyyy";
+            this.IB04a.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.IB04a.Location = new System.Drawing.Point(665, 775);
+            this.IB04a.Name = "IB04a";
+            this.IB04a.Size = new System.Drawing.Size(200, 20);
+            this.IB04a.TabIndex = 10;
+            this.IB04a.Leave += new System.EventHandler(this.IB04a_Leave);
             // 
             // IB010
             // 
@@ -2705,6 +2716,7 @@
             this.tabPage7.TabIndex = 7;
             this.tabPage7.Text = " Page - 7";
             this.tabPage7.UseVisualStyleBackColor = true;
+            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
             // 
             // IG060101
             // 
@@ -4116,6 +4128,7 @@
             this.IG01202.Name = "IG01202";
             this.IG01202.Size = new System.Drawing.Size(35, 20);
             this.IG01202.TabIndex = 18;
+            this.IG01202.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.IG01202_TypeValidationCompleted);
             this.IG01202.Leave += new System.EventHandler(this.IG01202_Leave);
             // 
             // IG01302
@@ -5711,7 +5724,7 @@
             this.IG060106.Mask = "9999";
             this.IG060106.Name = "IG060106";
             this.IG060106.Size = new System.Drawing.Size(35, 20);
-            this.IG060106.TabIndex = 3;
+            this.IG060106.TabIndex = 15;
             this.IG060106.Leave += new System.EventHandler(this.IG060106_Leave);
             // 
             // IG060206
@@ -5774,7 +5787,7 @@
             this.IG0507.Mask = "9999";
             this.IG0507.Name = "IG0507";
             this.IG0507.Size = new System.Drawing.Size(35, 20);
-            this.IG0507.TabIndex = 10;
+            this.IG0507.TabIndex = 5;
             this.IG0507.Leave += new System.EventHandler(this.IG0507_Leave);
             // 
             // IG060107
@@ -5850,7 +5863,7 @@
             this.IG0508.Mask = "9999";
             this.IG0508.Name = "IG0508";
             this.IG0508.Size = new System.Drawing.Size(35, 20);
-            this.IG0508.TabIndex = 18;
+            this.IG0508.TabIndex = 8;
             this.IG0508.Leave += new System.EventHandler(this.IG0508_Leave);
             // 
             // IG060108
@@ -5926,7 +5939,7 @@
             this.IG0509.Mask = "9999";
             this.IG0509.Name = "IG0509";
             this.IG0509.Size = new System.Drawing.Size(35, 20);
-            this.IG0509.TabIndex = 26;
+            this.IG0509.TabIndex = 11;
             this.IG0509.Leave += new System.EventHandler(this.IG0509_Leave);
             // 
             // IG060109
@@ -6002,7 +6015,7 @@
             this.IG0510.Mask = "9999";
             this.IG0510.Name = "IG0510";
             this.IG0510.Size = new System.Drawing.Size(35, 20);
-            this.IG0510.TabIndex = 34;
+            this.IG0510.TabIndex = 14;
             this.IG0510.Leave += new System.EventHandler(this.IG0510_Leave);
             // 
             // IG060110
@@ -6100,7 +6113,7 @@
             this.chkMember7.Mask = "9";
             this.chkMember7.Name = "chkMember7";
             this.chkMember7.Size = new System.Drawing.Size(35, 20);
-            this.chkMember7.TabIndex = 8;
+            this.chkMember7.TabIndex = 3;
             this.chkMember7.Leave += new System.EventHandler(this.chkMember7_Leave);
             // 
             // IG0407
@@ -6111,7 +6124,7 @@
             this.IG0407.Mask = "9999";
             this.IG0407.Name = "IG0407";
             this.IG0407.Size = new System.Drawing.Size(33, 20);
-            this.IG0407.TabIndex = 9;
+            this.IG0407.TabIndex = 4;
             this.IG0407.Leave += new System.EventHandler(this.IG0407_Leave);
             // 
             // chkMember8
@@ -6122,7 +6135,7 @@
             this.chkMember8.Mask = "9";
             this.chkMember8.Name = "chkMember8";
             this.chkMember8.Size = new System.Drawing.Size(35, 20);
-            this.chkMember8.TabIndex = 16;
+            this.chkMember8.TabIndex = 6;
             this.chkMember8.Leave += new System.EventHandler(this.chkMember8_Leave);
             // 
             // IG0408
@@ -6133,7 +6146,7 @@
             this.IG0408.Mask = "9999";
             this.IG0408.Name = "IG0408";
             this.IG0408.Size = new System.Drawing.Size(33, 20);
-            this.IG0408.TabIndex = 17;
+            this.IG0408.TabIndex = 7;
             this.IG0408.Leave += new System.EventHandler(this.IG0408_Leave);
             // 
             // chkMember9
@@ -6144,7 +6157,7 @@
             this.chkMember9.Mask = "9";
             this.chkMember9.Name = "chkMember9";
             this.chkMember9.Size = new System.Drawing.Size(35, 20);
-            this.chkMember9.TabIndex = 24;
+            this.chkMember9.TabIndex = 9;
             this.chkMember9.Leave += new System.EventHandler(this.chkMember9_Leave);
             // 
             // IG0409
@@ -6155,7 +6168,7 @@
             this.IG0409.Mask = "9999";
             this.IG0409.Name = "IG0409";
             this.IG0409.Size = new System.Drawing.Size(35, 20);
-            this.IG0409.TabIndex = 25;
+            this.IG0409.TabIndex = 10;
             this.IG0409.Leave += new System.EventHandler(this.IG0409_Leave);
             // 
             // chkMember10
@@ -6166,7 +6179,7 @@
             this.chkMember10.Mask = "9";
             this.chkMember10.Name = "chkMember10";
             this.chkMember10.Size = new System.Drawing.Size(35, 20);
-            this.chkMember10.TabIndex = 32;
+            this.chkMember10.TabIndex = 12;
             this.chkMember10.Leave += new System.EventHandler(this.chkMember10_Leave);
             // 
             // IG0410
@@ -6177,7 +6190,7 @@
             this.IG0410.Mask = "9999";
             this.IG0410.Name = "IG0410";
             this.IG0410.Size = new System.Drawing.Size(39, 20);
-            this.IG0410.TabIndex = 33;
+            this.IG0410.TabIndex = 13;
             this.IG0410.Leave += new System.EventHandler(this.IG0410_Leave);
             // 
             // tabPage13
@@ -8288,7 +8301,7 @@
             this.IG060111.Mask = "9999";
             this.IG060111.Name = "IG060111";
             this.IG060111.Size = new System.Drawing.Size(31, 20);
-            this.IG060111.TabIndex = 3;
+            this.IG060111.TabIndex = 15;
             this.IG060111.Leave += new System.EventHandler(this.IG060111_Leave);
             // 
             // IG060211
@@ -8351,7 +8364,7 @@
             this.chkMember12.Mask = "9";
             this.chkMember12.Name = "chkMember12";
             this.chkMember12.Size = new System.Drawing.Size(26, 20);
-            this.chkMember12.TabIndex = 8;
+            this.chkMember12.TabIndex = 3;
             this.chkMember12.Leave += new System.EventHandler(this.chkMember12_Leave);
             // 
             // IG0412
@@ -8362,7 +8375,7 @@
             this.IG0412.Mask = "9999";
             this.IG0412.Name = "IG0412";
             this.IG0412.Size = new System.Drawing.Size(29, 20);
-            this.IG0412.TabIndex = 9;
+            this.IG0412.TabIndex = 4;
             this.IG0412.Leave += new System.EventHandler(this.IG0412_Leave);
             // 
             // IG0512
@@ -8373,7 +8386,7 @@
             this.IG0512.Mask = "9999";
             this.IG0512.Name = "IG0512";
             this.IG0512.Size = new System.Drawing.Size(29, 20);
-            this.IG0512.TabIndex = 10;
+            this.IG0512.TabIndex = 5;
             this.IG0512.Leave += new System.EventHandler(this.IG0512_Leave);
             // 
             // IG060112
@@ -8449,7 +8462,7 @@
             this.chkMember13.Mask = "9";
             this.chkMember13.Name = "chkMember13";
             this.chkMember13.Size = new System.Drawing.Size(26, 20);
-            this.chkMember13.TabIndex = 16;
+            this.chkMember13.TabIndex = 6;
             this.chkMember13.Leave += new System.EventHandler(this.chkMember13_Leave);
             // 
             // IG0413
@@ -8460,7 +8473,7 @@
             this.IG0413.Mask = "9999";
             this.IG0413.Name = "IG0413";
             this.IG0413.Size = new System.Drawing.Size(29, 20);
-            this.IG0413.TabIndex = 17;
+            this.IG0413.TabIndex = 7;
             this.IG0413.Leave += new System.EventHandler(this.IG0413_Leave);
             // 
             // IG0513
@@ -8471,7 +8484,7 @@
             this.IG0513.Mask = "9999";
             this.IG0513.Name = "IG0513";
             this.IG0513.Size = new System.Drawing.Size(29, 20);
-            this.IG0513.TabIndex = 18;
+            this.IG0513.TabIndex = 8;
             this.IG0513.Leave += new System.EventHandler(this.IG0513_Leave);
             // 
             // IG060113
@@ -8547,7 +8560,7 @@
             this.chkMember14.Mask = "9";
             this.chkMember14.Name = "chkMember14";
             this.chkMember14.Size = new System.Drawing.Size(26, 20);
-            this.chkMember14.TabIndex = 24;
+            this.chkMember14.TabIndex = 9;
             this.chkMember14.Leave += new System.EventHandler(this.chkMember14_Leave);
             // 
             // IG0414
@@ -8558,7 +8571,7 @@
             this.IG0414.Mask = "9999";
             this.IG0414.Name = "IG0414";
             this.IG0414.Size = new System.Drawing.Size(29, 20);
-            this.IG0414.TabIndex = 25;
+            this.IG0414.TabIndex = 10;
             this.IG0414.Leave += new System.EventHandler(this.IG0414_Leave);
             // 
             // IG0514
@@ -8569,7 +8582,7 @@
             this.IG0514.Mask = "9999";
             this.IG0514.Name = "IG0514";
             this.IG0514.Size = new System.Drawing.Size(29, 20);
-            this.IG0514.TabIndex = 26;
+            this.IG0514.TabIndex = 11;
             this.IG0514.Leave += new System.EventHandler(this.IG0514_Leave);
             // 
             // IG060114
@@ -8645,7 +8658,7 @@
             this.chkMember15.Mask = "9";
             this.chkMember15.Name = "chkMember15";
             this.chkMember15.Size = new System.Drawing.Size(26, 20);
-            this.chkMember15.TabIndex = 32;
+            this.chkMember15.TabIndex = 12;
             this.chkMember15.Leave += new System.EventHandler(this.chkMember15_Leave);
             // 
             // IG0415
@@ -8656,7 +8669,7 @@
             this.IG0415.Mask = "9999";
             this.IG0415.Name = "IG0415";
             this.IG0415.Size = new System.Drawing.Size(29, 20);
-            this.IG0415.TabIndex = 33;
+            this.IG0415.TabIndex = 13;
             this.IG0415.Leave += new System.EventHandler(this.IG0415_Leave);
             // 
             // IG0515
@@ -8667,7 +8680,7 @@
             this.IG0515.Mask = "9999";
             this.IG0515.Name = "IG0515";
             this.IG0515.Size = new System.Drawing.Size(29, 20);
-            this.IG0515.TabIndex = 34;
+            this.IG0515.TabIndex = 14;
             this.IG0515.Leave += new System.EventHandler(this.IG0515_Leave);
             // 
             // IG060115
@@ -10737,24 +10750,13 @@
             this.IG1601215.TabIndex = 79;
             this.IG1601215.Leave += new System.EventHandler(this.IG1601215_Leave);
             // 
-            // IB04a
-            // 
-            this.IB04a.CalendarMonthBackground = System.Drawing.Color.Bisque;
-            this.IB04a.CustomFormat = "MMMM d yyyy";
-            this.IB04a.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.IB04a.Location = new System.Drawing.Point(665, 775);
-            this.IB04a.Name = "IB04a";
-            this.IB04a.Size = new System.Drawing.Size(200, 20);
-            this.IB04a.TabIndex = 10;
-            this.IB04a.Leave += new System.EventHandler(this.IB04a_Leave);
-            // 
             // Form1BL_v31
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 400);
-            this.ClientSize = new System.Drawing.Size(1243, 1061);
+            this.ClientSize = new System.Drawing.Size(1260, 1061);
             this.ControlBox = false;
             this.Controls.Add(this.cmdDelete);
             this.Controls.Add(this.cmdCancel);
